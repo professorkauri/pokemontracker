@@ -318,6 +318,11 @@ main {
   color: white;
   box-shadow: 0 3px 10px rgba(53, 104, 223, 0.25);
 }
+.mode-tabs button.active[data-mode="shiny"] {
+  background: var(--yellow);
+  color: var(--navy);
+  box-shadow: 0 3px 10px rgba(244, 200, 74, 0.28);
+}
 .pokemon-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));

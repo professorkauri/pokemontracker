@@ -13,7 +13,7 @@
   const evolutionLineBySpecies = new Map((DATA.evolutionLines || []).flatMap(line => line.map(id => [id, line])));
   let view = 'pokedex';
   let openKey = null;
-  let modes = {};
+  let activeMode = 'regular';
   let searchQuery = '';
   let state = loadState();
 
@@ -157,10 +157,10 @@
     if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';
       if (!transferMode) {
-        mode = modes[box.id] || 'regular';
+        mode = activeMode;
         const tabs = document.createElement('div'); tabs.className = 'mode-tabs';
         tabs.innerHTML = `<button class="${mode === 'regular' ? 'active' : ''}" data-mode="regular">Regular</button><button class="${mode === 'shiny' ? 'active' : ''}" data-mode="shiny">Shiny</button>`;
-        tabs.addEventListener('click', e => { if (e.target.dataset.mode) { modes[box.id] = e.target.dataset.mode; render(); } });
+        tabs.addEventListener('click', e => { if (e.target.dataset.mode) { activeMode = e.target.dataset.mode; render(); } });
         body.append(tabs);
       }
       const grid = document.createElement('div'); grid.className = 'pokemon-grid';
@@ -174,7 +174,7 @@
   function appendBoxGroup(title, boxes, transferMode) {
     const panels = [];
     for (const box of boxes) {
-      if (!transferMode) panels.push(boxPanel(box, modes[box.id] || 'regular', false));
+      if (!transferMode) panels.push(boxPanel(box, activeMode, false));
       else for (const mode of ['regular', 'shiny']) {
         if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === 1)) panels.push(boxPanel(box, mode, true));
       }
@@ -192,7 +192,7 @@
     const panels = [];
     for (const box of boxes) {
       const matches = query ? box.pokemon.filter(matchesSearch) : box.pokemon;
-      if (matches.length) panels.push(boxPanel(box, modes[box.id] || 'regular', false, { pokemon: matches, forceOpen: true }));
+      if (matches.length) panels.push(boxPanel(box, activeMode, false, { pokemon: matches, forceOpen: true }));
     }
     if (!panels.length) return;
     const heading = document.createElement('h2');
