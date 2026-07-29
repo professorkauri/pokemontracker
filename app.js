@@ -105,8 +105,16 @@
     const slot = document.createElement('div');
     slot.className = 'empty-slot';
     slot.setAttribute('aria-hidden', 'true');
-    slot.innerHTML = '<svg viewBox="0 0 32 32" focusable="false"><circle cx="16" cy="16" r="12"></circle><path d="M4 16h24"></path><circle cx="16" cy="16" r="4.25"></circle></svg>';
+    slot.innerHTML = '<svg viewBox="0 0 32 32" focusable="false"><path class="pokeball-fill" d="M4 16a12 12 0 0 1 24 0Z"></path><circle cx="16" cy="16" r="12"></circle><path d="M4 16h7.75M20.25 16H28"></path><circle class="pokeball-cutout" cx="16" cy="16" r="4.25"></circle></svg>';
     return slot;
+  }
+
+  function progressDonut(kind, home, total) {
+    const percent = (home / total) * 100;
+    const complete = home === total;
+    const label = `${kind === 'regular' ? 'Regular' : 'Shiny'} Home progress`;
+    const tick = '<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 10.4 8.4 14 15 6"></path></svg>';
+    return `<span class="progress-donut ${kind} ${complete ? 'complete' : ''}" role="progressbar" aria-label="${label}" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${home}" style="--progress:${percent}%">${complete ? tick : ''}</span>`;
   }
 
   function boxPanel(box, mode, transferMode, options = {}) {
@@ -120,9 +128,7 @@
     section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${transferMode ? 'transfer-box' : ''} ${forceOpen ? 'forced-open' : ''}`;
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length;
-    const regularPercent = (regularHome / box.pokemon.length) * 100;
-    const shinyPercent = (shinyHome / box.pokemon.length) * 100;
-    const boxMeta = `<span class="progress-donut regular" role="progressbar" aria-label="Regular Home progress" aria-valuemin="0" aria-valuemax="${box.pokemon.length}" aria-valuenow="${regularHome}" style="--progress:${regularPercent}%"></span><span class="progress-donut shiny" role="progressbar" aria-label="Shiny Home progress" aria-valuemin="0" aria-valuemax="${box.pokemon.length}" aria-valuenow="${shinyHome}" style="--progress:${shinyPercent}%"></span>`;
+    const boxMeta = `${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
     section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}<span class="box-title">${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}</span><span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
     if (!transferMode && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
     if (isOpen) {

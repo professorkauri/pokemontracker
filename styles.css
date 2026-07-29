@@ -60,19 +60,20 @@ body {
     radial-gradient(circle at 100% 0, #d9e8ff 0, transparent 34%),
     radial-gradient(circle at 0 35%, #fff6d8 0, transparent 25%),
     var(--paper);
-}
-body.searching {
-  padding-bottom: 170px;
+  display: flex;
+  flex-direction: column;
 }
 button {
   font: inherit;
 }
 .masthead {
+  order: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   max-width: 860px;
-  margin: auto;
+  margin: 0 auto;
   padding: 14px 18px 10px;
   gap:1em;
 }
@@ -141,8 +142,10 @@ button {
   background: var(--yellow);
 }
 main {
+  order: 3;
+  width: 100%;
   max-width: 860px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 12px;
 }
 .boxes {
@@ -204,6 +207,23 @@ main {
 }
 .progress-donut.shiny {
   --donut-color: var(--yellow);
+}
+.progress-donut.complete {
+  background: var(--donut-color);
+}
+.progress-donut.complete::after {
+  content: none;
+}
+.progress-donut svg {
+  width: 16px;
+  height: 16px;
+}
+.progress-donut path {
+  fill: none;
+  stroke: white;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .chevron {
   width: 24px;
@@ -302,6 +322,13 @@ main {
   stroke: currentColor;
   stroke-width: 2;
 }
+.empty-slot .pokeball-fill {
+  fill: currentColor;
+  stroke: none;
+}
+.empty-slot .pokeball-cutout {
+  fill: #f2f6fb;
+}
 .pokemon:active {
   transform: scale(0.94);
 }
@@ -377,12 +404,12 @@ main {
   color: var(--muted);
 }
 .search-panel {
-  position: fixed;
+  order: 2;
+  position: sticky;
   z-index: 9;
-  bottom: max(82px, calc(env(safe-area-inset-bottom) + 82px));
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0;
   width: min(calc(100% - 28px), 520px);
+  margin: 0 auto 10px;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
