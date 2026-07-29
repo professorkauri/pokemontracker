@@ -1,8 +1,20 @@
 import { readFile, writeFile } from 'node:fs/promises';
+import vm from 'node:vm';
 
 const input = process.argv[2];
 if (!input) throw new Error('Usage: node scripts/build-data.mjs path/to/pokemon-species.json');
 const raw = JSON.parse(await readFile(input, 'utf8'));
+async function readExistingEvolutionLines() {
+  try {
+    const source = await readFile('data/pokemon.js', 'utf8');
+    const sandbox = { window: {} };
+    vm.runInNewContext(source, sandbox);
+    return sandbox.window.POKEMON_DATA?.evolutionLines || [];
+  }
+  catch {
+    return [];
+  }
+}
 const title = id => id.split('-').map(w => ({mr:'Mr.',mime:'Mime',jr:'Jr.',type:'Type:',nidoran:'Nidoran'}[w] || w[0].toUpperCase()+w.slice(1))).join(' ')
   .replace('Nidoran F','Nidoran ♀').replace('Nidoran M','Nidoran ♂').replace('Farfetchd','Farfetch’d').replace('Sirfetchd','Sirfetch’d');
 const species = raw.results.map((p, i) => ({ id:p.name, name:title(p.name), dex:i+1 }));
@@ -115,7 +127,10 @@ const boxes = [];
 for (let i=0;i<species.length;i+=30) boxes.push({id:`dex-${i+1}-${Math.min(i+30,species.length)}`,title:`${i+1}–${Math.min(i+30,species.length)}`,pokemon:species.slice(i,i+30)});
 const formIds = new Map([['Hoenn Forms','forms-3'],['Sinnoh Forms','forms-4'],['Unova Forms','forms-5'],['Kalos Forms','forms-6'],['Alola Forms','forms-7'],['Galar Forms','forms-8'],['Hisui Forms','forms-9'],['Paldea Forms','forms-10'],['Kalos Forms II','forms-11'],['Alola Forms II','forms-12'],['Unown Forms','forms-13'],['Vivillon Forms','forms-14']]);
 forms.forEach(([name,pokemon]) => boxes.push({id:formIds.get(name),title:name,pokemon}));
-const output = JSON.stringify({boxes}, null, 2).replace(
+const existingEvolutionLines = await readExistingEvolutionLines();
+const data = { boxes };
+if (existingEvolutionLines.length) data.evolutionLines = existingEvolutionLines;
+const output = JSON.stringify(data, null, 2).replace(
   /\{\n\s+"id": ([^\n]+),\n\s+"name": ([^\n]+),\n\s+"(dex|imageId)": ([^\n]+)\n\s+\}/g,
   '{ "id": $1, "name": $2, "$3": $4 }'
 );

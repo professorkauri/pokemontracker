@@ -5,10 +5,42 @@
   const FORM_BOX_BY_POKEMON = new Map(DATA.boxes.filter(box => box.id.startsWith('forms-')).flatMap(box => box.pokemon.map(pokemon => [pokemon.id, box.id])));
   const boxesEl = document.querySelector('#boxes');
   const emptyEl = document.querySelector('#empty');
+  const searchPanel = document.querySelector('#search-panel');
+  const searchInput = document.querySelector('#search-input');
+  const nationalSpecies = DATA.boxes.filter(box => box.id.startsWith('dex-')).flatMap(box => box.pokemon);
+  const allPokemon = DATA.boxes.flatMap(box => box.pokemon);
+  const speciesIds = new Set(nationalSpecies.map(pokemon => pokemon.id));
+  const evolutionLineBySpecies = new Map((DATA.evolutionLines || []).flatMap(line => line.map(id => [id, line])));
   let view = 'pokedex';
   let openKey = null;
   let modes = {};
+  let searchQuery = '';
   let state = loadState();
+
+  function normalizeSearch(value) { return value.trim().toLowerCase().replace(/\s+/g, ' '); }
+  function baseSpeciesId(pokemon) {
+    const candidates = [pokemon.id, pokemon.imageId].filter(Boolean);
+    for (const candidate of candidates) {
+      const parts = candidate.split('-');
+      while (parts.length) {
+        const id = parts.join('-');
+        if (speciesIds.has(id)) return id;
+        parts.pop();
+      }
+    }
+    return pokemon.id;
+  }
+
+  function searchMatcher(query) {
+    const directQuery = normalizeSearch(query);
+    const evolutionMatches = new Set();
+    for (const pokemon of allPokemon) {
+      if (normalizeSearch(pokemon.name) !== directQuery) continue;
+      const speciesId = baseSpeciesId(pokemon);
+      for (const lineSpecies of evolutionLineBySpecies.get(speciesId) || [speciesId]) evolutionMatches.add(lineSpecies);
+    }
+    return pokemon => pokemon.name.toLowerCase().includes(directQuery) || evolutionMatches.has(baseSpeciesId(pokemon));
+  }
 
   function loadState() {
     try {
@@ -77,19 +109,22 @@
     return slot;
   }
 
-  function boxPanel(box, mode, transferMode) {
+  function boxPanel(box, mode, transferMode, options = {}) {
+    const pokemon = options.pokemon || box.pokemon;
+    const forceOpen = options.forceOpen || false;
+    const filtered = pokemon.length !== box.pokemon.length;
     const panelKey = transferMode ? `${box.id}-${mode}` : box.id;
-    const isOpen = transferMode || openKey === panelKey;
-    const region = box.pokemon.map(pokemon => REGION_STARTS.get(pokemon.dex)).find(Boolean);
+    const isOpen = forceOpen || transferMode || openKey === panelKey;
+    const region = pokemon.map(pokemon => REGION_STARTS.get(pokemon.dex)).find(Boolean);
     const section = document.createElement('section');
-    section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${transferMode ? 'transfer-box' : ''}`;
+    section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${transferMode ? 'transfer-box' : ''} ${forceOpen ? 'forced-open' : ''}`;
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length;
     const regularPercent = (regularHome / box.pokemon.length) * 100;
     const shinyPercent = (shinyHome / box.pokemon.length) * 100;
     const boxMeta = `<span class="progress-donut regular" role="progressbar" aria-label="Regular Home progress" aria-valuemin="0" aria-valuemax="${box.pokemon.length}" aria-valuenow="${regularHome}" style="--progress:${regularPercent}%"></span><span class="progress-donut shiny" role="progressbar" aria-label="Shiny Home progress" aria-valuemin="0" aria-valuemax="${box.pokemon.length}" aria-valuenow="${shinyHome}" style="--progress:${shinyPercent}%"></span>`;
     section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}<span class="box-title">${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}</span><span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
-    if (!transferMode) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
+    if (!transferMode && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
     if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';
       if (!transferMode) {
@@ -100,8 +135,8 @@
         body.append(tabs);
       }
       const grid = document.createElement('div'); grid.className = 'pokemon-grid';
-      box.pokemon.forEach(p => grid.append(card(box, p, mode, transferMode)));
-      for (let i = box.pokemon.length; i < 30; i++) grid.append(emptySlot());
+      pokemon.forEach(p => grid.append(card(box, p, mode, transferMode)));
+      if (!filtered) for (let i = pokemon.length; i < 30; i++) grid.append(emptySlot());
       body.append(grid); section.append(body);
     }
     return section;
@@ -122,21 +157,50 @@
     boxesEl.append(heading, ...panels);
   }
 
+  function appendSearchGroup(title, boxes) {
+    const query = normalizeSearch(searchQuery);
+    const matchesSearch = searchMatcher(query);
+    const panels = [];
+    for (const box of boxes) {
+      const matches = query ? box.pokemon.filter(matchesSearch) : box.pokemon;
+      if (matches.length) panels.push(boxPanel(box, modes[box.id] || 'regular', false, { pokemon: matches, forceOpen: true }));
+    }
+    if (!panels.length) return;
+    const heading = document.createElement('h2');
+    heading.className = 'box-section-title';
+    heading.textContent = title;
+    boxesEl.append(heading, ...panels);
+  }
+
   function render() {
     boxesEl.replaceChildren();
+    searchPanel.hidden = view !== 'search';
+    document.body.classList.toggle('searching', view === 'search');
     const nationalDex = DATA.boxes.filter(box => box.id.startsWith('dex-'));
     const forms = DATA.boxes.filter(box => box.id.startsWith('forms-'));
-    appendBoxGroup('National Pokédex', nationalDex, view === 'transfer');
-    appendBoxGroup('Pokémon Forms', forms, view === 'transfer');
-    emptyEl.hidden = boxesEl.querySelector('.box') !== null;
+    if (view === 'search') {
+      appendSearchGroup('National Pokédex', nationalDex);
+      appendSearchGroup('Pokémon Forms', forms);
+    } else {
+      appendBoxGroup('National Pokédex', nationalDex, view === 'transfer');
+      appendBoxGroup('Pokémon Forms', forms, view === 'transfer');
+    }
+    const hasBoxes = boxesEl.querySelector('.box') !== null;
+    emptyEl.querySelector('h2').textContent = view === 'search' ? 'No matches' : 'All transferred';
+    emptyEl.querySelector('p').textContent = view === 'search' ? 'Try a different Pokémon or form name.' : 'No caught Pokémon are waiting for Home.';
+    emptyEl.hidden = hasBoxes;
     updateCounts();
   }
 
+  searchInput.addEventListener('input', () => { searchQuery = searchInput.value; render(); });
+  searchPanel.addEventListener('submit', e => e.preventDefault());
   document.querySelector('.dock').addEventListener('click', e => {
     const button = e.target.closest('[data-view]'); if (!button) return;
     view = button.dataset.view; openKey = null;
     document.querySelectorAll('.dock button').forEach(b => b.classList.toggle('active', b === button));
-    render(); window.scrollTo({top: 0, behavior: 'smooth'});
+    render();
+    if (view === 'search') searchInput.focus();
+    window.scrollTo({top: 0, behavior: 'smooth'});
   });
   render();
 })();
