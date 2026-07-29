@@ -117,6 +117,28 @@
     return `<span class="progress-donut ${kind} ${complete ? 'complete' : ''}" role="progressbar" aria-label="${label}" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${home}" style="--progress:${percent}%">${complete ? tick : ''}</span>`;
   }
 
+  function boxTitleSprite(pokemon, mode) {
+    if (!pokemon) return '';
+    const fallbackId = pokemon.imageId || pokemon.id;
+    return `<span class="box-title-sprite" title="${pokemon.name}" aria-hidden="true"><img src="${imagePath(pokemon.id, mode)}" data-fallback-src="${imagePath(fallbackId, mode)}" alt=""></span>`;
+  }
+
+  function boxTitle(box, pokemon, mode, transferMode) {
+    const first = pokemon[0];
+    const title = `${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}`;
+    return `${boxTitleSprite(first, mode)}<span class="box-title">${title}</span>`;
+  }
+
+  function addSpriteFallbacks(parent) {
+    parent.querySelectorAll('img[data-fallback-src]').forEach(img => {
+      img.onerror = () => {
+        img.onerror = null;
+        if (img.src.endsWith(img.dataset.fallbackSrc)) return;
+        img.src = img.dataset.fallbackSrc;
+      };
+    });
+  }
+
   function boxPanel(box, mode, transferMode, options = {}) {
     const pokemon = options.pokemon || box.pokemon;
     const forceOpen = options.forceOpen || false;
@@ -129,7 +151,8 @@
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length;
     const boxMeta = `${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
-    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}<span class="box-title">${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}</span><span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
+    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, box.pokemon, mode, transferMode)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
+    addSpriteFallbacks(section);
     if (!transferMode && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
     if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';

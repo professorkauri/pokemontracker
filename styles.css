@@ -18,7 +18,9 @@
   position: absolute;
   z-index: 1;
   border-radius: 999px;
-  background: var(--green);
+  background: var(--progress-track);
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
   color: white;
   font-size: 0.56rem;
   font-weight: 800;
@@ -176,17 +178,49 @@ main {
   align-items: center;
   text-align: left;
   cursor: pointer;
+  overflow: hidden;
 }
 .box-title {
+  min-width: 0;
   font-weight: bold;
   font-size: 1.02rem;
   flex: 1;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 2.5em;
+}
+.box-title-sprite {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  width: 41px;
+  height: 41px;
+  z-index: 0;
+  display: grid;
+  place-items: center;
+  opacity: 0.16;
+  pointer-events: none;
+
+  .box.open & {
+    opacity:1;
+  }
+}
+.box-title-sprite img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scaleX(-1);
 }
 .box-meta {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-right: 13px;
+  position: relative;
+  z-index: 1;
 }
 .progress-donut {
   --progress: 0%;
@@ -358,6 +392,8 @@ main {
 }
 .pokemon.home {
   opacity: 1;
+  border: 1px solid transparent;
+  background: #f2f6fb54;
 }
 .pokemon .status {
   position: absolute;
@@ -376,6 +412,7 @@ main {
 }
 .pokemon.home .status {
   background: #76c9ab;
+  opacity: 0.3;
 }
 .transfer-box .pokemon:not(.caught) {
   filter: grayscale(1);
@@ -521,6 +558,29 @@ main {
   }
   .collection-progress {
     width: 100%;
+  }
+  .box-head {
+    padding: 11px 10px;
+  }
+  .box-title {
+    font-size: 0.95rem;
+  }
+  .box-title-sprite {
+    left: -7px;
+    width: 64px;
+    height: 64px;
+  }
+  .box-meta {
+    gap: 5px;
+    margin-right: 6px;
+  }
+  .progress-donut {
+    width: 22px;
+    height: 22px;
+  }
+  .progress-donut::after {
+    width: 11px;
+    height: 11px;
   }
 }
 @media (min-width: 700px) {
