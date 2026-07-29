@@ -197,12 +197,13 @@ main {
   left: 8px;
   top: 8px;
   width: 41px;
-  height: 41px;
+  height: calc(100% - 16px);
   z-index: 0;
-  display: grid;
+  display: block;
   place-items: center;
   opacity: 0.16;
   pointer-events: none;
+  aspect-ratio: 1 / 1;
 
   .box.open & {
     opacity:1;
@@ -213,6 +214,7 @@ main {
   height: 100%;
   object-fit: contain;
   transform: scaleX(-1);
+  object-position: center;
 }
 .box-meta {
   display: flex;
@@ -566,9 +568,7 @@ main {
     font-size: 0.95rem;
   }
   .box-title-sprite {
-    left: -7px;
-    width: 64px;
-    height: 64px;
+    left: 2px;
   }
   .box-meta {
     gap: 5px;
