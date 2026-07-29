@@ -69,6 +69,14 @@
     return button;
   }
 
+  function emptySlot() {
+    const slot = document.createElement('div');
+    slot.className = 'empty-slot';
+    slot.setAttribute('aria-hidden', 'true');
+    slot.innerHTML = '<svg viewBox="0 0 32 32" focusable="false"><circle cx="16" cy="16" r="12"></circle><path d="M4 16h24"></path><circle cx="16" cy="16" r="4.25"></circle></svg>';
+    return slot;
+  }
+
   function boxPanel(box, mode, transferMode) {
     const panelKey = transferMode ? `${box.id}-${mode}` : box.id;
     const isOpen = transferMode || openKey === panelKey;
@@ -93,6 +101,7 @@
       }
       const grid = document.createElement('div'); grid.className = 'pokemon-grid';
       box.pokemon.forEach(p => grid.append(card(box, p, mode, transferMode)));
+      for (let i = box.pokemon.length; i < 30; i++) grid.append(emptySlot());
       body.append(grid); section.append(body);
     }
     return section;

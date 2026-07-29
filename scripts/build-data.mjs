@@ -21,6 +21,30 @@ const vivillonForms = [
   P('vivillon-sandstorm', 'Vivillon Sandstorm'), P('vivillon-savanna', 'Vivillon Savanna'),
   P('vivillon-sun', 'Vivillon Sun'), P('vivillon-tundra', 'Vivillon Tundra')
 ];
+const genderForms = new Map([
+  ['Sinnoh Forms', [
+    P('hippopotas-male', 'Hippopotas Male', 'hippopotas'), P('hippopotas-female', 'Hippopotas Female'),
+    P('hippowdon-male', 'Hippowdon Male', 'hippowdon'), P('hippowdon-female', 'Hippowdon Female')
+  ]],
+  ['Unova Forms', [
+    P('unfezant-male', 'Unfezant Male', 'unfezant'), P('unfezant-female', 'Unfezant Female'),
+    P('frillish-male', 'Frillish Male'), P('frillish-female', 'Frillish Female'),
+    P('jellicent-male', 'Jellicent Male'), P('jellicent-female', 'Jellicent Female')
+  ]],
+  ['Kalos Forms', [
+    P('pyroar-male', 'Pyroar Male'), P('pyroar-female', 'Pyroar Female'),
+    P('meowstic-male', 'Meowstic Male'), P('meowstic-female', 'Meowstic Female')
+  ]],
+  ['Galar Forms', [
+    P('indeedee-male', 'Indeedee Male'), P('indeedee-female', 'Indeedee Female')
+  ]],
+  ['Hisui Forms', [
+    P('basculegion-male', 'Basculegion Male'), P('basculegion-female', 'Basculegion Female')
+  ]],
+  ['Paldea Forms', [
+    P('oinkologne-male', 'Oinkologne Male'), P('oinkologne-female', 'Oinkologne Female')
+  ]]
+]);
 
 const rawForms = [
   ['Unown Forms', unownForms],
@@ -28,16 +52,30 @@ const rawForms = [
   ['Kanto Forms II', [P('ponyta','Ponyta'),P('ponyta-galar','Galarian Ponyta'),P('rapidash','Rapidash'),P('rapidash-galar','Galarian Rapidash'),P('slowpoke','Slowpoke'),P('slowpoke-galar','Galarian Slowpoke'),P('slowbro','Slowbro'),P('slowbro-galar','Galarian Slowbro'),P('farfetchd','Farfetch’d'),P('farfetchd-galar','Galarian Farfetch’d'),P('grimer','Grimer'),P('grimer-alola','Alolan Grimer'),P('muk','Muk'),P('muk-alola','Alolan Muk'),P('exeggutor','Exeggutor'),P('exeggutor-alola','Alolan Exeggutor'),P('marowak','Marowak'),P('marowak-alola','Alolan Marowak'),P('weezing','Weezing'),P('weezing-galar','Galarian Weezing'),P('mr-mime','Mr. Mime'),P('mr-mime-galar','Galarian Mr. Mime'),P('tauros','Tauros'),P('tauros-paldea-combat-breed','Paldean Tauros: Combat'),P('tauros-paldea-blaze-breed','Paldean Tauros: Blaze'),P('tauros-paldea-aqua-breed','Paldean Tauros: Aqua'),P('articuno','Articuno'),P('articuno-galar','Galarian Articuno'),P('zapdos','Zapdos'),P('zapdos-galar','Galarian Zapdos')]],
   ['Johto & Hoenn Forms', [P('moltres','Moltres'),P('moltres-galar','Galarian Moltres'),P('typhlosion','Typhlosion'),P('typhlosion-hisui','Hisuian Typhlosion'),P('wooper','Wooper'),P('wooper-paldea','Paldean Wooper'),P('slowking','Slowking'),P('slowking-galar','Galarian Slowking'),P('qwilfish','Qwilfish'),P('qwilfish-hisui','Hisuian Qwilfish'),P('sneasel','Sneasel'),P('sneasel-hisui','Hisuian Sneasel'),P('corsola','Corsola'),P('corsola-galar','Galarian Corsola'),P('zigzagoon','Zigzagoon'),P('zigzagoon-galar','Galarian Zigzagoon'),P('linoone','Linoone'),P('linoone-galar','Galarian Linoone'),P('deoxys-normal','Deoxys Normal'),P('deoxys-attack','Deoxys Attack'),P('deoxys-defense','Deoxys Defense'),P('deoxys-speed','Deoxys Speed')]],
   ['Sinnoh Forms', [P('burmy','Burmy Plant'),P('burmy-sandy','Burmy Sandy'),P('burmy-trash','Burmy Trash'),P('wormadam-plant','Wormadam Plant'),P('wormadam-sandy','Wormadam Sandy'),P('wormadam-trash','Wormadam Trash'),P('cherrim','Cherrim Overcast'),P('shellos-west','Shellos West'),P('shellos-east','Shellos East'),P('gastrodon-west','Gastrodon West'),P('gastrodon-east','Gastrodon East'),P('rotom','Rotom'),P('rotom-heat','Heat Rotom'),P('rotom-wash','Wash Rotom'),P('rotom-frost','Frost Rotom'),P('rotom-fan','Fan Rotom'),P('rotom-mow','Mow Rotom'),P('shaymin-land','Shaymin Land'),P('shaymin-sky','Shaymin Sky')]],
-  ['Unova Forms', [P('basculin-red-striped','Basculin Red'),P('basculin-blue-striped','Basculin Blue'),P('basculin-white-striped','Basculin White'),P('deerling-spring','Deerling Spring'),P('deerling-summer','Deerling Summer'),P('deerling-autumn','Deerling Autumn'),P('deerling-winter','Deerling Winter'),P('sawsbuck-spring','Sawsbuck Spring'),P('sawsbuck-summer','Sawsbuck Summer'),P('sawsbuck-autumn','Sawsbuck Autumn'),P('sawsbuck-winter','Sawsbuck Winter'),P('tornadus-incarnate','Tornadus Incarnate'),P('tornadus-therian','Tornadus Therian'),P('thundurus-incarnate','Thundurus Incarnate'),P('thundurus-therian','Thundurus Therian'),P('landorus-incarnate','Landorus Incarnate'),P('landorus-therian','Landorus Therian'),P('keldeo-ordinary','Keldeo Ordinary'),P('keldeo-resolute','Keldeo Resolute')]],
+  ['Unova Forms', [P('basculin-red-striped','Basculin Red'),P('basculin-blue-striped','Basculin Blue'),P('deerling-spring','Deerling Spring'),P('deerling-summer','Deerling Summer'),P('deerling-autumn','Deerling Autumn'),P('deerling-winter','Deerling Winter'),P('sawsbuck-spring','Sawsbuck Spring'),P('sawsbuck-summer','Sawsbuck Summer'),P('sawsbuck-autumn','Sawsbuck Autumn'),P('sawsbuck-winter','Sawsbuck Winter'),P('tornadus-incarnate','Tornadus Incarnate'),P('tornadus-therian','Tornadus Therian'),P('thundurus-incarnate','Thundurus Incarnate'),P('thundurus-therian','Thundurus Therian'),P('landorus-incarnate','Landorus Incarnate'),P('landorus-therian','Landorus Therian'),P('keldeo-ordinary','Keldeo Ordinary'),P('keldeo-resolute','Keldeo Resolute')]],
   ['Vivillon Forms', vivillonForms],
   ['Kalos Forms', [P('flabebe-red','Flabébé Red'),P('flabebe-orange','Flabébé Orange'),P('flabebe-yellow','Flabébé Yellow'),P('flabebe-white','Flabébé White'),P('flabebe-blue','Flabébé Blue'),P('floette-red','Floette Red'),P('floette-orange','Floette Orange'),P('floette-yellow','Floette Yellow'),P('floette-white','Floette White'),P('floette-blue','Floette Blue'),P('floette-eternal','Floette Eternal Flower'),P('florges-red','Florges Red'),P('florges-orange','Florges Orange'),P('florges-yellow','Florges Yellow'),P('florges-white','Florges White'),P('florges-blue','Florges Blue'),P('furfrou-natural','Furfrou Natural'),P('furfrou-heart','Furfrou Heart'),P('furfrou-star','Furfrou Star'),P('furfrou-diamond','Furfrou Diamond'),P('furfrou-debutante','Furfrou Debutante'),P('furfrou-matron','Furfrou Matron'),P('furfrou-dandy','Furfrou Dandy'),P('furfrou-la-reine','Furfrou La Reine'),P('furfrou-kabuki','Furfrou Kabuki'),P('furfrou-pharaoh','Furfrou Pharaoh')]],
   ['Kalos Forms II', [P('pumpkaboo-small','Pumpkaboo Small'),P('pumpkaboo-average','Pumpkaboo Average'),P('pumpkaboo-large','Pumpkaboo Large'),P('pumpkaboo-super','Pumpkaboo Super'),P('gourgeist-small','Gourgeist Small'),P('gourgeist-average','Gourgeist Average'),P('gourgeist-large','Gourgeist Large'),P('gourgeist-super','Gourgeist Super')]],
   ['Alola Forms', [P('oricorio-baile','Oricorio Baile'),P('oricorio-pom-pom','Oricorio Pom-Pom'),P('oricorio-pau','Oricorio Pa’u'),P('oricorio-sensu','Oricorio Sensu'),P('lycanroc-midday','Lycanroc Midday'),P('lycanroc-midnight','Lycanroc Midnight'),P('lycanroc-dusk','Lycanroc Dusk'),P('wishiwashi-solo','Wishiwashi Solo'),P('wishiwashi-school','Wishiwashi School'),P('minior-red','Minior Red Core'),P('minior-orange','Minior Orange Core'),P('minior-yellow','Minior Yellow Core'),P('minior-green','Minior Green Core'),P('minior-blue','Minior Blue Core'),P('minior-indigo','Minior Indigo Core'),P('minior-violet','Minior Violet Core')]],
   ['Galar Forms', [P('corsola-galar','Galarian Corsola'),P('cursola','Cursola'),P('farfetchd-galar','Galarian Farfetch’d'),P('sirfetchd','Sirfetch’d'),P('meowth-galar','Galarian Meowth'),P('perrserker','Perrserker'),P('mr-mime-galar','Galarian Mr. Mime'),P('mr-rime','Mr. Rime'),P('yamask','Yamask'),P('yamask-galar','Galarian Yamask'),P('stunfisk','Stunfisk'),P('stunfisk-galar','Galarian Stunfisk'),P('darumaka','Darumaka'),P('darumaka-galar','Galarian Darumaka'),P('darmanitan-standard','Darmanitan'),P('darmanitan-galar-standard','Galarian Darmanitan'),P('toxtricity-amped','Toxtricity Amped'),P('toxtricity-low-key','Toxtricity Low Key'),P('sinistea','Sinistea Phony'),P('sinistea-antique','Sinistea Antique','sinistea'),P('polteageist','Polteageist Phony'),P('polteageist-antique','Polteageist Antique','polteageist'),P('urshifu-single-strike','Urshifu Single Strike'),P('urshifu-rapid-strike','Urshifu Rapid Strike')]],
-  ['Hisui Forms', [P('growlithe-hisui','Hisuian Growlithe'),P('arcanine-hisui','Hisuian Arcanine'),P('voltorb-hisui','Hisuian Voltorb'),P('electrode-hisui','Hisuian Electrode'),P('samurott-hisui','Hisuian Samurott'),P('lilligant-hisui','Hisuian Lilligant'),P('zorua-hisui','Hisuian Zorua'),P('zoroark-hisui','Hisuian Zoroark'),P('braviary-hisui','Hisuian Braviary'),P('sliggoo-hisui','Hisuian Sliggoo'),P('goodra-hisui','Hisuian Goodra'),P('avalugg-hisui','Hisuian Avalugg'),P('decidueye-hisui','Hisuian Decidueye'),P('enamorus-incarnate','Enamorus Incarnate'),P('enamorus-therian','Enamorus Therian')]],
+  ['Hisui Forms', [P('basculin-white-striped','Basculin White'),P('growlithe-hisui','Hisuian Growlithe'),P('arcanine-hisui','Hisuian Arcanine'),P('voltorb-hisui','Hisuian Voltorb'),P('electrode-hisui','Hisuian Electrode'),P('samurott-hisui','Hisuian Samurott'),P('lilligant-hisui','Hisuian Lilligant'),P('zorua-hisui','Hisuian Zorua'),P('zoroark-hisui','Hisuian Zoroark'),P('braviary-hisui','Hisuian Braviary'),P('sliggoo-hisui','Hisuian Sliggoo'),P('goodra-hisui','Hisuian Goodra'),P('avalugg-hisui','Hisuian Avalugg'),P('decidueye-hisui','Hisuian Decidueye'),P('enamorus-incarnate','Enamorus Incarnate'),P('enamorus-therian','Enamorus Therian')]],
   ['Paldea & Convergent Forms', [P('maushold-family-of-four','Maushold Family of Four'),P('maushold-family-of-three','Maushold Family of Three'),P('squawkabilly-green-plumage','Squawkabilly Green'),P('squawkabilly-blue-plumage','Squawkabilly Blue'),P('squawkabilly-yellow-plumage','Squawkabilly Yellow'),P('squawkabilly-white-plumage','Squawkabilly White'),P('tatsugiri-curly','Tatsugiri Curly'),P('tatsugiri-droopy','Tatsugiri Droopy'),P('tatsugiri-stretchy','Tatsugiri Stretchy'),P('dudunsparce-two-segment','Dudunsparce Two Segment'),P('dudunsparce-three-segment','Dudunsparce Three Segment'),P('gimmighoul','Gimmighoul Chest'),P('gimmighoul-roaming','Gimmighoul Roaming'),P('poltchageist','Poltchageist Counterfeit'),P('poltchageist-artisan','Poltchageist Artisan','poltchageist'),P('sinistcha','Sinistcha Unremarkable'),P('sinistcha-masterpiece','Sinistcha Masterpiece','sinistcha'),P('tentacool','Tentacool'),P('toedscool','Toedscool'),P('tentacruel','Tentacruel'),P('toedscruel','Toedscruel'),P('diglett','Diglett'),P('wiglett','Wiglett'),P('dugtrio','Dugtrio'),P('wugtrio','Wugtrio')]]
 ];
 const nationalIds = new Set(species.map(p => p.id));
+const dexById = new Map(species.map(p => [p.id, p.dex]));
+function baseSpeciesId(id) {
+  let current = id;
+  while (current) {
+    if (nationalIds.has(current)) return current;
+    current = current.includes('-') ? current.replace(/-[^-]+$/, '') : '';
+  }
+  return id;
+}
+function sortByDex(pokemon) {
+  return pokemon.map((form, index) => ({ form, index }))
+    .sort((a, b) => (dexById.get(baseSpeciesId(a.form.imageId || a.form.id)) || 9999) - (dexById.get(baseSpeciesId(b.form.imageId || b.form.id)) || 9999) || a.index - b.index)
+    .map(entry => entry.form);
+}
 const formSetDefaults = new Set([
   'deoxys-normal', 'burmy', 'wormadam-plant', 'shellos-west', 'gastrodon-west', 'rotom', 'shaymin-land',
   'basculin-red-striped', 'deerling-spring', 'sawsbuck-spring', 'tornadus-incarnate', 'thundurus-incarnate',
@@ -69,6 +107,8 @@ const alolaForms = formsByName.get('Alola Forms');
 const alolaSplit = alolaForms.findIndex(form => form.id.startsWith('minior-'));
 formsByName.set('Alola Forms', alolaForms.slice(0, alolaSplit));
 formsByName.set('Alola Forms II', alolaForms.slice(alolaSplit));
+for (const [name, pokemon] of genderForms) formsByName.get(name).push(...pokemon);
+for (const [name, pokemon] of formsByName) formsByName.set(name, sortByDex(pokemon));
 const formOrder = ['Unown Forms', 'Hoenn Forms', 'Sinnoh Forms', 'Unova Forms', 'Vivillon Forms', 'Kalos Forms', 'Kalos Forms II', 'Alola Forms', 'Alola Forms II', 'Galar Forms', 'Hisui Forms', 'Paldea Forms'];
 const forms = formOrder.filter(name => formsByName.has(name)).map(name => [name, formsByName.get(name)]);
 const boxes = [];

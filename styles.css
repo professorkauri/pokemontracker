@@ -264,7 +264,8 @@ main {
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 7px;
 }
-.pokemon {
+.pokemon,
+.empty-slot {
   position: relative;
   aspect-ratio: 0.86;
   border: 1px solid #dce4ef;
@@ -282,6 +283,21 @@ main {
     transform 0.12s,
     background 0.15s,
     opacity 0.15s;
+}
+.empty-slot {
+  color: #b8c5d6;
+  cursor: default;
+  opacity: 0.42;
+}
+.empty-slot svg {
+  width: 36%;
+  height: 36%;
+}
+.empty-slot circle,
+.empty-slot path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
 }
 .pokemon:active {
   transform: scale(0.94);
@@ -386,8 +402,17 @@ main {
   justify-content: center;
   gap: 7px;
 }
-.dock button span {
-  font-size: 1.1rem;
+.dock-icon {
+  width: 19px;
+  height: 19px;
+  flex: 0 0 19px;
+}
+.dock-icon path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .dock button.active {
   background: var(--green);
