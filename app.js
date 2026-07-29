@@ -71,15 +71,18 @@
 
   function boxPanel(box, mode, transferMode) {
     const panelKey = transferMode ? `${box.id}-${mode}` : box.id;
+    const isOpen = transferMode || openKey === panelKey;
     const region = box.pokemon.map(pokemon => REGION_STARTS.get(pokemon.dex)).find(Boolean);
     const section = document.createElement('section');
-    section.className = `box ${region ? 'region-start' : ''} ${openKey === panelKey ? 'open' : ''} ${transferMode ? 'transfer-box' : ''}`;
+    section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${transferMode ? 'transfer-box' : ''}`;
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length;
-    const boxMeta = `<span class="box-meta-group"><span>Regular</span><b>${regularHome} / ${box.pokemon.length}</b></span><i></i><span class="box-meta-group"><span>Shiny</span><b>${shinyHome} / ${box.pokemon.length}</b></span>`;
-    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${openKey === panelKey}">${region ? `<div class="region-pill">${region}</div>` : ''}<span class="box-title">${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}</span><span class="box-meta">${boxMeta}</span><span class="chevron">⌄</span></button>`;
-    section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
-    if (openKey === panelKey) {
+    const regularPercent = (regularHome / box.pokemon.length) * 100;
+    const shinyPercent = (shinyHome / box.pokemon.length) * 100;
+    const boxMeta = `<span class="progress-donut regular" role="progressbar" aria-label="Regular Home progress" aria-valuemin="0" aria-valuemax="${box.pokemon.length}" aria-valuenow="${regularHome}" style="--progress:${regularPercent}%"></span><span class="progress-donut shiny" role="progressbar" aria-label="Shiny Home progress" aria-valuemin="0" aria-valuemax="${box.pokemon.length}" aria-valuenow="${shinyHome}" style="--progress:${shinyPercent}%"></span>`;
+    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}<span class="box-title">${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}</span><span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
+    if (!transferMode) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
+    if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';
       if (!transferMode) {
         mode = modes[box.id] || 'regular';
