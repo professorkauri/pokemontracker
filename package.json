@@ -1,0 +1,1 @@
+{"name":"pokemon-home-tracker","private":true,"type":"module","scripts":{"images":"node scripts/download-images.mjs","serve":"npx serve ."}}
