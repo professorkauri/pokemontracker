@@ -3,26 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f6f3ed">
+  <meta name="theme-color" content="#edf3fa">
   <title>Pokémon Home Tracker</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="masthead">
-    <div>
-      <p class="eyebrow">Living collection</p>
-      <h1>Pokémon<br><span>Home Tracker</span></h1>
+    <h1>Pokémon <span>Home Tracker</span></h1>
+    <div class="collection-progress" aria-label="Collection progress" aria-live="polite">
+      <div><span>Regular</span><progress id="regular-progress" value="0" max="1"></progress><b id="regular-home-count">0 / 0</b></div>
+      <div><span>Shiny</span><progress id="shiny-progress" value="0" max="1"></progress><b id="shiny-home-count">0 / 0</b></div>
     </div>
-    <div class="counter" aria-live="polite"><b id="home-count">0</b><small>in Home</small></div>
   </header>
 
   <main id="app">
-    <section class="intro">
-      <p id="view-description">Tap a box to open it. Each Pokémon cycles from missing → caught → in Home.</p>
-      <div class="legend" aria-label="Status legend">
-        <span><i class="dot missing"></i>Missing</span><span><i class="dot caught"></i>Caught</span><span><i class="dot home"></i>Home</span>
-      </div>
-    </section>
     <div id="boxes" class="boxes"></div>
     <div id="empty" class="empty" hidden>
       <div class="empty-ball">✓</div><h2>All transferred</h2><p>No caught Pokémon are waiting for Home.</p>

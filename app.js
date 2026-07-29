@@ -1,6 +1,8 @@
 (() => {
   const DATA = window.POKEMON_DATA;
   const STORAGE_KEY = 'pokemon-home-tracker-v1';
+  const REGION_STARTS = new Map([[1, 'Kanto'], [152, 'Johto'], [252, 'Hoenn'], [387, 'Sinnoh'], [494, 'Unova'], [650, 'Kalos'], [722, 'Alola'], [810, 'Galar'], [899, 'Hisui'], [906, 'Paldea']]);
+  const FORM_BOX_BY_POKEMON = new Map(DATA.boxes.filter(box => box.id.startsWith('forms-')).flatMap(box => box.pokemon.map(pokemon => [pokemon.id, box.id])));
   const boxesEl = document.querySelector('#boxes');
   const emptyEl = document.querySelector('#empty');
   let view = 'pokedex';
@@ -9,7 +11,21 @@
   let state = loadState();
 
   function loadState() {
-    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+      let migrated = false;
+      for (const savedKey of Object.keys(saved)) {
+        const [boxId, pokemonId, mode] = savedKey.split('|');
+        const targetBoxId = FORM_BOX_BY_POKEMON.get(pokemonId);
+        if (!boxId.startsWith('forms-') || !targetBoxId || targetBoxId === boxId) continue;
+        const newKey = key(targetBoxId, pokemonId, mode);
+        if (!(newKey in saved)) saved[newKey] = saved[savedKey];
+        delete saved[savedKey];
+        migrated = true;
+      }
+      if (migrated) localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+      return saved;
+    }
     catch { return {}; }
   }
   function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); updateCounts(); }
@@ -19,12 +35,21 @@
 
   function updateCounts() {
     const values = Object.values(state);
-    document.querySelector('#home-count').textContent = values.filter(v => v === 2).length;
+    const total = DATA.boxes.reduce((sum, box) => sum + box.pokemon.length, 0);
+    const regularHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length, 0);
+    const shinyHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length, 0);
+    const regularProgress = document.querySelector('#regular-progress');
+    const shinyProgress = document.querySelector('#shiny-progress');
+    regularProgress.max = total; regularProgress.value = regularHome;
+    shinyProgress.max = total; shinyProgress.value = shinyHome;
+    document.querySelector('#regular-home-count').textContent = `${regularHome} / ${total}`;
+    document.querySelector('#shiny-home-count').textContent = `${shinyHome} / ${total}`;
     document.querySelector('#transfer-count').textContent = values.filter(v => v === 1).length;
   }
 
   function card(box, pokemon, mode, transferMode) {
     const status = getStatus(box.id, pokemon.id, mode);
+    const region = REGION_STARTS.get(pokemon.dex);
     const names = ['missing', 'caught', 'home'];
     const button = document.createElement('button');
     button.type = 'button';
@@ -32,7 +57,7 @@
     button.dataset.label = pokemon.name;
     button.title = `${pokemon.name}: ${names[status]}`;
     button.setAttribute('aria-label', button.title);
-    button.innerHTML = `<span class="status">${status === 1 ? '!' : status === 2 ? '✓' : ''}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
+    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}<span class="status">${status === 1 ? '!' : status === 2 ? '✓' : ''}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
     const img = button.querySelector('img');
     img.src = imagePath(pokemon.id, mode);
     img.onerror = () => { img.onerror = null; img.src = imagePath(pokemon.imageId || pokemon.id, mode); };
@@ -46,10 +71,13 @@
 
   function boxPanel(box, mode, transferMode) {
     const panelKey = transferMode ? `${box.id}-${mode}` : box.id;
+    const region = box.pokemon.map(pokemon => REGION_STARTS.get(pokemon.dex)).find(Boolean);
     const section = document.createElement('section');
-    section.className = `box ${openKey === panelKey ? 'open' : ''} ${transferMode ? 'transfer-box' : ''}`;
-    const waiting = box.pokemon.filter(p => getStatus(box.id, p.id, mode) === 1).length;
-    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${openKey === panelKey}"><span class="box-title">${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}</span><span class="box-meta">${transferMode ? `${waiting} waiting` : `${box.pokemon.length} slots`}</span><span class="chevron">⌄</span></button>`;
+    section.className = `box ${region ? 'region-start' : ''} ${openKey === panelKey ? 'open' : ''} ${transferMode ? 'transfer-box' : ''}`;
+    const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length;
+    const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length;
+    const boxMeta = `<span class="box-meta-group"><span>Regular</span><b>${regularHome} / ${box.pokemon.length}</b></span><i></i><span class="box-meta-group"><span>Shiny</span><b>${shinyHome} / ${box.pokemon.length}</b></span>`;
+    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${openKey === panelKey}">${region ? `<div class="region-pill">${region}</div>` : ''}<span class="box-title">${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}</span><span class="box-meta">${boxMeta}</span><span class="chevron">⌄</span></button>`;
     section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
     if (openKey === panelKey) {
       const body = document.createElement('div'); body.className = 'box-body';
@@ -67,13 +95,28 @@
     return section;
   }
 
+  function appendBoxGroup(title, boxes, transferMode) {
+    const panels = [];
+    for (const box of boxes) {
+      if (!transferMode) panels.push(boxPanel(box, modes[box.id] || 'regular', false));
+      else for (const mode of ['regular', 'shiny']) {
+        if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === 1)) panels.push(boxPanel(box, mode, true));
+      }
+    }
+    if (!panels.length) return;
+    const heading = document.createElement('h2');
+    heading.className = 'box-section-title';
+    heading.textContent = title;
+    boxesEl.append(heading, ...panels);
+  }
+
   function render() {
     boxesEl.replaceChildren();
-    if (view === 'pokedex') DATA.boxes.forEach(box => boxesEl.append(boxPanel(box, modes[box.id] || 'regular', false)));
-    else DATA.boxes.forEach(box => ['regular', 'shiny'].forEach(mode => {
-      if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === 1)) boxesEl.append(boxPanel(box, mode, true));
-    }));
-    emptyEl.hidden = boxesEl.children.length > 0;
+    const nationalDex = DATA.boxes.filter(box => box.id.startsWith('dex-'));
+    const forms = DATA.boxes.filter(box => box.id.startsWith('forms-'));
+    appendBoxGroup('National Pokédex', nationalDex, view === 'transfer');
+    appendBoxGroup('Pokémon Forms', forms, view === 'transfer');
+    emptyEl.hidden = boxesEl.querySelector('.box') !== null;
     updateCounts();
   }
 
@@ -81,7 +124,6 @@
     const button = e.target.closest('[data-view]'); if (!button) return;
     view = button.dataset.view; openKey = null;
     document.querySelectorAll('.dock button').forEach(b => b.classList.toggle('active', b === button));
-    document.querySelector('#view-description').textContent = view === 'pokedex' ? 'Tap a box to open it. Each Pokémon cycles from missing → caught → in Home.' : 'Only boxes with caught Pokémon appear. Tap a waiting Pokémon after transferring it to Home.';
     render(); window.scrollTo({top: 0, behavior: 'smooth'});
   });
   render();
