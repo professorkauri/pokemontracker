@@ -1339,32 +1339,6 @@ window.POKEMON_DATA = {
       ]
     },
     {
-      "id": "forms-14",
-      "title": "Vivillon Forms",
-      "pokemon": [
-        { "id": "vivillon-archipelago", "name": "Vivillon Archipelago", "imageId": "vivillon-archipelago" },
-        { "id": "vivillon-continental", "name": "Vivillon Continental", "imageId": "vivillon-continental" },
-        { "id": "vivillon-elegant", "name": "Vivillon Elegant", "imageId": "vivillon-elegant" },
-        { "id": "vivillon-fancy", "name": "Vivillon Fancy", "imageId": "vivillon-fancy" },
-        { "id": "vivillon-garden", "name": "Vivillon Garden", "imageId": "vivillon-garden" },
-        { "id": "vivillon-high-plains", "name": "Vivillon High Plains", "imageId": "vivillon-high-plains" },
-        { "id": "vivillon-icy-snow", "name": "Vivillon Icy Snow", "imageId": "vivillon-icy-snow" },
-        { "id": "vivillon-jungle", "name": "Vivillon Jungle", "imageId": "vivillon-jungle" },
-        { "id": "vivillon-marine", "name": "Vivillon Marine", "imageId": "vivillon-marine" },
-        { "id": "vivillon-meadow", "name": "Vivillon Meadow", "imageId": "vivillon-meadow" },
-        { "id": "vivillon-modern", "name": "Vivillon Modern", "imageId": "vivillon-modern" },
-        { "id": "vivillon-monsoon", "name": "Vivillon Monsoon", "imageId": "vivillon-monsoon" },
-        { "id": "vivillon-ocean", "name": "Vivillon Ocean", "imageId": "vivillon-ocean" },
-        { "id": "vivillon-poke-ball", "name": "Vivillon Poké Ball", "imageId": "vivillon-poke-ball" },
-        { "id": "vivillon-polar", "name": "Vivillon Polar", "imageId": "vivillon-polar" },
-        { "id": "vivillon-river", "name": "Vivillon River", "imageId": "vivillon-river" },
-        { "id": "vivillon-sandstorm", "name": "Vivillon Sandstorm", "imageId": "vivillon-sandstorm" },
-        { "id": "vivillon-savanna", "name": "Vivillon Savanna", "imageId": "vivillon-savanna" },
-        { "id": "vivillon-sun", "name": "Vivillon Sun", "imageId": "vivillon-sun" },
-        { "id": "vivillon-tundra", "name": "Vivillon Tundra", "imageId": "vivillon-tundra" }
-      ]
-    },
-    {
       "id": "forms-6",
       "title": "Kalos Forms",
       "pokemon": [
@@ -1412,6 +1386,32 @@ window.POKEMON_DATA = {
         { "id": "gourgeist-average", "name": "Gourgeist Average", "imageId": "gourgeist-average" },
         { "id": "gourgeist-large", "name": "Gourgeist Large", "imageId": "gourgeist-large" },
         { "id": "gourgeist-super", "name": "Gourgeist Super", "imageId": "gourgeist-super" }
+      ]
+    },
+    {
+      "id": "forms-14",
+      "title": "Vivillon Forms",
+      "pokemon": [
+        { "id": "vivillon-archipelago", "name": "Vivillon Archipelago", "imageId": "vivillon-archipelago" },
+        { "id": "vivillon-continental", "name": "Vivillon Continental", "imageId": "vivillon-continental" },
+        { "id": "vivillon-elegant", "name": "Vivillon Elegant", "imageId": "vivillon-elegant" },
+        { "id": "vivillon-fancy", "name": "Vivillon Fancy", "imageId": "vivillon-fancy" },
+        { "id": "vivillon-garden", "name": "Vivillon Garden", "imageId": "vivillon-garden" },
+        { "id": "vivillon-high-plains", "name": "Vivillon High Plains", "imageId": "vivillon-high-plains" },
+        { "id": "vivillon-icy-snow", "name": "Vivillon Icy Snow", "imageId": "vivillon-icy-snow" },
+        { "id": "vivillon-jungle", "name": "Vivillon Jungle", "imageId": "vivillon-jungle" },
+        { "id": "vivillon-marine", "name": "Vivillon Marine", "imageId": "vivillon-marine" },
+        { "id": "vivillon-meadow", "name": "Vivillon Meadow", "imageId": "vivillon-meadow" },
+        { "id": "vivillon-modern", "name": "Vivillon Modern", "imageId": "vivillon-modern" },
+        { "id": "vivillon-monsoon", "name": "Vivillon Monsoon", "imageId": "vivillon-monsoon" },
+        { "id": "vivillon-ocean", "name": "Vivillon Ocean", "imageId": "vivillon-ocean" },
+        { "id": "vivillon-poke-ball", "name": "Vivillon Poké Ball", "imageId": "vivillon-poke-ball" },
+        { "id": "vivillon-polar", "name": "Vivillon Polar", "imageId": "vivillon-polar" },
+        { "id": "vivillon-river", "name": "Vivillon River", "imageId": "vivillon-river" },
+        { "id": "vivillon-sandstorm", "name": "Vivillon Sandstorm", "imageId": "vivillon-sandstorm" },
+        { "id": "vivillon-savanna", "name": "Vivillon Savanna", "imageId": "vivillon-savanna" },
+        { "id": "vivillon-sun", "name": "Vivillon Sun", "imageId": "vivillon-sun" },
+        { "id": "vivillon-tundra", "name": "Vivillon Tundra", "imageId": "vivillon-tundra" }
       ]
     },
     {
@@ -1554,345 +1554,1509 @@ window.POKEMON_DATA = {
     }
   ],
   "evolutionLines": [
-    ["bulbasaur", "ivysaur", "venusaur"],
-    ["charmander", "charmeleon", "charizard"],
-    ["squirtle", "wartortle", "blastoise"],
-    ["caterpie", "metapod", "butterfree"],
-    ["weedle", "kakuna", "beedrill"],
-    ["pidgey", "pidgeotto", "pidgeot"],
-    ["rattata", "raticate"],
-    ["spearow", "fearow"],
-    ["ekans", "arbok"],
-    ["pikachu", "raichu", "pichu"],
-    ["sandshrew", "sandslash"],
-    ["nidoran-f", "nidorina", "nidoqueen"],
-    ["nidoran-m", "nidorino", "nidoking"],
-    ["clefairy", "clefable", "cleffa"],
-    ["vulpix", "ninetales"],
-    ["jigglypuff", "wigglytuff", "igglybuff"],
-    ["zubat", "golbat", "crobat"],
-    ["oddish", "gloom", "vileplume", "bellossom"],
-    ["paras", "parasect"],
-    ["venonat", "venomoth"],
-    ["diglett", "dugtrio"],
-    ["meowth", "persian", "perrserker"],
-    ["psyduck", "golduck"],
-    ["mankey", "primeape", "annihilape"],
-    ["growlithe", "arcanine"],
-    ["poliwag", "poliwhirl", "poliwrath", "politoed"],
-    ["abra", "kadabra", "alakazam"],
-    ["machop", "machoke", "machamp"],
-    ["bellsprout", "weepinbell", "victreebel"],
-    ["tentacool", "tentacruel"],
-    ["geodude", "graveler", "golem"],
-    ["ponyta", "rapidash"],
-    ["slowpoke", "slowbro", "slowking"],
-    ["magnemite", "magneton", "magnezone"],
-    ["farfetchd", "sirfetchd"],
-    ["doduo", "dodrio"],
-    ["seel", "dewgong"],
-    ["grimer", "muk"],
-    ["shellder", "cloyster"],
-    ["gastly", "haunter", "gengar"],
-    ["onix", "steelix"],
-    ["drowzee", "hypno"],
-    ["krabby", "kingler"],
-    ["voltorb", "electrode"],
-    ["exeggcute", "exeggutor"],
-    ["cubone", "marowak"],
-    ["hitmonlee", "hitmonchan", "tyrogue", "hitmontop"],
-    ["lickitung", "lickilicky"],
-    ["koffing", "weezing"],
-    ["rhyhorn", "rhydon", "rhyperior"],
-    ["chansey", "blissey", "happiny"],
-    ["tangela", "tangrowth"],
-    ["horsea", "seadra", "kingdra"],
-    ["goldeen", "seaking"],
-    ["staryu", "starmie"],
-    ["mr-mime", "mime-jr", "mr-rime"],
-    ["scyther", "scizor", "kleavor"],
-    ["jynx", "smoochum"],
-    ["electabuzz", "elekid", "electivire"],
-    ["magmar", "magby", "magmortar"],
-    ["magikarp", "gyarados"],
-    ["eevee", "vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"],
-    ["porygon", "porygon2", "porygon-z"],
-    ["omanyte", "omastar"],
-    ["kabuto", "kabutops"],
-    ["snorlax", "munchlax"],
-    ["dratini", "dragonair", "dragonite"],
-    ["chikorita", "bayleef", "meganium"],
-    ["cyndaquil", "quilava", "typhlosion"],
-    ["totodile", "croconaw", "feraligatr"],
-    ["sentret", "furret"],
-    ["hoothoot", "noctowl"],
-    ["ledyba", "ledian"],
-    ["spinarak", "ariados"],
-    ["chinchou", "lanturn"],
-    ["togepi", "togetic", "togekiss"],
-    ["natu", "xatu"],
-    ["mareep", "flaaffy", "ampharos"],
-    ["marill", "azumarill", "azurill"],
-    ["sudowoodo", "bonsly"],
-    ["hoppip", "skiploom", "jumpluff"],
-    ["aipom", "ambipom"],
-    ["sunkern", "sunflora"],
-    ["yanma", "yanmega"],
-    ["wooper", "quagsire", "clodsire"],
-    ["murkrow", "honchkrow"],
-    ["misdreavus", "mismagius"],
-    ["wobbuffet", "wynaut"],
-    ["girafarig", "farigiraf"],
-    ["pineco", "forretress"],
-    ["dunsparce", "dudunsparce"],
-    ["gligar", "gliscor"],
-    ["snubbull", "granbull"],
-    ["qwilfish", "overqwil"],
-    ["sneasel", "weavile", "sneasler"],
-    ["teddiursa", "ursaring", "ursaluna"],
-    ["slugma", "magcargo"],
-    ["swinub", "piloswine", "mamoswine"],
-    ["corsola", "cursola"],
-    ["remoraid", "octillery"],
-    ["mantine", "mantyke"],
-    ["houndour", "houndoom"],
-    ["phanpy", "donphan"],
-    ["stantler", "wyrdeer"],
-    ["larvitar", "pupitar", "tyranitar"],
-    ["treecko", "grovyle", "sceptile"],
-    ["torchic", "combusken", "blaziken"],
-    ["mudkip", "marshtomp", "swampert"],
-    ["poochyena", "mightyena"],
-    ["zigzagoon", "linoone", "obstagoon"],
-    ["wurmple", "silcoon", "beautifly", "cascoon", "dustox"],
-    ["lotad", "lombre", "ludicolo"],
-    ["seedot", "nuzleaf", "shiftry"],
-    ["taillow", "swellow"],
-    ["wingull", "pelipper"],
-    ["ralts", "kirlia", "gardevoir", "gallade"],
-    ["surskit", "masquerain"],
-    ["shroomish", "breloom"],
-    ["slakoth", "vigoroth", "slaking"],
-    ["nincada", "ninjask", "shedinja"],
-    ["whismur", "loudred", "exploud"],
-    ["makuhita", "hariyama"],
-    ["nosepass", "probopass"],
-    ["skitty", "delcatty"],
-    ["aron", "lairon", "aggron"],
-    ["meditite", "medicham"],
-    ["electrike", "manectric"],
-    ["roselia", "budew", "roserade"],
-    ["gulpin", "swalot"],
-    ["carvanha", "sharpedo"],
-    ["wailmer", "wailord"],
-    ["numel", "camerupt"],
-    ["spoink", "grumpig"],
-    ["trapinch", "vibrava", "flygon"],
-    ["cacnea", "cacturne"],
-    ["swablu", "altaria"],
-    ["barboach", "whiscash"],
-    ["corphish", "crawdaunt"],
-    ["baltoy", "claydol"],
-    ["lileep", "cradily"],
-    ["anorith", "armaldo"],
-    ["feebas", "milotic"],
-    ["shuppet", "banette"],
-    ["duskull", "dusclops", "dusknoir"],
-    ["chimecho", "chingling"],
-    ["snorunt", "glalie", "froslass"],
-    ["spheal", "sealeo", "walrein"],
-    ["clamperl", "huntail", "gorebyss"],
-    ["bagon", "shelgon", "salamence"],
-    ["beldum", "metang", "metagross"],
-    ["turtwig", "grotle", "torterra"],
-    ["chimchar", "monferno", "infernape"],
-    ["piplup", "prinplup", "empoleon"],
-    ["starly", "staravia", "staraptor"],
-    ["bidoof", "bibarel"],
-    ["kricketot", "kricketune"],
-    ["shinx", "luxio", "luxray"],
-    ["cranidos", "rampardos"],
-    ["shieldon", "bastiodon"],
-    ["burmy", "wormadam", "mothim"],
-    ["combee", "vespiquen"],
-    ["buizel", "floatzel"],
-    ["cherubi", "cherrim"],
-    ["shellos", "gastrodon"],
-    ["drifloon", "drifblim"],
-    ["buneary", "lopunny"],
-    ["glameow", "purugly"],
-    ["stunky", "skuntank"],
-    ["bronzor", "bronzong"],
-    ["gible", "gabite", "garchomp"],
-    ["riolu", "lucario"],
-    ["hippopotas", "hippowdon"],
-    ["skorupi", "drapion"],
-    ["croagunk", "toxicroak"],
-    ["finneon", "lumineon"],
-    ["snover", "abomasnow"],
-    ["phione", "manaphy"],
-    ["snivy", "servine", "serperior"],
-    ["tepig", "pignite", "emboar"],
-    ["oshawott", "dewott", "samurott"],
-    ["patrat", "watchog"],
-    ["lillipup", "herdier", "stoutland"],
-    ["purrloin", "liepard"],
-    ["pansage", "simisage"],
-    ["pansear", "simisear"],
-    ["panpour", "simipour"],
-    ["munna", "musharna"],
-    ["pidove", "tranquill", "unfezant"],
-    ["blitzle", "zebstrika"],
-    ["roggenrola", "boldore", "gigalith"],
-    ["woobat", "swoobat"],
-    ["drilbur", "excadrill"],
-    ["timburr", "gurdurr", "conkeldurr"],
-    ["tympole", "palpitoad", "seismitoad"],
-    ["sewaddle", "swadloon", "leavanny"],
-    ["venipede", "whirlipede", "scolipede"],
-    ["cottonee", "whimsicott"],
-    ["petilil", "lilligant"],
-    ["basculin", "basculegion"],
-    ["sandile", "krokorok", "krookodile"],
-    ["darumaka", "darmanitan"],
-    ["dwebble", "crustle"],
-    ["scraggy", "scrafty"],
-    ["yamask", "cofagrigus", "runerigus"],
-    ["tirtouga", "carracosta"],
-    ["archen", "archeops"],
-    ["trubbish", "garbodor"],
-    ["zorua", "zoroark"],
-    ["minccino", "cinccino"],
-    ["gothita", "gothorita", "gothitelle"],
-    ["solosis", "duosion", "reuniclus"],
-    ["ducklett", "swanna"],
-    ["vanillite", "vanillish", "vanilluxe"],
-    ["deerling", "sawsbuck"],
-    ["karrablast", "escavalier"],
-    ["foongus", "amoonguss"],
-    ["frillish", "jellicent"],
-    ["joltik", "galvantula"],
-    ["ferroseed", "ferrothorn"],
-    ["klink", "klang", "klinklang"],
-    ["tynamo", "eelektrik", "eelektross"],
-    ["elgyem", "beheeyem"],
-    ["litwick", "lampent", "chandelure"],
-    ["axew", "fraxure", "haxorus"],
-    ["cubchoo", "beartic"],
-    ["shelmet", "accelgor"],
-    ["mienfoo", "mienshao"],
-    ["golett", "golurk"],
-    ["pawniard", "bisharp", "kingambit"],
-    ["rufflet", "braviary"],
-    ["vullaby", "mandibuzz"],
-    ["deino", "zweilous", "hydreigon"],
-    ["larvesta", "volcarona"],
-    ["chespin", "quilladin", "chesnaught"],
-    ["fennekin", "braixen", "delphox"],
-    ["froakie", "frogadier", "greninja"],
-    ["bunnelby", "diggersby"],
-    ["fletchling", "fletchinder", "talonflame"],
-    ["scatterbug", "spewpa", "vivillon"],
-    ["litleo", "pyroar"],
-    ["flabebe", "floette", "florges"],
-    ["skiddo", "gogoat"],
-    ["pancham", "pangoro"],
-    ["espurr", "meowstic"],
-    ["honedge", "doublade", "aegislash"],
-    ["spritzee", "aromatisse"],
-    ["swirlix", "slurpuff"],
-    ["inkay", "malamar"],
-    ["binacle", "barbaracle"],
-    ["skrelp", "dragalge"],
-    ["clauncher", "clawitzer"],
-    ["helioptile", "heliolisk"],
-    ["tyrunt", "tyrantrum"],
-    ["amaura", "aurorus"],
-    ["goomy", "sliggoo", "goodra"],
-    ["phantump", "trevenant"],
-    ["pumpkaboo", "gourgeist"],
-    ["bergmite", "avalugg"],
-    ["noibat", "noivern"],
-    ["rowlet", "dartrix", "decidueye"],
-    ["litten", "torracat", "incineroar"],
-    ["popplio", "brionne", "primarina"],
-    ["pikipek", "trumbeak", "toucannon"],
-    ["yungoos", "gumshoos"],
-    ["grubbin", "charjabug", "vikavolt"],
-    ["crabrawler", "crabominable"],
-    ["cutiefly", "ribombee"],
-    ["rockruff", "lycanroc"],
-    ["mareanie", "toxapex"],
-    ["mudbray", "mudsdale"],
-    ["dewpider", "araquanid"],
-    ["fomantis", "lurantis"],
-    ["morelull", "shiinotic"],
-    ["salandit", "salazzle"],
-    ["stufful", "bewear"],
-    ["bounsweet", "steenee", "tsareena"],
-    ["wimpod", "golisopod"],
-    ["sandygast", "palossand"],
-    ["type-null", "silvally"],
-    ["jangmo-o", "hakamo-o", "kommo-o"],
-    ["cosmog", "cosmoem", "solgaleo", "lunala"],
-    ["poipole", "naganadel"],
-    ["grookey", "thwackey", "rillaboom"],
-    ["scorbunny", "raboot", "cinderace"],
-    ["sobble", "drizzile", "inteleon"],
-    ["skwovet", "greedent"],
-    ["rookidee", "corvisquire", "corviknight"],
-    ["blipbug", "dottler", "orbeetle"],
-    ["nickit", "thievul"],
-    ["gossifleur", "eldegoss"],
-    ["wooloo", "dubwool"],
-    ["chewtle", "drednaw"],
-    ["yamper", "boltund"],
-    ["rolycoly", "carkol", "coalossal"],
-    ["applin", "flapple", "appletun", "dipplin", "hydrapple"],
-    ["silicobra", "sandaconda"],
-    ["arrokuda", "barraskewda"],
-    ["toxel", "toxtricity"],
-    ["sizzlipede", "centiskorch"],
-    ["clobbopus", "grapploct"],
-    ["sinistea", "polteageist"],
-    ["hatenna", "hattrem", "hatterene"],
-    ["impidimp", "morgrem", "grimmsnarl"],
-    ["milcery", "alcremie"],
-    ["snom", "frosmoth"],
-    ["cufant", "copperajah"],
-    ["duraludon", "archaludon"],
-    ["dreepy", "drakloak", "dragapult"],
-    ["kubfu", "urshifu"],
-    ["sprigatito", "floragato", "meowscarada"],
-    ["fuecoco", "crocalor", "skeledirge"],
-    ["quaxly", "quaxwell", "quaquaval"],
-    ["lechonk", "oinkologne"],
-    ["tarountula", "spidops"],
-    ["nymble", "lokix"],
-    ["pawmi", "pawmo", "pawmot"],
-    ["tandemaus", "maushold"],
-    ["fidough", "dachsbun"],
-    ["smoliv", "dolliv", "arboliva"],
-    ["nacli", "naclstack", "garganacl"],
-    ["charcadet", "armarouge", "ceruledge"],
-    ["tadbulb", "bellibolt"],
-    ["wattrel", "kilowattrel"],
-    ["maschiff", "mabosstiff"],
-    ["shroodle", "grafaiai"],
-    ["bramblin", "brambleghast"],
-    ["toedscool", "toedscruel"],
-    ["capsakid", "scovillain"],
-    ["rellor", "rabsca"],
-    ["flittle", "espathra"],
-    ["tinkatink", "tinkatuff", "tinkaton"],
-    ["wiglett", "wugtrio"],
-    ["finizen", "palafin"],
-    ["varoom", "revavroom"],
-    ["glimmet", "glimmora"],
-    ["greavard", "houndstone"],
-    ["cetoddle", "cetitan"],
-    ["frigibax", "arctibax", "baxcalibur"],
-    ["gimmighoul", "gholdengo"],
-    ["poltchageist", "sinistcha"]
+    [
+      "bulbasaur",
+      "ivysaur",
+      "venusaur"
+    ],
+    [
+      "charmander",
+      "charmeleon",
+      "charizard"
+    ],
+    [
+      "squirtle",
+      "wartortle",
+      "blastoise"
+    ],
+    [
+      "caterpie",
+      "metapod",
+      "butterfree"
+    ],
+    [
+      "weedle",
+      "kakuna",
+      "beedrill"
+    ],
+    [
+      "pidgey",
+      "pidgeotto",
+      "pidgeot"
+    ],
+    [
+      "rattata",
+      "raticate"
+    ],
+    [
+      "spearow",
+      "fearow"
+    ],
+    [
+      "ekans",
+      "arbok"
+    ],
+    [
+      "pikachu",
+      "raichu",
+      "pichu"
+    ],
+    [
+      "sandshrew",
+      "sandslash"
+    ],
+    [
+      "nidoran-f",
+      "nidorina",
+      "nidoqueen"
+    ],
+    [
+      "nidoran-m",
+      "nidorino",
+      "nidoking"
+    ],
+    [
+      "clefairy",
+      "clefable",
+      "cleffa"
+    ],
+    [
+      "vulpix",
+      "ninetales"
+    ],
+    [
+      "jigglypuff",
+      "wigglytuff",
+      "igglybuff"
+    ],
+    [
+      "zubat",
+      "golbat",
+      "crobat"
+    ],
+    [
+      "oddish",
+      "gloom",
+      "vileplume",
+      "bellossom"
+    ],
+    [
+      "paras",
+      "parasect"
+    ],
+    [
+      "venonat",
+      "venomoth"
+    ],
+    [
+      "diglett",
+      "dugtrio"
+    ],
+    [
+      "meowth",
+      "persian",
+      "perrserker"
+    ],
+    [
+      "psyduck",
+      "golduck"
+    ],
+    [
+      "mankey",
+      "primeape",
+      "annihilape"
+    ],
+    [
+      "growlithe",
+      "arcanine"
+    ],
+    [
+      "poliwag",
+      "poliwhirl",
+      "poliwrath",
+      "politoed"
+    ],
+    [
+      "abra",
+      "kadabra",
+      "alakazam"
+    ],
+    [
+      "machop",
+      "machoke",
+      "machamp"
+    ],
+    [
+      "bellsprout",
+      "weepinbell",
+      "victreebel"
+    ],
+    [
+      "tentacool",
+      "tentacruel"
+    ],
+    [
+      "geodude",
+      "graveler",
+      "golem"
+    ],
+    [
+      "ponyta",
+      "rapidash"
+    ],
+    [
+      "slowpoke",
+      "slowbro",
+      "slowking"
+    ],
+    [
+      "magnemite",
+      "magneton",
+      "magnezone"
+    ],
+    [
+      "farfetchd",
+      "sirfetchd"
+    ],
+    [
+      "doduo",
+      "dodrio"
+    ],
+    [
+      "seel",
+      "dewgong"
+    ],
+    [
+      "grimer",
+      "muk"
+    ],
+    [
+      "shellder",
+      "cloyster"
+    ],
+    [
+      "gastly",
+      "haunter",
+      "gengar"
+    ],
+    [
+      "onix",
+      "steelix"
+    ],
+    [
+      "drowzee",
+      "hypno"
+    ],
+    [
+      "krabby",
+      "kingler"
+    ],
+    [
+      "voltorb",
+      "electrode"
+    ],
+    [
+      "exeggcute",
+      "exeggutor"
+    ],
+    [
+      "cubone",
+      "marowak"
+    ],
+    [
+      "hitmonlee",
+      "hitmonchan",
+      "tyrogue",
+      "hitmontop"
+    ],
+    [
+      "lickitung",
+      "lickilicky"
+    ],
+    [
+      "koffing",
+      "weezing"
+    ],
+    [
+      "rhyhorn",
+      "rhydon",
+      "rhyperior"
+    ],
+    [
+      "chansey",
+      "blissey",
+      "happiny"
+    ],
+    [
+      "tangela",
+      "tangrowth"
+    ],
+    [
+      "horsea",
+      "seadra",
+      "kingdra"
+    ],
+    [
+      "goldeen",
+      "seaking"
+    ],
+    [
+      "staryu",
+      "starmie"
+    ],
+    [
+      "mr-mime",
+      "mime-jr",
+      "mr-rime"
+    ],
+    [
+      "scyther",
+      "scizor",
+      "kleavor"
+    ],
+    [
+      "jynx",
+      "smoochum"
+    ],
+    [
+      "electabuzz",
+      "elekid",
+      "electivire"
+    ],
+    [
+      "magmar",
+      "magby",
+      "magmortar"
+    ],
+    [
+      "magikarp",
+      "gyarados"
+    ],
+    [
+      "eevee",
+      "vaporeon",
+      "jolteon",
+      "flareon",
+      "espeon",
+      "umbreon",
+      "leafeon",
+      "glaceon",
+      "sylveon"
+    ],
+    [
+      "porygon",
+      "porygon2",
+      "porygon-z"
+    ],
+    [
+      "omanyte",
+      "omastar"
+    ],
+    [
+      "kabuto",
+      "kabutops"
+    ],
+    [
+      "snorlax",
+      "munchlax"
+    ],
+    [
+      "dratini",
+      "dragonair",
+      "dragonite"
+    ],
+    [
+      "chikorita",
+      "bayleef",
+      "meganium"
+    ],
+    [
+      "cyndaquil",
+      "quilava",
+      "typhlosion"
+    ],
+    [
+      "totodile",
+      "croconaw",
+      "feraligatr"
+    ],
+    [
+      "sentret",
+      "furret"
+    ],
+    [
+      "hoothoot",
+      "noctowl"
+    ],
+    [
+      "ledyba",
+      "ledian"
+    ],
+    [
+      "spinarak",
+      "ariados"
+    ],
+    [
+      "chinchou",
+      "lanturn"
+    ],
+    [
+      "togepi",
+      "togetic",
+      "togekiss"
+    ],
+    [
+      "natu",
+      "xatu"
+    ],
+    [
+      "mareep",
+      "flaaffy",
+      "ampharos"
+    ],
+    [
+      "marill",
+      "azumarill",
+      "azurill"
+    ],
+    [
+      "sudowoodo",
+      "bonsly"
+    ],
+    [
+      "hoppip",
+      "skiploom",
+      "jumpluff"
+    ],
+    [
+      "aipom",
+      "ambipom"
+    ],
+    [
+      "sunkern",
+      "sunflora"
+    ],
+    [
+      "yanma",
+      "yanmega"
+    ],
+    [
+      "wooper",
+      "quagsire",
+      "clodsire"
+    ],
+    [
+      "murkrow",
+      "honchkrow"
+    ],
+    [
+      "misdreavus",
+      "mismagius"
+    ],
+    [
+      "wobbuffet",
+      "wynaut"
+    ],
+    [
+      "girafarig",
+      "farigiraf"
+    ],
+    [
+      "pineco",
+      "forretress"
+    ],
+    [
+      "dunsparce",
+      "dudunsparce"
+    ],
+    [
+      "gligar",
+      "gliscor"
+    ],
+    [
+      "snubbull",
+      "granbull"
+    ],
+    [
+      "qwilfish",
+      "overqwil"
+    ],
+    [
+      "sneasel",
+      "weavile",
+      "sneasler"
+    ],
+    [
+      "teddiursa",
+      "ursaring",
+      "ursaluna"
+    ],
+    [
+      "slugma",
+      "magcargo"
+    ],
+    [
+      "swinub",
+      "piloswine",
+      "mamoswine"
+    ],
+    [
+      "corsola",
+      "cursola"
+    ],
+    [
+      "remoraid",
+      "octillery"
+    ],
+    [
+      "mantine",
+      "mantyke"
+    ],
+    [
+      "houndour",
+      "houndoom"
+    ],
+    [
+      "phanpy",
+      "donphan"
+    ],
+    [
+      "stantler",
+      "wyrdeer"
+    ],
+    [
+      "larvitar",
+      "pupitar",
+      "tyranitar"
+    ],
+    [
+      "treecko",
+      "grovyle",
+      "sceptile"
+    ],
+    [
+      "torchic",
+      "combusken",
+      "blaziken"
+    ],
+    [
+      "mudkip",
+      "marshtomp",
+      "swampert"
+    ],
+    [
+      "poochyena",
+      "mightyena"
+    ],
+    [
+      "zigzagoon",
+      "linoone",
+      "obstagoon"
+    ],
+    [
+      "wurmple",
+      "silcoon",
+      "beautifly",
+      "cascoon",
+      "dustox"
+    ],
+    [
+      "lotad",
+      "lombre",
+      "ludicolo"
+    ],
+    [
+      "seedot",
+      "nuzleaf",
+      "shiftry"
+    ],
+    [
+      "taillow",
+      "swellow"
+    ],
+    [
+      "wingull",
+      "pelipper"
+    ],
+    [
+      "ralts",
+      "kirlia",
+      "gardevoir",
+      "gallade"
+    ],
+    [
+      "surskit",
+      "masquerain"
+    ],
+    [
+      "shroomish",
+      "breloom"
+    ],
+    [
+      "slakoth",
+      "vigoroth",
+      "slaking"
+    ],
+    [
+      "nincada",
+      "ninjask",
+      "shedinja"
+    ],
+    [
+      "whismur",
+      "loudred",
+      "exploud"
+    ],
+    [
+      "makuhita",
+      "hariyama"
+    ],
+    [
+      "nosepass",
+      "probopass"
+    ],
+    [
+      "skitty",
+      "delcatty"
+    ],
+    [
+      "aron",
+      "lairon",
+      "aggron"
+    ],
+    [
+      "meditite",
+      "medicham"
+    ],
+    [
+      "electrike",
+      "manectric"
+    ],
+    [
+      "roselia",
+      "budew",
+      "roserade"
+    ],
+    [
+      "gulpin",
+      "swalot"
+    ],
+    [
+      "carvanha",
+      "sharpedo"
+    ],
+    [
+      "wailmer",
+      "wailord"
+    ],
+    [
+      "numel",
+      "camerupt"
+    ],
+    [
+      "spoink",
+      "grumpig"
+    ],
+    [
+      "trapinch",
+      "vibrava",
+      "flygon"
+    ],
+    [
+      "cacnea",
+      "cacturne"
+    ],
+    [
+      "swablu",
+      "altaria"
+    ],
+    [
+      "barboach",
+      "whiscash"
+    ],
+    [
+      "corphish",
+      "crawdaunt"
+    ],
+    [
+      "baltoy",
+      "claydol"
+    ],
+    [
+      "lileep",
+      "cradily"
+    ],
+    [
+      "anorith",
+      "armaldo"
+    ],
+    [
+      "feebas",
+      "milotic"
+    ],
+    [
+      "shuppet",
+      "banette"
+    ],
+    [
+      "duskull",
+      "dusclops",
+      "dusknoir"
+    ],
+    [
+      "chimecho",
+      "chingling"
+    ],
+    [
+      "snorunt",
+      "glalie",
+      "froslass"
+    ],
+    [
+      "spheal",
+      "sealeo",
+      "walrein"
+    ],
+    [
+      "clamperl",
+      "huntail",
+      "gorebyss"
+    ],
+    [
+      "bagon",
+      "shelgon",
+      "salamence"
+    ],
+    [
+      "beldum",
+      "metang",
+      "metagross"
+    ],
+    [
+      "turtwig",
+      "grotle",
+      "torterra"
+    ],
+    [
+      "chimchar",
+      "monferno",
+      "infernape"
+    ],
+    [
+      "piplup",
+      "prinplup",
+      "empoleon"
+    ],
+    [
+      "starly",
+      "staravia",
+      "staraptor"
+    ],
+    [
+      "bidoof",
+      "bibarel"
+    ],
+    [
+      "kricketot",
+      "kricketune"
+    ],
+    [
+      "shinx",
+      "luxio",
+      "luxray"
+    ],
+    [
+      "cranidos",
+      "rampardos"
+    ],
+    [
+      "shieldon",
+      "bastiodon"
+    ],
+    [
+      "burmy",
+      "wormadam",
+      "mothim"
+    ],
+    [
+      "combee",
+      "vespiquen"
+    ],
+    [
+      "buizel",
+      "floatzel"
+    ],
+    [
+      "cherubi",
+      "cherrim"
+    ],
+    [
+      "shellos",
+      "gastrodon"
+    ],
+    [
+      "drifloon",
+      "drifblim"
+    ],
+    [
+      "buneary",
+      "lopunny"
+    ],
+    [
+      "glameow",
+      "purugly"
+    ],
+    [
+      "stunky",
+      "skuntank"
+    ],
+    [
+      "bronzor",
+      "bronzong"
+    ],
+    [
+      "gible",
+      "gabite",
+      "garchomp"
+    ],
+    [
+      "riolu",
+      "lucario"
+    ],
+    [
+      "hippopotas",
+      "hippowdon"
+    ],
+    [
+      "skorupi",
+      "drapion"
+    ],
+    [
+      "croagunk",
+      "toxicroak"
+    ],
+    [
+      "finneon",
+      "lumineon"
+    ],
+    [
+      "snover",
+      "abomasnow"
+    ],
+    [
+      "phione",
+      "manaphy"
+    ],
+    [
+      "snivy",
+      "servine",
+      "serperior"
+    ],
+    [
+      "tepig",
+      "pignite",
+      "emboar"
+    ],
+    [
+      "oshawott",
+      "dewott",
+      "samurott"
+    ],
+    [
+      "patrat",
+      "watchog"
+    ],
+    [
+      "lillipup",
+      "herdier",
+      "stoutland"
+    ],
+    [
+      "purrloin",
+      "liepard"
+    ],
+    [
+      "pansage",
+      "simisage"
+    ],
+    [
+      "pansear",
+      "simisear"
+    ],
+    [
+      "panpour",
+      "simipour"
+    ],
+    [
+      "munna",
+      "musharna"
+    ],
+    [
+      "pidove",
+      "tranquill",
+      "unfezant"
+    ],
+    [
+      "blitzle",
+      "zebstrika"
+    ],
+    [
+      "roggenrola",
+      "boldore",
+      "gigalith"
+    ],
+    [
+      "woobat",
+      "swoobat"
+    ],
+    [
+      "drilbur",
+      "excadrill"
+    ],
+    [
+      "timburr",
+      "gurdurr",
+      "conkeldurr"
+    ],
+    [
+      "tympole",
+      "palpitoad",
+      "seismitoad"
+    ],
+    [
+      "sewaddle",
+      "swadloon",
+      "leavanny"
+    ],
+    [
+      "venipede",
+      "whirlipede",
+      "scolipede"
+    ],
+    [
+      "cottonee",
+      "whimsicott"
+    ],
+    [
+      "petilil",
+      "lilligant"
+    ],
+    [
+      "basculin",
+      "basculegion"
+    ],
+    [
+      "sandile",
+      "krokorok",
+      "krookodile"
+    ],
+    [
+      "darumaka",
+      "darmanitan"
+    ],
+    [
+      "dwebble",
+      "crustle"
+    ],
+    [
+      "scraggy",
+      "scrafty"
+    ],
+    [
+      "yamask",
+      "cofagrigus",
+      "runerigus"
+    ],
+    [
+      "tirtouga",
+      "carracosta"
+    ],
+    [
+      "archen",
+      "archeops"
+    ],
+    [
+      "trubbish",
+      "garbodor"
+    ],
+    [
+      "zorua",
+      "zoroark"
+    ],
+    [
+      "minccino",
+      "cinccino"
+    ],
+    [
+      "gothita",
+      "gothorita",
+      "gothitelle"
+    ],
+    [
+      "solosis",
+      "duosion",
+      "reuniclus"
+    ],
+    [
+      "ducklett",
+      "swanna"
+    ],
+    [
+      "vanillite",
+      "vanillish",
+      "vanilluxe"
+    ],
+    [
+      "deerling",
+      "sawsbuck"
+    ],
+    [
+      "karrablast",
+      "escavalier"
+    ],
+    [
+      "foongus",
+      "amoonguss"
+    ],
+    [
+      "frillish",
+      "jellicent"
+    ],
+    [
+      "joltik",
+      "galvantula"
+    ],
+    [
+      "ferroseed",
+      "ferrothorn"
+    ],
+    [
+      "klink",
+      "klang",
+      "klinklang"
+    ],
+    [
+      "tynamo",
+      "eelektrik",
+      "eelektross"
+    ],
+    [
+      "elgyem",
+      "beheeyem"
+    ],
+    [
+      "litwick",
+      "lampent",
+      "chandelure"
+    ],
+    [
+      "axew",
+      "fraxure",
+      "haxorus"
+    ],
+    [
+      "cubchoo",
+      "beartic"
+    ],
+    [
+      "shelmet",
+      "accelgor"
+    ],
+    [
+      "mienfoo",
+      "mienshao"
+    ],
+    [
+      "golett",
+      "golurk"
+    ],
+    [
+      "pawniard",
+      "bisharp",
+      "kingambit"
+    ],
+    [
+      "rufflet",
+      "braviary"
+    ],
+    [
+      "vullaby",
+      "mandibuzz"
+    ],
+    [
+      "deino",
+      "zweilous",
+      "hydreigon"
+    ],
+    [
+      "larvesta",
+      "volcarona"
+    ],
+    [
+      "chespin",
+      "quilladin",
+      "chesnaught"
+    ],
+    [
+      "fennekin",
+      "braixen",
+      "delphox"
+    ],
+    [
+      "froakie",
+      "frogadier",
+      "greninja"
+    ],
+    [
+      "bunnelby",
+      "diggersby"
+    ],
+    [
+      "fletchling",
+      "fletchinder",
+      "talonflame"
+    ],
+    [
+      "scatterbug",
+      "spewpa",
+      "vivillon"
+    ],
+    [
+      "litleo",
+      "pyroar"
+    ],
+    [
+      "flabebe",
+      "floette",
+      "florges"
+    ],
+    [
+      "skiddo",
+      "gogoat"
+    ],
+    [
+      "pancham",
+      "pangoro"
+    ],
+    [
+      "espurr",
+      "meowstic"
+    ],
+    [
+      "honedge",
+      "doublade",
+      "aegislash"
+    ],
+    [
+      "spritzee",
+      "aromatisse"
+    ],
+    [
+      "swirlix",
+      "slurpuff"
+    ],
+    [
+      "inkay",
+      "malamar"
+    ],
+    [
+      "binacle",
+      "barbaracle"
+    ],
+    [
+      "skrelp",
+      "dragalge"
+    ],
+    [
+      "clauncher",
+      "clawitzer"
+    ],
+    [
+      "helioptile",
+      "heliolisk"
+    ],
+    [
+      "tyrunt",
+      "tyrantrum"
+    ],
+    [
+      "amaura",
+      "aurorus"
+    ],
+    [
+      "goomy",
+      "sliggoo",
+      "goodra"
+    ],
+    [
+      "phantump",
+      "trevenant"
+    ],
+    [
+      "pumpkaboo",
+      "gourgeist"
+    ],
+    [
+      "bergmite",
+      "avalugg"
+    ],
+    [
+      "noibat",
+      "noivern"
+    ],
+    [
+      "rowlet",
+      "dartrix",
+      "decidueye"
+    ],
+    [
+      "litten",
+      "torracat",
+      "incineroar"
+    ],
+    [
+      "popplio",
+      "brionne",
+      "primarina"
+    ],
+    [
+      "pikipek",
+      "trumbeak",
+      "toucannon"
+    ],
+    [
+      "yungoos",
+      "gumshoos"
+    ],
+    [
+      "grubbin",
+      "charjabug",
+      "vikavolt"
+    ],
+    [
+      "crabrawler",
+      "crabominable"
+    ],
+    [
+      "cutiefly",
+      "ribombee"
+    ],
+    [
+      "rockruff",
+      "lycanroc"
+    ],
+    [
+      "mareanie",
+      "toxapex"
+    ],
+    [
+      "mudbray",
+      "mudsdale"
+    ],
+    [
+      "dewpider",
+      "araquanid"
+    ],
+    [
+      "fomantis",
+      "lurantis"
+    ],
+    [
+      "morelull",
+      "shiinotic"
+    ],
+    [
+      "salandit",
+      "salazzle"
+    ],
+    [
+      "stufful",
+      "bewear"
+    ],
+    [
+      "bounsweet",
+      "steenee",
+      "tsareena"
+    ],
+    [
+      "wimpod",
+      "golisopod"
+    ],
+    [
+      "sandygast",
+      "palossand"
+    ],
+    [
+      "type-null",
+      "silvally"
+    ],
+    [
+      "jangmo-o",
+      "hakamo-o",
+      "kommo-o"
+    ],
+    [
+      "cosmog",
+      "cosmoem",
+      "solgaleo",
+      "lunala"
+    ],
+    [
+      "poipole",
+      "naganadel"
+    ],
+    [
+      "grookey",
+      "thwackey",
+      "rillaboom"
+    ],
+    [
+      "scorbunny",
+      "raboot",
+      "cinderace"
+    ],
+    [
+      "sobble",
+      "drizzile",
+      "inteleon"
+    ],
+    [
+      "skwovet",
+      "greedent"
+    ],
+    [
+      "rookidee",
+      "corvisquire",
+      "corviknight"
+    ],
+    [
+      "blipbug",
+      "dottler",
+      "orbeetle"
+    ],
+    [
+      "nickit",
+      "thievul"
+    ],
+    [
+      "gossifleur",
+      "eldegoss"
+    ],
+    [
+      "wooloo",
+      "dubwool"
+    ],
+    [
+      "chewtle",
+      "drednaw"
+    ],
+    [
+      "yamper",
+      "boltund"
+    ],
+    [
+      "rolycoly",
+      "carkol",
+      "coalossal"
+    ],
+    [
+      "applin",
+      "flapple",
+      "appletun",
+      "dipplin",
+      "hydrapple"
+    ],
+    [
+      "silicobra",
+      "sandaconda"
+    ],
+    [
+      "arrokuda",
+      "barraskewda"
+    ],
+    [
+      "toxel",
+      "toxtricity"
+    ],
+    [
+      "sizzlipede",
+      "centiskorch"
+    ],
+    [
+      "clobbopus",
+      "grapploct"
+    ],
+    [
+      "sinistea",
+      "polteageist"
+    ],
+    [
+      "hatenna",
+      "hattrem",
+      "hatterene"
+    ],
+    [
+      "impidimp",
+      "morgrem",
+      "grimmsnarl"
+    ],
+    [
+      "milcery",
+      "alcremie"
+    ],
+    [
+      "snom",
+      "frosmoth"
+    ],
+    [
+      "cufant",
+      "copperajah"
+    ],
+    [
+      "duraludon",
+      "archaludon"
+    ],
+    [
+      "dreepy",
+      "drakloak",
+      "dragapult"
+    ],
+    [
+      "kubfu",
+      "urshifu"
+    ],
+    [
+      "sprigatito",
+      "floragato",
+      "meowscarada"
+    ],
+    [
+      "fuecoco",
+      "crocalor",
+      "skeledirge"
+    ],
+    [
+      "quaxly",
+      "quaxwell",
+      "quaquaval"
+    ],
+    [
+      "lechonk",
+      "oinkologne"
+    ],
+    [
+      "tarountula",
+      "spidops"
+    ],
+    [
+      "nymble",
+      "lokix"
+    ],
+    [
+      "pawmi",
+      "pawmo",
+      "pawmot"
+    ],
+    [
+      "tandemaus",
+      "maushold"
+    ],
+    [
+      "fidough",
+      "dachsbun"
+    ],
+    [
+      "smoliv",
+      "dolliv",
+      "arboliva"
+    ],
+    [
+      "nacli",
+      "naclstack",
+      "garganacl"
+    ],
+    [
+      "charcadet",
+      "armarouge",
+      "ceruledge"
+    ],
+    [
+      "tadbulb",
+      "bellibolt"
+    ],
+    [
+      "wattrel",
+      "kilowattrel"
+    ],
+    [
+      "maschiff",
+      "mabosstiff"
+    ],
+    [
+      "shroodle",
+      "grafaiai"
+    ],
+    [
+      "bramblin",
+      "brambleghast"
+    ],
+    [
+      "toedscool",
+      "toedscruel"
+    ],
+    [
+      "capsakid",
+      "scovillain"
+    ],
+    [
+      "rellor",
+      "rabsca"
+    ],
+    [
+      "flittle",
+      "espathra"
+    ],
+    [
+      "tinkatink",
+      "tinkatuff",
+      "tinkaton"
+    ],
+    [
+      "wiglett",
+      "wugtrio"
+    ],
+    [
+      "finizen",
+      "palafin"
+    ],
+    [
+      "varoom",
+      "revavroom"
+    ],
+    [
+      "glimmet",
+      "glimmora"
+    ],
+    [
+      "greavard",
+      "houndstone"
+    ],
+    [
+      "cetoddle",
+      "cetitan"
+    ],
+    [
+      "frigibax",
+      "arctibax",
+      "baxcalibur"
+    ],
+    [
+      "gimmighoul",
+      "gholdengo"
+    ],
+    [
+      "poltchageist",
+      "sinistcha"
+    ]
   ]
 };

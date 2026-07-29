@@ -121,7 +121,7 @@ formsByName.set('Alola Forms', alolaForms.slice(0, alolaSplit));
 formsByName.set('Alola Forms II', alolaForms.slice(alolaSplit));
 for (const [name, pokemon] of genderForms) formsByName.get(name).push(...pokemon);
 for (const [name, pokemon] of formsByName) formsByName.set(name, sortByDex(pokemon));
-const formOrder = ['Unown Forms', 'Hoenn Forms', 'Sinnoh Forms', 'Unova Forms', 'Vivillon Forms', 'Kalos Forms', 'Kalos Forms II', 'Alola Forms', 'Alola Forms II', 'Galar Forms', 'Hisui Forms', 'Paldea Forms'];
+const formOrder = ['Unown Forms', 'Hoenn Forms', 'Sinnoh Forms', 'Unova Forms', 'Kalos Forms', 'Kalos Forms II', 'Vivillon Forms', 'Alola Forms', 'Alola Forms II', 'Galar Forms', 'Hisui Forms', 'Paldea Forms'];
 const forms = formOrder.filter(name => formsByName.has(name)).map(name => [name, formsByName.get(name)]);
 const boxes = [];
 for (let i=0;i<species.length;i+=30) boxes.push({id:`dex-${i+1}-${Math.min(i+30,species.length)}`,title:`${i+1}–${Math.min(i+30,species.length)}`,pokemon:species.slice(i,i+30)});
