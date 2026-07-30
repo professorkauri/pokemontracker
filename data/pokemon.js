@@ -1418,7 +1418,6 @@ window.POKEMON_DATA = {
         { "id": "yamask-galar", "name": "Galarian Yamask", "imageId": "yamask-galar" },
         { "id": "stunfisk-galar", "name": "Galarian Stunfisk", "imageId": "stunfisk-galar" },
         { "id": "darumaka-galar", "name": "Galarian Darumaka", "imageId": "darumaka-galar" },
-        { "id": "darmanitan-standard", "name": "Darmanitan", "imageId": "darmanitan-standard" },
         { "id": "darmanitan-galar-standard", "name": "Galarian Darmanitan", "imageId": "darmanitan-galar-standard" },
         { "id": "toxtricity-amped", "name": "Toxtricity Amped", "imageId": "toxtricity-amped" },
         { "id": "toxtricity-low-key", "name": "Toxtricity Low Key", "imageId": "toxtricity-low-key" },
