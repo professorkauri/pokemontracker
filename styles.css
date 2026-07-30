@@ -18,9 +18,7 @@
   position: absolute;
   z-index: 1;
   border-radius: 999px;
-  background: var(--progress-track);
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
+  background: #a2bada;
   color: white;
   font-size: 0.56rem;
   font-weight: 800;
@@ -28,18 +26,16 @@
   padding: 4px 7px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-}
-.box-head .region-pill {
-  top: 0px;
-  left: 0px;
-  border-radius: 0 0 9999px 0;
-  padding: 2px 17px;
-}
-.pokemon .region-pill {
-  top: 3px;
+  top: -5px;
   left: 3px;
   padding: 3px 5px;
   font-size: 0.45rem;
+}
+.box-head .region-pill {
+  margin-left:38px;
+}
+.pokemon .region-pill {
+  outline:2px solid #fff;
 }
 * {
   box-sizing: border-box;
@@ -166,7 +162,6 @@ main {
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 14px;
-  overflow: hidden;
   box-shadow: 0 4px 16px rgba(36, 57, 91, 0.055);
 }
 .box-head {
@@ -178,7 +173,6 @@ main {
   align-items: center;
   text-align: left;
   cursor: pointer;
-  overflow: hidden;
 }
 .box-title {
   min-width: 0;
@@ -332,15 +326,14 @@ main {
 .empty-slot {
   position: relative;
   aspect-ratio: 0.86;
-  border: 1px solid #dce4ef;
+  border: 1px solid #f2f6fb;
   border-radius: 10px;
-  background: #f2f6fb;
+  background: #f2f6fb54;
   padding: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   color: var(--ink);
   cursor: pointer;
   transition:
@@ -387,9 +380,12 @@ main {
   text-overflow: ellipsis;
   text-align: center;
   line-height: 1.2;
+  margin-top:3px;
+  color:#b9c5d4;
 }
-.pokemon.missing {
-  opacity: 0.24;
+.pokemon.missing img {
+  opacity: 0.15;
+  filter: grayscale(0.5);
 }
 .pokemon.caught {
   opacity: 1;
@@ -400,7 +396,7 @@ main {
 .pokemon.home {
   opacity: 1;
   border: 1px solid transparent;
-  background: #f2f6fb54;
+  background: transparent;
 }
 .pokemon .status {
   position: absolute;
@@ -416,10 +412,12 @@ main {
 }
 .pokemon.caught .status {
   background: #d89f00;
+  outline: 2px solid #fff7d5;
+  font-weight:bold;
 }
 .pokemon.home .status {
-  background: #76c9ab;
-  opacity: 0.3;
+  background: #c3eede;
+  outline: 2px solid #fff;
 }
 .transfer-box .pokemon:not(.caught) {
   filter: grayscale(1);

@@ -89,7 +89,7 @@
     button.dataset.label = pokemon.name;
     button.title = `${pokemon.name}: ${names[status]}`;
     button.setAttribute('aria-label', button.title);
-    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}<span class="status">${status === 1 ? '!' : status === 2 ? '✓' : ''}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
+    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}<span class="status">${status === 1 ? '!' : ''}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
     const img = button.querySelector('img');
     img.src = imagePath(pokemon.id, mode);
     img.onerror = () => { img.onerror = null; img.src = imagePath(pokemon.imageId || pokemon.id, mode); };
