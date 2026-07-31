@@ -151,7 +151,7 @@
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length;
     const boxMeta = `${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
-    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, box.pokemon, mode, transferMode)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
+    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, transferMode)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
     addSpriteFallbacks(section);
     if (!transferMode && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
     if (isOpen) {
@@ -188,10 +188,11 @@
 
   function appendSearchGroup(title, boxes) {
     const query = normalizeSearch(searchQuery);
+    if (!query) return;
     const matchesSearch = searchMatcher(query);
     const panels = [];
     for (const box of boxes) {
-      const matches = query ? box.pokemon.filter(matchesSearch) : box.pokemon;
+      const matches = box.pokemon.filter(matchesSearch);
       if (matches.length) panels.push(boxPanel(box, activeMode, false, { pokemon: matches, forceOpen: true }));
     }
     if (!panels.length) return;
@@ -215,9 +216,10 @@
       appendBoxGroup('Pokémon Forms', forms, view === 'transfer');
     }
     const hasBoxes = boxesEl.querySelector('.box') !== null;
+    const hasSearchQuery = normalizeSearch(searchQuery) !== '';
     emptyEl.querySelector('h2').textContent = view === 'search' ? 'No matches' : 'All transferred';
     emptyEl.querySelector('p').textContent = view === 'search' ? 'Try a different Pokémon or form name.' : 'No caught Pokémon are waiting for Home.';
-    emptyEl.hidden = hasBoxes;
+    emptyEl.hidden = hasBoxes || (view === 'search' && !hasSearchQuery);
     updateCounts();
   }
 
