@@ -1,6 +1,7 @@
 (() => {
   const DATA = window.POKEMON_DATA;
   const STORAGE_KEY = 'pokemon-home-tracker-v1';
+  const FAVOURITES_KEY = 'pokemon-home-tracker-favourites-v1';
   const REGION_STARTS = new Map([[1, 'Kanto'], [152, 'Johto'], [252, 'Hoenn'], [387, 'Sinnoh'], [494, 'Unova'], [650, 'Kalos'], [722, 'Alola'], [810, 'Galar'], [899, 'Hisui'], [906, 'Paldea']]);
   const FORM_BOX_BY_POKEMON = new Map(DATA.boxes.filter(box => box.id.startsWith('forms-')).flatMap(box => box.pokemon.map(pokemon => [pokemon.id, box.id])));
   const boxesEl = document.querySelector('#boxes');
@@ -16,8 +17,25 @@
   let activeMode = 'regular';
   let searchQuery = '';
   let state = loadState();
+  let favourites = loadFavourites();
+  let chooser = null;
 
   function normalizeSearch(value) { return value.trim().toLowerCase().replace(/\s+/g, ' '); }
+  function loadFavourites() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(FAVOURITES_KEY)) || {};
+      return { regular: saved.regular || {}, shiny: saved.shiny || {} };
+    } catch { return { regular: {}, shiny: {} }; }
+  }
+  function saveFavourites() { localStorage.setItem(FAVOURITES_KEY, JSON.stringify(favourites)); }
+  function regionForDex(dex) {
+    let region = null;
+    for (const [start, name] of REGION_STARTS) {
+      if (dex >= start) region = name;
+      else break;
+    }
+    return region;
+  }
   function baseSpeciesId(pokemon) {
     const candidates = [pokemon.id, pokemon.imageId].filter(Boolean);
     for (const candidate of candidates) {
@@ -64,6 +82,16 @@
   function key(boxId, pokemonId, mode) { return `${boxId}|${pokemonId}|${mode}`; }
   function getStatus(boxId, pokemonId, mode) { return state[key(boxId, pokemonId, mode)] || 0; }
   function imagePath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
+  function pokemonById(id) { return nationalSpecies.find(pokemon => pokemon.id === id); }
+  function favouriteValue(slot) { return favourites[activeMode][slot]; }
+  function isCollected(pokemon) {
+    return DATA.boxes.some(box => box.pokemon.some(entry => entry.id === pokemon.id && getStatus(box.id, entry.id, activeMode) > 0));
+  }
+  function saveFavourite(slot, pokemon) {
+    if (pokemon) favourites[activeMode][slot] = pokemon.id;
+    else delete favourites[activeMode][slot];
+    saveFavourites();
+  }
 
   function updateCounts() {
     const values = Object.values(state);
@@ -79,21 +107,27 @@
     document.querySelector('#transfer-count').textContent = values.filter(v => v === 1).length;
   }
 
-  function card(box, pokemon, mode, transferMode) {
+  function card(box, pokemon, mode, transferMode, favouriteMode = false) {
     const status = getStatus(box.id, pokemon.id, mode);
     const region = REGION_STARTS.get(pokemon.dex);
     const names = ['missing', 'caught', 'home'];
     const button = document.createElement('button');
     button.type = 'button';
     button.className = `pokemon ${names[status]}`;
+    button.classList.toggle('favourite', favouriteMode && favourites[mode][pokemon.id]);
     button.dataset.label = pokemon.name;
     button.title = `${pokemon.name}: ${names[status]}`;
     button.setAttribute('aria-label', button.title);
-    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}<span class="status">${status === 1 ? '!' : ''}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
+    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}${favouriteMode ? '<span class="favourite-mark" aria-hidden="true">★</span>' : ''}<span class="status">${status === 1 ? '!' : ''}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
     const img = button.querySelector('img');
     img.src = imagePath(pokemon.id, mode);
     img.onerror = () => { img.onerror = null; img.src = imagePath(pokemon.imageId || pokemon.id, mode); };
-    if (!transferMode || status === 1) button.addEventListener('click', () => {
+    if (favouriteMode) button.addEventListener('click', () => {
+      if (favourites[mode][pokemon.id]) delete favourites[mode][pokemon.id];
+      else favourites[mode][pokemon.id] = pokemon.id;
+      saveFavourites(); render();
+    });
+    else if (!transferMode || status === 1) button.addEventListener('click', () => {
       state[key(box.id, pokemon.id, mode)] = transferMode ? 2 : (status + 1) % 3;
       if (state[key(box.id, pokemon.id, mode)] === 0) delete state[key(box.id, pokemon.id, mode)];
       saveState(); render();
@@ -164,17 +198,17 @@
         body.append(tabs);
       }
       const grid = document.createElement('div'); grid.className = 'pokemon-grid';
-      pokemon.forEach(p => grid.append(card(box, p, mode, transferMode)));
+      pokemon.forEach(p => grid.append(card(box, p, mode, transferMode, options.favouriteMode)));
       if (!filtered) for (let i = pokemon.length; i < 30; i++) grid.append(emptySlot());
       body.append(grid); section.append(body);
     }
     return section;
   }
 
-  function appendBoxGroup(title, boxes, transferMode) {
+  function appendBoxGroup(title, boxes, transferMode, favouriteMode = false) {
     const panels = [];
     for (const box of boxes) {
-      if (!transferMode) panels.push(boxPanel(box, activeMode, false));
+      if (!transferMode) panels.push(boxPanel(box, activeMode, false, { favouriteMode, forceOpen: favouriteMode }));
       else for (const mode of ['regular', 'shiny']) {
         if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === 1)) panels.push(boxPanel(box, mode, true));
       }
@@ -184,6 +218,124 @@
     heading.className = 'box-section-title';
     heading.textContent = title;
     boxesEl.append(heading, ...panels);
+  }
+
+  function favouriteSlot(label, slot, candidates, category, favouriteLabel = label) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'pokemon home favourite-slot';
+    button.setAttribute('aria-label', label);
+    button.dataset.slot = slot;
+    const selected = pokemonById(favouriteValue(slot));
+    if (selected) {
+      button.classList.add('filled');
+      button.innerHTML = `<img src="${imagePath(selected.id, activeMode)}" alt=""><small class="favourite-name">${selected.name}</small><small class="favourite-category">${category}</small>`;
+    } else {
+      button.innerHTML = `<span class="favourite-image-placeholder" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path class="pokeball-fill" d="M4 16a12 12 0 0 1 24 0Z"></path><circle cx="16" cy="16" r="12"></circle><path d="M4 16h7.75M20.25 16H28"></path><circle class="pokeball-cutout" cx="16" cy="16" r="4.25"></circle></svg></span><small class="favourite-name">Choose...</small><small class="favourite-category">${category}</small>`;
+    }
+    button.addEventListener('click', () => openChooser(favouriteLabel, slot, candidates));
+    return button;
+  }
+
+  function candidateList(kind, value, stage = 0) {
+    let candidates;
+    if (kind === 'starter') {
+      candidates = [...new Set((DATA.starterGroups || []).flatMap(group => group.pokemon.filter((_, index) => index % 3 === stage)))].map(pokemonById).filter(Boolean);
+    } else if (kind === 'region') {
+      candidates = nationalSpecies.filter(pokemon => regionForDex(pokemon.dex) === value);
+    } else {
+      candidates = nationalSpecies.filter(pokemon => pokemon.types?.[0] === value);
+    }
+    return candidates.filter(isCollected);
+  }
+
+  function openChooser(label, slot, candidates) {
+    chooser = { label, slot, candidates, page: 0 };
+    renderChooser();
+  }
+
+  function renderChooser() {
+    document.querySelector('#favourite-chooser')?.remove();
+    const modal = document.createElement('div');
+    modal.id = 'favourite-chooser';
+    modal.className = 'chooser-backdrop';
+    modal.innerHTML = '<div class="chooser" role="dialog" aria-modal="true" aria-labelledby="chooser-title"><div class="chooser-head"><h2 id="chooser-title"></h2><button type="button" class="chooser-close" aria-label="Close chooser">×</button></div><div class="chooser-selected"></div><div class="chooser-grid"></div><div class="chooser-actions"><button type="button" class="chooser-prev">Previous</button><span class="chooser-page"></span><button type="button" class="chooser-next">Next</button></div></div>';
+    modal.querySelector('#chooser-title').textContent = 'Choose a Favourite';
+    const selected = pokemonById(favouriteValue(chooser.slot));
+    const selectedEl = modal.querySelector('.chooser-selected');
+    selectedEl.innerHTML = selected ? `<span>${chooser.label}</span><img src="${imagePath(selected.id, activeMode)}" alt=""><strong>${selected.name}</strong>` : `<span>${chooser.label}</span><strong>None selected</strong>`;
+    const grid = modal.querySelector('.chooser-grid');
+    const start = chooser.page * 30;
+    for (const pokemon of chooser.candidates.slice(start, start + 30)) {
+      const option = document.createElement('button');
+      option.type = 'button';
+      option.className = `chooser-pokemon ${pokemon.id === favouriteValue(chooser.slot) ? 'selected' : ''}`;
+      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>`;
+      option.addEventListener('click', () => { saveFavourite(chooser.slot, pokemon); render(); renderChooser(); });
+      grid.append(option);
+    }
+    const pages = Math.ceil(chooser.candidates.length / 30);
+    modal.querySelector('.chooser-page').textContent = `Page ${chooser.page + 1} of ${pages}`;
+    modal.querySelector('.chooser-prev').hidden = pages === 1;
+    modal.querySelector('.chooser-next').hidden = pages === 1;
+    modal.querySelector('.chooser-prev').disabled = chooser.page === 0;
+    modal.querySelector('.chooser-next').disabled = chooser.page >= pages - 1;
+    modal.querySelector('.chooser-prev').addEventListener('click', () => { chooser.page--; renderChooser(); });
+    modal.querySelector('.chooser-next').addEventListener('click', () => { chooser.page++; renderChooser(); });
+    modal.querySelector('.chooser-close').addEventListener('click', closeChooser);
+    modal.addEventListener('click', event => { if (event.target === modal) closeChooser(); });
+    document.body.append(modal);
+  }
+
+  function closeChooser() {
+    chooser = null;
+    document.querySelector('#favourite-chooser')?.remove();
+    render();
+  }
+
+  function favouriteBox(title, content) {
+    const section = document.createElement('section');
+    section.className = 'box favourite-box';
+    const head = document.createElement('div');
+    head.className = 'favourite-box-head';
+    head.innerHTML = `<span class="box-title">${title}</span>`;
+    const tabs = document.createElement('div');
+    tabs.className = 'mode-tabs';
+    tabs.innerHTML = `<button class="${activeMode === 'regular' ? 'active' : ''}" data-mode="regular">Regular</button><button class="${activeMode === 'shiny' ? 'active' : ''}" data-mode="shiny">Shiny</button>`;
+    tabs.addEventListener('click', event => { if (event.target.dataset.mode) { activeMode = event.target.dataset.mode; render(); } });
+    head.append(tabs);
+    section.append(head, content);
+    return section;
+  }
+
+  function appendFavouriteBox(title, content) {
+    boxesEl.append(favouriteBox(title, content));
+  }
+
+  function appendFavouriteGroups() {
+    const starters = document.createElement('div');
+    starters.className = 'starter-table';
+    const row = document.createElement('div');
+    row.className = 'starter-row';
+    for (let stage = 0; stage < 3; stage++) {
+      const category = `${stage + 1}${stage === 0 ? 'st' : stage === 1 ? 'nd' : 'rd'} Evo.`;
+      row.append(favouriteSlot(`Starter ${category}`, `starter-${stage}`, candidateList('starter', '', stage), category, `Favourite Starter - ${category}`));
+    }
+    starters.append(row);
+    appendFavouriteBox('Starters', starters);
+
+    const regions = document.createElement('div');
+    regions.className = 'favourite-choice-grid';
+    for (const region of [...new Set(REGION_STARTS.values())]) regions.append(favouriteSlot(region, `region-${region.toLowerCase()}`, candidateList('region', region), region, `Favourite ${region} Pokemon`));
+    appendFavouriteBox('Region', regions);
+
+    const types = document.createElement('div');
+    types.className = 'favourite-choice-grid';
+    for (const type of [...new Set(allPokemon.map(pokemon => pokemon.types?.[0]).filter(Boolean))].sort()) {
+      const category = type[0].toUpperCase() + type.slice(1);
+      types.append(favouriteSlot(type, `type-${type}`, candidateList('type', type), category, `Favourite ${category} Type`));
+    }
+    appendFavouriteBox('Type', types);
   }
 
   function appendSearchGroup(title, boxes) {
@@ -205,10 +357,13 @@
   function render() {
     boxesEl.replaceChildren();
     searchPanel.hidden = view !== 'search';
+    document.body.classList.toggle('favourites-view', view === 'favourites');
     document.body.classList.toggle('searching', view === 'search');
     const nationalDex = DATA.boxes.filter(box => box.id.startsWith('dex-'));
     const forms = DATA.boxes.filter(box => box.id.startsWith('forms-'));
-    if (view === 'search') {
+    if (view === 'favourites') {
+      appendFavouriteGroups();
+    } else if (view === 'search') {
       appendSearchGroup('National Pokédex', nationalDex);
       appendSearchGroup('Pokémon Forms', forms);
     } else {

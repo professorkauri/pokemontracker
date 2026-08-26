@@ -4,6 +4,8 @@ import vm from 'node:vm';
 const input = process.argv[2];
 if (!input) throw new Error('Usage: node scripts/build-data.mjs path/to/pokemon-species.json');
 const raw = JSON.parse(await readFile(input, 'utf8'));
+const API_URL = 'https://pokeapi.co/api/v2/pokemon';
+const CONCURRENCY = 12;
 async function readExistingEvolutionLines() {
   try {
     const source = await readFile('data/pokemon.js', 'utf8');
@@ -17,6 +19,17 @@ async function readExistingEvolutionLines() {
 }
 const title = id => id.split('-').map(w => ({mr:'Mr.',mime:'Mime',jr:'Jr.',type:'Type:',nidoran:'Nidoran'}[w] || w[0].toUpperCase()+w.slice(1))).join(' ')
   .replace('Nidoran F','Nidoran ♀').replace('Nidoran M','Nidoran ♂').replace('Farfetchd','Farfetch’d').replace('Sirfetchd','Sirfetch’d');
+const starterRoots = new Map([
+  ['Kanto', ['bulbasaur', 'charmander', 'squirtle']],
+  ['Johto', ['chikorita', 'cyndaquil', 'totodile']],
+  ['Hoenn', ['treecko', 'torchic', 'mudkip']],
+  ['Sinnoh', ['turtwig', 'chimchar', 'piplup']],
+  ['Unova', ['snivy', 'tepig', 'oshawott']],
+  ['Kalos', ['chespin', 'fennekin', 'froakie']],
+  ['Alola', ['rowlet', 'litten', 'popplio']],
+  ['Galar', ['grookey', 'scorbunny', 'sobble']],
+  ['Paldea', ['sprigatito', ' fuecoco', 'quaxly'].map(id => id.trim())]
+]);
 const species = raw.results.map((p, i) => ({ id:p.name, name:title(p.name), dex:i+1 }));
 const P = (id, name, imageId=id) => ({id,name,imageId});
 const unownForms = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter => P(`unown-${letter}`, `Unown ${letter.toUpperCase()}`))
@@ -128,7 +141,52 @@ for (let i=0;i<species.length;i+=30) boxes.push({id:`dex-${i+1}-${Math.min(i+30,
 const formIds = new Map([['Hoenn Forms','forms-3'],['Sinnoh Forms','forms-4'],['Unova Forms','forms-5'],['Kalos Forms','forms-6'],['Alola Forms','forms-7'],['Galar Forms','forms-8'],['Hisui Forms','forms-9'],['Paldea Forms','forms-10'],['Kalos Forms II','forms-11'],['Alola Forms II','forms-12'],['Unown Forms','forms-13'],['Vivillon Forms','forms-14']]);
 forms.forEach(([name,pokemon]) => boxes.push({id:formIds.get(name),title:name,pokemon}));
 const existingEvolutionLines = await readExistingEvolutionLines();
-const data = { boxes };
+const starterGroups = [...starterRoots].map(([region, roots]) => ({
+  region,
+  pokemon: [...new Set(roots.flatMap(root => existingEvolutionLines.find(line => line.includes(root)) || [root]))]
+}));
+async function fetchJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Failed ${url}: ${response.status}`);
+  return response.json();
+}
+async function mapConcurrent(items, mapper) {
+  const results = new Array(items.length);
+  let index = 0;
+  const workers = Array.from({ length: CONCURRENCY }, async () => {
+    while (index < items.length) {
+      const current = index++;
+      results[current] = await mapper(items[current]);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+const allEntries = [...species, ...forms.flatMap(([, pokemon]) => pokemon)];
+const defaultTypeAliases = new Map([
+  ['giratina', 'giratina-altered'], ['meloetta', 'meloetta-aria'], ['aegislash', 'aegislash-shield'],
+  ['zygarde', 'zygarde-50'], ['mimikyu', 'mimikyu-disguised'], ['eiscue', 'eiscue-ice'], ['morpeko', 'morpeko-full-belly']
+]);
+const typeIds = [...new Set([...allEntries.map(pokemon => pokemon.imageId || pokemon.id), ...defaultTypeAliases.values()])];
+const typeEntries = await mapConcurrent(typeIds, async id => {
+  try {
+    const details = await fetchJson(`${API_URL}/${id}`);
+    return [id, details.types.map(entry => entry.type.name)];
+  }
+  catch {
+    return [id, []];
+  }
+});
+const typesById = new Map(typeEntries);
+for (const [speciesId, apiId] of defaultTypeAliases) {
+  if (typesById.has(apiId)) typesById.set(speciesId, typesById.get(apiId));
+}
+for (const pokemon of allEntries) {
+  const directTypes = typesById.get(pokemon.imageId || pokemon.id) || [];
+  const fallback = allEntries.find(candidate => baseSpeciesId(candidate.imageId || candidate.id) === baseSpeciesId(pokemon.imageId || pokemon.id) && typesById.get(candidate.imageId || candidate.id)?.length);
+  pokemon.types = directTypes.length ? directTypes : (fallback ? typesById.get(fallback.imageId || fallback.id) : []);
+}
+const data = { boxes, starterGroups };
 if (existingEvolutionLines.length) data.evolutionLines = existingEvolutionLines;
 const output = JSON.stringify(data, null, 2).replace(
   /\{\n\s+"id": ([^\n]+),\n\s+"name": ([^\n]+),\n\s+"(dex|imageId)": ([^\n]+)\n\s+\}/g,
