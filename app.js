@@ -313,19 +313,48 @@
       option.dataset.pokemonId = pokemon.id;
       option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>`;
       option.addEventListener('dragstart', event => event.dataTransfer.setData('text/plain', pokemon.id));
+      let dragPreview = null;
+      let activeTarget = null;
+      const clearTouchDrag = () => {
+        dragPreview?.remove();
+        activeTarget?.classList.remove('drag-target');
+        dragPreview = null;
+        activeTarget = null;
+      };
+      const updateTouchDrag = event => {
+        if (!dragPreview) return;
+        dragPreview.style.left = `${event.clientX}px`;
+        dragPreview.style.top = `${event.clientY}px`;
+        const target = document.elementFromPoint(event.clientX, event.clientY)?.closest('.colour-favourite-target');
+        if (target === activeTarget) return;
+        activeTarget?.classList.remove('drag-target');
+        activeTarget = target && modal.contains(target) ? target : null;
+        activeTarget?.classList.add('drag-target');
+      };
       option.addEventListener('pointerdown', event => {
         if (event.pointerType === 'mouse') return;
         event.preventDefault();
+        dragPreview = document.createElement('div');
+        dragPreview.className = 'touch-drag-preview';
+        dragPreview.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><strong>${pokemon.name}</strong>`;
+        modal.append(dragPreview);
+        updateTouchDrag(event);
         option.setPointerCapture(event.pointerId);
+      });
+      option.addEventListener('pointermove', event => {
+        if (event.pointerType !== 'mouse') updateTouchDrag(event);
       });
       option.addEventListener('pointerup', event => {
         if (event.pointerType === 'mouse') return;
         const target = document.elementFromPoint(event.clientX, event.clientY)?.closest('.colour-favourite-target');
-        if (!target || !modal.contains(target)) return;
-        saveFavourite(target.dataset.slot, pokemon);
+        const dropTarget = target && modal.contains(target) ? target : null;
+        clearTouchDrag();
+        if (!dropTarget) return;
+        saveFavourite(dropTarget.dataset.slot, pokemon);
         render();
         renderColourChooser();
       });
+      option.addEventListener('pointercancel', clearTouchDrag);
       grid.append(option);
     }
     const pages = Math.ceil(chooser.candidates.length / 30);
