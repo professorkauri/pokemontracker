@@ -313,6 +313,19 @@
       option.dataset.pokemonId = pokemon.id;
       option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>`;
       option.addEventListener('dragstart', event => event.dataTransfer.setData('text/plain', pokemon.id));
+      option.addEventListener('pointerdown', event => {
+        if (event.pointerType === 'mouse') return;
+        event.preventDefault();
+        option.setPointerCapture(event.pointerId);
+      });
+      option.addEventListener('pointerup', event => {
+        if (event.pointerType === 'mouse') return;
+        const target = document.elementFromPoint(event.clientX, event.clientY)?.closest('.colour-favourite-target');
+        if (!target || !modal.contains(target)) return;
+        saveFavourite(target.dataset.slot, pokemon);
+        render();
+        renderColourChooser();
+      });
       grid.append(option);
     }
     const pages = Math.ceil(chooser.candidates.length / 30);

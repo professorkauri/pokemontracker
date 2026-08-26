@@ -405,6 +405,7 @@ main {
 }
 .colour-chooser .chooser-pokemon {
   cursor: grab;
+  touch-action: none;
 }
 .colour-chooser .chooser-pokemon:active {
   cursor: grabbing;
