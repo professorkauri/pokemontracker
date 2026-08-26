@@ -17,6 +17,14 @@ async function readExistingEvolutionLines() {
     return [];
   }
 }
+async function readFavouriteGroups() {
+  try {
+    return JSON.parse(await readFile('data/favourite-groups.json', 'utf8'));
+  }
+  catch {
+    return [];
+  }
+}
 const title = id => id.split('-').map(w => ({mr:'Mr.',mime:'Mime',jr:'Jr.',type:'Type:',nidoran:'Nidoran'}[w] || w[0].toUpperCase()+w.slice(1))).join(' ')
   .replace('Nidoran F','Nidoran ♀').replace('Nidoran M','Nidoran ♂').replace('Farfetchd','Farfetch’d').replace('Sirfetchd','Sirfetch’d');
 const starterRoots = new Map([
@@ -81,10 +89,10 @@ const rawForms = [
   ['Vivillon Forms', vivillonForms],
   ['Kalos Forms', [P('flabebe-red','Flabébé Red'),P('flabebe-orange','Flabébé Orange'),P('flabebe-yellow','Flabébé Yellow'),P('flabebe-white','Flabébé White'),P('flabebe-blue','Flabébé Blue'),P('floette-red','Floette Red'),P('floette-orange','Floette Orange'),P('floette-yellow','Floette Yellow'),P('floette-white','Floette White'),P('floette-blue','Floette Blue'),P('floette-eternal','Floette Eternal Flower'),P('florges-red','Florges Red'),P('florges-orange','Florges Orange'),P('florges-yellow','Florges Yellow'),P('florges-white','Florges White'),P('florges-blue','Florges Blue'),P('furfrou-natural','Furfrou Natural'),P('furfrou-heart','Furfrou Heart'),P('furfrou-star','Furfrou Star'),P('furfrou-diamond','Furfrou Diamond'),P('furfrou-debutante','Furfrou Debutante'),P('furfrou-matron','Furfrou Matron'),P('furfrou-dandy','Furfrou Dandy'),P('furfrou-la-reine','Furfrou La Reine'),P('furfrou-kabuki','Furfrou Kabuki'),P('furfrou-pharaoh','Furfrou Pharaoh')]],
   ['Kalos Forms II', [P('pumpkaboo-small','Pumpkaboo Small'),P('pumpkaboo-average','Pumpkaboo Average'),P('pumpkaboo-large','Pumpkaboo Large'),P('pumpkaboo-super','Pumpkaboo Super'),P('gourgeist-small','Gourgeist Small'),P('gourgeist-average','Gourgeist Average'),P('gourgeist-large','Gourgeist Large'),P('gourgeist-super','Gourgeist Super')]],
-  ['Alola Forms', [P('oricorio-baile','Oricorio Baile'),P('oricorio-pom-pom','Oricorio Pom-Pom'),P('oricorio-pau','Oricorio Pa’u'),P('oricorio-sensu','Oricorio Sensu'),P('lycanroc-midday','Lycanroc Midday'),P('lycanroc-midnight','Lycanroc Midnight'),P('lycanroc-dusk','Lycanroc Dusk'),P('wishiwashi-solo','Wishiwashi Solo'),P('wishiwashi-school','Wishiwashi School'),P('minior-red-meteor','Minior Meteor'),P('minior-red','Minior Red Core'),P('minior-orange','Minior Orange Core'),P('minior-yellow','Minior Yellow Core'),P('minior-green','Minior Green Core'),P('minior-blue','Minior Blue Core'),P('minior-indigo','Minior Indigo Core'),P('minior-violet','Minior Violet Core'),P('necrozma','Necrozma'),P('necrozma-dusk','Dusk Mane Necrozma'),P('necrozma-dawn','Dawn Wings Necrozma'),P('necrozma-ultra','Ultra Necrozma')]],
+  ['Alola Forms', [P('oricorio-baile','Oricorio Baile'),P('oricorio-pom-pom','Oricorio Pom-Pom'),P('oricorio-pau','Oricorio Pa’u'),P('oricorio-sensu','Oricorio Sensu'),P('lycanroc-midday','Lycanroc Midday'),P('lycanroc-midnight','Lycanroc Midnight'),P('lycanroc-dusk','Lycanroc Dusk'),P('wishiwashi-solo','Wishiwashi Solo'),P('wishiwashi-school','Wishiwashi School'),P('minior-red','Minior Red Core'),P('minior-orange','Minior Orange Core'),P('minior-yellow','Minior Yellow Core'),P('minior-green','Minior Green Core'),P('minior-blue','Minior Blue Core'),P('minior-indigo','Minior Indigo Core'),P('minior-violet','Minior Violet Core')]],
   ['Galar Forms', [P('corsola-galar','Galarian Corsola'),P('cursola','Cursola'),P('farfetchd-galar','Galarian Farfetch’d'),P('sirfetchd','Sirfetch’d'),P('meowth-galar','Galarian Meowth'),P('perrserker','Perrserker'),P('mr-mime-galar','Galarian Mr. Mime'),P('mr-rime','Mr. Rime'),P('yamask','Yamask'),P('yamask-galar','Galarian Yamask'),P('stunfisk','Stunfisk'),P('stunfisk-galar','Galarian Stunfisk'),P('darumaka','Darumaka'),P('darumaka-galar','Galarian Darumaka'),P('darmanitan-galar-standard','Galarian Darmanitan'),P('toxtricity-amped','Toxtricity Amped'),P('toxtricity-low-key','Toxtricity Low Key'),P('sinistea','Sinistea Phony'),P('sinistea-antique','Sinistea Antique','sinistea'),P('polteageist','Polteageist Phony'),P('polteageist-antique','Polteageist Antique','polteageist'),P('urshifu-single-strike','Urshifu Single Strike'),P('urshifu-rapid-strike','Urshifu Rapid Strike')]],
-  ['Hisui Forms', [P('growlithe-hisui','Hisuian Growlithe'),P('arcanine-hisui','Hisuian Arcanine'),P('voltorb-hisui','Hisuian Voltorb'),P('electrode-hisui','Hisuian Electrode'),P('samurott-hisui','Hisuian Samurott'),P('lilligant-hisui','Hisuian Lilligant'),P('zorua-hisui','Hisuian Zorua'),P('zoroark-hisui','Hisuian Zoroark'),P('braviary-hisui','Hisuian Braviary'),P('sliggoo-hisui','Hisuian Sliggoo'),P('goodra-hisui','Hisuian Goodra'),P('avalugg-hisui','Hisuian Avalugg'),P('decidueye-hisui','Hisuian Decidueye'),P('dialga-origin','Origin Dialga'),P('palkia-origin','Origin Palkia'),P('enamorus-incarnate','Enamorus Incarnate'),P('enamorus-therian','Enamorus Therian')]],
-  ['Paldea & Convergent Forms', [P('palafin-zero','Palafin Zero'),P('palafin-hero','Palafin Hero'),P('maushold-family-of-four','Maushold Family of Four'),P('maushold-family-of-three','Maushold Family of Three'),P('squawkabilly-green-plumage','Squawkabilly Green'),P('squawkabilly-blue-plumage','Squawkabilly Blue'),P('squawkabilly-yellow-plumage','Squawkabilly Yellow'),P('squawkabilly-white-plumage','Squawkabilly White'),P('tatsugiri-curly','Tatsugiri Curly'),P('tatsugiri-droopy','Tatsugiri Droopy'),P('tatsugiri-stretchy','Tatsugiri Stretchy'),P('dudunsparce-two-segment','Dudunsparce Two Segment'),P('dudunsparce-three-segment','Dudunsparce Three Segment'),P('gimmighoul','Gimmighoul Chest'),P('gimmighoul-roaming','Gimmighoul Roaming'),P('poltchageist','Poltchageist Counterfeit'),P('poltchageist-artisan','Poltchageist Artisan','poltchageist'),P('sinistcha','Sinistcha Unremarkable'),P('sinistcha-masterpiece','Sinistcha Masterpiece','sinistcha'),P('tentacool','Tentacool'),P('toedscool','Toedscool'),P('tentacruel','Tentacruel'),P('toedscruel','Toedscruel'),P('diglett','Diglett'),P('wiglett','Wiglett'),P('dugtrio','Dugtrio'),P('wugtrio','Wugtrio')]]
+  ['Hisui Forms', [P('growlithe-hisui','Hisuian Growlithe'),P('arcanine-hisui','Hisuian Arcanine'),P('voltorb-hisui','Hisuian Voltorb'),P('electrode-hisui','Hisuian Electrode'),P('samurott-hisui','Hisuian Samurott'),P('lilligant-hisui','Hisuian Lilligant'),P('zorua-hisui','Hisuian Zorua'),P('zoroark-hisui','Hisuian Zoroark'),P('braviary-hisui','Hisuian Braviary'),P('sliggoo-hisui','Hisuian Sliggoo'),P('goodra-hisui','Hisuian Goodra'),P('avalugg-hisui','Hisuian Avalugg'),P('decidueye-hisui','Hisuian Decidueye'),P('enamorus-incarnate','Enamorus Incarnate'),P('enamorus-therian','Enamorus Therian')]],
+  ['Paldea & Convergent Forms', [P('maushold-family-of-four','Maushold Family of Four'),P('maushold-family-of-three','Maushold Family of Three'),P('squawkabilly-green-plumage','Squawkabilly Green'),P('squawkabilly-blue-plumage','Squawkabilly Blue'),P('squawkabilly-yellow-plumage','Squawkabilly Yellow'),P('squawkabilly-white-plumage','Squawkabilly White'),P('tatsugiri-curly','Tatsugiri Curly'),P('tatsugiri-droopy','Tatsugiri Droopy'),P('tatsugiri-stretchy','Tatsugiri Stretchy'),P('dudunsparce-two-segment','Dudunsparce Two Segment'),P('dudunsparce-three-segment','Dudunsparce Three Segment'),P('gimmighoul','Gimmighoul Chest'),P('gimmighoul-roaming','Gimmighoul Roaming'),P('poltchageist','Poltchageist Counterfeit'),P('poltchageist-artisan','Poltchageist Artisan','poltchageist'),P('sinistcha','Sinistcha Unremarkable'),P('sinistcha-masterpiece','Sinistcha Masterpiece','sinistcha'),P('tentacool','Tentacool'),P('toedscool','Toedscool'),P('tentacruel','Tentacruel'),P('toedscruel','Toedscruel'),P('diglett','Diglett'),P('wiglett','Wiglett'),P('dugtrio','Dugtrio'),P('wugtrio','Wugtrio')]]
 ];
 const nationalIds = new Set(species.map(p => p.id));
 const dexById = new Map(species.map(p => [p.id, p.dex]));
@@ -141,6 +149,7 @@ for (let i=0;i<species.length;i+=30) boxes.push({id:`dex-${i+1}-${Math.min(i+30,
 const formIds = new Map([['Hoenn Forms','forms-3'],['Sinnoh Forms','forms-4'],['Unova Forms','forms-5'],['Kalos Forms','forms-6'],['Alola Forms','forms-7'],['Galar Forms','forms-8'],['Hisui Forms','forms-9'],['Paldea Forms','forms-10'],['Kalos Forms II','forms-11'],['Alola Forms II','forms-12'],['Unown Forms','forms-13'],['Vivillon Forms','forms-14']]);
 forms.forEach(([name,pokemon]) => boxes.push({id:formIds.get(name),title:name,pokemon}));
 const existingEvolutionLines = await readExistingEvolutionLines();
+const favouriteGroups = await readFavouriteGroups();
 const starterGroups = [...starterRoots].map(([region, roots]) => ({
   region,
   pokemon: [...new Set(roots.flatMap(root => existingEvolutionLines.find(line => line.includes(root)) || [root]))]
@@ -186,11 +195,21 @@ for (const pokemon of allEntries) {
   const fallback = allEntries.find(candidate => baseSpeciesId(candidate.imageId || candidate.id) === baseSpeciesId(pokemon.imageId || pokemon.id) && typesById.get(candidate.imageId || candidate.id)?.length);
   pokemon.types = directTypes.length ? directTypes : (fallback ? typesById.get(fallback.imageId || fallback.id) : []);
 }
+const availableIds = new Set(allEntries.map(pokemon => pokemon.id));
+const validFavouriteGroups = favouriteGroups
+  .map(group => ({
+    id: group.id,
+    label: group.label,
+    ...(group.exclude ? { exclude: true } : {}),
+    pokemon: (group.pokemon || []).filter(id => availableIds.has(id))
+  }))
+  .filter(group => group.id && group.label && group.pokemon.length);
 const data = { boxes, starterGroups };
+if (validFavouriteGroups.length) data.favouriteGroups = validFavouriteGroups;
 if (existingEvolutionLines.length) data.evolutionLines = existingEvolutionLines;
 const output = JSON.stringify(data, null, 2).replace(
   /\{\n\s+"id": ([^\n]+),\n\s+"name": ([^\n]+),\n\s+"(dex|imageId)": ([^\n]+)\n\s+\}/g,
   '{ "id": $1, "name": $2, "$3": $4 }'
 );
-await writeFile('data/pokemon.js', `// Generated Pokémon and box definitions. Edit freely; keep box and form IDs stable once tracking.\nwindow.POKEMON_DATA = ${output};\n`);
+await writeFile('data/pokemon.js', `// Generated Pokemon and box definitions. Edit freely; keep box and form IDs stable once tracking.\nwindow.POKEMON_DATA = ${output};\n`);
 console.log(`Wrote ${boxes.length} boxes (${species.length} National Dex species + ${forms.reduce((n,f)=>n+f[1].length,0)} form slots).`);

@@ -1,4 +1,4 @@
-// Generated Pokémon and box definitions. Edit freely; keep box and form IDs stable once tracking.
+// Generated Pokemon and box definitions. Edit freely; keep box and form IDs stable once tracking.
 window.POKEMON_DATA = {
   "boxes": [
     {
@@ -10375,15 +10375,6 @@ window.POKEMON_DATA = {
       "title": "Alola Forms II",
       "pokemon": [
         {
-          "id": "minior-red-meteor",
-          "name": "Minior Meteor",
-          "imageId": "minior-red-meteor",
-          "types": [
-            "rock",
-            "flying"
-          ]
-        },
-        {
           "id": "minior-red",
           "name": "Minior Red Core",
           "imageId": "minior-red",
@@ -10444,33 +10435,6 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
-          ]
-        },
-        {
-          "id": "necrozma-dusk",
-          "name": "Dusk Mane Necrozma",
-          "imageId": "necrozma-dusk",
-          "types": [
-            "psychic",
-            "steel"
-          ]
-        },
-        {
-          "id": "necrozma-dawn",
-          "name": "Dawn Wings Necrozma",
-          "imageId": "necrozma-dawn",
-          "types": [
-            "psychic",
-            "ghost"
-          ]
-        },
-        {
-          "id": "necrozma-ultra",
-          "name": "Ultra Necrozma",
-          "imageId": "necrozma-ultra",
-          "types": [
-            "psychic",
-            "dragon"
           ]
         }
       ]
@@ -10799,24 +10763,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "dialga-origin",
-          "name": "Origin Dialga",
-          "imageId": "dialga-origin",
-          "types": [
-            "steel",
-            "dragon"
-          ]
-        },
-        {
-          "id": "palkia-origin",
-          "name": "Origin Palkia",
-          "imageId": "palkia-origin",
-          "types": [
-            "water",
-            "dragon"
-          ]
-        },
-        {
           "id": "samurott-hisui",
           "name": "Hisuian Samurott",
           "imageId": "samurott-hisui",
@@ -11043,22 +10989,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "palafin-zero",
-          "name": "Palafin Zero",
-          "imageId": "palafin-zero",
-          "types": [
-            "water"
-          ]
-        },
-        {
-          "id": "palafin-hero",
-          "name": "Palafin Hero",
-          "imageId": "palafin-hero",
-          "types": [
-            "water"
-          ]
-        },
-        {
           "id": "tatsugiri-curly",
           "name": "Tatsugiri Curly",
           "imageId": "tatsugiri-curly",
@@ -11281,6 +11211,202 @@ window.POKEMON_DATA = {
         "quaxly",
         "quaxwell",
         "quaquaval"
+      ]
+    }
+  ],
+  "favouriteGroups": [
+    {
+      "id": "eeveelution",
+      "label": "Eeveelution",
+      "pokemon": [
+        "vaporeon",
+        "jolteon",
+        "flareon",
+        "espeon",
+        "umbreon",
+        "leafeon",
+        "glaceon",
+        "sylveon"
+      ]
+    },
+    {
+      "id": "mythical",
+      "label": "Mythical Pokemon",
+      "pokemon": [
+        "mew",
+        "celebi",
+        "jirachi",
+        "deoxys",
+        "phione",
+        "manaphy",
+        "darkrai",
+        "shaymin",
+        "arceus",
+        "victini",
+        "keldeo",
+        "meloetta",
+        "genesect",
+        "diancie",
+        "hoopa",
+        "volcanion",
+        "magearna",
+        "marshadow",
+        "zeraora",
+        "meltan",
+        "melmetal",
+        "zarude",
+        "pecharunt"
+      ]
+    },
+    {
+      "id": "legendary",
+      "label": "Legendary Pokemon",
+      "pokemon": [
+        "articuno",
+        "zapdos",
+        "moltres",
+        "mewtwo",
+        "raikou",
+        "entei",
+        "suicune",
+        "lugia",
+        "ho-oh",
+        "regirock",
+        "regice",
+        "registeel",
+        "latias",
+        "latios",
+        "kyogre",
+        "groudon",
+        "rayquaza",
+        "uxie",
+        "mesprit",
+        "azelf",
+        "dialga",
+        "palkia",
+        "heatran",
+        "regigigas",
+        "giratina",
+        "cresselia",
+        "cobalion",
+        "terrakion",
+        "virizion",
+        "tornadus",
+        "thundurus",
+        "reshiram",
+        "zekrom",
+        "landorus",
+        "kyurem",
+        "xerneas",
+        "yveltal",
+        "zygarde",
+        "type-null",
+        "silvally",
+        "tapu-koko",
+        "tapu-lele",
+        "tapu-bulu",
+        "tapu-fini",
+        "cosmog",
+        "cosmoem",
+        "solgaleo",
+        "lunala",
+        "necrozma",
+        "zacian",
+        "zamazenta",
+        "eternatus",
+        "kubfu",
+        "urshifu",
+        "regieleki",
+        "regidrago",
+        "glastrier",
+        "spectrier",
+        "calyrex",
+        "enamorus",
+        "wo-chien",
+        "chien-pao",
+        "ting-lu",
+        "chi-yu",
+        "koraidon",
+        "miraidon",
+        "okidogi",
+        "munkidori",
+        "fezandipiti",
+        "ogerpon",
+        "terapagos"
+      ]
+    },
+    {
+      "id": "alolan-form",
+      "label": "Alolan Form",
+      "pokemon": [
+        "rattata-alola",
+        "raticate-alola",
+        "raichu-alola",
+        "sandshrew-alola",
+        "sandslash-alola",
+        "vulpix-alola",
+        "ninetales-alola",
+        "diglett-alola",
+        "dugtrio-alola",
+        "meowth-alola",
+        "persian-alola",
+        "geodude-alola",
+        "graveler-alola",
+        "golem-alola",
+        "grimer-alola",
+        "muk-alola",
+        "exeggutor-alola",
+        "marowak-alola"
+      ]
+    },
+    {
+      "id": "object-mon",
+      "label": "Object-mon",
+      "exclude": true,
+      "pokemon": [
+        "magnemite",
+        "magneton",
+        "voltorb",
+        "electrode",
+        "porygon",
+        "porygon2",
+        "porygon-z",
+        "unown",
+        "baltoy",
+        "claydol",
+        "bronzor",
+        "bronzong",
+        "rotom",
+        "rotom-heat",
+        "rotom-wash",
+        "rotom-frost",
+        "rotom-fan",
+        "rotom-mow",
+        "klink",
+        "klang",
+        "klinklang",
+        "litwick",
+        "lampent",
+        "chandelure",
+        "trubbish",
+        "garbodor",
+        "honedge",
+        "doublade",
+        "aegislash",
+        "klefki",
+        "voltorb-hisui",
+        "electrode-hisui",
+        "sinistea",
+        "sinistea-antique",
+        "polteageist",
+        "polteageist-antique",
+        "stonjourner",
+        "gimmighoul",
+        "gimmighoul-roaming",
+        "poltchageist",
+        "poltchageist-artisan",
+        "sinistcha",
+        "sinistcha-masterpiece"
       ]
     }
   ],

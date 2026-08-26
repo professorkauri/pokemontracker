@@ -12,6 +12,8 @@
   const nationalSpecies = DATA.boxes.filter(box => box.id.startsWith('dex-')).flatMap(box => box.pokemon);
   const allPokemon = DATA.boxes.flatMap(box => box.pokemon);
   const speciesIds = new Set(nationalSpecies.map(pokemon => pokemon.id));
+  const favouriteGroups = DATA.favouriteGroups || [];
+  const excludedFavouriteGroupIds = new Set(favouriteGroups.filter(group => group.exclude).flatMap(group => group.pokemon || []));
   const FORM_BOX_REGIONS = new Map(DATA.boxes
     .filter(box => box.id.startsWith('forms-'))
     .map(box => [box.id, box.title.replace(/(?: & Convergent| Forms(?: II)?)$/, '')])
@@ -268,12 +270,14 @@
     let candidates;
     if (kind === 'starter') {
       candidates = [...new Set((DATA.starterGroups || []).flatMap(group => group.pokemon.filter((_, index) => index % 3 === stage)))].map(pokemonById).filter(Boolean);
+    } else if (kind === 'group') {
+      candidates = (favouriteGroups.find(group => group.id === value)?.pokemon || []).map(pokemonById).filter(Boolean);
     } else if (kind === 'region') {
-      candidates = chooserPokemon.filter(pokemon => regionForPokemon(pokemon) === value);
+      candidates = chooserPokemon.filter(pokemon => !excludedFavouriteGroupIds.has(pokemon.id) && regionForPokemon(pokemon) === value);
     } else if (kind === 'colour') {
       candidates = chooserPokemon;
     } else {
-      candidates = chooserPokemon.filter(pokemon => pokemon.types?.[0] === value);
+      candidates = chooserPokemon.filter(pokemon => !excludedFavouriteGroupIds.has(pokemon.id) && pokemon.types?.[0] === value);
     }
     return candidates.filter(isCollected);
   }
@@ -469,6 +473,15 @@
     }
     starters.append(row);
     appendFavouriteBox('Starters', starters);
+
+    if (favouriteGroups.length) {
+      const groups = document.createElement('div');
+      groups.className = 'favourite-choice-grid';
+      for (const group of favouriteGroups) {
+        groups.append(favouriteSlot(group.label, `group-${group.id}`, candidateList('group', group.id), group.label, `Favourite ${group.label}`));
+      }
+      appendFavouriteBox('Groups', groups);
+    }
 
     const regions = document.createElement('div');
     regions.className = 'favourite-choice-grid';

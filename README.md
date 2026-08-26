@@ -14,7 +14,7 @@ Progress is kept indefinitely in that browser's local storage. Clearing site dat
 
 Run `npm run data` after updating `pokemon-species.json`. The importer fetches Pokémon types from PokéAPI and preserves the existing evolution lines while rebuilding `data/pokemon.js`, so it requires internet access.
 
-The Favourites view stores its selections separately from collection progress and supports starter families, regions, types, and existing form groups.
+The Favourites view stores its selections separately from collection progress and supports starter families, custom groups, regions, types, and existing form groups. Edit `data/favourite-groups.json` to change the custom Groups box; set `"exclude": true` on a group to hide its Pokémon from the Region and Type choosers.
 
 ## Customise boxes
 
