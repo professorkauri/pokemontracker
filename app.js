@@ -24,8 +24,12 @@
   function loadFavourites() {
     try {
       const saved = JSON.parse(localStorage.getItem(FAVOURITES_KEY)) || {};
-      return { regular: saved.regular || {}, shiny: saved.shiny || {} };
-    } catch { return { regular: {}, shiny: {} }; }
+      return {
+        regular: saved.regular || {},
+        shiny: saved.shiny || {},
+        seen: { regular: saved.seen?.regular || {}, shiny: saved.seen?.shiny || {} }
+      };
+    } catch { return { regular: {}, shiny: {}, seen: { regular: {}, shiny: {} } }; }
   }
   function saveFavourites() { localStorage.setItem(FAVOURITES_KEY, JSON.stringify(favourites)); }
   function regionForDex(dex) {
@@ -84,6 +88,10 @@
   function imagePath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
   function pokemonById(id) { return nationalSpecies.find(pokemon => pokemon.id === id); }
   function favouriteValue(slot) { return favourites[activeMode][slot]; }
+  function newCandidates(slot, candidates) {
+    const seen = favourites.seen[activeMode][slot] || {};
+    return candidates.filter(pokemon => !seen[pokemon.id]);
+  }
   function isCollected(pokemon) {
     return DATA.boxes.some(box => box.pokemon.some(entry => entry.id === pokemon.id && getStatus(box.id, entry.id, activeMode) > 0));
   }
@@ -233,6 +241,8 @@
     } else {
       button.innerHTML = `<span class="favourite-image-placeholder" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path class="pokeball-fill" d="M4 16a12 12 0 0 1 24 0Z"></path><circle cx="16" cy="16" r="12"></circle><path d="M4 16h7.75M20.25 16H28"></path><circle class="pokeball-cutout" cx="16" cy="16" r="4.25"></circle></svg></span><small class="favourite-name">Choose...</small><small class="favourite-category">${category}</small>`;
     }
+    const newCount = newCandidates(slot, candidates).length;
+    if (newCount) button.innerHTML += `<span class="new-pill">${newCount} New</span>`;
     button.addEventListener('click', () => openChooser(favouriteLabel, slot, candidates));
     return button;
   }
@@ -250,7 +260,7 @@
   }
 
   function openChooser(label, slot, candidates) {
-    chooser = { label, slot, candidates, page: 0 };
+    chooser = { label, slot, candidates, page: 0, newIds: new Set(newCandidates(slot, candidates).map(pokemon => pokemon.id)) };
     renderChooser();
   }
 
@@ -269,8 +279,9 @@
     for (const pokemon of chooser.candidates.slice(start, start + 30)) {
       const option = document.createElement('button');
       option.type = 'button';
-      option.className = `chooser-pokemon ${pokemon.id === favouriteValue(chooser.slot) ? 'selected' : ''}`;
-      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>`;
+      option.className = `pokemon home chooser-pokemon ${pokemon.id === favouriteValue(chooser.slot) ? 'selected' : ''} ${chooser.newIds.has(pokemon.id) ? 'new' : ''}`;
+      const newCount = chooser.newIds.size;
+      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>${chooser.newIds.has(pokemon.id) ? `<span class="new-pill chooser-new-pill">${newCount} New</span>` : ''}`;
       option.addEventListener('click', () => { saveFavourite(chooser.slot, pokemon); render(); renderChooser(); });
       grid.append(option);
     }
@@ -288,6 +299,10 @@
   }
 
   function closeChooser() {
+    const seen = favourites.seen[activeMode][chooser.slot] || {};
+    for (const pokemonId of chooser.newIds) seen[pokemonId] = true;
+    favourites.seen[activeMode][chooser.slot] = seen;
+    saveFavourites();
     chooser = null;
     document.querySelector('#favourite-chooser')?.remove();
     render();
