@@ -2,7 +2,7 @@
   const DATA = window.POKEMON_DATA;
   const STORAGE_KEY = 'pokemon-home-tracker-v1';
   const FAVOURITES_KEY = 'pokemon-home-tracker-favourites-v1';
-  const FAVOURITE_COLOURS = ['White', 'Grey', 'Black', 'Brown', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Purple', 'Magenta', 'Pink'];
+  const FAVOURITE_COLOURS = ['White', 'Grey', 'Black', 'Brown', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Magenta', 'Pink'];
   const REGION_STARTS = new Map([[1, 'Kanto'], [152, 'Johto'], [252, 'Hoenn'], [387, 'Sinnoh'], [494, 'Unova'], [650, 'Kalos'], [722, 'Alola'], [810, 'Galar'], [899, 'Hisui'], [906, 'Paldea']]);
   const FORM_BOX_BY_POKEMON = new Map(DATA.boxes.filter(box => box.id.startsWith('forms-')).flatMap(box => box.pokemon.map(pokemon => [pokemon.id, box.id])));
   const boxesEl = document.querySelector('#boxes');

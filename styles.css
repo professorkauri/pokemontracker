@@ -299,7 +299,7 @@ main {
 }
 .chooser {
   width: min(100%, 720px);
-  max-height: min(760px, calc(100vh - 36px));
+  max-height: min(940px, calc(100vh - 36px));
   overflow: auto;
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -354,7 +354,7 @@ main {
 }
 .colour-favourites {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 6px;
   margin-bottom: 16px;
 }
