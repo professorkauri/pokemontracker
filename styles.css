@@ -915,8 +915,6 @@ main {
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.22);
 }
 .dock b {
-  position: absolute;
-  right: 1em;
   background: var(--yellow);
   color: var(--navy);
   padding: 2px 6px;

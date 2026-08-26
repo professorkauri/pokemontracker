@@ -12,6 +12,13 @@
   const nationalSpecies = DATA.boxes.filter(box => box.id.startsWith('dex-')).flatMap(box => box.pokemon);
   const allPokemon = DATA.boxes.flatMap(box => box.pokemon);
   const speciesIds = new Set(nationalSpecies.map(pokemon => pokemon.id));
+  const FORM_BOX_REGIONS = new Map(DATA.boxes
+    .filter(box => box.id.startsWith('forms-'))
+    .map(box => [box.id, box.title.replace(/(?: & Convergent| Forms(?: II)?)$/, '')])
+    .filter(([, region]) => [...REGION_STARTS.values()].includes(region)));
+  const chooserPokemon = [...new Map(allPokemon.map(pokemon => [pokemon.id, pokemon])).values()]
+    .sort((first, second) => (first.dex || nationalSpecies.find(pokemon => pokemon.id === baseSpeciesId(first))?.dex || Infinity)
+      - (second.dex || nationalSpecies.find(pokemon => pokemon.id === baseSpeciesId(second))?.dex || Infinity));
   const evolutionLineBySpecies = new Map((DATA.evolutionLines || []).flatMap(line => line.map(id => [id, line])));
   let view = 'pokedex';
   let openKey = null;
@@ -40,6 +47,12 @@
       else break;
     }
     return region;
+  }
+  function regionForPokemon(pokemon) {
+    return pokemon.region
+      || regionForDex(pokemon.dex)
+      || FORM_BOX_REGIONS.get(FORM_BOX_BY_POKEMON.get(pokemon.id))
+      || regionForDex(nationalSpecies.find(species => species.id === baseSpeciesId(pokemon))?.dex);
   }
   function baseSpeciesId(pokemon) {
     const candidates = [pokemon.id, pokemon.imageId].filter(Boolean);
@@ -87,7 +100,7 @@
   function key(boxId, pokemonId, mode) { return `${boxId}|${pokemonId}|${mode}`; }
   function getStatus(boxId, pokemonId, mode) { return state[key(boxId, pokemonId, mode)] || 0; }
   function imagePath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
-  function pokemonById(id) { return nationalSpecies.find(pokemon => pokemon.id === id); }
+  function pokemonById(id) { return chooserPokemon.find(pokemon => pokemon.id === id); }
   function favouriteValue(slot) { return favourites[activeMode][slot]; }
   function isColourFavourite(pokemonId) {
     return FAVOURITE_COLOURS.some(colour => favourites[activeMode][`colour-${colour.toLowerCase()}`] === pokemonId);
@@ -256,11 +269,11 @@
     if (kind === 'starter') {
       candidates = [...new Set((DATA.starterGroups || []).flatMap(group => group.pokemon.filter((_, index) => index % 3 === stage)))].map(pokemonById).filter(Boolean);
     } else if (kind === 'region') {
-      candidates = nationalSpecies.filter(pokemon => regionForDex(pokemon.dex) === value);
+      candidates = chooserPokemon.filter(pokemon => regionForPokemon(pokemon) === value);
     } else if (kind === 'colour') {
-      candidates = nationalSpecies;
+      candidates = chooserPokemon;
     } else {
-      candidates = nationalSpecies.filter(pokemon => pokemon.types?.[0] === value);
+      candidates = chooserPokemon.filter(pokemon => pokemon.types?.[0] === value);
     }
     return candidates.filter(isCollected);
   }
