@@ -357,8 +357,7 @@
       const option = document.createElement('button');
       option.type = 'button';
       option.className = `pokemon home chooser-pokemon ${pokemon.id === favouriteValue(chooser.slot) ? 'selected' : ''} ${chooser.newIds.has(pokemon.id) ? 'new' : ''}`;
-      const newCount = chooser.newIds.size;
-      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>${chooser.newIds.has(pokemon.id) ? `<span class="new-pill chooser-new-pill">${newCount} New</span>` : ''}`;
+      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>${chooser.newIds.has(pokemon.id) ? '<span class="new-pill chooser-new-pill">!</span>' : ''}`;
       option.addEventListener('click', () => { saveFavourite(chooser.slot, pokemon); render(); renderChooser(); });
       grid.append(option);
     }
