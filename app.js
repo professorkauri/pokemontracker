@@ -2,6 +2,7 @@
   const DATA = window.POKEMON_DATA;
   const STORAGE_KEY = 'pokemon-home-tracker-v1';
   const FAVOURITES_KEY = 'pokemon-home-tracker-favourites-v1';
+  const FAVOURITE_COLOURS = ['White', 'Grey', 'Black', 'Brown', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Purple', 'Magenta', 'Pink'];
   const REGION_STARTS = new Map([[1, 'Kanto'], [152, 'Johto'], [252, 'Hoenn'], [387, 'Sinnoh'], [494, 'Unova'], [650, 'Kalos'], [722, 'Alola'], [810, 'Galar'], [899, 'Hisui'], [906, 'Paldea']]);
   const FORM_BOX_BY_POKEMON = new Map(DATA.boxes.filter(box => box.id.startsWith('forms-')).flatMap(box => box.pokemon.map(pokemon => [pokemon.id, box.id])));
   const boxesEl = document.querySelector('#boxes');
@@ -88,6 +89,9 @@
   function imagePath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
   function pokemonById(id) { return nationalSpecies.find(pokemon => pokemon.id === id); }
   function favouriteValue(slot) { return favourites[activeMode][slot]; }
+  function isColourFavourite(pokemonId) {
+    return FAVOURITE_COLOURS.some(colour => favourites[activeMode][`colour-${colour.toLowerCase()}`] === pokemonId);
+  }
   function newCandidates(slot, candidates) {
     const seen = favourites.seen[activeMode][slot] || {};
     return candidates.filter(pokemon => !seen[pokemon.id]);
@@ -228,7 +232,7 @@
     boxesEl.append(heading, ...panels);
   }
 
-  function favouriteSlot(label, slot, candidates, category, favouriteLabel = label) {
+  function favouriteSlot(label, slot, candidates, category, favouriteLabel = label, chooserAction = openChooser) {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'pokemon home favourite-slot';
@@ -243,7 +247,7 @@
     }
     const newCount = newCandidates(slot, candidates).length;
     if (newCount) button.innerHTML += `<span class="new-pill">${newCount} New</span>`;
-    button.addEventListener('click', () => openChooser(favouriteLabel, slot, candidates));
+    button.addEventListener('click', () => chooserAction(favouriteLabel, slot, candidates));
     return button;
   }
 
@@ -253,6 +257,8 @@
       candidates = [...new Set((DATA.starterGroups || []).flatMap(group => group.pokemon.filter((_, index) => index % 3 === stage)))].map(pokemonById).filter(Boolean);
     } else if (kind === 'region') {
       candidates = nationalSpecies.filter(pokemon => regionForDex(pokemon.dex) === value);
+    } else if (kind === 'colour') {
+      candidates = nationalSpecies;
     } else {
       candidates = nationalSpecies.filter(pokemon => pokemon.types?.[0] === value);
     }
@@ -262,6 +268,77 @@
   function openChooser(label, slot, candidates) {
     chooser = { label, slot, candidates, page: 0, newIds: new Set(newCandidates(slot, candidates).map(pokemon => pokemon.id)) };
     renderChooser();
+  }
+
+  function openColourChooser() {
+    chooser = { colour: true, candidates: candidateList('colour'), page: 0, newIds: {} };
+    for (const colour of FAVOURITE_COLOURS) {
+      chooser.newIds[colour] = new Set(newCandidates(`colour-${colour.toLowerCase()}`, chooser.candidates).map(pokemon => pokemon.id));
+    }
+    renderColourChooser();
+  }
+
+  function renderColourChooser() {
+    document.querySelector('#favourite-chooser')?.remove();
+    const modal = document.createElement('div');
+    modal.id = 'favourite-chooser';
+    modal.className = 'chooser-backdrop';
+    modal.innerHTML = '<div class="chooser colour-chooser" role="dialog" aria-modal="true" aria-labelledby="chooser-title"><div class="chooser-head"><h2 id="chooser-title">Choose Colour Favourites</h2><button type="button" class="chooser-close" aria-label="Close chooser">×</button></div><p class="chooser-instruction">Drag a Pokémon onto the colour it should replace.</p><div class="colour-favourites"></div><div class="chooser-grid"></div><div class="chooser-actions"><button type="button" class="chooser-prev">Previous</button><span class="chooser-page"></span><button type="button" class="chooser-next">Next</button></div></div>';
+    const favouritesGrid = modal.querySelector('.colour-favourites');
+    for (const colour of FAVOURITE_COLOURS) {
+      const slot = `colour-${colour.toLowerCase()}`;
+      const target = document.createElement('div');
+      target.className = 'colour-favourite-target';
+      target.dataset.slot = slot;
+      target.innerHTML = `<strong>${colour}</strong>`;
+      const selected = pokemonById(favouriteValue(slot));
+      if (selected) target.innerHTML += `<img src="${imagePath(selected.id, activeMode)}" alt=""><small>${selected.name}</small>`;
+      else target.innerHTML += '<span>Choose...</span>';
+      target.addEventListener('dragover', event => event.preventDefault());
+      target.addEventListener('drop', event => {
+        event.preventDefault();
+        const pokemon = pokemonById(event.dataTransfer.getData('text/plain'));
+        if (pokemon) { saveFavourite(slot, pokemon); render(); renderColourChooser(); }
+      });
+      favouritesGrid.append(target);
+    }
+    const grid = modal.querySelector('.chooser-grid');
+    const start = chooser.page * 30;
+    for (const pokemon of chooser.candidates.slice(start, start + 30)) {
+      const option = document.createElement('button');
+      option.type = 'button';
+      option.draggable = true;
+      const isNew = [...Object.values(chooser.newIds)].some(ids => ids.has(pokemon.id));
+      option.className = `pokemon home chooser-pokemon ${isColourFavourite(pokemon.id) ? 'selected' : ''} ${isNew ? 'new' : ''}`;
+      option.dataset.pokemonId = pokemon.id;
+      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>`;
+      option.addEventListener('dragstart', event => event.dataTransfer.setData('text/plain', pokemon.id));
+      grid.append(option);
+    }
+    const pages = Math.ceil(chooser.candidates.length / 30);
+    modal.querySelector('.chooser-page').textContent = `Page ${chooser.page + 1} of ${pages}`;
+    modal.querySelector('.chooser-prev').hidden = pages === 1;
+    modal.querySelector('.chooser-next').hidden = pages === 1;
+    modal.querySelector('.chooser-prev').disabled = chooser.page === 0;
+    modal.querySelector('.chooser-next').disabled = chooser.page >= pages - 1;
+    modal.querySelector('.chooser-prev').addEventListener('click', () => { chooser.page--; renderColourChooser(); });
+    modal.querySelector('.chooser-next').addEventListener('click', () => { chooser.page++; renderColourChooser(); });
+    modal.querySelector('.chooser-close').addEventListener('click', closeColourChooser);
+    modal.addEventListener('click', event => { if (event.target === modal) closeColourChooser(); });
+    document.body.append(modal);
+  }
+
+  function closeColourChooser() {
+    for (const colour of FAVOURITE_COLOURS) {
+      const slot = `colour-${colour.toLowerCase()}`;
+      const seen = favourites.seen[activeMode][slot] || {};
+      for (const pokemonId of chooser.newIds[colour]) seen[pokemonId] = true;
+      favourites.seen[activeMode][slot] = seen;
+    }
+    saveFavourites();
+    chooser = null;
+    document.querySelector('#favourite-chooser')?.remove();
+    render();
   }
 
   function renderChooser() {
@@ -351,6 +428,12 @@
       types.append(favouriteSlot(type, `type-${type}`, candidateList('type', type), category, `Favourite ${category} Type`));
     }
     appendFavouriteBox('Type', types);
+
+    const colours = document.createElement('div');
+    colours.className = 'favourite-choice-grid';
+    const caughtPokemon = candidateList('colour');
+    for (const colour of FAVOURITE_COLOURS) colours.append(favouriteSlot(colour, `colour-${colour.toLowerCase()}`, caughtPokemon, colour, `Favourite ${colour} Pokemon`, openColourChooser));
+    appendFavouriteBox('Colour', colours);
   }
 
   function appendSearchGroup(title, boxes) {

@@ -347,6 +347,68 @@ main {
   height: 58px;
   object-fit: contain;
 }
+.chooser-instruction {
+  margin: 8px 0 12px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+.colour-favourites {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.colour-favourite-target {
+  position: relative;
+  min-width: 0;
+  min-height: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 4px;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  background: #f7f9fc;
+  text-align: center;
+}
+.colour-favourite-target:hover {
+  border-color: var(--green);
+  background: #edf3ff;
+}
+.colour-favourite-target strong,
+.colour-favourite-target small,
+.colour-favourite-target span {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.colour-favourite-target strong {
+  color: var(--muted);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+.colour-favourite-target img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+.colour-favourite-target small,
+.colour-favourite-target span {
+  font-size: 0.58rem;
+  font-weight: 800;
+}
+.colour-favourite-target span {
+  color: #b8c5d6;
+}
+.colour-chooser .chooser-pokemon {
+  cursor: grab;
+}
+.colour-chooser .chooser-pokemon:active {
+  cursor: grabbing;
+}
 .chooser-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -366,7 +428,11 @@ main {
 }
 .chooser-pokemon.new {
   border-color: var(--green);
-  box-shadow: inset 0 0 0 2px var(--green);
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--green) 20%, transparent 100%);
+}
+.chooser-pokemon.new.selected {
+  border-color: var(--yellow);
+  box-shadow: inset 0 0 0 2px var(--yellow);
 }
 .chooser-pokemon img {
   width: 100%;
