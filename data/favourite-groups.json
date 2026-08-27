@@ -1,198 +1,107 @@
 [
   {
-    "id": "eeveelution",
-    "label": "Eeveelution",
-    "pokemon": [
-      "eevee",
-      "vaporeon",
-      "jolteon",
-      "flareon",
-      "espeon",
-      "umbreon",
-      "leafeon",
-      "glaceon",
-      "sylveon"
-    ]
+    "id": "starter-1st-evo",
+    "label": "Starter 1st Evo.",
+    "exclude": true,
+    "pokemon": ["bulbasaur", "charmander", "squirtle", "chikorita", "cyndaquil", "totodile", "treecko", "torchic", "mudkip", "turtwig", "chimchar", "piplup", "snivy", "tepig", "oshawott", "chespin", "fennekin", "froakie", "rowlet", "litten", "popplio", "grookey", "scorbunny", "sobble", "sprigatito", "fuecoco", "quaxly"]
+  },
+  {
+    "id": "starter-2nd-evo",
+    "label": "Starter 2nd Evo.",
+    "exclude": true,
+    "pokemon": ["ivysaur", "charmeleon", "wartortle", "bayleef", "quilava", "croconaw", "grovyle", "combusken", "marshtomp", "grotle", "monferno", "prinplup", "servine", "pignite", "dewott", "quilladin", "braixen", "frogadier", "dartrix", "torracat", "brionne", "thwackey", "raboot", "drizzile", "floragato", "crocalor", "quaxwell"]
+  },
+  {
+    "id": "starter-3rd-evo",
+    "label": "Starter 3rd Evo.",
+    "exclude": true,
+    "pokemon": ["venusaur", "charizard", "blastoise", "meganium", "typhlosion", "feraligatr", "sceptile", "blaziken", "swampert", "torterra", "infernape", "empoleon", "serperior", "emboar", "samurott", "chesnaught", "delphox", "greninja", "decidueye", "incineroar", "primarina", "rillaboom", "cinderace", "inteleon", "meowscarada", "skeledirge", "quaquaval"]
+  },
+  {
+    "id": "eeveelutions",
+    "label": "Eeveelutions",
+    "pokemon": ["eevee", "vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"]
+  },
+  {
+    "id": "rotom-forms",
+    "label": "Rotom Forms",
+    "pokemon": ["rotom", "rotom-heat", "rotom-wash", "rotom-frost", "rotom-fan", "rotom-mow"]
+  },
+  {
+    "id": "florges",
+    "label": "Florges",
+    "pokemon": ["florges-red", "florges-orange", "florges-yellow", "florges-white", "florges-blue"]
+  },
+  {
+    "id": "furfrou",
+    "label": "Furfrou",
+    "pokemon": ["furfrou-natural", "furfrou-heart", "furfrou-star", "furfrou-diamond", "furfrou-debutante", "furfrou-matron", "furfrou-dandy", "furfrou-la-reine", "furfrou-kabuki", "furfrou-pharaoh"]
+  },
+  {
+    "id": "vivillon",
+    "label": "Vivillon",
+    "pokemon": ["vivillon-archipelago", "vivillon-continental", "vivillon-elegant", "vivillon-fancy", "vivillon-garden", "vivillon-high-plains", "vivillon-icy-snow", "vivillon-jungle", "vivillon-marine", "vivillon-meadow", "vivillon-modern", "vivillon-monsoon", "vivillon-ocean", "vivillon-poke-ball", "vivillon-polar", "vivillon-river", "vivillon-sandstorm", "vivillon-savanna", "vivillon-sun", "vivillon-tundra"]
+  },
+  {
+    "id": "oricorio",
+    "label": "Oricorio",
+    "pokemon": ["oricorio-baile", "oricorio-pom-pom", "oricorio-pau", "oricorio-sensu"]
+  },
+  {
+    "id": "artificial",
+    "label": "Artificial",
+    "pokemon": ["magnemite", "magneton", "voltorb", "electrode", "porygon", "porygon2", "porygon-z", "castform", "baltoy", "claydol", "bronzor", "bronzong", "golett", "golurk", "klink", "klang", "klinklang", "trubbish", "garbodor", "honedge", "doublade", "aegislash", "klefki", "type-null", "silvally", "voltorb-hisui", "electrode-hisui", "sinistea", "sinistea-antique", "polteageist", "polteageist-antique", "stonjourner", "gimmighoul", "gimmighoul-roaming", "poltchageist", "poltchageist-artisan", "sinistcha", "sinistcha-masterpiece"]
+  },
+  {
+    "id": "fossil",
+    "label": "Fossil",
+    "pokemon": ["omanyte", "omastar", "kabuto", "kabutops", "aerodactyl", "lileep", "cradily", "anorith", "armaldo", "cranidos", "rampardos", "shieldon", "bastiodon", "tirtouga", "carracosta", "archen", "archeops", "tyrunt", "tyrantrum", "amaura", "aurorus", "dracozolt", "arctozolt", "dracovish", "arctovish"]
+  },
+  {
+    "id": "ultra-beast",
+    "label": "Ultra Beast",
+    "pokemon": ["nihilego", "buzzwole", "pheromosa", "xurkitree", "celesteela", "kartana", "guzzlord", "poipole", "naganadel", "stakataka", "blacephalon"]
+  },
+  {
+    "id": "pikaclone",
+    "label": "Pikaclone",
+    "pokemon": ["pichu", "pikachu", "raichu", "raichu-alola", "plusle", "minun", "pachirisu", "emolga", "dedenne", "togedemaru", "mimikyu", "morpeko", "pawmi", "pawmo", "pawmot"]
+  },
+  {
+    "id": "paradox",
+    "label": "Paradox",
+    "pokemon": ["great-tusk", "scream-tail", "brute-bonnet", "flutter-mane", "slither-wing", "sandy-shocks", "roaring-moon", "walking-wake", "gouging-fire", "raging-bolt", "iron-treads", "iron-bundle", "iron-hands", "iron-jugulis", "iron-moth", "iron-thorns", "iron-valiant", "iron-leaves", "iron-boulder", "iron-crown"]
   },
   {
     "id": "mythical",
-    "label": "Mythical Pokemon",
+    "label": "Mythical",
     "exclude": true,
-    "pokemon": [
-      "mew",
-      "celebi",
-      "jirachi",
-      "deoxys",
-      "phione",
-      "manaphy",
-      "darkrai",
-      "shaymin",
-      "arceus",
-      "victini",
-      "keldeo",
-      "meloetta",
-      "genesect",
-      "diancie",
-      "hoopa",
-      "volcanion",
-      "magearna",
-      "marshadow",
-      "zeraora",
-      "meltan",
-      "melmetal",
-      "zarude",
-      "pecharunt"
-    ]
+    "pokemon": ["mew", "celebi", "jirachi", "deoxys", "phione", "manaphy", "darkrai", "shaymin", "arceus", "victini", "keldeo", "meloetta", "genesect", "diancie", "hoopa", "volcanion", "magearna", "marshadow", "zeraora", "meltan", "melmetal", "zarude", "pecharunt"]
   },
   {
     "id": "legendary",
-    "label": "Legendary Pokemon",
+    "label": "Legendary",
     "exclude": true,
-    "pokemon": [
-      "articuno",
-      "zapdos",
-      "moltres",
-      "mewtwo",
-      "raikou",
-      "entei",
-      "suicune",
-      "lugia",
-      "ho-oh",
-      "regirock",
-      "regice",
-      "registeel",
-      "latias",
-      "latios",
-      "kyogre",
-      "groudon",
-      "rayquaza",
-      "uxie",
-      "mesprit",
-      "azelf",
-      "dialga",
-      "palkia",
-      "heatran",
-      "regigigas",
-      "giratina",
-      "cresselia",
-      "cobalion",
-      "terrakion",
-      "virizion",
-      "tornadus",
-      "thundurus",
-      "reshiram",
-      "zekrom",
-      "landorus",
-      "kyurem",
-      "xerneas",
-      "yveltal",
-      "zygarde",
-      "type-null",
-      "silvally",
-      "tapu-koko",
-      "tapu-lele",
-      "tapu-bulu",
-      "tapu-fini",
-      "cosmog",
-      "cosmoem",
-      "solgaleo",
-      "lunala",
-      "necrozma",
-      "zacian",
-      "zamazenta",
-      "eternatus",
-      "kubfu",
-      "urshifu",
-      "regieleki",
-      "regidrago",
-      "glastrier",
-      "spectrier",
-      "calyrex",
-      "enamorus",
-      "wo-chien",
-      "chien-pao",
-      "ting-lu",
-      "chi-yu",
-      "koraidon",
-      "miraidon",
-      "okidogi",
-      "munkidori",
-      "fezandipiti",
-      "ogerpon",
-      "terapagos"
-    ]
+    "pokemon": ["articuno", "zapdos", "moltres", "mewtwo", "raikou", "entei", "suicune", "lugia", "ho-oh", "regirock", "regice", "registeel", "latias", "latios", "kyogre", "groudon", "rayquaza", "uxie", "mesprit", "azelf", "dialga", "palkia", "heatran", "regigigas", "giratina", "cresselia", "cobalion", "terrakion", "virizion", "tornadus", "thundurus", "reshiram", "zekrom", "landorus", "kyurem", "xerneas", "yveltal", "zygarde", "type-null", "silvally", "tapu-koko", "tapu-lele", "tapu-bulu", "tapu-fini", "cosmog", "cosmoem", "solgaleo", "lunala", "necrozma", "zacian", "zamazenta", "eternatus", "kubfu", "urshifu", "regieleki", "regidrago", "glastrier", "spectrier", "calyrex", "enamorus", "wo-chien", "chien-pao", "ting-lu", "chi-yu", "koraidon", "miraidon", "okidogi", "munkidori", "fezandipiti", "ogerpon", "terapagos"]
   },
   {
-    "id": "alolan-form",
-    "label": "Alolan Form",
-    "pokemon": [
-      "rattata-alola",
-      "raticate-alola",
-      "raichu-alola",
-      "sandshrew-alola",
-      "sandslash-alola",
-      "vulpix-alola",
-      "ninetales-alola",
-      "diglett-alola",
-      "dugtrio-alola",
-      "meowth-alola",
-      "persian-alola",
-      "geodude-alola",
-      "graveler-alola",
-      "golem-alola",
-      "grimer-alola",
-      "muk-alola",
-      "exeggutor-alola",
-      "marowak-alola"
-    ]
+    "id": "alolan-forms",
+    "label": "Alolan Forms",
+    "pokemon": ["rattata-alola", "raticate-alola", "raichu-alola", "sandshrew-alola", "sandslash-alola", "vulpix-alola", "ninetales-alola", "diglett-alola", "dugtrio-alola", "meowth-alola", "persian-alola", "geodude-alola", "graveler-alola", "golem-alola", "grimer-alola", "muk-alola", "exeggutor-alola", "marowak-alola"]
   },
   {
-    "id": "object-mon",
-    "label": "Object-mon",
-    "pokemon": [
-      "magnemite",
-      "magneton",
-      "voltorb",
-      "electrode",
-      "porygon",
-      "porygon2",
-      "porygon-z",
-      "unown",
-      "baltoy",
-      "claydol",
-      "bronzor",
-      "bronzong",
-      "rotom",
-      "rotom-heat",
-      "rotom-wash",
-      "rotom-frost",
-      "rotom-fan",
-      "rotom-mow",
-      "klink",
-      "klang",
-      "klinklang",
-      "litwick",
-      "lampent",
-      "chandelure",
-      "trubbish",
-      "garbodor",
-      "honedge",
-      "doublade",
-      "aegislash",
-      "klefki",
-      "voltorb-hisui",
-      "electrode-hisui",
-      "sinistea",
-      "sinistea-antique",
-      "polteageist",
-      "polteageist-antique",
-      "stonjourner",
-      "gimmighoul",
-      "gimmighoul-roaming",
-      "poltchageist",
-      "poltchageist-artisan",
-      "sinistcha",
-      "sinistcha-masterpiece"
-    ]
+    "id": "galarian-forms",
+    "label": "Galarian Forms",
+    "pokemon": ["meowth-galar", "ponyta-galar", "rapidash-galar", "slowpoke-galar", "slowbro-galar", "farfetchd-galar", "weezing-galar", "mr-mime-galar", "articuno-galar", "zapdos-galar", "moltres-galar", "slowking-galar", "corsola-galar", "zigzagoon-galar", "linoone-galar", "darumaka-galar", "darmanitan-galar-standard", "yamask-galar", "stunfisk-galar"]
+  },
+  {
+    "id": "hisuian-forms",
+    "label": "Hisuian Forms",
+    "pokemon": ["growlithe-hisui", "arcanine-hisui", "voltorb-hisui", "electrode-hisui", "typhlosion-hisui", "qwilfish-hisui", "sneasel-hisui", "samurott-hisui", "lilligant-hisui", "zorua-hisui", "zoroark-hisui", "braviary-hisui", "sliggoo-hisui", "goodra-hisui", "avalugg-hisui", "decidueye-hisui"]
+  },
+  {
+    "id": "paldean-forms",
+    "label": "Paldean Forms",
+    "pokemon": ["tauros-paldea-combat-breed", "tauros-paldea-blaze-breed", "tauros-paldea-aqua-breed", "wooper-paldea"]
   }
 ]

@@ -283,15 +283,24 @@
   }
 
   function openChooser(label, slot, candidates) {
-    chooser = { label, slot, candidates, page: 0, newIds: new Set(newCandidates(slot, candidates).map(pokemon => pokemon.id)) };
+    const newIds = new Set(newCandidates(slot, candidates).map(pokemon => pokemon.id));
+    const sortedCandidates = [...candidates].sort((first, second) => Number(newIds.has(second.id)) - Number(newIds.has(first.id)));
+    chooser = { label, slot, candidates: sortedCandidates, page: 0, newIds };
     renderChooser();
   }
 
   function openColourChooser() {
-    chooser = { colour: true, candidates: candidateList('colour'), page: 0, newIds: {} };
+    const candidates = candidateList('colour');
+    const newIds = {};
     for (const colour of FAVOURITE_COLOURS) {
-      chooser.newIds[colour] = new Set(newCandidates(`colour-${colour.toLowerCase()}`, chooser.candidates).map(pokemon => pokemon.id));
+      newIds[colour] = new Set(newCandidates(`colour-${colour.toLowerCase()}`, candidates).map(pokemon => pokemon.id));
     }
+    const sortedCandidates = [...candidates].sort((first, second) => {
+      const firstNew = Object.values(newIds).some(ids => ids.has(first.id));
+      const secondNew = Object.values(newIds).some(ids => ids.has(second.id));
+      return Number(secondNew) - Number(firstNew);
+    });
+    chooser = { colour: true, candidates: sortedCandidates, page: 0, newIds };
     renderColourChooser();
   }
 
@@ -463,38 +472,32 @@
   }
 
   function appendFavouriteGroups() {
-    const starters = document.createElement('div');
-    starters.className = 'starter-table';
-    const row = document.createElement('div');
-    row.className = 'starter-row';
-    for (let stage = 0; stage < 3; stage++) {
-      const category = `${stage + 1}${stage === 0 ? 'st' : stage === 1 ? 'nd' : 'rd'} Evo.`;
-      row.append(favouriteSlot(`Starter ${category}`, `starter-${stage}`, candidateList('starter', '', stage), category, `Favourite Starter - ${category}`));
-    }
-    starters.append(row);
-    appendFavouriteBox('Starters', starters);
-
     if (favouriteGroups.length) {
       const groups = document.createElement('div');
       groups.className = 'favourite-choice-grid';
       for (const group of favouriteGroups) {
-        groups.append(favouriteSlot(group.label, `group-${group.id}`, candidateList('group', group.id), group.label, `Favourite ${group.label}`));
+        const candidates = candidateList('group', group.id);
+        if (candidates.length) groups.append(favouriteSlot(group.label, `group-${group.id}`, candidates, group.label, `Favourite ${group.label}`));
       }
-      appendFavouriteBox('Groups', groups);
+      if (groups.children.length) appendFavouriteBox('Groups', groups);
     }
 
     const regions = document.createElement('div');
     regions.className = 'favourite-choice-grid';
-    for (const region of [...new Set(REGION_STARTS.values())]) regions.append(favouriteSlot(region, `region-${region.toLowerCase()}`, candidateList('region', region), region, `Favourite ${region} Pokemon`));
-    appendFavouriteBox('Region', regions);
+    for (const region of [...new Set(REGION_STARTS.values())]) {
+      const candidates = candidateList('region', region);
+      if (candidates.length) regions.append(favouriteSlot(region, `region-${region.toLowerCase()}`, candidates, region, `Favourite ${region} Pokemon`));
+    }
+    if (regions.children.length) appendFavouriteBox('Region', regions);
 
     const types = document.createElement('div');
     types.className = 'favourite-choice-grid';
     for (const type of [...new Set(allPokemon.map(pokemon => pokemon.types?.[0]).filter(Boolean))].sort()) {
       const category = type[0].toUpperCase() + type.slice(1);
-      types.append(favouriteSlot(type, `type-${type}`, candidateList('type', type), category, `Favourite ${category} Type`));
+      const candidates = candidateList('type', type);
+      if (candidates.length) types.append(favouriteSlot(type, `type-${type}`, candidates, category, `Favourite ${category} Type`));
     }
-    appendFavouriteBox('Type', types);
+    if (types.children.length) appendFavouriteBox('Type', types);
 
     const colours = document.createElement('div');
     colours.className = 'favourite-choice-grid';
