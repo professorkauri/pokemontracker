@@ -288,6 +288,24 @@ main {
   padding: 12px;
   border-top: 1px solid var(--line);
 }
+.favourite-group-divider {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0 2px;
+  color: var(--line);
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.favourite-group-divider::before,
+.favourite-group-divider::after {
+  content: "";
+  flex: 1;
+  height: 0.5px;
+  background: var(--line);
+}
 .chooser-backdrop {
   position: fixed;
   z-index: 20;

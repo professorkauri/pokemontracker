@@ -11330,7 +11330,8 @@ window.POKEMON_DATA = {
         "leafeon",
         "glaceon",
         "sylveon"
-      ]
+      ],
+      "divider": "Forms/Family"
     },
     {
       "id": "rotom-forms",
@@ -11408,6 +11409,87 @@ window.POKEMON_DATA = {
       ]
     },
     {
+      "id": "alolan-forms",
+      "label": "Alolan Forms",
+      "pokemon": [
+        "rattata-alola",
+        "raticate-alola",
+        "raichu-alola",
+        "sandshrew-alola",
+        "sandslash-alola",
+        "vulpix-alola",
+        "ninetales-alola",
+        "diglett-alola",
+        "dugtrio-alola",
+        "meowth-alola",
+        "persian-alola",
+        "geodude-alola",
+        "graveler-alola",
+        "golem-alola",
+        "grimer-alola",
+        "muk-alola",
+        "exeggutor-alola",
+        "marowak-alola"
+      ]
+    },
+    {
+      "id": "galarian-forms",
+      "label": "Galarian Forms",
+      "pokemon": [
+        "meowth-galar",
+        "ponyta-galar",
+        "rapidash-galar",
+        "slowpoke-galar",
+        "slowbro-galar",
+        "farfetchd-galar",
+        "weezing-galar",
+        "mr-mime-galar",
+        "articuno-galar",
+        "zapdos-galar",
+        "moltres-galar",
+        "slowking-galar",
+        "corsola-galar",
+        "zigzagoon-galar",
+        "linoone-galar",
+        "darumaka-galar",
+        "darmanitan-galar-standard",
+        "yamask-galar",
+        "stunfisk-galar"
+      ]
+    },
+    {
+      "id": "hisuian-forms",
+      "label": "Hisuian Forms",
+      "pokemon": [
+        "growlithe-hisui",
+        "arcanine-hisui",
+        "voltorb-hisui",
+        "electrode-hisui",
+        "typhlosion-hisui",
+        "qwilfish-hisui",
+        "sneasel-hisui",
+        "samurott-hisui",
+        "lilligant-hisui",
+        "zorua-hisui",
+        "zoroark-hisui",
+        "braviary-hisui",
+        "sliggoo-hisui",
+        "goodra-hisui",
+        "avalugg-hisui",
+        "decidueye-hisui"
+      ]
+    },
+    {
+      "id": "paldean-forms",
+      "label": "Paldean Forms",
+      "pokemon": [
+        "tauros-paldea-combat-breed",
+        "tauros-paldea-blaze-breed",
+        "tauros-paldea-aqua-breed",
+        "wooper-paldea"
+      ]
+    },
+    {
       "id": "artificial",
       "label": "Artificial",
       "pokemon": [
@@ -11449,7 +11531,8 @@ window.POKEMON_DATA = {
         "poltchageist-artisan",
         "sinistcha",
         "sinistcha-masterpiece"
-      ]
+      ],
+      "divider": "Themes"
     },
     {
       "id": "fossil",
@@ -11574,22 +11657,206 @@ window.POKEMON_DATA = {
         "melmetal",
         "zarude",
         "pecharunt"
+      ],
+      "divider": "Legendary/Mythical"
+    },
+    {
+      "id": "solo-legendaries",
+      "label": "Solo Legendaries",
+      "exclude": true,
+      "pokemon": [
+        "mewtwo",
+        "heatran",
+        "cresselia"
       ]
     },
     {
-      "id": "legendary",
-      "label": "Legendary",
+      "id": "legendary-birds",
+      "label": "Legendary Birds",
       "exclude": true,
       "pokemon": [
         "articuno",
         "zapdos",
         "moltres",
-        "mewtwo",
+        "articuno-galar",
+        "zapdos-galar",
+        "moltres-galar"
+      ]
+    },
+    {
+      "id": "legendary-beasts",
+      "label": "Legendary Beasts",
+      "exclude": true,
+      "pokemon": [
+        "raikou",
+        "entei",
+        "suicune"
+      ]
+    },
+    {
+      "id": "weather-trio",
+      "label": "Weather Trio",
+      "exclude": true,
+      "pokemon": [
+        "kyogre",
+        "groudon",
+        "rayquaza"
+      ]
+    },
+    {
+      "id": "lake-guardians",
+      "label": "Lake Guardians",
+      "exclude": true,
+      "pokemon": [
+        "uxie",
+        "mesprit",
+        "azelf"
+      ]
+    },
+    {
+      "id": "creation-trio",
+      "label": "Creation Trio",
+      "exclude": true,
+      "pokemon": [
+        "dialga",
+        "palkia",
+        "giratina"
+      ]
+    },
+    {
+      "id": "tao-trio",
+      "label": "Tao Trio",
+      "exclude": true,
+      "pokemon": [
+        "reshiram",
+        "zekrom",
+        "kyurem"
+      ]
+    },
+    {
+      "id": "aura-trio",
+      "label": "Aura Trio",
+      "exclude": true,
+      "pokemon": [
+        "xerneas",
+        "yveltal",
+        "zygarde"
+      ]
+    },
+    {
+      "id": "light-trio",
+      "label": "Light Trio",
+      "exclude": true,
+      "pokemon": [
+        "solgaleo",
+        "lunala",
+        "necrozma"
+      ]
+    },
+    {
+      "id": "loyal-three",
+      "label": "Loyal Three",
+      "exclude": true,
+      "pokemon": [
+        "okidogi",
+        "munkidori",
+        "fezandipiti"
+      ]
+    },
+    {
+      "id": "swords-of-justice",
+      "label": "Swords of Justice",
+      "exclude": true,
+      "pokemon": [
+        "cobalion",
+        "terrakion",
+        "virizion",
+        "keldeo"
+      ]
+    },
+    {
+      "id": "forces-of-nature",
+      "label": "Forces of Nature",
+      "exclude": true,
+      "pokemon": [
+        "tornadus",
+        "tornadus-incarnate",
+        "tornadus-therian",
+        "thundurus",
+        "thundurus-incarnate",
+        "thundurus-therian",
+        "landorus",
+        "landorus-incarnate",
+        "landorus-therian",
+        "enamorus",
+        "enamorus-incarnate",
+        "enamorus-therian"
+      ]
+    },
+    {
+      "id": "guardian-deities",
+      "label": "Guardian Deities",
+      "exclude": true,
+      "pokemon": [
+        "tapu-koko",
+        "tapu-lele",
+        "tapu-bulu",
+        "tapu-fini"
+      ]
+    },
+    {
+      "id": "treasures-of-ruin",
+      "label": "Treasures of Ruin",
+      "exclude": true,
+      "pokemon": [
+        "wo-chien",
+        "chien-pao",
+        "ting-lu",
+        "chi-yu"
+      ]
+    },
+    {
+      "id": "titans",
+      "label": "Titans",
+      "exclude": true,
+      "pokemon": [
+        "regirock",
+        "regice",
+        "registeel",
+        "regigigas",
+        "regieleki",
+        "regidrago"
+      ]
+    },
+    {
+      "id": "kanto-legends",
+      "label": "Kanto Legends",
+      "exclude": true,
+      "pokemon": [
+        "articuno",
+        "zapdos",
+        "moltres",
+        "mewtwo"
+      ],
+      "divider": "Regional Legends"
+    },
+    {
+      "id": "johto-legends",
+      "label": "Johto Legends",
+      "exclude": true,
+      "pokemon": [
         "raikou",
         "entei",
         "suicune",
         "lugia",
-        "ho-oh",
+        "ho-oh"
+      ]
+    },
+    {
+      "id": "hoenn-legends",
+      "label": "Hoenn Legends",
+      "exclude": true,
+      "pokemon": [
         "regirock",
         "regice",
         "registeel",
@@ -11597,7 +11864,14 @@ window.POKEMON_DATA = {
         "latios",
         "kyogre",
         "groudon",
-        "rayquaza",
+        "rayquaza"
+      ]
+    },
+    {
+      "id": "sinnoh-legends",
+      "label": "Sinnoh Legends",
+      "exclude": true,
+      "pokemon": [
         "uxie",
         "mesprit",
         "azelf",
@@ -11606,7 +11880,14 @@ window.POKEMON_DATA = {
         "heatran",
         "regigigas",
         "giratina",
-        "cresselia",
+        "cresselia"
+      ]
+    },
+    {
+      "id": "unova-legends",
+      "label": "Unova Legends",
+      "exclude": true,
+      "pokemon": [
         "cobalion",
         "terrakion",
         "virizion",
@@ -11615,10 +11896,24 @@ window.POKEMON_DATA = {
         "reshiram",
         "zekrom",
         "landorus",
-        "kyurem",
+        "kyurem"
+      ]
+    },
+    {
+      "id": "kalos-legends",
+      "label": "Kalos Legends",
+      "exclude": true,
+      "pokemon": [
         "xerneas",
         "yveltal",
-        "zygarde",
+        "zygarde"
+      ]
+    },
+    {
+      "id": "alola-legends",
+      "label": "Alola Legends",
+      "exclude": true,
+      "pokemon": [
         "type-null",
         "silvally",
         "tapu-koko",
@@ -11629,18 +11924,46 @@ window.POKEMON_DATA = {
         "cosmoem",
         "solgaleo",
         "lunala",
-        "necrozma",
+        "necrozma"
+      ]
+    },
+    {
+      "id": "galar-legends",
+      "label": "Galar Legends",
+      "exclude": true,
+      "pokemon": [
+        "articuno-galar",
+        "zapdos-galar",
+        "moltres-galar",
         "zacian",
         "zamazenta",
         "eternatus",
         "kubfu",
         "urshifu",
+        "urshifu-single-strike",
+        "urshifu-rapid-strike",
         "regieleki",
         "regidrago",
         "glastrier",
         "spectrier",
-        "calyrex",
+        "calyrex"
+      ]
+    },
+    {
+      "id": "hisui-legends",
+      "label": "Hisui Legends",
+      "exclude": true,
+      "pokemon": [
         "enamorus",
+        "enamorus-incarnate",
+        "enamorus-therian"
+      ]
+    },
+    {
+      "id": "paldea-legends",
+      "label": "Paldea Legends",
+      "exclude": true,
+      "pokemon": [
         "wo-chien",
         "chien-pao",
         "ting-lu",
@@ -11652,87 +11975,6 @@ window.POKEMON_DATA = {
         "fezandipiti",
         "ogerpon",
         "terapagos"
-      ]
-    },
-    {
-      "id": "alolan-forms",
-      "label": "Alolan Forms",
-      "pokemon": [
-        "rattata-alola",
-        "raticate-alola",
-        "raichu-alola",
-        "sandshrew-alola",
-        "sandslash-alola",
-        "vulpix-alola",
-        "ninetales-alola",
-        "diglett-alola",
-        "dugtrio-alola",
-        "meowth-alola",
-        "persian-alola",
-        "geodude-alola",
-        "graveler-alola",
-        "golem-alola",
-        "grimer-alola",
-        "muk-alola",
-        "exeggutor-alola",
-        "marowak-alola"
-      ]
-    },
-    {
-      "id": "galarian-forms",
-      "label": "Galarian Forms",
-      "pokemon": [
-        "meowth-galar",
-        "ponyta-galar",
-        "rapidash-galar",
-        "slowpoke-galar",
-        "slowbro-galar",
-        "farfetchd-galar",
-        "weezing-galar",
-        "mr-mime-galar",
-        "articuno-galar",
-        "zapdos-galar",
-        "moltres-galar",
-        "slowking-galar",
-        "corsola-galar",
-        "zigzagoon-galar",
-        "linoone-galar",
-        "darumaka-galar",
-        "darmanitan-galar-standard",
-        "yamask-galar",
-        "stunfisk-galar"
-      ]
-    },
-    {
-      "id": "hisuian-forms",
-      "label": "Hisuian Forms",
-      "pokemon": [
-        "growlithe-hisui",
-        "arcanine-hisui",
-        "voltorb-hisui",
-        "electrode-hisui",
-        "typhlosion-hisui",
-        "qwilfish-hisui",
-        "sneasel-hisui",
-        "samurott-hisui",
-        "lilligant-hisui",
-        "zorua-hisui",
-        "zoroark-hisui",
-        "braviary-hisui",
-        "sliggoo-hisui",
-        "goodra-hisui",
-        "avalugg-hisui",
-        "decidueye-hisui"
-      ]
-    },
-    {
-      "id": "paldean-forms",
-      "label": "Paldean Forms",
-      "pokemon": [
-        "tauros-paldea-combat-breed",
-        "tauros-paldea-blaze-breed",
-        "tauros-paldea-aqua-breed",
-        "wooper-paldea"
       ]
     }
   ],

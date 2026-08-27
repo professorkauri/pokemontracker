@@ -1,4 +1,4 @@
-(() => {
+(async () => {
   const DATA = window.POKEMON_DATA;
   const STORAGE_KEY = 'pokemon-home-tracker-v1';
   const FAVOURITES_KEY = 'pokemon-home-tracker-favourites-v1';
@@ -12,7 +12,7 @@
   const nationalSpecies = DATA.boxes.filter(box => box.id.startsWith('dex-')).flatMap(box => box.pokemon);
   const allPokemon = DATA.boxes.flatMap(box => box.pokemon);
   const speciesIds = new Set(nationalSpecies.map(pokemon => pokemon.id));
-  const favouriteGroups = DATA.favouriteGroups || [];
+  const favouriteGroups = await loadFavouriteGroups();
   const excludedFavouriteGroupIds = new Set(favouriteGroups.filter(group => group.exclude).flatMap(group => group.pokemon || []));
   const FORM_BOX_REGIONS = new Map(DATA.boxes
     .filter(box => box.id.startsWith('forms-'))
@@ -31,6 +31,15 @@
   let chooser = null;
 
   function normalizeSearch(value) { return value.trim().toLowerCase().replace(/\s+/g, ' '); }
+  async function loadFavouriteGroups() {
+    try {
+      const response = await fetch('data/favourite-groups.json', { cache: 'no-cache' });
+      if (!response.ok) throw new Error(`Failed to load favourite groups: ${response.status}`);
+      return await response.json();
+    } catch {
+      return DATA.favouriteGroups || [];
+    }
+  }
   function loadFavourites() {
     try {
       const saved = JSON.parse(localStorage.getItem(FAVOURITES_KEY)) || {};
@@ -475,9 +484,19 @@
     if (favouriteGroups.length) {
       const groups = document.createElement('div');
       groups.className = 'favourite-choice-grid';
+      let pendingDivider = null;
       for (const group of favouriteGroups) {
+        if (group.divider) pendingDivider = group.divider;
         const candidates = candidateList('group', group.id);
-        if (candidates.length) groups.append(favouriteSlot(group.label, `group-${group.id}`, candidates, group.label, `Favourite ${group.label}`));
+        if (!candidates.length) continue;
+        if (pendingDivider) {
+          const divider = document.createElement('div');
+          divider.className = 'favourite-group-divider';
+          divider.textContent = pendingDivider;
+          groups.append(divider);
+          pendingDivider = null;
+        }
+        groups.append(favouriteSlot(group.label, `group-${group.id}`, candidates, group.label, `Favourite ${group.label}`));
       }
       if (groups.children.length) appendFavouriteBox('Groups', groups);
     }

@@ -200,6 +200,7 @@ const validFavouriteGroups = favouriteGroups
   .map(group => ({
     id: group.id,
     label: group.label,
+    ...(group.divider ? { divider: group.divider } : {}),
     ...(group.exclude ? { exclude: true } : {}),
     pokemon: (group.pokemon || []).filter(id => availableIds.has(id))
   }))
