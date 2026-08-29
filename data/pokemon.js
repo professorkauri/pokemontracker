@@ -10351,22 +10351,6 @@ window.POKEMON_DATA = {
           "types": [
             "rock"
           ]
-        },
-        {
-          "id": "wishiwashi-solo",
-          "name": "Wishiwashi Solo",
-          "imageId": "wishiwashi-solo",
-          "types": [
-            "water"
-          ]
-        },
-        {
-          "id": "wishiwashi-school",
-          "name": "Wishiwashi School",
-          "imageId": "wishiwashi-school",
-          "types": [
-            "water"
-          ]
         }
       ]
     },
