@@ -1,6 +1,6 @@
 # Pokémon Home Tracker
 
-A dependency-free, mobile-first tracker. Every appearance of a Pokémon has its own state per box and per Regular/Shiny view: **Missing → Caught → Home**.
+A dependency-free, mobile-first tracker. Every appearance of a Pokémon has its own state per box and per Regular/Shiny view: **Missing → Target → Caught → Home**. The Target view collects the Pokémon you want to focus on next; clicking one there marks it as caught.
 
 ## Run it
 

@@ -1,6 +1,7 @@
 (async () => {
   const DATA = window.POKEMON_DATA;
-  const STORAGE_KEY = 'pokemon-home-tracker-v1';
+  const STORAGE_KEY = 'pokemon-home-tracker-v2';
+  const LEGACY_STORAGE_KEY = 'pokemon-home-tracker-v1';
   const FAVOURITES_KEY = 'pokemon-home-tracker-favourites-v1';
   const FAVOURITE_COLOURS = ['White', 'Grey', 'Black', 'Brown', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Magenta', 'Pink'];
   const REGION_STARTS = new Map([[1, 'Kanto'], [152, 'Johto'], [252, 'Hoenn'], [387, 'Sinnoh'], [494, 'Unova'], [650, 'Kalos'], [722, 'Alola'], [810, 'Galar'], [899, 'Hisui'], [906, 'Paldea']]);
@@ -23,7 +24,7 @@
       - (second.dex || nationalSpecies.find(pokemon => pokemon.id === baseSpeciesId(second))?.dex || Infinity));
   const evolutionLineBySpecies = new Map((DATA.evolutionLines || []).flatMap(line => line.map(id => [id, line])));
   let view = 'pokedex';
-  let openKey = null;
+  let openKey = DATA.boxes.find(box => box.id.startsWith('dex-'))?.id || null;
   let activeMode = 'regular';
   let searchQuery = '';
   let state = loadState();
@@ -91,8 +92,14 @@
 
   function loadState() {
     try {
-      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+      const currentSave = localStorage.getItem(STORAGE_KEY);
+      const saved = JSON.parse(currentSave || localStorage.getItem(LEGACY_STORAGE_KEY)) || {};
+      const legacySave = !currentSave && localStorage.getItem(LEGACY_STORAGE_KEY);
       let migrated = false;
+      if (legacySave) {
+        for (const savedKey of Object.keys(saved)) saved[savedKey] += 1;
+        migrated = true;
+      }
       for (const savedKey of Object.keys(saved)) {
         const [boxId, pokemonId, mode] = savedKey.split('|');
         const targetBoxId = FORM_BOX_BY_POKEMON.get(pokemonId);
@@ -121,7 +128,7 @@
     return candidates.filter(pokemon => !seen[pokemon.id]);
   }
   function isCollected(pokemon) {
-    return DATA.boxes.some(box => box.pokemon.some(entry => entry.id === pokemon.id && getStatus(box.id, entry.id, activeMode) > 0));
+    return DATA.boxes.some(box => box.pokemon.some(entry => entry.id === pokemon.id && getStatus(box.id, entry.id, activeMode) >= 2));
   }
   function saveFavourite(slot, pokemon) {
     if (pokemon) favourites[activeMode][slot] = pokemon.id;
@@ -132,21 +139,29 @@
   function updateCounts() {
     const values = Object.values(state);
     const total = DATA.boxes.reduce((sum, box) => sum + box.pokemon.length, 0);
-    const regularHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length, 0);
-    const shinyHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length, 0);
+    const regularHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length, 0);
+    const shinyHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length, 0);
     const regularProgress = document.querySelector('#regular-progress');
     const shinyProgress = document.querySelector('#shiny-progress');
     regularProgress.max = total; regularProgress.value = regularHome;
     shinyProgress.max = total; shinyProgress.value = shinyHome;
     document.querySelector('#regular-home-count').textContent = `${regularHome} / ${total}`;
     document.querySelector('#shiny-home-count').textContent = `${shinyHome} / ${total}`;
-    document.querySelector('#transfer-count').textContent = values.filter(v => v === 1).length;
+    document.querySelector('#target-count').textContent = values.filter(v => v === 1).length;
+    document.querySelector('#transfer-count').textContent = values.filter(v => v === 2).length;
   }
 
-  function card(box, pokemon, mode, transferMode, favouriteMode = false) {
+  function statusIcon(status) {
+    if (status === 1) return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="7.5"></circle><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3"></path></svg>';
+    if (status === 2) return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v12"></path><path d="m7.5 8.5 4.5-4.5 4.5 4.5"></path><path d="M5 15.5v2.25A2.25 2.25 0 0 0 7.25 20h9.5A2.25 2.25 0 0 0 19 17.75V15.5"></path></svg>';
+    if (status === 3) return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5.5 12.5 4 4 9-9"></path></svg>';
+    return '';
+  }
+
+  function card(box, pokemon, mode, queueStatus, favouriteMode = false) {
     const status = getStatus(box.id, pokemon.id, mode);
     const region = REGION_STARTS.get(pokemon.dex);
-    const names = ['missing', 'caught', 'home'];
+    const names = ['missing', 'target', 'caught', 'home'];
     const button = document.createElement('button');
     button.type = 'button';
     button.className = `pokemon ${names[status]}`;
@@ -154,7 +169,7 @@
     button.dataset.label = pokemon.name;
     button.title = `${pokemon.name}: ${names[status]}`;
     button.setAttribute('aria-label', button.title);
-    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}${favouriteMode ? '<span class="favourite-mark" aria-hidden="true">★</span>' : ''}<span class="status">${status === 1 ? '!' : ''}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
+    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}${favouriteMode ? '<span class="favourite-mark" aria-hidden="true">★</span>' : ''}<span class="status">${statusIcon(status)}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
     const img = button.querySelector('img');
     img.src = imagePath(pokemon.id, mode);
     img.onerror = () => { img.onerror = null; img.src = imagePath(pokemon.imageId || pokemon.id, mode); };
@@ -163,8 +178,8 @@
       else favourites[mode][pokemon.id] = pokemon.id;
       saveFavourites(); render();
     });
-    else if (!transferMode || status === 1) button.addEventListener('click', () => {
-      state[key(box.id, pokemon.id, mode)] = transferMode ? 2 : (status + 1) % 3;
+    else if (queueStatus === null || status === queueStatus) button.addEventListener('click', () => {
+      state[key(box.id, pokemon.id, mode)] = queueStatus === null ? (status + 1) % 4 : status + 1;
       if (state[key(box.id, pokemon.id, mode)] === 0) delete state[key(box.id, pokemon.id, mode)];
       saveState(); render();
     });
@@ -193,9 +208,9 @@
     return `<span class="box-title-sprite" title="${pokemon.name}" aria-hidden="true"><img src="${imagePath(pokemon.id, mode)}" data-fallback-src="${imagePath(fallbackId, mode)}" alt=""></span>`;
   }
 
-  function boxTitle(box, pokemon, mode, transferMode) {
+  function boxTitle(box, pokemon, mode, queueStatus) {
     const first = pokemon[0];
-    const title = `${box.title}${transferMode && mode === 'shiny' ? ' Shiny' : ''}`;
+    const title = `${box.title}${queueStatus !== null && mode === 'shiny' ? ' Shiny' : ''}`;
     return `${boxTitleSprite(first, mode)}<span class="box-title">${title}</span>`;
   }
 
@@ -209,24 +224,25 @@
     });
   }
 
-  function boxPanel(box, mode, transferMode, options = {}) {
+  function boxPanel(box, mode, queueStatus, options = {}) {
     const pokemon = options.pokemon || box.pokemon;
     const forceOpen = options.forceOpen || false;
     const filtered = pokemon.length !== box.pokemon.length;
-    const panelKey = transferMode ? `${box.id}-${mode}` : box.id;
-    const isOpen = forceOpen || transferMode || openKey === panelKey;
+    const panelKey = queueStatus !== null ? `${box.id}-${mode}` : box.id;
+    const isOpen = forceOpen || queueStatus !== null || openKey === panelKey;
     const region = pokemon.map(pokemon => REGION_STARTS.get(pokemon.dex)).find(Boolean);
     const section = document.createElement('section');
-    section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${transferMode ? 'transfer-box' : ''} ${forceOpen ? 'forced-open' : ''}`;
-    const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 2).length;
-    const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 2).length;
+    const queueClass = queueStatus === 1 ? 'queue-box target-box' : queueStatus === 2 ? 'queue-box transfer-box' : '';
+    section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${queueClass} ${forceOpen ? 'forced-open' : ''}`;
+    const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length;
+    const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
     const boxMeta = `${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
-    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${transferMode ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, transferMode)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
+    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${queueStatus !== null ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, queueStatus)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
     addSpriteFallbacks(section);
-    if (!transferMode && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
+    if (queueStatus === null && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
     if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';
-      if (!transferMode) {
+      if (queueStatus === null) {
         mode = activeMode;
         const tabs = document.createElement('div'); tabs.className = 'mode-tabs';
         tabs.innerHTML = `<button class="${mode === 'regular' ? 'active' : ''}" data-mode="regular">Regular</button><button class="${mode === 'shiny' ? 'active' : ''}" data-mode="shiny">Shiny</button>`;
@@ -234,19 +250,19 @@
         body.append(tabs);
       }
       const grid = document.createElement('div'); grid.className = 'pokemon-grid';
-      pokemon.forEach(p => grid.append(card(box, p, mode, transferMode, options.favouriteMode)));
+      pokemon.forEach(p => grid.append(card(box, p, mode, queueStatus, options.favouriteMode)));
       if (!filtered) for (let i = pokemon.length; i < 30; i++) grid.append(emptySlot());
       body.append(grid); section.append(body);
     }
     return section;
   }
 
-  function appendBoxGroup(title, boxes, transferMode, favouriteMode = false) {
+  function appendBoxGroup(title, boxes, queueStatus = null, favouriteMode = false) {
     const panels = [];
     for (const box of boxes) {
-      if (!transferMode) panels.push(boxPanel(box, activeMode, false, { favouriteMode, forceOpen: favouriteMode }));
+      if (queueStatus === null) panels.push(boxPanel(box, activeMode, null, { favouriteMode, forceOpen: favouriteMode }));
       else for (const mode of ['regular', 'shiny']) {
-        if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === 1)) panels.push(boxPanel(box, mode, true));
+        if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === queueStatus)) panels.push(boxPanel(box, mode, queueStatus));
       }
     }
     if (!panels.length) return;
@@ -532,7 +548,7 @@
     const panels = [];
     for (const box of boxes) {
       const matches = box.pokemon.filter(matchesSearch);
-      if (matches.length) panels.push(boxPanel(box, activeMode, false, { pokemon: matches, forceOpen: true }));
+      if (matches.length) panels.push(boxPanel(box, activeMode, null, { pokemon: matches, forceOpen: true }));
     }
     if (!panels.length) return;
     const heading = document.createElement('h2');
@@ -554,13 +570,14 @@
       appendSearchGroup('National Pokédex', nationalDex);
       appendSearchGroup('Pokémon Forms', forms);
     } else {
-      appendBoxGroup('National Pokédex', nationalDex, view === 'transfer');
-      appendBoxGroup('Pokémon Forms', forms, view === 'transfer');
+      const queueStatus = view === 'target' ? 1 : view === 'transfer' ? 2 : null;
+      appendBoxGroup('National Pokédex', nationalDex, queueStatus);
+      appendBoxGroup('Pokémon Forms', forms, queueStatus);
     }
     const hasBoxes = boxesEl.querySelector('.box') !== null;
     const hasSearchQuery = normalizeSearch(searchQuery) !== '';
-    emptyEl.querySelector('h2').textContent = view === 'search' ? 'No matches' : 'All transferred';
-    emptyEl.querySelector('p').textContent = view === 'search' ? 'Try a different Pokémon or form name.' : 'No caught Pokémon are waiting for Home.';
+    emptyEl.querySelector('h2').textContent = view === 'search' ? 'No matches' : view === 'target' ? 'No targets' : 'All transferred';
+    emptyEl.querySelector('p').textContent = view === 'search' ? 'Try a different Pokémon or form name.' : view === 'target' ? 'Mark Pokémon as targets in the Dex to focus on them here.' : 'No caught Pokémon are waiting for Home.';
     emptyEl.hidden = hasBoxes || (view === 'search' && !hasSearchQuery);
     updateCounts();
   }
@@ -569,7 +586,7 @@
   searchPanel.addEventListener('submit', e => e.preventDefault());
   document.querySelector('.dock').addEventListener('click', e => {
     const button = e.target.closest('[data-view]'); if (!button) return;
-    view = button.dataset.view; openKey = null;
+    view = button.dataset.view;
     document.querySelectorAll('.dock button').forEach(b => b.classList.toggle('active', b === button));
     render();
     if (view === 'search') searchInput.focus();
