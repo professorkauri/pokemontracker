@@ -753,6 +753,10 @@ main {
   border-color: #7ea5f5;
   box-shadow: inset 0 0 0 1px #9bb9f7;
 }
+.pokemon.target img {
+  opacity: 0.30;
+  filter: grayscale(0.5);
+}
 .pokemon.caught {
   opacity: 1;
   background: #fff7d5;
