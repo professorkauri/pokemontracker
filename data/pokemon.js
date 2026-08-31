@@ -10790,6 +10790,14 @@ window.POKEMON_DATA = {
           ]
         },
         {
+          "id": "basculin-white-striped",
+          "name": "Basculin White-Striped",
+          "imageId": "basculin-white-striped",
+          "types": [
+            "water"
+          ]
+        },
+        {
           "id": "zorua-hisui",
           "name": "Hisuian Zorua",
           "imageId": "zorua-hisui",
