@@ -31,6 +31,20 @@ async function readExistingTypes() {
     return new Map();
   }
 }
+async function readExistingFavouriteVisibility() {
+  try {
+    const source = await readFile('data/pokemon.js', 'utf8');
+    const sandbox = { window: {} };
+    vm.runInNewContext(source, sandbox);
+    return new Map((sandbox.window.POKEMON_DATA?.boxes || [])
+      .flatMap(box => box.pokemon)
+      .filter(pokemon => Object.hasOwn(pokemon, 'showInFavourites'))
+      .map(pokemon => [pokemon.id, pokemon.showInFavourites]));
+  }
+  catch {
+    return new Map();
+  }
+}
 async function readFavouriteGroups() {
   try {
     return JSON.parse(await readFile('data/favourite-groups.json', 'utf8'));
@@ -52,15 +66,10 @@ const starterRoots = new Map([
   ['Galar', ['grookey', 'scorbunny', 'sobble']],
   ['Paldea', ['sprigatito', ' fuecoco', 'quaxly'].map(id => id.trim())]
 ]);
-const favouriteHiddenSpecies = new Set([
-  'basculegion', 'enamorus', 'landorus', 'oinkologne', 'squawkabilly',
-  'thundurus', 'tornadus', 'urshifu'
-]);
 const species = raw.results.map((p, i) => ({
   id: p.name,
   name: title(p.name),
-  dex: i + 1,
-  ...(favouriteHiddenSpecies.has(p.name) ? { showInFavourites: false } : {})
+  dex: i + 1
 }));
 const P = (id, name, imageId=id) => ({id,name,imageId});
 const unownForms = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter => P(`unown-${letter}`, `Unown ${letter.toUpperCase()}`))
@@ -172,6 +181,7 @@ const formIds = new Map([['Hoenn Forms','forms-3'],['Sinnoh Forms','forms-4'],['
 forms.forEach(([name,pokemon]) => boxes.push({id:formIds.get(name),title:name,pokemon}));
 const existingEvolutionLines = await readExistingEvolutionLines();
 const existingTypes = await readExistingTypes();
+const existingFavouriteVisibility = await readExistingFavouriteVisibility();
 const favouriteGroups = await readFavouriteGroups();
 const starterGroups = [...starterRoots].map(([region, roots]) => ({
   region,
@@ -195,6 +205,9 @@ async function mapConcurrent(items, mapper) {
   return results;
 }
 const allEntries = [...species, ...forms.flatMap(([, pokemon]) => pokemon)];
+for (const pokemon of allEntries) {
+  if (existingFavouriteVisibility.has(pokemon.id)) pokemon.showInFavourites = existingFavouriteVisibility.get(pokemon.id);
+}
 const defaultTypeAliases = new Map([
   ['giratina', 'giratina-altered'], ['meloetta', 'meloetta-aria'], ['aegislash', 'aegislash-shield'],
   ['zygarde', 'zygarde-50'], ['mimikyu', 'mimikyu-disguised'], ['eiscue', 'eiscue-ice'], ['morpeko', 'morpeko-full-belly']
@@ -211,7 +224,7 @@ const typeEntries = await mapConcurrent(typeIds, async id => {
 });
 const typesById = new Map(typeEntries);
 for (const [speciesId, apiId] of defaultTypeAliases) {
-  if (typesById.has(apiId)) typesById.set(speciesId, typesById.get(apiId));
+  if (typesById.get(apiId)?.length) typesById.set(speciesId, typesById.get(apiId));
 }
 for (const pokemon of allEntries) {
   const directTypes = typesById.get(pokemon.imageId || pokemon.id) || [];

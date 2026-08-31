@@ -614,7 +614,8 @@
       "articuno",
       "zapdos",
       "moltres",
-      "mewtwo"
+      "mewtwo",
+      "mew"
     ],
     "divider": "Regional Legends"
   },
@@ -627,7 +628,8 @@
       "entei",
       "suicune",
       "lugia",
-      "ho-oh"
+      "ho-oh",
+      "celebi"
     ]
   },
   {
@@ -643,6 +645,7 @@
       "kyogre",
       "groudon",
       "rayquaza",
+      "jirachi",
       "deoxys-normal",
       "deoxys-attack",
       "deoxys-defense",
@@ -663,9 +666,12 @@
       "regigigas",
       "giratina",
       "cresselia",
+      "phione",
+      "manaphy",
       "darkrai",
       "shaymin-land",
-      "shaymin-sky"
+      "shaymin-sky",
+      "arceus"
     ]
   },
   {
@@ -682,8 +688,11 @@
       "zekrom",
       "landorus",
       "kyurem",
+      "victini",
       "keldeo-ordinary",
-      "keldeo-resolute"
+      "keldeo-resolute",
+      "meloetta",
+      "genesect"
     ]
   },
   {
@@ -693,7 +702,10 @@
     "pokemon": [
       "xerneas",
       "yveltal",
-      "zygarde"
+      "zygarde",
+      "diancie",
+      "hoopa",
+      "volcanion"
     ]
   },
   {
@@ -711,7 +723,12 @@
       "cosmoem",
       "solgaleo",
       "lunala",
-      "necrozma"
+      "necrozma",
+      "magearna",
+      "marshadow",
+      "zeraora",
+      "meltan",
+      "melmetal"
     ]
   },
   {
@@ -732,7 +749,8 @@
       "regidrago",
       "glastrier",
       "spectrier",
-      "calyrex"
+      "calyrex",
+      "zarude"
     ]
   },
   {
@@ -759,7 +777,8 @@
       "munkidori",
       "fezandipiti",
       "ogerpon",
-      "terapagos"
+      "terapagos",
+      "pecharunt"
     ]
   }
 ]

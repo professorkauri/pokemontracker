@@ -3577,6 +3577,7 @@ window.POKEMON_DATA = {
           "id": "wormadam",
           "name": "Wormadam",
           "dex": 413,
+          "showInFavourites": false,
           "types": [
             "bug",
             "grass"
@@ -3659,6 +3660,7 @@ window.POKEMON_DATA = {
           "id": "shellos",
           "name": "Shellos",
           "dex": 422,
+          "showInFavourites": false,
           "types": [
             "water"
           ]
@@ -3667,6 +3669,7 @@ window.POKEMON_DATA = {
           "id": "gastrodon",
           "name": "Gastrodon",
           "dex": 423,
+          "showInFavourites": false,
           "types": [
             "water",
             "ground"
@@ -3890,6 +3893,7 @@ window.POKEMON_DATA = {
           "id": "hippopotas",
           "name": "Hippopotas",
           "dex": 449,
+          "showInFavourites": false,
           "types": [
             "ground"
           ]
@@ -3898,6 +3902,7 @@ window.POKEMON_DATA = {
           "id": "hippowdon",
           "name": "Hippowdon",
           "dex": 450,
+          "showInFavourites": false,
           "types": [
             "ground"
           ]
@@ -4763,6 +4768,7 @@ window.POKEMON_DATA = {
           "id": "basculin",
           "name": "Basculin",
           "dex": 550,
+          "showInFavourites": false,
           "types": [
             "water"
           ]
@@ -5063,6 +5069,7 @@ window.POKEMON_DATA = {
           "id": "deerling",
           "name": "Deerling",
           "dex": 585,
+          "showInFavourites": false,
           "types": [
             "normal",
             "grass"
@@ -5072,6 +5079,7 @@ window.POKEMON_DATA = {
           "id": "sawsbuck",
           "name": "Sawsbuck",
           "dex": 586,
+          "showInFavourites": false,
           "types": [
             "normal",
             "grass"
@@ -5125,6 +5133,7 @@ window.POKEMON_DATA = {
           "id": "frillish",
           "name": "Frillish",
           "dex": 592,
+          "showInFavourites": false,
           "types": [
             "water",
             "ghost"
@@ -5134,6 +5143,7 @@ window.POKEMON_DATA = {
           "id": "jellicent",
           "name": "Jellicent",
           "dex": 593,
+          "showInFavourites": false,
           "types": [
             "water",
             "ghost"
@@ -5780,6 +5790,7 @@ window.POKEMON_DATA = {
           "id": "vivillon",
           "name": "Vivillon",
           "dex": 666,
+          "showInFavourites": false,
           "types": [
             "bug",
             "flying"
@@ -5798,6 +5809,7 @@ window.POKEMON_DATA = {
           "id": "pyroar",
           "name": "Pyroar",
           "dex": 668,
+          "showInFavourites": false,
           "types": [
             "fire",
             "normal"
@@ -5864,6 +5876,7 @@ window.POKEMON_DATA = {
           "id": "furfrou",
           "name": "Furfrou",
           "dex": 676,
+          "showInFavourites": false,
           "types": [
             "normal"
           ]
@@ -6437,6 +6450,7 @@ window.POKEMON_DATA = {
           "id": "oricorio",
           "name": "Oricorio",
           "dex": 741,
+          "showInFavourites": false,
           "types": [
             "fire",
             "flying"
@@ -6472,6 +6486,7 @@ window.POKEMON_DATA = {
           "id": "lycanroc",
           "name": "Lycanroc",
           "dex": 745,
+          "showInFavourites": false,
           "types": [
             "rock"
           ]
@@ -7614,6 +7629,7 @@ window.POKEMON_DATA = {
           "id": "indeedee",
           "name": "Indeedee",
           "dex": 876,
+          "showInFavourites": false,
           "types": [
             "psychic",
             "normal"
@@ -8543,6 +8559,7 @@ window.POKEMON_DATA = {
           "id": "dudunsparce",
           "name": "Dudunsparce",
           "dex": 982,
+          "showInFavourites": false,
           "types": [
             "normal"
           ]
@@ -11739,7 +11756,8 @@ window.POKEMON_DATA = {
         "articuno",
         "zapdos",
         "moltres",
-        "mewtwo"
+        "mewtwo",
+        "mew"
       ]
     },
     {
@@ -11751,7 +11769,8 @@ window.POKEMON_DATA = {
         "entei",
         "suicune",
         "lugia",
-        "ho-oh"
+        "ho-oh",
+        "celebi"
       ]
     },
     {
@@ -11767,6 +11786,7 @@ window.POKEMON_DATA = {
         "kyogre",
         "groudon",
         "rayquaza",
+        "jirachi",
         "deoxys-normal",
         "deoxys-attack",
         "deoxys-defense",
@@ -11787,9 +11807,12 @@ window.POKEMON_DATA = {
         "regigigas",
         "giratina",
         "cresselia",
+        "phione",
+        "manaphy",
         "darkrai",
         "shaymin-land",
-        "shaymin-sky"
+        "shaymin-sky",
+        "arceus"
       ]
     },
     {
@@ -11806,8 +11829,11 @@ window.POKEMON_DATA = {
         "zekrom",
         "landorus",
         "kyurem",
+        "victini",
         "keldeo-ordinary",
-        "keldeo-resolute"
+        "keldeo-resolute",
+        "meloetta",
+        "genesect"
       ]
     },
     {
@@ -11817,7 +11843,10 @@ window.POKEMON_DATA = {
       "pokemon": [
         "xerneas",
         "yveltal",
-        "zygarde"
+        "zygarde",
+        "diancie",
+        "hoopa",
+        "volcanion"
       ]
     },
     {
@@ -11835,7 +11864,12 @@ window.POKEMON_DATA = {
         "cosmoem",
         "solgaleo",
         "lunala",
-        "necrozma"
+        "necrozma",
+        "magearna",
+        "marshadow",
+        "zeraora",
+        "meltan",
+        "melmetal"
       ]
     },
     {
@@ -11856,7 +11890,8 @@ window.POKEMON_DATA = {
         "regidrago",
         "glastrier",
         "spectrier",
-        "calyrex"
+        "calyrex",
+        "zarude"
       ]
     },
     {
@@ -11883,7 +11918,8 @@ window.POKEMON_DATA = {
         "munkidori",
         "fezandipiti",
         "ogerpon",
-        "terapagos"
+        "terapagos",
+        "pecharunt"
       ]
     }
   ],
