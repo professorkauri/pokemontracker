@@ -10635,6 +10635,38 @@ window.POKEMON_DATA = {
           ]
         },
         {
+          "id": "sinistea",
+          "name": "Sinistea Phony Form",
+          "imageId": "sinistea",
+          "types": [
+            "ghost"
+          ]
+        },
+        {
+          "id": "sinistea-antique",
+          "name": "Sinistea Antique Form",
+          "imageId": "sinistea-antique",
+          "types": [
+            "ghost"
+          ]
+        },
+        {
+          "id": "polteageist",
+          "name": "Polteageist Phony Form",
+          "imageId": "polteageist",
+          "types": [
+            "ghost"
+          ]
+        },
+        {
+          "id": "polteageist-antique",
+          "name": "Polteageist Antique Form",
+          "imageId": "polteageist-antique",
+          "types": [
+            "ghost"
+          ]
+        },
+        {
           "id": "indeedee-male",
           "name": "Indeedee Male",
           "imageId": "indeedee-male",
@@ -11005,6 +11037,42 @@ window.POKEMON_DATA = {
           "name": "Gimmighoul Roaming",
           "imageId": "gimmighoul-roaming",
           "types": [
+            "ghost"
+          ]
+        },
+        {
+          "id": "poltchageist",
+          "name": "Poltchageist Counterfeit Form",
+          "imageId": "poltchageist",
+          "types": [
+            "grass",
+            "ghost"
+          ]
+        },
+        {
+          "id": "poltchageist-artisan",
+          "name": "Poltchageist Artisan Form",
+          "imageId": "poltchageist-artisan",
+          "types": [
+            "grass",
+            "ghost"
+          ]
+        },
+        {
+          "id": "sinistcha",
+          "name": "Sinistcha Unremarkable Form",
+          "imageId": "sinistcha",
+          "types": [
+            "grass",
+            "ghost"
+          ]
+        },
+        {
+          "id": "sinistcha-masterpiece",
+          "name": "Sinistcha Masterpiece Form",
+          "imageId": "sinistcha-masterpiece",
+          "types": [
+            "grass",
             "ghost"
           ]
         }
