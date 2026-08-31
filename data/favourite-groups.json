@@ -306,16 +306,12 @@
       "voltorb-hisui",
       "electrode-hisui",
       "sinistea",
-      "sinistea-antique",
       "polteageist",
-      "polteageist-antique",
       "stonjourner",
       "gimmighoul",
       "gimmighoul-roaming",
       "poltchageist",
-      "poltchageist-artisan",
-      "sinistcha",
-      "sinistcha-masterpiece"
+      "sinistcha"
     ],
     "divider": "Themes"
   },
@@ -452,7 +448,8 @@
     "pokemon": [
       "mewtwo",
       "heatran",
-      "cresselia"
+      "cresselia",
+      "darkrai"
     ]
   },
   {
@@ -564,16 +561,12 @@
     "label": "Forces of Nature",
     "exclude": true,
     "pokemon": [
-      "tornadus",
       "tornadus-incarnate",
       "tornadus-therian",
-      "thundurus",
       "thundurus-incarnate",
       "thundurus-therian",
-      "landorus",
       "landorus-incarnate",
       "landorus-therian",
-      "enamorus",
       "enamorus-incarnate",
       "enamorus-therian"
     ]
@@ -649,7 +642,11 @@
       "latios",
       "kyogre",
       "groudon",
-      "rayquaza"
+      "rayquaza",
+      "deoxys-normal",
+      "deoxys-attack",
+      "deoxys-defense",
+      "deoxys-speed"
     ]
   },
   {
@@ -665,7 +662,10 @@
       "heatran",
       "regigigas",
       "giratina",
-      "cresselia"
+      "cresselia",
+      "darkrai",
+      "shaymin-land",
+      "shaymin-sky"
     ]
   },
   {
@@ -681,7 +681,9 @@
       "reshiram",
       "zekrom",
       "landorus",
-      "kyurem"
+      "kyurem",
+      "keldeo-ordinary",
+      "keldeo-resolute"
     ]
   },
   {
@@ -724,7 +726,6 @@
       "zamazenta",
       "eternatus",
       "kubfu",
-      "urshifu",
       "urshifu-single-strike",
       "urshifu-rapid-strike",
       "regieleki",
@@ -739,7 +740,6 @@
     "label": "Hisui Legends",
     "exclude": true,
     "pokemon": [
-      "enamorus",
       "enamorus-incarnate",
       "enamorus-therian"
     ]

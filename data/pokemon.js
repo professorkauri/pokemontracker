@@ -5556,6 +5556,7 @@ window.POKEMON_DATA = {
           "id": "tornadus",
           "name": "Tornadus",
           "dex": 641,
+          "showInFavourites": false,
           "types": [
             "flying"
           ]
@@ -5564,6 +5565,7 @@ window.POKEMON_DATA = {
           "id": "thundurus",
           "name": "Thundurus",
           "dex": 642,
+          "showInFavourites": false,
           "types": [
             "electric",
             "flying"
@@ -5591,6 +5593,7 @@ window.POKEMON_DATA = {
           "id": "landorus",
           "name": "Landorus",
           "dex": 645,
+          "showInFavourites": false,
           "types": [
             "ground",
             "flying"
@@ -7750,6 +7753,7 @@ window.POKEMON_DATA = {
           "id": "urshifu",
           "name": "Urshifu",
           "dex": 892,
+          "showInFavourites": false,
           "types": [
             "fighting",
             "dark"
@@ -7842,6 +7846,7 @@ window.POKEMON_DATA = {
           "id": "basculegion",
           "name": "Basculegion",
           "dex": 902,
+          "showInFavourites": false,
           "types": [
             "water",
             "ghost"
@@ -7869,6 +7874,7 @@ window.POKEMON_DATA = {
           "id": "enamorus",
           "name": "Enamorus",
           "dex": 905,
+          "showInFavourites": false,
           "types": [
             "fairy",
             "flying"
@@ -7961,6 +7967,7 @@ window.POKEMON_DATA = {
           "id": "oinkologne",
           "name": "Oinkologne",
           "dex": 916,
+          "showInFavourites": false,
           "types": [
             "normal"
           ]
@@ -8093,6 +8100,7 @@ window.POKEMON_DATA = {
           "id": "squawkabilly",
           "name": "Squawkabilly",
           "dex": 931,
+          "showInFavourites": false,
           "types": [
             "normal",
             "flying"
@@ -10610,38 +10618,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "sinistea",
-          "name": "Sinistea Phony",
-          "imageId": "sinistea",
-          "types": [
-            "ghost"
-          ]
-        },
-        {
-          "id": "sinistea-antique",
-          "name": "Sinistea Antique",
-          "imageId": "sinistea",
-          "types": [
-            "ghost"
-          ]
-        },
-        {
-          "id": "polteageist",
-          "name": "Polteageist Phony",
-          "imageId": "polteageist",
-          "types": [
-            "ghost"
-          ]
-        },
-        {
-          "id": "polteageist-antique",
-          "name": "Polteageist Antique",
-          "imageId": "polteageist",
-          "types": [
-            "ghost"
-          ]
-        },
-        {
           "id": "indeedee-male",
           "name": "Indeedee Male",
           "imageId": "indeedee-male",
@@ -10921,22 +10897,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "maushold-family-of-four",
-          "name": "Maushold Family of Four",
-          "imageId": "maushold-family-of-four",
-          "types": [
-            "normal"
-          ]
-        },
-        {
-          "id": "maushold-family-of-three",
-          "name": "Maushold Family of Three",
-          "imageId": "maushold-family-of-three",
-          "types": [
-            "normal"
-          ]
-        },
-        {
           "id": "squawkabilly-green-plumage",
           "name": "Squawkabilly Green",
           "imageId": "squawkabilly-green-plumage",
@@ -11028,42 +10988,6 @@ window.POKEMON_DATA = {
           "name": "Gimmighoul Roaming",
           "imageId": "gimmighoul-roaming",
           "types": [
-            "ghost"
-          ]
-        },
-        {
-          "id": "poltchageist",
-          "name": "Poltchageist Counterfeit",
-          "imageId": "poltchageist",
-          "types": [
-            "grass",
-            "ghost"
-          ]
-        },
-        {
-          "id": "poltchageist-artisan",
-          "name": "Poltchageist Artisan",
-          "imageId": "poltchageist",
-          "types": [
-            "grass",
-            "ghost"
-          ]
-        },
-        {
-          "id": "sinistcha",
-          "name": "Sinistcha Unremarkable",
-          "imageId": "sinistcha",
-          "types": [
-            "grass",
-            "ghost"
-          ]
-        },
-        {
-          "id": "sinistcha-masterpiece",
-          "name": "Sinistcha Masterpiece",
-          "imageId": "sinistcha",
-          "types": [
-            "grass",
             "ghost"
           ]
         }
@@ -11202,6 +11126,7 @@ window.POKEMON_DATA = {
     {
       "id": "starter-1st-evo",
       "label": "Starter 1st Evo.",
+      "divider": "Starters",
       "exclude": true,
       "pokemon": [
         "bulbasaur",
@@ -11304,6 +11229,7 @@ window.POKEMON_DATA = {
     {
       "id": "eeveelutions",
       "label": "Eeveelutions",
+      "divider": "Family/Forms",
       "pokemon": [
         "eevee",
         "vaporeon",
@@ -11314,8 +11240,7 @@ window.POKEMON_DATA = {
         "leafeon",
         "glaceon",
         "sylveon"
-      ],
-      "divider": "Forms/Family"
+      ]
     },
     {
       "id": "rotom-forms",
@@ -11476,6 +11401,7 @@ window.POKEMON_DATA = {
     {
       "id": "artificial",
       "label": "Artificial",
+      "divider": "Themes",
       "pokemon": [
         "magnemite",
         "magneton",
@@ -11505,18 +11431,13 @@ window.POKEMON_DATA = {
         "voltorb-hisui",
         "electrode-hisui",
         "sinistea",
-        "sinistea-antique",
         "polteageist",
-        "polteageist-antique",
         "stonjourner",
         "gimmighoul",
         "gimmighoul-roaming",
         "poltchageist",
-        "poltchageist-artisan",
-        "sinistcha",
-        "sinistcha-masterpiece"
-      ],
-      "divider": "Themes"
+        "sinistcha"
+      ]
     },
     {
       "id": "fossil",
@@ -11616,6 +11537,7 @@ window.POKEMON_DATA = {
     {
       "id": "mythical",
       "label": "Mythical",
+      "divider": "Legendary/Mythical",
       "exclude": true,
       "pokemon": [
         "mew",
@@ -11641,8 +11563,7 @@ window.POKEMON_DATA = {
         "melmetal",
         "zarude",
         "pecharunt"
-      ],
-      "divider": "Legendary/Mythical"
+      ]
     },
     {
       "id": "solo-legendaries",
@@ -11651,7 +11572,8 @@ window.POKEMON_DATA = {
       "pokemon": [
         "mewtwo",
         "heatran",
-        "cresselia"
+        "cresselia",
+        "darkrai"
       ]
     },
     {
@@ -11763,16 +11685,12 @@ window.POKEMON_DATA = {
       "label": "Forces of Nature",
       "exclude": true,
       "pokemon": [
-        "tornadus",
         "tornadus-incarnate",
         "tornadus-therian",
-        "thundurus",
         "thundurus-incarnate",
         "thundurus-therian",
-        "landorus",
         "landorus-incarnate",
         "landorus-therian",
-        "enamorus",
         "enamorus-incarnate",
         "enamorus-therian"
       ]
@@ -11815,14 +11733,14 @@ window.POKEMON_DATA = {
     {
       "id": "kanto-legends",
       "label": "Kanto Legends",
+      "divider": "Regional Legends",
       "exclude": true,
       "pokemon": [
         "articuno",
         "zapdos",
         "moltres",
         "mewtwo"
-      ],
-      "divider": "Regional Legends"
+      ]
     },
     {
       "id": "johto-legends",
@@ -11848,7 +11766,11 @@ window.POKEMON_DATA = {
         "latios",
         "kyogre",
         "groudon",
-        "rayquaza"
+        "rayquaza",
+        "deoxys-normal",
+        "deoxys-attack",
+        "deoxys-defense",
+        "deoxys-speed"
       ]
     },
     {
@@ -11864,7 +11786,10 @@ window.POKEMON_DATA = {
         "heatran",
         "regigigas",
         "giratina",
-        "cresselia"
+        "cresselia",
+        "darkrai",
+        "shaymin-land",
+        "shaymin-sky"
       ]
     },
     {
@@ -11880,7 +11805,9 @@ window.POKEMON_DATA = {
         "reshiram",
         "zekrom",
         "landorus",
-        "kyurem"
+        "kyurem",
+        "keldeo-ordinary",
+        "keldeo-resolute"
       ]
     },
     {
@@ -11923,7 +11850,6 @@ window.POKEMON_DATA = {
         "zamazenta",
         "eternatus",
         "kubfu",
-        "urshifu",
         "urshifu-single-strike",
         "urshifu-rapid-strike",
         "regieleki",
@@ -11938,7 +11864,6 @@ window.POKEMON_DATA = {
       "label": "Hisui Legends",
       "exclude": true,
       "pokemon": [
-        "enamorus",
         "enamorus-incarnate",
         "enamorus-therian"
       ]

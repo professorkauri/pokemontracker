@@ -20,6 +20,7 @@
     .map(box => [box.id, box.title.replace(/(?: & Convergent| Forms(?: II)?)$/, '')])
     .filter(([, region]) => [...REGION_STARTS.values()].includes(region)));
   const chooserPokemon = [...new Map(allPokemon.map(pokemon => [pokemon.id, pokemon])).values()]
+    .filter(pokemon => pokemon.showInFavourites !== false)
     .sort((first, second) => (first.dex || nationalSpecies.find(pokemon => pokemon.id === baseSpeciesId(first))?.dex || Infinity)
       - (second.dex || nationalSpecies.find(pokemon => pokemon.id === baseSpeciesId(second))?.dex || Infinity));
   const evolutionLineBySpecies = new Map((DATA.evolutionLines || []).flatMap(line => line.map(id => [id, line])));
@@ -140,8 +141,31 @@
     saveFavourites();
   }
 
+  function favouriteChoicesWithNewPokemonCount() {
+    const choices = [];
+
+    for (const group of favouriteGroups) {
+      choices.push([`group-${group.id}`, candidateList('group', group.id)]);
+    }
+    for (const region of new Set(REGION_STARTS.values())) {
+      choices.push([`region-${region.toLowerCase()}`, candidateList('region', region)]);
+    }
+    for (const type of new Set(allPokemon.map(pokemon => pokemon.types?.[0]).filter(Boolean))) {
+      choices.push([`type-${type}`, candidateList('type', type)]);
+    }
+    const colourCandidates = candidateList('colour');
+    for (const colour of FAVOURITE_COLOURS) {
+      choices.push([`colour-${colour.toLowerCase()}`, colourCandidates]);
+    }
+
+    return choices.filter(([slot, candidates]) => newCandidates(slot, candidates).length > 0).length;
+  }
+
   function updateCounts() {
     const values = Object.values(state);
+    const targetCount = values.filter(value => value === 1).length;
+    const transferCount = values.filter(value => value === 2).length;
+    const favouriteCount = favouriteChoicesWithNewPokemonCount();
     const total = DATA.boxes.reduce((sum, box) => sum + box.pokemon.length, 0);
     const regularHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length, 0);
     const shinyHome = DATA.boxes.reduce((sum, box) => sum + box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length, 0);
@@ -151,8 +175,15 @@
     shinyProgress.max = total; shinyProgress.value = shinyHome;
     document.querySelector('#regular-home-count').textContent = `${regularHome} / ${total}`;
     document.querySelector('#shiny-home-count').textContent = `${shinyHome} / ${total}`;
-    document.querySelector('#target-count').textContent = values.filter(v => v === 1).length;
-    document.querySelector('#transfer-count').textContent = values.filter(v => v === 2).length;
+    for (const [selector, count] of [
+      ['#target-count', targetCount],
+      ['#transfer-count', transferCount],
+      ['#favourites-count', favouriteCount]
+    ]) {
+      const badge = document.querySelector(selector);
+      badge.textContent = count;
+      badge.hidden = count === 0;
+    }
   }
 
   function statusIcon(status) {
@@ -432,7 +463,7 @@
       grid.append(option);
     }
     const pages = Math.ceil(chooser.candidates.length / 30);
-    modal.querySelector('.chooser-page').textContent = `Page ${chooser.page + 1} of ${pages}`;
+    modal.querySelector('.chooser-page').textContent = pages > 1 ? `Page ${chooser.page + 1} of ${pages}` : '';
     modal.querySelector('.chooser-prev').hidden = pages === 1;
     modal.querySelector('.chooser-next').hidden = pages === 1;
     modal.querySelector('.chooser-prev').disabled = chooser.page === 0;
@@ -534,13 +565,6 @@
         option.disabled = true;
         option.setAttribute('aria-label', `${pokemon.name} — not obtained`);
   
-        /*
-         * Keep un-obtained Pokémon visible, but clearly unavailable.
-         * These inline values mean no stylesheet changes are required.
-         */
-        option.style.opacity = '0.3';
-        option.style.filter = 'grayscale(0.65)';
-        option.style.cursor = 'default';
       }
   
       grid.append(option);
@@ -549,7 +573,7 @@
     const pages = Math.ceil(chooser.candidates.length / 30);
   
     modal.querySelector('.chooser-page').textContent =
-      `Page ${chooser.page + 1} of ${pages}`;
+      pages > 1 ? `Page ${chooser.page + 1} of ${pages}` : '';
   
     modal.querySelector('.chooser-prev').hidden = pages === 1;
     modal.querySelector('.chooser-next').hidden = pages === 1;

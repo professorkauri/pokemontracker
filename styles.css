@@ -520,6 +520,11 @@ main {
   font-size: 0.75rem;
   font-weight: 800;
 }
+.pokemon.home.chooser-pokemon.unobtained {
+  opacity: 0.15;
+  filter: grayscale(0.9);
+  cursor: default;
+}
 .box-title {
   min-width: 0;
   font-weight: bold;
@@ -966,6 +971,9 @@ main {
   padding: 2px 6px;
   border-radius: 9px;
   font-size: 0.6rem;
+}
+.dock b[hidden] {
+  display: none;
 }
 .forced-open .box-head {
   cursor: default;
