@@ -125,7 +125,11 @@
   }
   function newCandidates(slot, candidates) {
     const seen = favourites.seen[activeMode][slot] || {};
-    return candidates.filter(pokemon => !seen[pokemon.id]);
+  
+    return candidates.filter(pokemon =>
+      isCollected(pokemon) &&
+      !seen[pokemon.id]
+    );
   }
   function isCollected(pokemon) {
     return DATA.boxes.some(box => box.pokemon.some(entry => entry.id === pokemon.id && getStatus(box.id, entry.id, activeMode) >= 2));
@@ -293,18 +297,37 @@
 
   function candidateList(kind, value, stage = 0) {
     let candidates;
+  
     if (kind === 'starter') {
-      candidates = [...new Set((DATA.starterGroups || []).flatMap(group => group.pokemon.filter((_, index) => index % 3 === stage)))].map(pokemonById).filter(Boolean);
+      candidates = [...new Set(
+        (DATA.starterGroups || [])
+          .flatMap(group => group.pokemon.filter((_, index) => index % 3 === stage))
+      )]
+        .map(pokemonById)
+        .filter(Boolean);
+  
     } else if (kind === 'group') {
-      candidates = (favouriteGroups.find(group => group.id === value)?.pokemon || []).map(pokemonById).filter(Boolean);
+      candidates = (favouriteGroups.find(group => group.id === value)?.pokemon || [])
+        .map(pokemonById)
+        .filter(Boolean);
+  
     } else if (kind === 'region') {
-      candidates = chooserPokemon.filter(pokemon => !excludedFavouriteGroupIds.has(pokemon.id) && regionForPokemon(pokemon) === value);
+      candidates = chooserPokemon.filter(pokemon =>
+        !excludedFavouriteGroupIds.has(pokemon.id) &&
+        regionForPokemon(pokemon) === value
+      );
+  
     } else if (kind === 'colour') {
       candidates = chooserPokemon;
+  
     } else {
-      candidates = chooserPokemon.filter(pokemon => !excludedFavouriteGroupIds.has(pokemon.id) && pokemon.types?.[0] === value);
+      candidates = chooserPokemon.filter(pokemon =>
+        !excludedFavouriteGroupIds.has(pokemon.id) &&
+        pokemon.types?.[0] === value
+      );
     }
-    return candidates.filter(isCollected);
+  
+    return candidates;
   }
 
   function openChooser(label, slot, candidates) {
@@ -436,34 +459,120 @@
 
   function renderChooser() {
     document.querySelector('#favourite-chooser')?.remove();
+  
     const modal = document.createElement('div');
     modal.id = 'favourite-chooser';
     modal.className = 'chooser-backdrop';
-    modal.innerHTML = '<div class="chooser" role="dialog" aria-modal="true" aria-labelledby="chooser-title"><div class="chooser-head"><h2 id="chooser-title"></h2><button type="button" class="chooser-close" aria-label="Close chooser">×</button></div><div class="chooser-selected"></div><div class="chooser-grid"></div><div class="chooser-actions"><button type="button" class="chooser-prev">Previous</button><span class="chooser-page"></span><button type="button" class="chooser-next">Next</button></div></div>';
+  
+    modal.innerHTML = `
+      <div class="chooser" role="dialog" aria-modal="true" aria-labelledby="chooser-title">
+        <div class="chooser-head">
+          <h2 id="chooser-title"></h2>
+          <button type="button" class="chooser-close" aria-label="Close chooser">×</button>
+        </div>
+  
+        <div class="chooser-selected"></div>
+  
+        <div class="chooser-grid"></div>
+  
+        <div class="chooser-actions">
+          <button type="button" class="chooser-prev">Previous</button>
+          <span class="chooser-page"></span>
+          <button type="button" class="chooser-next">Next</button>
+        </div>
+      </div>
+    `;
+  
     modal.querySelector('#chooser-title').textContent = 'Choose a Favourite';
+  
     const selected = pokemonById(favouriteValue(chooser.slot));
     const selectedEl = modal.querySelector('.chooser-selected');
-    selectedEl.innerHTML = selected ? `<span>${chooser.label}</span><img src="${imagePath(selected.id, activeMode)}" alt=""><strong>${selected.name}</strong>` : `<span>${chooser.label}</span><strong>None selected</strong>`;
+  
+    selectedEl.innerHTML = selected
+      ? `
+        <span>${chooser.label}</span>
+        <img src="${imagePath(selected.id, activeMode)}" alt="">
+        <strong>${selected.name}</strong>
+      `
+      : `
+        <span>${chooser.label}</span>
+        <strong>None selected</strong>
+      `;
+  
     const grid = modal.querySelector('.chooser-grid');
     const start = chooser.page * 30;
+  
     for (const pokemon of chooser.candidates.slice(start, start + 30)) {
       const option = document.createElement('button');
+      const collected = isCollected(pokemon);
+      const isNew = chooser.newIds.has(pokemon.id);
+  
       option.type = 'button';
-      option.className = `pokemon home chooser-pokemon ${pokemon.id === favouriteValue(chooser.slot) ? 'selected' : ''} ${chooser.newIds.has(pokemon.id) ? 'new' : ''}`;
-      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>${chooser.newIds.has(pokemon.id) ? '<span class="new-pill chooser-new-pill">!</span>' : ''}`;
-      option.addEventListener('click', () => { saveFavourite(chooser.slot, pokemon); render(); renderChooser(); });
+  
+      option.className = [
+        'pokemon',
+        'home',
+        'chooser-pokemon',
+        pokemon.id === favouriteValue(chooser.slot) ? 'selected' : '',
+        isNew ? 'new' : '',
+        !collected ? 'unobtained' : ''
+      ].filter(Boolean).join(' ');
+  
+      option.innerHTML = `
+        <img src="${imagePath(pokemon.id, activeMode)}" alt="">
+        <small>${pokemon.name}</small>
+        ${isNew ? '<span class="new-pill chooser-new-pill">!</span>' : ''}
+      `;
+  
+      if (collected) {
+        option.addEventListener('click', () => {
+          saveFavourite(chooser.slot, pokemon);
+          render();
+          renderChooser();
+        });
+      } else {
+        option.disabled = true;
+        option.setAttribute('aria-label', `${pokemon.name} — not obtained`);
+  
+        /*
+         * Keep un-obtained Pokémon visible, but clearly unavailable.
+         * These inline values mean no stylesheet changes are required.
+         */
+        option.style.opacity = '0.3';
+        option.style.filter = 'grayscale(0.65)';
+        option.style.cursor = 'default';
+      }
+  
       grid.append(option);
     }
+  
     const pages = Math.ceil(chooser.candidates.length / 30);
-    modal.querySelector('.chooser-page').textContent = `Page ${chooser.page + 1} of ${pages}`;
+  
+    modal.querySelector('.chooser-page').textContent =
+      `Page ${chooser.page + 1} of ${pages}`;
+  
     modal.querySelector('.chooser-prev').hidden = pages === 1;
     modal.querySelector('.chooser-next').hidden = pages === 1;
+  
     modal.querySelector('.chooser-prev').disabled = chooser.page === 0;
     modal.querySelector('.chooser-next').disabled = chooser.page >= pages - 1;
-    modal.querySelector('.chooser-prev').addEventListener('click', () => { chooser.page--; renderChooser(); });
-    modal.querySelector('.chooser-next').addEventListener('click', () => { chooser.page++; renderChooser(); });
+  
+    modal.querySelector('.chooser-prev').addEventListener('click', () => {
+      chooser.page--;
+      renderChooser();
+    });
+  
+    modal.querySelector('.chooser-next').addEventListener('click', () => {
+      chooser.page++;
+      renderChooser();
+    });
+  
     modal.querySelector('.chooser-close').addEventListener('click', closeChooser);
-    modal.addEventListener('click', event => { if (event.target === modal) closeChooser(); });
+  
+    modal.addEventListener('click', event => {
+      if (event.target === modal) closeChooser();
+    });
+  
     document.body.append(modal);
   }
 
