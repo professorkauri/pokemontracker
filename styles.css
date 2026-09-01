@@ -1,15 +1,59 @@
 :root {
-  --ink: #17233b;
-  --muted: #667085;
-  --paper: #edf3fa;
-  --card: #fff;
-  --line: #d7e1ed;
-  --red: #ef5350;
-  --green: #3568df;
-  --yellow: #f4c84a;
-  --progress-track: #dfe7f2;
-  --navy: #152541;
-  --shadow: 0 10px 28px rgba(36, 57, 91, 0.1);
+  --white: #fff;
+  --white-rgb: 255 255 255;
+  --black-rgb: 0 0 0;
+  --transparent: transparent;
+  --ink: #284246;
+  --muted: #5f777a;
+  --paper: #d9f7df;
+  --card: rgb(var(--white-rgb) / 0.88);
+  --line: #a8ded7;
+  --red: #e85a48;
+  --green: #28aaa5;
+  --yellow: #f5c64f;
+  --amber: #ee9f2d;
+  --progress-track: #c9eee7;
+  --navy: #1c6569;
+  --field: #c9f4c6;
+  --panel: #e9fbf7;
+  --title-highlight: #e6ffd7;
+  --field-glow: #aeeeca;
+  --page-top: #ebfff1;
+  --page-bottom: #bfeec7;
+  --surface: rgb(239 255 250 / 0.9);
+  --surface-soft: rgb(242 255 251 / 0.72);
+  --surface-float: rgb(var(--white-rgb) / 0.94);
+  --surface-bright: #e9fff7;
+  --target-bg: #e1fff3;
+  --target-border: #45c2b8;
+  --target-ring: #7bd6cd;
+  --caught-bg: #fff7d3;
+  --caught-status: #d89f00;
+  --caught-ring: #f2c569;
+  --home-bg: #c3eede;
+  --home-ink: #278164;
+  --starter-label: #7fa7a4;
+  --placeholder: #8bb2ad;
+  --favourite-empty: #9ecbc6;
+  --tile-label: #6f9693;
+  --dock-bg: rgb(21 92 89 / 0.96);
+  --dock-border: rgb(var(--white-rgb) / 0.16);
+  --dock-text: #c8efea;
+  --modal-backdrop: rgb(20 92 92 / 0.46);
+  --focus-ring: rgb(40 170 165 / 0.22);
+  --shadow: 0 10px 24px rgb(30 123 117 / 0.13);
+  --card-shadow: 0 5px 18px rgb(34 136 126 / 0.1);
+  --modal-shadow: 0 24px 70px rgb(24 105 101 / 0.28);
+  --lift-shadow: 0 8px 20px rgb(24 105 101 / 0.24);
+  --active-shadow: 0 3px 10px rgb(40 170 165 / 0.25);
+  --shiny-shadow: 0 3px 10px rgb(245 198 79 / 0.28);
+  --favourite-shadow: 0 1px 2px rgb(24 105 101 / 0.2);
+  --dock-shadow: 0 18px 45px rgb(21 37 65 / 0.35);
+  --button-shadow: 0 5px 14px rgb(var(--black-rgb) / 0.22);
+  --tile-border: rgb(167 222 215 / 0.54);
+  --tile-bg: rgb(242 255 250 / 0.46);
+  --panel-control: #bfe9e5;
+  --control-bg: #f2f6fb;
 }
 .box-head {
   position: relative;
@@ -18,24 +62,25 @@
   position: absolute;
   z-index: 1;
   border-radius: 999px;
-  background: #a2bada;
-  color: white;
+  background: var(--amber);
+  color: var(--white);
   font-size: 0.56rem;
-  font-weight: 800;
+  font-weight: 400;
   line-height: 1;
   padding: 4px 7px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   top: -5px;
   left: 3px;
-  padding: 3px 5px;
+  padding: 2px 5px 1px;
   font-size: 0.45rem;
 }
 .box-head .region-pill {
-  margin-left:38px;
+  top: 4px;
+  margin-left: 41px;
 }
 .pokemon .region-pill {
-  outline:2px solid #fff;
+  outline:2px solid var(--white);
 }
 * {
   box-sizing: border-box;
@@ -55,8 +100,10 @@ body {
   min-height: 100vh;
   padding-bottom: 110px;
   background:
-    radial-gradient(circle at 100% 0, #d9e8ff 0, transparent 34%),
-    radial-gradient(circle at 0 35%, #fff6d8 0, transparent 25%),
+    linear-gradient(135deg, var(--surface) 0 10%, var(--transparent) 10% 100%),
+    radial-gradient(circle at 78% 9%, var(--title-highlight) 0, var(--transparent) 26%),
+    radial-gradient(circle at 12% 32%, var(--field-glow) 0, var(--transparent) 31%),
+    linear-gradient(180deg, var(--page-top) 0, var(--paper) 38%, var(--page-bottom) 100%),
     var(--paper);
   display: flex;
   flex-direction: column;
@@ -78,9 +125,10 @@ button {
 .masthead h1 {
   font-size: clamp(1.2rem, 5vw, 1.75rem);
   line-height: 1;
-  letter-spacing: -0.035em;
+  letter-spacing: 0;
   margin: 0;
   white-space: nowrap;
+  color: var(--amber);
 }
 .masthead h1 span {
   color: var(--green);
@@ -88,8 +136,8 @@ button {
 .collection-progress {
   width: clamp(160px, 43vw, 310px);
   border: 1px solid var(--line);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.86);
+  border-radius: 8px;
+  background: var(--surface);
   display: grid;
   gap: 5px;
   padding: 7px 9px;
@@ -119,10 +167,10 @@ button {
   border: 0;
   border-radius: 999px;
   overflow: hidden;
-  background: #dfe7f2;
+  background: var(--progress-track);
 }
 .collection-progress progress::-webkit-progress-bar {
-  background: #dfe7f2;
+  background: var(--progress-track);
   border-radius: 999px;
 }
 .collection-progress progress::-webkit-progress-value {
@@ -156,7 +204,8 @@ main {
 .box-section-title {
   margin: 18px 5px 2px;
   font-size: 1.18rem;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
+  color: var(--navy);
 }
 .box-section-title:first-child {
   margin-top: 0;
@@ -164,14 +213,15 @@ main {
 .box {
   background: var(--card);
   border: 1px solid var(--line);
-  border-radius: 14px;
-  box-shadow: 0 4px 16px rgba(36, 57, 91, 0.055);
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
 }
 .box-head {
   width: 100%;
   padding: 14px 15px;
   border: 0;
-  background: none;
+  background: var(--surface-soft);
   display: flex;
   align-items: center;
   text-align: left;
@@ -196,7 +246,7 @@ main {
   cursor: pointer;
 }
 .favourite-slot.filled {
-  background: transparent;
+  background: var(--transparent);
 }
 .favourite-slot img {
   image-rendering: auto;
@@ -215,8 +265,8 @@ main {
   z-index: 2;
   padding: 3px 5px;
   border-radius: 999px;
-  background: var(--green);
-  color: #fff;
+  background: var(--amber);
+  color: var(--white);
   font-size: 0.48rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -253,15 +303,15 @@ main {
   line-height: 1.2;
   font-size: 0.8rem;
   font-style: italic;
-  color: #b9c5d4 !important;
+  color: var(--starter-label) !important;
   font-weight: 400;
 }
 .favourite-slot:hover,
 .favourite-slot:focus-visible {
   border-color: var(--green);
-  background: #edf3ff;
+  background: var(--surface-bright);
   outline: 0;
-  box-shadow: 0 0 0 2px rgba(53, 104, 223, 0.16);
+  box-shadow: 0 0 0 2px var(--focus-ring);
 }
 .starter-table {
   display: grid;
@@ -313,16 +363,16 @@ main {
   display: grid;
   place-items: center;
   padding: 18px;
-  background: rgba(21, 37, 65, 0.48);
+  background: var(--modal-backdrop);
 }
 .chooser {
   width: min(100%, 720px);
   max-height: min(940px, calc(100vh - 36px));
   overflow: auto;
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 8px;
   background: var(--card);
-  box-shadow: 0 24px 70px rgba(21, 37, 65, 0.3);
+  box-shadow: var(--modal-shadow);
   padding: 16px;
 }
 .chooser-head,
@@ -338,7 +388,7 @@ main {
 }
 .chooser-close {
   border: 0;
-  background: transparent;
+  background: var(--transparent);
   color: var(--muted);
   font-size: 1.7rem;
   line-height: 1;
@@ -352,8 +402,8 @@ main {
   margin: 14px 0;
   padding: 8px 12px;
   border: 1px solid var(--line);
-  border-radius: 10px;
-  background: #f7f9fc;
+  border-radius: 8px;
+  background: var(--panel);
 }
 .chooser-selected span {
   margin-right: auto;
@@ -387,17 +437,17 @@ main {
   gap: 2px;
   padding: 4px;
   border: 1px dashed var(--line);
-  border-radius: 10px;
-  background: #f7f9fc;
+  border-radius: 8px;
+  background: var(--panel);
   text-align: center;
 }
 .colour-favourite-target:hover {
   border-color: var(--green);
-  background: #edf3ff;
+  background: var(--target-bg);
 }
 .colour-favourite-target.drag-target {
   border-color: var(--green);
-  background: #e4f6ec;
+  background: var(--field);
   box-shadow: inset 0 0 0 2px var(--green);
 }
 .colour-favourite-target strong,
@@ -424,7 +474,7 @@ main {
   font-weight: 800;
 }
 .colour-favourite-target span {
-  color: #b8c5d6;
+  color: var(--placeholder);
 }
 .colour-chooser .chooser-pokemon {
   cursor: grab;
@@ -442,9 +492,9 @@ main {
   width: 86px;
   padding: 4px;
   border: 2px solid var(--green);
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 8px 20px rgba(21, 37, 65, 0.24);
+  border-radius: 8px;
+  background: var(--card);
+  box-shadow: var(--lift-shadow);
   pointer-events: none;
   transform: translate(-50%, -115%);
 }
@@ -469,8 +519,8 @@ main {
 .chooser-pokemon {
   min-width: 0;
   border: 1px solid var(--line);
-  border-radius: 10px;
-  background: #f7f9fc;
+  border-radius: 8px;
+  background: var(--panel);
   color: var(--ink);
   cursor: pointer;
 }
@@ -480,7 +530,7 @@ main {
 }
 .chooser-pokemon.new {
   border-color: var(--green);
-  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--green) 20%, transparent 100%);
+  box-shadow: inset 0 0 0 2px var(--focus-ring);
 }
 .chooser-pokemon.new.selected {
   border-color: var(--yellow);
@@ -506,7 +556,7 @@ main {
   border: 0;
   border-radius: 8px;
   background: var(--green);
-  color: white;
+  color: var(--white);
   padding: 9px 14px;
   font-weight: 800;
   cursor: pointer;
@@ -601,7 +651,7 @@ main {
 }
 .progress-donut path {
   fill: none;
-  stroke: white;
+  stroke: var(--white);
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -643,16 +693,16 @@ main {
 .mode-tabs {
   display: flex;
   gap: 5px;
-  background: #e8eef8;
-  border-radius: 11px;
+  background: var(--panel-control);
+  border-radius: 8px;
   padding: 4px;
   margin-bottom: 12px;
 }
 .mode-tabs button {
   flex: 1;
   border: 0;
-  border-radius: 8px;
-  background: transparent;
+  border-radius: 6px;
+  background: var(--transparent);
   padding: 8px;
   font-size: 0.75rem;
   font-weight: 800;
@@ -660,13 +710,13 @@ main {
 }
 .mode-tabs button.active {
   background: var(--green);
-  color: white;
-  box-shadow: 0 3px 10px rgba(53, 104, 223, 0.25);
+  color: var(--white);
+  box-shadow: var(--active-shadow);
 }
 .mode-tabs button.active[data-mode="shiny"] {
   background: var(--yellow);
   color: var(--navy);
-  box-shadow: 0 3px 10px rgba(244, 200, 74, 0.28);
+  box-shadow: var(--shiny-shadow);
 }
 .pokemon-grid {
   display: grid;
@@ -677,9 +727,9 @@ main {
 .empty-slot {
   position: relative;
   aspect-ratio: 0.86;
-  border: 1px solid #f2f6fb;
-  border-radius: 10px;
-  background: #f2f6fb54;
+  border: 1px solid var(--tile-border);
+  border-radius: 8px;
+  background: var(--tile-bg);
   padding: 2px;
   display: flex;
   flex-direction: column;
@@ -693,7 +743,7 @@ main {
     opacity 0.15s;
 }
 .empty-slot {
-  color: #b8c5d6;
+  color: var(--placeholder);
   cursor: default;
   opacity: 0.42;
 }
@@ -712,7 +762,7 @@ main {
   stroke: none;
 }
 .empty-slot .pokeball-cutout {
-  fill: #f2f6fb;
+  fill: var(--panel);
 }
 .pokemon:active {
   transform: scale(0.94);
@@ -721,13 +771,13 @@ main {
   position: absolute;
   top: 4px;
   right: 5px;
-  color: #cad5e4;
+  color: var(--favourite-empty);
   font-size: 0.85rem;
   line-height: 1;
 }
 .pokemon.favourite .favourite-mark {
   color: var(--yellow);
-  text-shadow: 0 1px 2px rgba(21, 37, 65, 0.2);
+  text-shadow: var(--favourite-shadow);
 }
 .pokemon img {
   width: 100%;
@@ -746,7 +796,7 @@ main {
   text-align: center;
   line-height: 1.2;
   margin-top:3px;
-  color:#b9c5d4;
+  color: var(--tile-label);
 }
 .pokemon.missing img {
   opacity: 0.15;
@@ -754,9 +804,9 @@ main {
 }
 .pokemon.target {
   opacity: 1;
-  background: #e8f0ff;
-  border-color: #7ea5f5;
-  box-shadow: inset 0 0 0 1px #9bb9f7;
+  background: var(--target-bg);
+  border-color: var(--target-border);
+  box-shadow: inset 0 0 0 1px var(--target-ring);
 }
 .pokemon.target img {
   opacity: 0.30;
@@ -764,14 +814,14 @@ main {
 }
 .pokemon.caught {
   opacity: 1;
-  background: #fff7d5;
-  border-color: #e9c550;
-  box-shadow: inset 0 0 0 1px #f5cf52;
+  background: var(--caught-bg);
+  border-color: var(--amber);
+  box-shadow: inset 0 0 0 1px var(--caught-ring);
 }
 .pokemon.home {
   opacity: 1;
-  border: 1px solid transparent;
-  background: transparent;
+  border: 1px solid var(--transparent);
+  background: var(--transparent);
 }
 .pokemon .status {
   position: absolute;
@@ -783,7 +833,7 @@ main {
   font-size: 8px;
   display: grid;
   place-items: center;
-  color: white;
+  color: var(--white);
 }
 .pokemon .status svg {
   width: 9px;
@@ -798,18 +848,18 @@ main {
   stroke-linejoin: round;
 }
 .pokemon.caught .status {
-  background: #d89f00;
-  outline: 2px solid #fff7d5;
+  background: var(--caught-status);
+  outline: 2px solid var(--caught-bg);
   font-weight:bold;
 }
 .pokemon.target .status {
-  background: #4f7ee0;
-  outline: 2px solid #e8f0ff;
+  background: var(--green);
+  outline: 2px solid var(--target-bg);
 }
 .pokemon.home .status {
-  background: #c3eede;
-  color: #278164;
-  outline: 2px solid #fff;
+  background: var(--home-bg);
+  color: var(--home-ink);
+  outline: 2px solid var(--white);
 }
 .target-box .pokemon:not(.target),
 .transfer-box .pokemon:not(.caught) {
@@ -828,7 +878,7 @@ main {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: #e2ebff;
+  background: var(--panel);
   color: var(--green);
   font-size: 1.7rem;
 }
@@ -851,8 +901,8 @@ main {
   gap: 10px;
   padding: 8px 10px;
   border: 1px solid var(--line);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.94);
+  border-radius: 8px;
+  background: var(--surface-float);
   box-shadow: var(--shadow);
   backdrop-filter: blur(15px);
 }
@@ -871,8 +921,8 @@ main {
   min-width: 0;
   border: 0;
   outline: 0;
-  background: #f2f6fb;
-  border-radius: 10px;
+  background: var(--control-bg);
+  border-radius: 8px;
   color: var(--ink);
   font: inherit;
   font-size: 16px;
@@ -894,8 +944,8 @@ main {
   gap: 8px;
   padding: 8px 10px;
   border: 1px solid var(--line);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.94);
+  border-radius: 8px;
+  background: var(--surface-float);
   box-shadow: var(--shadow);
   backdrop-filter: blur(15px);
 }
@@ -910,8 +960,8 @@ main {
 .favourite-panel select {
   min-width: 0;
   border: 0;
-  border-radius: 10px;
-  background: #f2f6fb;
+  border-radius: 8px;
+  background: var(--control-bg);
   color: var(--ink);
   font: inherit;
   font-size: 0.82rem;
@@ -924,20 +974,20 @@ main {
   left: 50%;
   transform: translateX(-50%);
   width: min(calc(100% - 28px), 560px);
-  background: rgba(21, 37, 65, 0.96);
+  background: var(--dock-bg);
   backdrop-filter: blur(15px);
   padding: 7px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 18px;
+  border: 1px solid var(--dock-border);
+  border-radius: 8px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  box-shadow: 0 18px 45px rgba(21, 37, 65, 0.35);
+  box-shadow: var(--dock-shadow);
 }
 .dock button {
   border: 0;
-  color: #c9d4e8;
-  background: transparent;
-  border-radius: 12px;
+  color: var(--dock-text);
+  background: var(--transparent);
+  border-radius: 6px;
   padding: 11px 5px;
   font-weight: 800;
   font-size: 0.74rem;
@@ -962,8 +1012,8 @@ main {
 }
 .dock button.active {
   background: var(--green);
-  color: white;
-  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.22);
+  color: var(--white);
+  box-shadow: var(--button-shadow);
 }
 .dock b {
   background: var(--yellow);
