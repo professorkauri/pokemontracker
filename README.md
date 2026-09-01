@@ -5,7 +5,7 @@ A dependency-free, mobile-first tracker. Every appearance of a Pokémon has its 
 ## Run it
 
 1. Open this folder in VS Code.
-2. Run `npm run images` in the terminal to download all artwork into `images/` (requires Node 18+ and internet access). You can stop and restart it safely.
+2. Run `npm run images` in the terminal to download all artwork into `images/` and generate 180px WebP thumbnails in `images/thumbs/` (requires Node 18+ and internet access). You can stop and restart it safely.
 3. Use the VS Code **Live Server** extension on `index.html`, or run `npm run serve`.
 
 Progress is kept indefinitely in that browser's local storage. Clearing site data or changing the served URL/port can create a separate save. The app itself does not need internet after images have been downloaded.

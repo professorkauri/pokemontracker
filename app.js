@@ -118,7 +118,30 @@
   function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); updateCounts(); }
   function key(boxId, pokemonId, mode) { return `${boxId}|${pokemonId}|${mode}`; }
   function getStatus(boxId, pokemonId, mode) { return state[key(boxId, pokemonId, mode)] || 0; }
-  function imagePath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
+  function imagePath(pokemonId, mode) { return `images/thumbs/${mode}/${pokemonId}.webp`; }
+  function artworkPath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
+  function imageSources(pokemon, mode) {
+    const ids = [...new Set([pokemon.id, pokemon.imageId].filter(Boolean))];
+    return [...ids.map(id => imagePath(id, mode)), ...ids.map(id => artworkPath(id, mode))];
+  }
+  function imageMarkup(pokemon, mode, attributes = '') {
+    const [src, ...fallbacks] = imageSources(pokemon, mode);
+    const fallbackAttr = fallbacks.length ? ` data-fallback-srcs="${fallbacks.join('|')}"` : '';
+    return `<img src="${src}"${fallbackAttr} loading="lazy" decoding="async" ${attributes}>`;
+  }
+  function addImageFallbacks(parent) {
+    parent.querySelectorAll('img[data-fallback-srcs]').forEach(img => {
+      img.onerror = () => {
+        const [next, ...rest] = (img.dataset.fallbackSrcs || '').split('|').filter(Boolean);
+        if (!next) {
+          img.onerror = null;
+          return;
+        }
+        img.dataset.fallbackSrcs = rest.join('|');
+        img.src = next;
+      };
+    });
+  }
   function pokemonById(id) { return chooserPokemon.find(pokemon => pokemon.id === id); }
   function favouriteValue(slot) { return favourites[activeMode][slot]; }
   function isColourFavourite(pokemonId) {
@@ -204,10 +227,8 @@
     button.dataset.label = pokemon.name;
     button.title = `${pokemon.name}: ${names[status]}`;
     button.setAttribute('aria-label', button.title);
-    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}${favouriteMode ? '<span class="favourite-mark" aria-hidden="true">★</span>' : ''}<span class="status">${statusIcon(status)}</span><img alt="" loading="lazy"><small>${pokemon.name}</small>`;
-    const img = button.querySelector('img');
-    img.src = imagePath(pokemon.id, mode);
-    img.onerror = () => { img.onerror = null; img.src = imagePath(pokemon.imageId || pokemon.id, mode); };
+    button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}${favouriteMode ? '<span class="favourite-mark" aria-hidden="true">★</span>' : ''}<span class="status">${statusIcon(status)}</span>${imageMarkup(pokemon, mode, 'alt=""')}<small>${pokemon.name}</small>`;
+    addImageFallbacks(button);
     if (favouriteMode) button.addEventListener('click', () => {
       if (favourites[mode][pokemon.id]) delete favourites[mode][pokemon.id];
       else favourites[mode][pokemon.id] = pokemon.id;
@@ -239,24 +260,13 @@
 
   function boxTitleSprite(pokemon, mode) {
     if (!pokemon) return '';
-    const fallbackId = pokemon.imageId || pokemon.id;
-    return `<span class="box-title-sprite" title="${pokemon.name}" aria-hidden="true"><img src="${imagePath(pokemon.id, mode)}" data-fallback-src="${imagePath(fallbackId, mode)}" alt=""></span>`;
+    return `<span class="box-title-sprite" title="${pokemon.name}" aria-hidden="true">${imageMarkup(pokemon, mode, 'alt=""')}</span>`;
   }
 
   function boxTitle(box, pokemon, mode, queueStatus) {
     const first = pokemon[0];
     const title = `${box.title}${queueStatus !== null && mode === 'shiny' ? ' Shiny' : ''}`;
     return `${boxTitleSprite(first, mode)}<span class="box-title">${title}</span>`;
-  }
-
-  function addSpriteFallbacks(parent) {
-    parent.querySelectorAll('img[data-fallback-src]').forEach(img => {
-      img.onerror = () => {
-        img.onerror = null;
-        if (img.src.endsWith(img.dataset.fallbackSrc)) return;
-        img.src = img.dataset.fallbackSrc;
-      };
-    });
   }
 
   function boxPanel(box, mode, queueStatus, options = {}) {
@@ -273,7 +283,7 @@
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
     const boxMeta = `${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
     section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${queueStatus !== null ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, queueStatus)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
-    addSpriteFallbacks(section);
+    addImageFallbacks(section);
     if (queueStatus === null && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
     if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';
@@ -316,12 +326,13 @@
     const selected = pokemonById(favouriteValue(slot));
     if (selected) {
       button.classList.add('filled');
-      button.innerHTML = `<img src="${imagePath(selected.id, activeMode)}" alt=""><small class="favourite-name">${selected.name}</small><small class="favourite-category">${category}</small>`;
+      button.innerHTML = `${imageMarkup(selected, activeMode, 'alt=""')}<small class="favourite-name">${selected.name}</small><small class="favourite-category">${category}</small>`;
     } else {
       button.innerHTML = `<span class="favourite-image-placeholder" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path class="pokeball-fill" d="M4 16a12 12 0 0 1 24 0Z"></path><circle cx="16" cy="16" r="12"></circle><path d="M4 16h7.75M20.25 16H28"></path><circle class="pokeball-cutout" cx="16" cy="16" r="4.25"></circle></svg></span><small class="favourite-name">Choose...</small><small class="favourite-category">${category}</small>`;
     }
     const newCount = newCandidates(slot, candidates).length;
     if (newCount) button.innerHTML += `<span class="new-pill">${newCount} New</span>`;
+    addImageFallbacks(button);
     button.addEventListener('click', () => chooserAction(favouriteLabel, slot, candidates));
     return button;
   }
@@ -397,8 +408,9 @@
       target.dataset.slot = slot;
       target.innerHTML = `<strong>${colour}</strong>`;
       const selected = pokemonById(favouriteValue(slot));
-      if (selected) target.innerHTML += `<img src="${imagePath(selected.id, activeMode)}" alt=""><small>${selected.name}</small>`;
+      if (selected) target.innerHTML += `${imageMarkup(selected, activeMode, 'alt=""')}<small>${selected.name}</small>`;
       else target.innerHTML += '<span>Choose...</span>';
+      addImageFallbacks(target);
       target.addEventListener('dragover', event => event.preventDefault());
       target.addEventListener('drop', event => {
         event.preventDefault();
@@ -416,7 +428,8 @@
       const isNew = [...Object.values(chooser.newIds)].some(ids => ids.has(pokemon.id));
       option.className = `pokemon home chooser-pokemon ${isColourFavourite(pokemon.id) ? 'selected' : ''} ${isNew ? 'new' : ''}`;
       option.dataset.pokemonId = pokemon.id;
-      option.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><small>${pokemon.name}</small>`;
+      option.innerHTML = `${imageMarkup(pokemon, activeMode, 'alt=""')}<small>${pokemon.name}</small>`;
+      addImageFallbacks(option);
       option.addEventListener('dragstart', event => event.dataTransfer.setData('text/plain', pokemon.id));
       let dragPreview = null;
       let activeTarget = null;
@@ -441,7 +454,8 @@
         event.preventDefault();
         dragPreview = document.createElement('div');
         dragPreview.className = 'touch-drag-preview';
-        dragPreview.innerHTML = `<img src="${imagePath(pokemon.id, activeMode)}" alt=""><strong>${pokemon.name}</strong>`;
+        dragPreview.innerHTML = `${imageMarkup(pokemon, activeMode, 'alt=""')}<strong>${pokemon.name}</strong>`;
+        addImageFallbacks(dragPreview);
         modal.append(dragPreview);
         updateTouchDrag(event);
         option.setPointerCapture(event.pointerId);
@@ -522,7 +536,7 @@
     selectedEl.innerHTML = selected
       ? `
         <span>${chooser.label}</span>
-        <img src="${imagePath(selected.id, activeMode)}" alt="">
+        ${imageMarkup(selected, activeMode, 'alt=""')}
         <strong>${selected.name}</strong>
       `
       : `
@@ -531,6 +545,7 @@
       `;
   
     const grid = modal.querySelector('.chooser-grid');
+    addImageFallbacks(selectedEl);
     const start = chooser.page * 30;
   
     for (const pokemon of chooser.candidates.slice(start, start + 30)) {
@@ -550,10 +565,11 @@
       ].filter(Boolean).join(' ');
   
       option.innerHTML = `
-        <img src="${imagePath(pokemon.id, activeMode)}" alt="">
+        ${imageMarkup(pokemon, activeMode, 'alt=""')}
         <small>${pokemon.name}</small>
         ${isNew ? '<span class="new-pill chooser-new-pill">!</span>' : ''}
       `;
+      addImageFallbacks(option);
   
       if (collected) {
         option.addEventListener('click', () => {
