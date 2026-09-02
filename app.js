@@ -103,6 +103,9 @@
     }
     return region;
   }
+  function regionsInPokemon(pokemon) {
+    return [...new Set(pokemon.map(entry => regionForDex(entry.dex)).filter(Boolean))];
+  }
   function regionForPokemon(pokemon) {
     return pokemon.region
       || regionForDex(pokemon.dex)
@@ -311,6 +314,77 @@
     return slot;
   }
 
+  function formGroupKey(pokemon) {
+    const speciesId = baseSpeciesId(pokemon);
+    const line = evolutionLineBySpecies.get(speciesId);
+    return line ? `line:${line.join('|')}` : `species:${speciesId}`;
+  }
+
+  function speciesGroupKey(pokemon) {
+    return `species:${baseSpeciesId(pokemon)}`;
+  }
+
+  function formLayoutGroups(pokemon) {
+    const lineRuns = [];
+    for (const entry of pokemon) {
+      const groupKey = formGroupKey(entry);
+      const previous = lineRuns[lineRuns.length - 1];
+      if (previous?.key === groupKey) previous.pokemon.push(entry);
+      else lineRuns.push({ key: groupKey, pokemon: [entry] });
+    }
+
+    const groups = [];
+    for (const run of lineRuns) {
+      if (run.pokemon.length <= 6) {
+        groups.push(run);
+        continue;
+      }
+      for (const entry of run.pokemon) {
+        const groupKey = speciesGroupKey(entry);
+        const previous = groups[groups.length - 1];
+        if (previous?.key === groupKey) previous.pokemon.push(entry);
+        else groups.push({ key: groupKey, pokemon: [entry] });
+      }
+    }
+    return groups;
+  }
+
+  function appendPokemonGridItems(grid, box, pokemon, mode, queueStatus, options, filtered) {
+    const columns = 6;
+    if (!box.id.startsWith('forms-')) {
+      pokemon.forEach(p => grid.append(card(box, p, mode, queueStatus, options.favouriteMode)));
+      if (!filtered) for (let i = pokemon.length; i < 30; i++) grid.append(emptySlot());
+      return;
+    }
+
+    const groups = formLayoutGroups(pokemon);
+    let used = 0;
+    while (groups.length) {
+      const rowRemainder = used % columns;
+      const remaining = rowRemainder ? columns - rowRemainder : columns;
+      let groupIndex = 0;
+      if (remaining < columns && groups[0].pokemon.length > remaining) {
+        const fillerIndex = groups.findIndex(group => group.pokemon.length <= remaining);
+        if (fillerIndex > 0) groupIndex = fillerIndex;
+        else {
+          for (let i = 0; i < remaining; i++) {
+            grid.append(emptySlot());
+            used++;
+          }
+        }
+      }
+      const [group] = groups.splice(groupIndex, 1);
+      group.pokemon.forEach(p => {
+        grid.append(card(box, p, mode, queueStatus, options.favouriteMode));
+        used++;
+      });
+    }
+    if (!filtered) {
+      const rowRemainder = used % columns;
+      for (let i = rowRemainder; rowRemainder && i < columns; i++) grid.append(emptySlot());
+    }
+  }
+
   function progressDonut(kind, home, total) {
     const percent = (home / total) * 100;
     const complete = home === total;
@@ -330,6 +404,11 @@
     return `${boxTitleSprite(first, mode)}<span class="box-title">${title}</span>`;
   }
 
+  function boxRegionPills(regions) {
+    if (!regions?.length) return '';
+    return `<div class="box-region-pills">${regions.map(region => `<div class="region-pill">${region}</div>`).join('')}</div>`;
+  }
+
   function boxPanel(box, mode, queueStatus, options = {}) {
     const pokemon = options.pokemon || box.pokemon;
     const forceOpen = options.forceOpen || false;
@@ -337,25 +416,24 @@
     const showMatchCount = options.showMatchCount || filtered;
     const panelKey = queueStatus !== null ? `${box.id}-${mode}` : box.id;
     const isOpen = forceOpen || queueStatus !== null || openKey === panelKey;
-    const region = pokemon.map(pokemon => REGION_STARTS.get(pokemon.dex)).find(Boolean);
+    const regions = options.regions || [];
     const section = document.createElement('section');
     const queueClass = queueStatus === 1 ? 'queue-box target-box' : queueStatus === 2 ? 'queue-box transfer-box' : '';
-    section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${queueClass} ${forceOpen ? 'forced-open' : ''}`;
+    section.className = `box ${regions.length ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${queueClass} ${forceOpen ? 'forced-open' : ''}`;
     section.dataset.panelKey = panelKey;
     if (queueStatus === null && !forceOpen) renderedPanels.set(panelKey, { box, mode, queueStatus, options: { ...options } });
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
     const matchMeta = showMatchCount ? `<span class="match-count">${pokemon.length} match${pokemon.length === 1 ? '' : 'es'}</span>` : '';
     const boxMeta = `${matchMeta}${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
-    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${queueStatus !== null ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, queueStatus)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
+    section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${queueStatus !== null ? 'aria-disabled="true"' : ''}>${boxRegionPills(regions)}${boxTitle(box, pokemon, mode, queueStatus)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
     addImageFallbacks(section);
     if (queueStatus === null && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => toggleBoxPanel(panelKey));
     if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';
       if (queueStatus === null) mode = activeMode;
       const grid = document.createElement('div'); grid.className = 'pokemon-grid';
-      pokemon.forEach(p => grid.append(card(box, p, mode, queueStatus, options.favouriteMode)));
-      if (!filtered) for (let i = pokemon.length; i < 30; i++) grid.append(emptySlot());
+      appendPokemonGridItems(grid, box, pokemon, mode, queueStatus, options, filtered);
       body.append(grid); section.append(body);
     }
     return section;
@@ -377,13 +455,34 @@
 
   function appendBoxGroup(title, boxes, queueStatus = null, favouriteMode = false) {
     const panels = [];
+    const labelledRegions = new Set();
     for (const box of boxes) {
       if (queueStatus === null) {
         const filteredPokemon = favouriteMode ? box.pokemon : box.pokemon.filter(pokemon => pokemonMatchesGameFilter(box, pokemon));
-        if (filteredPokemon.length) panels.push(boxPanel(box, activeMode, null, { pokemon: filteredPokemon, favouriteMode, forceOpen: favouriteMode, showMatchCount: !favouriteMode && dexFilterIsActive() }));
+        if (filteredPokemon.length) {
+          const regions = box.id.startsWith('dex-')
+            ? regionsInPokemon(filteredPokemon).filter(region => {
+              if (labelledRegions.has(region)) return false;
+              labelledRegions.add(region);
+              return true;
+            })
+            : [];
+          panels.push(boxPanel(box, activeMode, null, { pokemon: filteredPokemon, favouriteMode, forceOpen: favouriteMode, showMatchCount: !favouriteMode && dexFilterIsActive(), regions }));
+        }
       }
       else for (const mode of ['regular', 'shiny']) {
-        if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === queueStatus)) panels.push(boxPanel(box, mode, queueStatus));
+        const matchingPokemon = box.pokemon.filter(p => getStatus(box.id, p.id, mode) === queueStatus);
+        if (matchingPokemon.length) {
+          const regions = box.id.startsWith('dex-')
+            ? regionsInPokemon(matchingPokemon).filter(region => {
+              const key = `${mode}:${region}`;
+              if (labelledRegions.has(key)) return false;
+              labelledRegions.add(key);
+              return true;
+            })
+            : [];
+          panels.push(boxPanel(box, mode, queueStatus, { regions }));
+        }
       }
     }
     if (!panels.length) return;
@@ -766,9 +865,19 @@
     if (!query) return;
     const matchesSearch = searchMatcher(query);
     const panels = [];
+    const labelledRegions = new Set();
     for (const box of boxes) {
       const matches = box.pokemon.filter(matchesSearch);
-      if (matches.length) panels.push(boxPanel(box, activeMode, null, { pokemon: matches, forceOpen: true, showMatchCount: true }));
+      if (matches.length) {
+        const regions = box.id.startsWith('dex-')
+          ? regionsInPokemon(matches).filter(region => {
+            if (labelledRegions.has(region)) return false;
+            labelledRegions.add(region);
+            return true;
+          })
+          : [];
+        panels.push(boxPanel(box, activeMode, null, { pokemon: matches, forceOpen: true, showMatchCount: true, regions }));
+      }
     }
     if (!panels.length) return;
     const heading = document.createElement('h2');

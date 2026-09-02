@@ -80,6 +80,19 @@
   top: 4px;
   margin-left: 41px;
 }
+.box-region-pills {
+  position: absolute;
+  top: 4px;
+  left: 44px;
+  z-index: 1;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.box-region-pills .region-pill {
+  position: static;
+  margin-left: 0;
+}
 .pokemon .region-pill {
   outline:2px solid var(--white);
 }
