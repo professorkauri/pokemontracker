@@ -158,30 +158,18 @@ const vivillonForms = [
   P('vivillon-sandstorm', 'Vivillon Sandstorm'), P('vivillon-savanna', 'Vivillon Savanna'),
   P('vivillon-sun', 'Vivillon Sun'), P('vivillon-tundra', 'Vivillon Tundra')
 ];
-const genderForms = new Map([
-  ['Sinnoh Forms', [
-    P('hippopotas-male', 'Hippopotas Male', 'hippopotas'), P('hippopotas-female', 'Hippopotas Female'),
-    P('hippowdon-male', 'Hippowdon Male', 'hippowdon'), P('hippowdon-female', 'Hippowdon Female')
-  ]],
-  ['Unova Forms', [
-    P('unfezant-male', 'Unfezant Male', 'unfezant'), P('unfezant-female', 'Unfezant Female'),
-    P('frillish-male', 'Frillish Male'), P('frillish-female', 'Frillish Female'),
-    P('jellicent-male', 'Jellicent Male'), P('jellicent-female', 'Jellicent Female')
-  ]],
-  ['Kalos Forms', [
-    P('pyroar-male', 'Pyroar Male'), P('pyroar-female', 'Pyroar Female'),
-    P('meowstic-male', 'Meowstic Male'), P('meowstic-female', 'Meowstic Female')
-  ]],
-  ['Galar Forms', [
-    P('indeedee-male', 'Indeedee Male'), P('indeedee-female', 'Indeedee Female')
-  ]],
-  ['Hisui Forms', [
-    P('basculegion-male', 'Basculegion Male'), P('basculegion-female', 'Basculegion Female')
-  ]],
-  ['Paldea Forms', [
-    P('oinkologne-male', 'Oinkologne Male'), P('oinkologne-female', 'Oinkologne Female')
-  ]]
-]);
+const genderForms = [
+  P('hippopotas-male', 'Hippopotas Male', 'hippopotas'), P('hippopotas-female', 'Hippopotas Female'),
+  P('hippowdon-male', 'Hippowdon Male', 'hippowdon'), P('hippowdon-female', 'Hippowdon Female'),
+  P('unfezant-male', 'Unfezant Male', 'unfezant'), P('unfezant-female', 'Unfezant Female'),
+  P('frillish-male', 'Frillish Male'), P('frillish-female', 'Frillish Female'),
+  P('jellicent-male', 'Jellicent Male'), P('jellicent-female', 'Jellicent Female'),
+  P('pyroar-male', 'Pyroar Male'), P('pyroar-female', 'Pyroar Female'),
+  P('meowstic-male', 'Meowstic Male'), P('meowstic-female', 'Meowstic Female'),
+  P('indeedee-male', 'Indeedee Male'), P('indeedee-female', 'Indeedee Female'),
+  P('basculegion-male', 'Basculegion Male'), P('basculegion-female', 'Basculegion Female'),
+  P('oinkologne-male', 'Oinkologne Male'), P('oinkologne-female', 'Oinkologne Female')
+];
 
 const rawForms = [
   ['Unown Forms', unownForms],
@@ -244,13 +232,13 @@ const alolaForms = formsByName.get('Alola Forms');
 const alolaSplit = alolaForms.findIndex(form => form.id.startsWith('minior-'));
 formsByName.set('Alola Forms', alolaForms.slice(0, alolaSplit));
 formsByName.set('Alola Forms II', alolaForms.slice(alolaSplit));
-for (const [name, pokemon] of genderForms) formsByName.get(name).push(...pokemon);
+formsByName.set('Gender Forms', genderForms);
 for (const [name, pokemon] of formsByName) formsByName.set(name, sortByDex(pokemon));
-const formOrder = ['Unown Forms', 'Hoenn Forms', 'Sinnoh Forms', 'Unova Forms', 'Kalos Forms', 'Kalos Forms II', 'Vivillon Forms', 'Alola Forms', 'Alola Forms II', 'Galar Forms', 'Hisui Forms', 'Paldea Forms'];
+const formOrder = ['Gender Forms', 'Unown Forms', 'Hoenn Forms', 'Sinnoh Forms', 'Unova Forms', 'Kalos Forms', 'Kalos Forms II', 'Vivillon Forms', 'Alola Forms', 'Alola Forms II', 'Galar Forms', 'Hisui Forms', 'Paldea Forms'];
 const forms = formOrder.filter(name => formsByName.has(name)).map(name => [name, formsByName.get(name)]);
 const boxes = [];
 for (let i=0;i<species.length;i+=30) boxes.push({id:`dex-${i+1}-${Math.min(i+30,species.length)}`,title:`${i+1}–${Math.min(i+30,species.length)}`,pokemon:species.slice(i,i+30)});
-const formIds = new Map([['Hoenn Forms','forms-3'],['Sinnoh Forms','forms-4'],['Unova Forms','forms-5'],['Kalos Forms','forms-6'],['Alola Forms','forms-7'],['Galar Forms','forms-8'],['Hisui Forms','forms-9'],['Paldea Forms','forms-10'],['Kalos Forms II','forms-11'],['Alola Forms II','forms-12'],['Unown Forms','forms-13'],['Vivillon Forms','forms-14']]);
+const formIds = new Map([['Hoenn Forms','forms-3'],['Sinnoh Forms','forms-4'],['Unova Forms','forms-5'],['Kalos Forms','forms-6'],['Alola Forms','forms-7'],['Galar Forms','forms-8'],['Hisui Forms','forms-9'],['Paldea Forms','forms-10'],['Kalos Forms II','forms-11'],['Alola Forms II','forms-12'],['Unown Forms','forms-13'],['Vivillon Forms','forms-14'],['Gender Forms','forms-15']]);
 forms.forEach(([name,pokemon]) => boxes.push({id:formIds.get(name),title:name,pokemon}));
 const existingEvolutionLines = await readExistingEvolutionLines();
 const existingTypes = await readExistingTypes();

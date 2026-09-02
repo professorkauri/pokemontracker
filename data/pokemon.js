@@ -25105,6 +25105,410 @@ window.POKEMON_DATA = {
       ]
     },
     {
+      "id": "forms-15",
+      "title": "Gender Forms",
+      "pokemon": [
+        {
+          "id": "hippopotas-male",
+          "name": "Hippopotas Male",
+          "imageId": "hippopotas",
+          "types": [
+            "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za"
+          ]
+        },
+        {
+          "id": "hippopotas-female",
+          "name": "Hippopotas Female",
+          "imageId": "hippopotas-female",
+          "types": [
+            "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za"
+          ]
+        },
+        {
+          "id": "hippowdon-male",
+          "name": "Hippowdon Male",
+          "imageId": "hippowdon",
+          "types": [
+            "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
+          ]
+        },
+        {
+          "id": "hippowdon-female",
+          "name": "Hippowdon Female",
+          "imageId": "hippowdon-female",
+          "types": [
+            "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
+          ]
+        },
+        {
+          "id": "unfezant-male",
+          "name": "Unfezant Male",
+          "imageId": "unfezant",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
+          ]
+        },
+        {
+          "id": "unfezant-female",
+          "name": "Unfezant Female",
+          "imageId": "unfezant-female",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield"
+          ]
+        },
+        {
+          "id": "frillish-male",
+          "name": "Frillish Male",
+          "imageId": "frillish-male",
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
+          ]
+        },
+        {
+          "id": "frillish-female",
+          "name": "Frillish Female",
+          "imageId": "frillish-female",
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
+          ]
+        },
+        {
+          "id": "jellicent-male",
+          "name": "Jellicent Male",
+          "imageId": "jellicent-male",
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
+          ]
+        },
+        {
+          "id": "jellicent-female",
+          "name": "Jellicent Female",
+          "imageId": "jellicent-female",
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
+          ]
+        },
+        {
+          "id": "pyroar-male",
+          "name": "Pyroar Male",
+          "imageId": "pyroar-male",
+          "types": [
+            "fire",
+            "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
+          ]
+        },
+        {
+          "id": "pyroar-female",
+          "name": "Pyroar Female",
+          "imageId": "pyroar-female",
+          "types": [
+            "fire",
+            "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
+          ]
+        },
+        {
+          "id": "meowstic-male",
+          "name": "Meowstic Male",
+          "imageId": "meowstic-male",
+          "types": [
+            "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
+          ]
+        },
+        {
+          "id": "meowstic-female",
+          "name": "Meowstic Female",
+          "imageId": "meowstic-female",
+          "types": [
+            "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
+          ]
+        },
+        {
+          "id": "indeedee-male",
+          "name": "Indeedee Male",
+          "imageId": "indeedee-male",
+          "types": [
+            "psychic",
+            "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
+          ]
+        },
+        {
+          "id": "indeedee-female",
+          "name": "Indeedee Female",
+          "imageId": "indeedee-female",
+          "types": [
+            "psychic",
+            "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
+          ]
+        },
+        {
+          "id": "basculegion-male",
+          "name": "Basculegion Male",
+          "imageId": "basculegion-male",
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "basculegion-female",
+          "name": "Basculegion Female",
+          "imageId": "basculegion-female",
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "oinkologne-male",
+          "name": "Oinkologne Male",
+          "imageId": "oinkologne-male",
+          "types": [
+            "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
+          ]
+        },
+        {
+          "id": "oinkologne-female",
+          "name": "Oinkologne Female",
+          "imageId": "oinkologne-female",
+          "types": [
+            "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
+          ]
+        }
+      ]
+    },
+    {
       "id": "forms-13",
       "title": "Unown Forms",
       "pokemon": [
@@ -25982,104 +26386,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "hippopotas-male",
-          "name": "Hippopotas Male",
-          "imageId": "hippopotas",
-          "types": [
-            "ground"
-          ],
-          "games": [
-            "diamond",
-            "pearl",
-            "platinum",
-            "heartgold",
-            "soulsilver",
-            "x",
-            "y",
-            "sword",
-            "shield",
-            "brilliant-diamond",
-            "shining-pearl",
-            "legends-arceus",
-            "scarlet",
-            "violet",
-            "legends-za"
-          ]
-        },
-        {
-          "id": "hippopotas-female",
-          "name": "Hippopotas Female",
-          "imageId": "hippopotas-female",
-          "types": [
-            "ground"
-          ],
-          "games": [
-            "diamond",
-            "pearl",
-            "platinum",
-            "x",
-            "y",
-            "sword",
-            "shield",
-            "brilliant-diamond",
-            "shining-pearl",
-            "legends-arceus",
-            "scarlet",
-            "violet",
-            "legends-za"
-          ]
-        },
-        {
-          "id": "hippowdon-male",
-          "name": "Hippowdon Male",
-          "imageId": "hippowdon",
-          "types": [
-            "ground"
-          ],
-          "games": [
-            "diamond",
-            "pearl",
-            "platinum",
-            "x",
-            "y",
-            "ultra-sun",
-            "ultra-moon",
-            "sword",
-            "shield",
-            "brilliant-diamond",
-            "shining-pearl",
-            "legends-arceus",
-            "scarlet",
-            "violet",
-            "legends-za",
-            "champions"
-          ]
-        },
-        {
-          "id": "hippowdon-female",
-          "name": "Hippowdon Female",
-          "imageId": "hippowdon-female",
-          "types": [
-            "ground"
-          ],
-          "games": [
-            "diamond",
-            "pearl",
-            "platinum",
-            "x",
-            "y",
-            "sword",
-            "shield",
-            "brilliant-diamond",
-            "shining-pearl",
-            "legends-arceus",
-            "scarlet",
-            "violet",
-            "legends-za",
-            "champions"
-          ]
-        },
-        {
           "id": "rotom",
           "name": "Rotom",
           "imageId": "rotom",
@@ -26269,44 +26575,6 @@ window.POKEMON_DATA = {
       "id": "forms-5",
       "title": "Unova Forms",
       "pokemon": [
-        {
-          "id": "unfezant-male",
-          "name": "Unfezant Male",
-          "imageId": "unfezant",
-          "types": [
-            "normal",
-            "flying"
-          ],
-          "games": [
-            "black",
-            "white",
-            "black-2",
-            "white-2",
-            "sword",
-            "shield",
-            "the-isle-of-armor-sword",
-            "the-isle-of-armor-shield",
-            "the-crown-tundra-sword",
-            "the-crown-tundra-shield"
-          ]
-        },
-        {
-          "id": "unfezant-female",
-          "name": "Unfezant Female",
-          "imageId": "unfezant-female",
-          "types": [
-            "normal",
-            "flying"
-          ],
-          "games": [
-            "black",
-            "white",
-            "black-2",
-            "white-2",
-            "sword",
-            "shield"
-          ]
-        },
         {
           "id": "basculin-red-striped",
           "name": "Basculin Red",
@@ -26516,92 +26784,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "frillish-male",
-          "name": "Frillish Male",
-          "imageId": "frillish-male",
-          "types": [
-            "water",
-            "ghost"
-          ],
-          "games": [
-            "black",
-            "white",
-            "black-2",
-            "white-2",
-            "ultra-sun",
-            "ultra-moon",
-            "sword",
-            "shield",
-            "the-isle-of-armor-sword",
-            "the-isle-of-armor-shield"
-          ]
-        },
-        {
-          "id": "frillish-female",
-          "name": "Frillish Female",
-          "imageId": "frillish-female",
-          "types": [
-            "water",
-            "ghost"
-          ],
-          "games": [
-            "black",
-            "white",
-            "black-2",
-            "white-2",
-            "ultra-sun",
-            "ultra-moon",
-            "sword",
-            "shield",
-            "the-isle-of-armor-sword",
-            "the-isle-of-armor-shield"
-          ]
-        },
-        {
-          "id": "jellicent-male",
-          "name": "Jellicent Male",
-          "imageId": "jellicent-male",
-          "types": [
-            "water",
-            "ghost"
-          ],
-          "games": [
-            "black",
-            "white",
-            "black-2",
-            "white-2",
-            "ultra-sun",
-            "ultra-moon",
-            "sword",
-            "shield",
-            "the-isle-of-armor-sword",
-            "the-isle-of-armor-shield",
-            "the-crown-tundra-sword",
-            "the-crown-tundra-shield"
-          ]
-        },
-        {
-          "id": "jellicent-female",
-          "name": "Jellicent Female",
-          "imageId": "jellicent-female",
-          "types": [
-            "water",
-            "ghost"
-          ],
-          "games": [
-            "black",
-            "white",
-            "black-2",
-            "white-2",
-            "ultra-sun",
-            "ultra-moon",
-            "sword",
-            "shield",
-            "the-isle-of-armor-sword",
-            "the-isle-of-armor-shield"
-          ]
-        },
-        {
           "id": "tornadus-incarnate",
           "name": "Tornadus Incarnate",
           "imageId": "tornadus-incarnate",
@@ -26747,48 +26929,6 @@ window.POKEMON_DATA = {
       "id": "forms-6",
       "title": "Kalos Forms",
       "pokemon": [
-        {
-          "id": "pyroar-male",
-          "name": "Pyroar Male",
-          "imageId": "pyroar-male",
-          "types": [
-            "fire",
-            "normal"
-          ],
-          "games": [
-            "x",
-            "y",
-            "ultra-sun",
-            "ultra-moon",
-            "scarlet",
-            "violet",
-            "the-indigo-disk-scarlet",
-            "the-indigo-disk-violet",
-            "legends-za",
-            "champions"
-          ]
-        },
-        {
-          "id": "pyroar-female",
-          "name": "Pyroar Female",
-          "imageId": "pyroar-female",
-          "types": [
-            "fire",
-            "normal"
-          ],
-          "games": [
-            "x",
-            "y",
-            "ultra-sun",
-            "ultra-moon",
-            "scarlet",
-            "violet",
-            "the-indigo-disk-scarlet",
-            "the-indigo-disk-violet",
-            "legends-za",
-            "champions"
-          ]
-        },
         {
           "id": "flabebe-red",
           "name": "Flabébé Red",
@@ -27228,44 +27368,6 @@ window.POKEMON_DATA = {
             "y",
             "ultra-sun",
             "ultra-moon",
-            "legends-za",
-            "champions"
-          ]
-        },
-        {
-          "id": "meowstic-male",
-          "name": "Meowstic Male",
-          "imageId": "meowstic-male",
-          "types": [
-            "psychic"
-          ],
-          "games": [
-            "x",
-            "y",
-            "sword",
-            "shield",
-            "the-isle-of-armor-sword",
-            "the-indigo-disk-scarlet",
-            "the-indigo-disk-violet",
-            "legends-za",
-            "champions"
-          ]
-        },
-        {
-          "id": "meowstic-female",
-          "name": "Meowstic Female",
-          "imageId": "meowstic-female",
-          "types": [
-            "psychic"
-          ],
-          "games": [
-            "x",
-            "y",
-            "sword",
-            "shield",
-            "the-isle-of-armor-shield",
-            "the-indigo-disk-scarlet",
-            "the-indigo-disk-violet",
             "legends-za",
             "champions"
           ]
@@ -29407,48 +29509,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "indeedee-male",
-          "name": "Indeedee Male",
-          "imageId": "indeedee-male",
-          "types": [
-            "psychic",
-            "normal"
-          ],
-          "games": [
-            "sword",
-            "shield",
-            "the-isle-of-armor-sword",
-            "the-crown-tundra-sword",
-            "the-crown-tundra-shield",
-            "scarlet",
-            "violet",
-            "the-teal-mask-scarlet",
-            "the-teal-mask-violet",
-            "mega-dimension"
-          ]
-        },
-        {
-          "id": "indeedee-female",
-          "name": "Indeedee Female",
-          "imageId": "indeedee-female",
-          "types": [
-            "psychic",
-            "normal"
-          ],
-          "games": [
-            "sword",
-            "shield",
-            "the-isle-of-armor-shield",
-            "the-crown-tundra-sword",
-            "the-crown-tundra-shield",
-            "scarlet",
-            "violet",
-            "the-teal-mask-scarlet",
-            "the-teal-mask-violet",
-            "mega-dimension"
-          ]
-        },
-        {
           "id": "urshifu-single-strike",
           "name": "Urshifu Single Strike",
           "imageId": "urshifu-single-strike",
@@ -29950,36 +30010,6 @@ window.POKEMON_DATA = {
           ]
         },
         {
-          "id": "basculegion-male",
-          "name": "Basculegion Male",
-          "imageId": "basculegion-male",
-          "types": [
-            "water",
-            "ghost"
-          ],
-          "games": [
-            "legends-arceus",
-            "the-teal-mask-scarlet",
-            "the-teal-mask-violet",
-            "champions"
-          ]
-        },
-        {
-          "id": "basculegion-female",
-          "name": "Basculegion Female",
-          "imageId": "basculegion-female",
-          "types": [
-            "water",
-            "ghost"
-          ],
-          "games": [
-            "legends-arceus",
-            "the-teal-mask-scarlet",
-            "the-teal-mask-violet",
-            "champions"
-          ]
-        },
-        {
           "id": "enamorus-incarnate",
           "name": "Enamorus Incarnate",
           "imageId": "enamorus-incarnate",
@@ -30145,30 +30175,6 @@ window.POKEMON_DATA = {
             "violet",
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
-          ]
-        },
-        {
-          "id": "oinkologne-male",
-          "name": "Oinkologne Male",
-          "imageId": "oinkologne-male",
-          "types": [
-            "normal"
-          ],
-          "games": [
-            "scarlet",
-            "violet"
-          ]
-        },
-        {
-          "id": "oinkologne-female",
-          "name": "Oinkologne Female",
-          "imageId": "oinkologne-female",
-          "types": [
-            "normal"
-          ],
-          "games": [
-            "scarlet",
-            "violet"
           ]
         },
         {
