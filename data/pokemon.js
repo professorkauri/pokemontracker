@@ -5819,6 +5819,7 @@ window.POKEMON_DATA = {
           "id": "flabebe",
           "name": "Flabebe",
           "dex": 669,
+          "showInFavourites": false,
           "types": [
             "fairy"
           ]
@@ -5827,6 +5828,7 @@ window.POKEMON_DATA = {
           "id": "floette",
           "name": "Floette",
           "dex": 670,
+          "showInFavourites": false,
           "types": [
             "fairy"
           ]
@@ -5835,6 +5837,7 @@ window.POKEMON_DATA = {
           "id": "florges",
           "name": "Florges",
           "dex": 671,
+          "showInFavourites": false,
           "types": [
             "fairy"
           ]
