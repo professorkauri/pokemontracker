@@ -39,6 +39,7 @@
   let favourites = loadFavourites();
   let gameFilter = loadGameFilter();
   let chooser = null;
+  let renderedPanels = new Map();
 
   function normalizeSearch(value) { return value.trim().toLowerCase().replace(/\s+/g, ' '); }
   function titleCaseGame(id) { return id.split('-').map(word => word[0].toUpperCase() + word.slice(1)).join(' '); }
@@ -336,13 +337,15 @@
     const section = document.createElement('section');
     const queueClass = queueStatus === 1 ? 'queue-box target-box' : queueStatus === 2 ? 'queue-box transfer-box' : '';
     section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${queueClass} ${forceOpen ? 'forced-open' : ''}`;
+    section.dataset.panelKey = panelKey;
+    if (queueStatus === null && !forceOpen) renderedPanels.set(panelKey, { box, mode, queueStatus, options: { ...options } });
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
     const matchMeta = filtered ? `<span class="match-count">${pokemon.length} match${pokemon.length === 1 ? '' : 'es'}</span>` : '';
     const boxMeta = `${matchMeta}${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
     section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${queueStatus !== null ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, queueStatus)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
     addImageFallbacks(section);
-    if (queueStatus === null && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
+    if (queueStatus === null && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => toggleBoxPanel(panelKey));
     if (isOpen) {
       const body = document.createElement('div'); body.className = 'box-body';
       if (queueStatus === null) mode = activeMode;
@@ -352,6 +355,20 @@
       body.append(grid); section.append(body);
     }
     return section;
+  }
+
+  function rerenderBoxPanel(panelKey) {
+    const panel = renderedPanels.get(panelKey);
+    const currentSection = [...boxesEl.querySelectorAll('.box')].find(section => section.dataset.panelKey === panelKey);
+    if (!panel || !currentSection) return;
+    currentSection.replaceWith(boxPanel(panel.box, panel.mode, panel.queueStatus, panel.options));
+  }
+
+  function toggleBoxPanel(panelKey) {
+    const previousOpenKey = openKey;
+    openKey = openKey === panelKey ? null : panelKey;
+    rerenderBoxPanel(panelKey);
+    if (previousOpenKey && previousOpenKey !== panelKey) rerenderBoxPanel(previousOpenKey);
   }
 
   function appendBoxGroup(title, boxes, queueStatus = null, favouriteMode = false) {
@@ -824,6 +841,7 @@
   }
 
   function render() {
+    renderedPanels = new Map();
     boxesEl.replaceChildren();
     searchPanel.hidden = view !== 'search';
     favouritePanel.hidden = view !== 'favourites';
