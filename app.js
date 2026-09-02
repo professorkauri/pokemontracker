@@ -176,6 +176,9 @@
     if (games === null) return true;
     return games.length > 0 && pokemon.games?.some(game => games.includes(game));
   }
+  function dexFilterIsActive() {
+    return gameFilter.missingOnly || gameFilter.source !== 'all';
+  }
   function imagePath(pokemonId, mode) { return `images/thumbs/${mode}/${pokemonId}.webp`; }
   function artworkPath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
   function imageSources(pokemon, mode) {
@@ -331,6 +334,7 @@
     const pokemon = options.pokemon || box.pokemon;
     const forceOpen = options.forceOpen || false;
     const filtered = pokemon.length !== box.pokemon.length;
+    const showMatchCount = options.showMatchCount || filtered;
     const panelKey = queueStatus !== null ? `${box.id}-${mode}` : box.id;
     const isOpen = forceOpen || queueStatus !== null || openKey === panelKey;
     const region = pokemon.map(pokemon => REGION_STARTS.get(pokemon.dex)).find(Boolean);
@@ -341,7 +345,7 @@
     if (queueStatus === null && !forceOpen) renderedPanels.set(panelKey, { box, mode, queueStatus, options: { ...options } });
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
-    const matchMeta = filtered ? `<span class="match-count">${pokemon.length} match${pokemon.length === 1 ? '' : 'es'}</span>` : '';
+    const matchMeta = showMatchCount ? `<span class="match-count">${pokemon.length} match${pokemon.length === 1 ? '' : 'es'}</span>` : '';
     const boxMeta = `${matchMeta}${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
     section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${queueStatus !== null ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, queueStatus)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
     addImageFallbacks(section);
@@ -376,7 +380,7 @@
     for (const box of boxes) {
       if (queueStatus === null) {
         const filteredPokemon = favouriteMode ? box.pokemon : box.pokemon.filter(pokemon => pokemonMatchesGameFilter(box, pokemon));
-        if (filteredPokemon.length) panels.push(boxPanel(box, activeMode, null, { pokemon: filteredPokemon, favouriteMode, forceOpen: favouriteMode }));
+        if (filteredPokemon.length) panels.push(boxPanel(box, activeMode, null, { pokemon: filteredPokemon, favouriteMode, forceOpen: favouriteMode, showMatchCount: !favouriteMode && dexFilterIsActive() }));
       }
       else for (const mode of ['regular', 'shiny']) {
         if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === queueStatus)) panels.push(boxPanel(box, mode, queueStatus));
@@ -764,7 +768,7 @@
     const panels = [];
     for (const box of boxes) {
       const matches = box.pokemon.filter(matchesSearch);
-      if (matches.length) panels.push(boxPanel(box, activeMode, null, { pokemon: matches, forceOpen: true }));
+      if (matches.length) panels.push(boxPanel(box, activeMode, null, { pokemon: matches, forceOpen: true, showMatchCount: true }));
     }
     if (!panels.length) return;
     const heading = document.createElement('h2');
