@@ -21,37 +21,41 @@
     <div id="empty" class="empty" hidden>
       <div class="empty-ball">✓</div><h2>All transferred</h2><p>No caught Pokémon are waiting for Home.</p>
     </div>
+    <div id="dex-actions" class="dex-actions" hidden>
+      <button type="button" id="manage-owned-games">Manage Games</button>
+    </div>
   </main>
 
   <form id="search-panel" class="search-panel" role="search" hidden>
     <label for="search-input">Search</label>
     <input id="search-input" type="search" autocomplete="off" placeholder="Search Pokémon or forms">
+    <div class="segmented-control mode-control" role="group" aria-label="Pokemon type">
+      <button type="button" data-mode="regular" class="active">Regular</button>
+      <button type="button" data-mode="shiny">Shiny</button>
+    </div>
   </form>
 
   <section id="dex-filter-panel" class="dex-filter-panel" aria-label="Dex filters">
     <div class="filter-row">
-      <div class="segmented-control" role="group" aria-label="Dex display">
-        <button type="button" data-filter-enabled="false" class="active">All</button>
-        <button type="button" data-filter-enabled="true">Filter</button>
+      <div class="segmented-control status-control" role="group" aria-label="Dex status filter">
+        <button type="button" data-missing-only="false" class="active">All</button>
+        <button type="button" data-missing-only="true">Missing</button>
+      </div>
+      <select id="game-filter-source" aria-label="Game filter">
+        <option value="all">All Pokemon</option>
+        <option value="owned">In Games I Own</option>
+      </select>
+      <div class="segmented-control mode-control" role="group" aria-label="Pokemon type">
+        <button type="button" data-mode="regular" class="active">Regular</button>
+        <button type="button" data-mode="shiny">Shiny</button>
       </div>
     </div>
-    <div class="filter-details" hidden>
-      <div class="filter-row">
-        <label for="game-filter-source">Games</label>
-        <select id="game-filter-source">
-          <option value="owned">Games I Own</option>
-          <option value="specific">Specific Game</option>
-        </select>
-        <select id="specific-game-select" hidden></select>
-        <label class="checkbox-control">
-          <input id="missing-only-filter" type="checkbox">
-          <span>Missing only</span>
-        </label>
-      </div>
-      <div class="filter-row owned-games-row">
-        <button type="button" id="manage-owned-games">Manage owned games</button>
-        <span id="owned-games-summary">No games selected</span>
-      </div>
+  </section>
+
+  <section id="favourite-panel" class="favourite-panel" aria-label="Favourite filters" hidden>
+    <div class="segmented-control mode-control" role="group" aria-label="Pokemon type">
+      <button type="button" data-mode="regular" class="active">Regular</button>
+      <button type="button" data-mode="shiny">Shiny</button>
     </div>
   </section>
 
