@@ -173,7 +173,7 @@
     return gameFilter.source === 'owned' ? gameFilter.owned : [gameFilter.source];
   }
   function pokemonMatchesGameFilter(box, pokemon) {
-    const matchesMissing = !gameFilter.missingOnly || getStatus(box.id, pokemon.id, activeMode) === 0;
+    const matchesMissing = !gameFilter.missingOnly || getStatus(box.id, pokemon.id, activeMode) < 2;
     if (!matchesMissing) return false;
     const games = activeFilterGames();
     if (games === null) return true;
