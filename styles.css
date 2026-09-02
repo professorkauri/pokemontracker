@@ -7,6 +7,7 @@
   --muted: #5f777a;
   --paper: #d9f7df;
   --card: rgb(var(--white-rgb) / 0.88);
+  --card-solid: rgb(var(--white-rgb));
   --line: #a8ded7;
   --red: #e85a48;
   --green: #28aaa5;
@@ -371,7 +372,7 @@ main {
   overflow: auto;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: var(--card);
+  background: var(--card-solid);
   box-shadow: var(--modal-shadow);
   padding: 16px;
 }
