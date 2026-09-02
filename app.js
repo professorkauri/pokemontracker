@@ -3,6 +3,7 @@
   const STORAGE_KEY = 'pokemon-home-tracker-v2';
   const LEGACY_STORAGE_KEY = 'pokemon-home-tracker-v1';
   const FAVOURITES_KEY = 'pokemon-home-tracker-favourites-v1';
+  const GAME_FILTER_KEY = 'pokemon-home-tracker-game-filter-v1';
   const FAVOURITE_COLOURS = ['White', 'Grey', 'Black', 'Brown', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Magenta', 'Pink'];
   const REGION_STARTS = new Map([[1, 'Kanto'], [152, 'Johto'], [252, 'Hoenn'], [387, 'Sinnoh'], [494, 'Unova'], [650, 'Kalos'], [722, 'Alola'], [810, 'Galar'], [899, 'Hisui'], [906, 'Paldea']]);
   const FORM_BOX_BY_POKEMON = new Map(DATA.boxes.filter(box => box.id.startsWith('forms-')).flatMap(box => box.pokemon.map(pokemon => [pokemon.id, box.id])));
@@ -10,8 +11,16 @@
   const emptyEl = document.querySelector('#empty');
   const searchPanel = document.querySelector('#search-panel');
   const searchInput = document.querySelector('#search-input');
+  const dexFilterPanel = document.querySelector('#dex-filter-panel');
+  const filterDetails = dexFilterPanel.querySelector('.filter-details');
+  const gameFilterSource = document.querySelector('#game-filter-source');
+  const specificGameSelect = document.querySelector('#specific-game-select');
+  const missingOnlyFilter = document.querySelector('#missing-only-filter');
+  const ownedGamesSummary = document.querySelector('#owned-games-summary');
+  const manageOwnedGames = document.querySelector('#manage-owned-games');
   const nationalSpecies = DATA.boxes.filter(box => box.id.startsWith('dex-')).flatMap(box => box.pokemon);
   const allPokemon = DATA.boxes.flatMap(box => box.pokemon);
+  const allGames = DATA.games?.length ? DATA.games : [...new Set(allPokemon.flatMap(pokemon => pokemon.games || []))].sort();
   const speciesIds = new Set(nationalSpecies.map(pokemon => pokemon.id));
   const favouriteGroups = await loadFavouriteGroups();
   const excludedFavouriteGroupIds = new Set(favouriteGroups.filter(group => group.exclude).flatMap(group => group.pokemon || []));
@@ -30,9 +39,17 @@
   let searchQuery = '';
   let state = loadState();
   let favourites = loadFavourites();
+  let gameFilter = loadGameFilter();
   let chooser = null;
 
   function normalizeSearch(value) { return value.trim().toLowerCase().replace(/\s+/g, ' '); }
+  function titleCaseGame(id) { return id.split('-').map(word => word[0].toUpperCase() + word.slice(1)).join(' '); }
+  function sortGames(games) {
+    const order = new Map(allGames.map((game, index) => [game, index]));
+    return [...games].sort((first, second) =>
+      (order.get(first) ?? 9999) - (order.get(second) ?? 9999) || first.localeCompare(second)
+    );
+  }
   async function loadFavouriteGroups() {
     try {
       const response = await fetch('data/favourite-groups.json', { cache: 'no-cache' });
@@ -53,6 +70,24 @@
     } catch { return { regular: {}, shiny: {}, seen: { regular: {}, shiny: {} } }; }
   }
   function saveFavourites() { localStorage.setItem(FAVOURITES_KEY, JSON.stringify(favourites)); }
+  function loadGameFilter() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(GAME_FILTER_KEY)) || {};
+      const owned = Array.isArray(saved.owned) ? sortGames(saved.owned.filter(game => allGames.includes(game))) : [];
+      const specific = owned.includes(saved.specific) ? saved.specific : (owned[0] || '');
+      return {
+        enabled: Boolean(saved.enabled),
+        source: saved.source === 'specific' ? 'specific' : 'owned',
+        owned,
+        specific,
+        missingOnly: saved.missingOnly !== false
+      };
+    }
+    catch {
+      return { enabled: false, source: 'owned', owned: [], specific: '', missingOnly: true };
+    }
+  }
+  function saveGameFilter() { localStorage.setItem(GAME_FILTER_KEY, JSON.stringify(gameFilter)); }
   function regionForDex(dex) {
     let region = null;
     for (const [start, name] of REGION_STARTS) {
@@ -118,6 +153,19 @@
   function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); updateCounts(); }
   function key(boxId, pokemonId, mode) { return `${boxId}|${pokemonId}|${mode}`; }
   function getStatus(boxId, pokemonId, mode) { return state[key(boxId, pokemonId, mode)] || 0; }
+  function activeFilterGames() {
+    return gameFilter.source === 'specific'
+      ? [gameFilter.specific].filter(Boolean)
+      : gameFilter.owned;
+  }
+  function pokemonMatchesGameFilter(box, pokemon) {
+    if (!gameFilter.enabled) return true;
+    const games = activeFilterGames();
+    if (!games.length) return false;
+    const matchesGame = pokemon.games?.some(game => games.includes(game));
+    const matchesMissing = !gameFilter.missingOnly || getStatus(box.id, pokemon.id, activeMode) === 0;
+    return matchesGame && matchesMissing;
+  }
   function imagePath(pokemonId, mode) { return `images/thumbs/${mode}/${pokemonId}.webp`; }
   function artworkPath(pokemonId, mode) { return `images/${mode}/${pokemonId}.png`; }
   function imageSources(pokemon, mode) {
@@ -281,7 +329,8 @@
     section.className = `box ${region ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${queueClass} ${forceOpen ? 'forced-open' : ''}`;
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
-    const boxMeta = `${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
+    const matchMeta = filtered ? `<span class="match-count">${pokemon.length} match${pokemon.length === 1 ? '' : 'es'}</span>` : '';
+    const boxMeta = `${matchMeta}${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
     section.innerHTML = `<button class="box-head" type="button" aria-expanded="${isOpen}" ${queueStatus !== null ? 'aria-disabled="true"' : ''}>${region ? `<div class="region-pill">${region}</div>` : ''}${boxTitle(box, pokemon, mode, queueStatus)}<span class="box-meta">${boxMeta}</span><span class="chevron" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5 8l5 5 5-5" /></svg></span></button>`;
     addImageFallbacks(section);
     if (queueStatus === null && !forceOpen) section.querySelector('.box-head').addEventListener('click', () => { openKey = openKey === panelKey ? null : panelKey; render(); });
@@ -305,7 +354,10 @@
   function appendBoxGroup(title, boxes, queueStatus = null, favouriteMode = false) {
     const panels = [];
     for (const box of boxes) {
-      if (queueStatus === null) panels.push(boxPanel(box, activeMode, null, { favouriteMode, forceOpen: favouriteMode }));
+      if (queueStatus === null) {
+        const filteredPokemon = favouriteMode ? box.pokemon : box.pokemon.filter(pokemon => pokemonMatchesGameFilter(box, pokemon));
+        if (filteredPokemon.length) panels.push(boxPanel(box, activeMode, null, { pokemon: filteredPokemon, favouriteMode, forceOpen: favouriteMode }));
+      }
       else for (const mode of ['regular', 'shiny']) {
         if (box.pokemon.some(p => getStatus(box.id, p.id, mode) === queueStatus)) panels.push(boxPanel(box, mode, queueStatus));
       }
@@ -706,9 +758,87 @@
     boxesEl.append(heading, ...panels);
   }
 
+  function syncGameFilterControls() {
+    dexFilterPanel.hidden = view !== 'pokedex';
+    filterDetails.hidden = !gameFilter.enabled;
+    dexFilterPanel.querySelectorAll('[data-filter-enabled]').forEach(button => {
+      button.classList.toggle('active', String(gameFilter.enabled) === button.dataset.filterEnabled);
+    });
+    gameFilterSource.value = gameFilter.source;
+    specificGameSelect.replaceChildren();
+    for (const game of gameFilter.owned) {
+      const option = document.createElement('option');
+      option.value = game;
+      option.textContent = titleCaseGame(game);
+      specificGameSelect.append(option);
+    }
+    specificGameSelect.disabled = gameFilter.owned.length === 0;
+    if (!gameFilter.owned.includes(gameFilter.specific)) {
+      const specific = gameFilter.owned[0] || '';
+      if (gameFilter.specific !== specific) {
+        gameFilter.specific = specific;
+        saveGameFilter();
+      }
+    }
+    specificGameSelect.hidden = gameFilter.source !== 'specific';
+    manageOwnedGames.hidden = gameFilter.source !== 'owned';
+    ownedGamesSummary.hidden = gameFilter.source !== 'owned';
+    specificGameSelect.value = gameFilter.specific;
+    missingOnlyFilter.checked = gameFilter.missingOnly;
+    ownedGamesSummary.textContent = gameFilter.owned.length
+      ? `${gameFilter.owned.length} selected`
+      : 'No games selected';
+  }
+
+  function renderOwnedGamesChooser() {
+    const modal = document.createElement('div');
+    modal.className = 'chooser-backdrop';
+    modal.innerHTML = `
+      <div class="chooser games-chooser" role="dialog" aria-modal="true" aria-labelledby="games-chooser-title">
+        <div class="chooser-head">
+          <h2 id="games-chooser-title">Games I Own</h2>
+          <button type="button" class="chooser-close" aria-label="Close chooser">×</button>
+        </div>
+        <div class="games-list"></div>
+        <div class="chooser-actions">
+          <button type="button" class="games-clear">Clear</button>
+          <span class="chooser-page">${gameFilter.owned.length} selected</span>
+          <button type="button" class="games-done">Done</button>
+        </div>
+      </div>
+    `;
+    const list = modal.querySelector('.games-list');
+    for (const game of allGames) {
+      const label = document.createElement('label');
+      label.className = 'game-choice';
+      label.innerHTML = `<input type="checkbox" value="${game}" ${gameFilter.owned.includes(game) ? 'checked' : ''}><span>${titleCaseGame(game)}</span>`;
+      list.append(label);
+    }
+    const close = () => { modal.remove(); syncGameFilterControls(); render(); };
+    list.addEventListener('change', event => {
+      if (event.target.type !== 'checkbox') return;
+      if (event.target.checked && !gameFilter.owned.includes(event.target.value)) gameFilter.owned.push(event.target.value);
+      if (!event.target.checked) gameFilter.owned = gameFilter.owned.filter(game => game !== event.target.value);
+      gameFilter.owned = sortGames(gameFilter.owned);
+      modal.querySelector('.chooser-page').textContent = `${gameFilter.owned.length} selected`;
+      saveGameFilter();
+    });
+    modal.querySelector('.games-clear').addEventListener('click', () => {
+      gameFilter.owned = [];
+      modal.querySelectorAll('.game-choice input').forEach(input => { input.checked = false; });
+      modal.querySelector('.chooser-page').textContent = '0 selected';
+      saveGameFilter();
+    });
+    modal.querySelector('.games-done').addEventListener('click', close);
+    modal.querySelector('.chooser-close').addEventListener('click', close);
+    modal.addEventListener('click', event => { if (event.target === modal) close(); });
+    document.body.append(modal);
+  }
+
   function render() {
     boxesEl.replaceChildren();
     searchPanel.hidden = view !== 'search';
+    syncGameFilterControls();
     document.body.classList.toggle('favourites-view', view === 'favourites');
     document.body.classList.toggle('searching', view === 'search');
     const nationalDex = DATA.boxes.filter(box => box.id.startsWith('dex-'));
@@ -725,12 +855,35 @@
     }
     const hasBoxes = boxesEl.querySelector('.box') !== null;
     const hasSearchQuery = normalizeSearch(searchQuery) !== '';
-    emptyEl.querySelector('h2').textContent = view === 'search' ? 'No matches' : view === 'target' ? 'No targets' : 'All transferred';
-    emptyEl.querySelector('p').textContent = view === 'search' ? 'Try a different Pokémon or form name.' : view === 'target' ? 'Mark Pokémon as targets in the Dex to focus on them here.' : 'No caught Pokémon are waiting for Home.';
+    emptyEl.querySelector('h2').textContent = view === 'search' ? 'No matches' : view === 'target' ? 'No targets' : gameFilter.enabled && view === 'pokedex' ? 'No available Pokémon' : 'All transferred';
+    emptyEl.querySelector('p').textContent = view === 'search' ? 'Try a different Pokémon or form name.' : view === 'target' ? 'Mark Pokémon as targets in the Dex to focus on them here.' : gameFilter.enabled && view === 'pokedex' ? 'Adjust your games or turn off Missing only.' : 'No caught Pokémon are waiting for Home.';
     emptyEl.hidden = hasBoxes || (view === 'search' && !hasSearchQuery);
     updateCounts();
   }
 
+  dexFilterPanel.addEventListener('click', event => {
+    const button = event.target.closest('[data-filter-enabled]');
+    if (!button) return;
+    gameFilter.enabled = button.dataset.filterEnabled === 'true';
+    saveGameFilter();
+    render();
+  });
+  gameFilterSource.addEventListener('change', () => {
+    gameFilter.source = gameFilterSource.value;
+    saveGameFilter();
+    render();
+  });
+  specificGameSelect.addEventListener('change', () => {
+    gameFilter.specific = specificGameSelect.value;
+    saveGameFilter();
+    render();
+  });
+  missingOnlyFilter.addEventListener('change', () => {
+    gameFilter.missingOnly = missingOnlyFilter.checked;
+    saveGameFilter();
+    render();
+  });
+  manageOwnedGames.addEventListener('click', renderOwnedGamesChooser);
   searchInput.addEventListener('input', () => { searchQuery = searchInput.value; render(); });
   searchPanel.addEventListener('submit', e => e.preventDefault());
   document.querySelector('.dock').addEventListener('click', e => {

@@ -5,7 +5,65 @@ const input = process.argv[2];
 if (!input) throw new Error('Usage: node scripts/build-data.mjs path/to/pokemon-species.json');
 const raw = JSON.parse(await readFile(input, 'utf8'));
 const API_URL = 'https://pokeapi.co/api/v2/pokemon';
+const VERSION_URL = 'https://pokeapi.co/api/v2/version';
+const SPECIES_URL = 'https://pokeapi.co/api/v2/pokemon-species';
 const CONCURRENCY = 12;
+const FALLBACK_GAME_ORDER = [
+  'red', 'blue', 'yellow',
+  'gold', 'silver', 'crystal',
+  'ruby', 'sapphire', 'emerald', 'firered', 'leafgreen',
+  'colosseum', 'xd',
+  'diamond', 'pearl', 'platinum', 'heartgold', 'soulsilver',
+  'black', 'white', 'black-2', 'white-2',
+  'x', 'y', 'omega-ruby', 'alpha-sapphire',
+  'sun', 'moon', 'ultra-sun', 'ultra-moon',
+  'lets-go-pikachu', 'lets-go-eevee',
+  'sword', 'shield',
+  'the-isle-of-armor-sword', 'the-isle-of-armor-shield',
+  'the-crown-tundra-sword', 'the-crown-tundra-shield',
+  'brilliant-diamond', 'shining-pearl',
+  'legends-arceus',
+  'scarlet', 'violet',
+  'the-teal-mask-scarlet', 'the-teal-mask-violet',
+  'the-indigo-disk-scarlet', 'the-indigo-disk-violet',
+  'legends-za', 'mega-dimension', 'champions',
+  'red-japan', 'green-japan', 'blue-japan'
+];
+const POKEDEX_GAMES = new Map([
+  ['kanto', ['red', 'blue', 'yellow', 'firered', 'leafgreen']],
+  ['original-johto', ['gold', 'silver', 'crystal']],
+  ['updated-johto', ['heartgold', 'soulsilver']],
+  ['hoenn', ['ruby', 'sapphire', 'emerald']],
+  ['updated-hoenn', ['omega-ruby', 'alpha-sapphire']],
+  ['original-sinnoh', ['diamond', 'pearl', 'brilliant-diamond', 'shining-pearl']],
+  ['extended-sinnoh', ['platinum']],
+  ['original-unova', ['black', 'white']],
+  ['updated-unova', ['black-2', 'white-2']],
+  ['kalos-central', ['x', 'y']],
+  ['kalos-coastal', ['x', 'y']],
+  ['kalos-mountain', ['x', 'y']],
+  ['original-alola', ['sun', 'moon']],
+  ['original-melemele', ['sun', 'moon']],
+  ['original-akala', ['sun', 'moon']],
+  ['original-ulaula', ['sun', 'moon']],
+  ['original-poni', ['sun', 'moon']],
+  ['updated-alola', ['ultra-sun', 'ultra-moon']],
+  ['updated-melemele', ['ultra-sun', 'ultra-moon']],
+  ['updated-akala', ['ultra-sun', 'ultra-moon']],
+  ['updated-ulaula', ['ultra-sun', 'ultra-moon']],
+  ['updated-poni', ['ultra-sun', 'ultra-moon']],
+  ['letsgo-kanto', ['lets-go-pikachu', 'lets-go-eevee']],
+  ['galar', ['sword', 'shield']],
+  ['isle-of-armor', ['the-isle-of-armor-sword', 'the-isle-of-armor-shield']],
+  ['crown-tundra', ['the-crown-tundra-sword', 'the-crown-tundra-shield']],
+  ['hisui', ['legends-arceus']],
+  ['paldea', ['scarlet', 'violet']],
+  ['kitakami', ['the-teal-mask-scarlet', 'the-teal-mask-violet']],
+  ['blueberry', ['the-indigo-disk-scarlet', 'the-indigo-disk-violet']],
+  ['lumiose-city', ['legends-za']],
+  ['hyperspace', ['mega-dimension']],
+  ['champions', ['champions']]
+]);
 async function readExistingEvolutionLines() {
   try {
     const source = await readFile('data/pokemon.js', 'utf8');
@@ -26,6 +84,20 @@ async function readExistingTypes() {
       .flatMap(box => box.pokemon)
       .filter(pokemon => pokemon.types?.length)
       .map(pokemon => [pokemon.imageId || pokemon.id, pokemon.types]));
+  }
+  catch {
+    return new Map();
+  }
+}
+async function readExistingGames() {
+  try {
+    const source = await readFile('data/pokemon.js', 'utf8');
+    const sandbox = { window: {} };
+    vm.runInNewContext(source, sandbox);
+    return new Map((sandbox.window.POKEMON_DATA?.boxes || [])
+      .flatMap(box => box.pokemon)
+      .filter(pokemon => pokemon.games?.length)
+      .map(pokemon => [pokemon.imageId || pokemon.id, pokemon.games]));
   }
   catch {
     return new Map();
@@ -182,8 +254,10 @@ const formIds = new Map([['Hoenn Forms','forms-3'],['Sinnoh Forms','forms-4'],['
 forms.forEach(([name,pokemon]) => boxes.push({id:formIds.get(name),title:name,pokemon}));
 const existingEvolutionLines = await readExistingEvolutionLines();
 const existingTypes = await readExistingTypes();
+const existingGames = await readExistingGames();
 const existingFavouriteVisibility = await readExistingFavouriteVisibility();
 const favouriteGroups = await readFavouriteGroups();
+const gameOrder = await fetchGameOrder();
 const starterGroups = [...starterRoots].map(([region, roots]) => ({
   region,
   pokemon: [...new Set(roots.flatMap(root => existingEvolutionLines.find(line => line.includes(root)) || [root]))]
@@ -192,6 +266,25 @@ async function fetchJson(url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`Failed ${url}: ${response.status}`);
   return response.json();
+}
+async function fetchGameOrder() {
+  try {
+    const versions = await fetchJson(`${VERSION_URL}?limit=200`);
+    const apiOrder = versions.results.map(version => version.name);
+    return [
+      ...FALLBACK_GAME_ORDER.filter(game => apiOrder.includes(game)),
+      ...apiOrder.filter(game => !FALLBACK_GAME_ORDER.includes(game))
+    ];
+  }
+  catch {
+    return FALLBACK_GAME_ORDER;
+  }
+}
+function sortGames(games, gameOrder) {
+  const order = new Map(gameOrder.map((game, index) => [game, index]));
+  return [...games].sort((first, second) =>
+    (order.get(first) ?? 9999) - (order.get(second) ?? 9999) || first.localeCompare(second)
+  );
 }
 async function mapConcurrent(items, mapper) {
   const results = new Array(items.length);
@@ -232,6 +325,39 @@ for (const pokemon of allEntries) {
   const fallback = allEntries.find(candidate => baseSpeciesId(candidate.imageId || candidate.id) === baseSpeciesId(pokemon.imageId || pokemon.id) && typesById.get(candidate.imageId || candidate.id)?.length);
   pokemon.types = directTypes.length ? directTypes : (fallback ? typesById.get(fallback.imageId || fallback.id) : []);
 }
+const gameIds = [...new Set(allEntries.map(pokemon => pokemon.imageId || pokemon.id))];
+const encounterGameEntries = await mapConcurrent(gameIds, async id => {
+  try {
+    const encounters = await fetchJson(`${API_URL}/${id}/encounters`);
+    return [id, new Set(encounters.flatMap(location =>
+      location.version_details.map(detail => detail.version.name)
+    ))];
+  }
+  catch {
+    return [id, new Set(existingGames.get(id) || [])];
+  }
+});
+const encounterGamesById = new Map(encounterGameEntries);
+const speciesGameEntries = await mapConcurrent([...nationalIds], async id => {
+  try {
+    const details = await fetchJson(`${SPECIES_URL}/${id}`);
+    return [id, new Set(details.pokedex_numbers.flatMap(entry =>
+      POKEDEX_GAMES.get(entry.pokedex.name) || []
+    ))];
+  }
+  catch {
+    return [id, new Set()];
+  }
+});
+const speciesGamesById = new Map(speciesGameEntries);
+for (const pokemon of allEntries) {
+  const apiId = pokemon.imageId || pokemon.id;
+  const directGames = encounterGamesById.get(apiId) || new Set();
+  const regionalDexGames = speciesGamesById.get(baseSpeciesId(apiId)) || new Set();
+  const games = sortGames(new Set([...directGames, ...regionalDexGames]), gameOrder);
+  if (games.length) pokemon.games = games;
+}
+const games = sortGames(new Set(gameOrder), gameOrder);
 const availableIds = new Set(allEntries.map(pokemon => pokemon.id));
 const validFavouriteGroups = favouriteGroups
   .map(group => ({
@@ -243,6 +369,7 @@ const validFavouriteGroups = favouriteGroups
   }))
   .filter(group => group.id && group.label && group.pokemon.length);
 const data = { boxes, starterGroups };
+if (games.length) data.games = games;
 if (validFavouriteGroups.length) data.favouriteGroups = validFavouriteGroups;
 if (existingEvolutionLines.length) data.evolutionLines = existingEvolutionLines;
 const output = JSON.stringify(data, null, 2).replace(

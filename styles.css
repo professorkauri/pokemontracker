@@ -932,6 +932,140 @@ main {
 .search-panel input:focus {
   box-shadow: inset 0 0 0 2px var(--green);
 }
+.dex-filter-panel {
+  order: 2;
+  position: sticky;
+  z-index: 8;
+  top: 0;
+  width: min(calc(100% - 28px), 620px);
+  margin: 0 auto 10px;
+  display: grid;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-float);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(15px);
+}
+.dex-filter-panel[hidden] {
+  display: none;
+}
+.filter-details {
+  display: grid;
+  gap: 8px;
+}
+.filter-details[hidden] {
+  display: none;
+}
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  flex-wrap: wrap;
+}
+.filter-row label,
+.owned-games-row span {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.segmented-control {
+  display: flex;
+  gap: 5px;
+  width: 180px;
+  max-width: 100%;
+  padding: 4px;
+  border-radius: 8px;
+  background: var(--panel-control);
+}
+.segmented-control button,
+.dex-filter-panel select,
+.dex-filter-panel > .filter-details button {
+  border: 0;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+.segmented-control button {
+  flex: 1;
+  padding: 8px;
+  background: var(--transparent);
+  color: var(--muted);
+}
+.segmented-control button.active {
+  background: var(--green);
+  color: var(--white);
+  box-shadow: var(--active-shadow);
+}
+.dex-filter-panel select,
+.dex-filter-panel > .filter-details button {
+  min-width: 0;
+  background: var(--control-bg);
+  color: var(--ink);
+  padding: 9px 10px;
+}
+.dex-filter-panel > .filter-details button {
+  cursor: pointer;
+}
+.dex-filter-panel > .filter-details button:hover,
+.dex-filter-panel > .filter-details button:focus-visible {
+  outline: 0;
+  box-shadow: inset 0 0 0 2px var(--green);
+}
+.checkbox-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+}
+.checkbox-control input {
+  accent-color: var(--green);
+}
+.match-count {
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.games-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 14px;
+}
+.game-choice {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  cursor: pointer;
+}
+.game-choice input {
+  flex: 0 0 auto;
+  accent-color: var(--green);
+}
+.game-choice span {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.games-clear {
+  background: var(--control-bg) !important;
+  color: var(--muted) !important;
+}
 .favourite-panel {
   order: 2;
   position: sticky;

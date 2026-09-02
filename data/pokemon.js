@@ -12,6 +12,31 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -21,6 +46,29 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -30,6 +78,28 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -38,6 +108,31 @@ window.POKEMON_DATA = {
           "dex": 4,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -46,6 +141,29 @@ window.POKEMON_DATA = {
           "dex": 5,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -55,6 +173,30 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -63,6 +205,31 @@ window.POKEMON_DATA = {
           "dex": 7,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -71,6 +238,29 @@ window.POKEMON_DATA = {
           "dex": 8,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -79,6 +269,28 @@ window.POKEMON_DATA = {
           "dex": 9,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -87,6 +299,33 @@ window.POKEMON_DATA = {
           "dex": 10,
           "types": [
             "bug"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -95,6 +334,34 @@ window.POKEMON_DATA = {
           "dex": 11,
           "types": [
             "bug"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "white",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -104,6 +371,33 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "white",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -113,6 +407,28 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -122,6 +438,29 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -131,6 +470,29 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "black-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -140,6 +502,28 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -149,6 +533,26 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -158,6 +562,26 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -166,6 +590,31 @@ window.POKEMON_DATA = {
           "dex": 19,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -174,6 +623,34 @@ window.POKEMON_DATA = {
           "dex": 20,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -183,6 +660,32 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -192,6 +695,33 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -200,6 +730,31 @@ window.POKEMON_DATA = {
           "dex": 23,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "red-japan"
           ]
         },
         {
@@ -208,6 +763,33 @@ window.POKEMON_DATA = {
           "dex": 24,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions",
+            "red-japan"
           ]
         },
         {
@@ -216,6 +798,50 @@ window.POKEMON_DATA = {
           "dex": 25,
           "types": [
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions",
+            "red-japan",
+            "green-japan",
+            "blue-japan"
           ]
         },
         {
@@ -224,6 +850,51 @@ window.POKEMON_DATA = {
           "dex": 26,
           "types": [
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -232,6 +903,44 @@ window.POKEMON_DATA = {
           "dex": 27,
           "types": [
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "green-japan"
           ]
         },
         {
@@ -240,6 +949,47 @@ window.POKEMON_DATA = {
           "dex": 28,
           "types": [
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "green-japan"
           ]
         },
         {
@@ -248,6 +998,31 @@ window.POKEMON_DATA = {
           "dex": 29,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -256,6 +1031,29 @@ window.POKEMON_DATA = {
           "dex": 30,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         }
       ]
@@ -271,6 +1069,24 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -279,6 +1095,31 @@ window.POKEMON_DATA = {
           "dex": 32,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -287,6 +1128,29 @@ window.POKEMON_DATA = {
           "dex": 33,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -296,6 +1160,24 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -304,6 +1186,47 @@ window.POKEMON_DATA = {
           "dex": 35,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -312,6 +1235,45 @@ window.POKEMON_DATA = {
           "dex": 36,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions",
+            "blue-japan"
           ]
         },
         {
@@ -320,6 +1282,45 @@ window.POKEMON_DATA = {
           "dex": 37,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "green-japan"
           ]
         },
         {
@@ -328,6 +1329,45 @@ window.POKEMON_DATA = {
           "dex": 38,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-crown-tundra-sword",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -337,6 +1377,47 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -346,6 +1427,44 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -355,6 +1474,45 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "mega-dimension",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -364,6 +1522,46 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "mega-dimension",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -373,6 +1571,35 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan"
           ]
         },
         {
@@ -382,6 +1609,37 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan"
           ]
         },
         {
@@ -391,6 +1649,34 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -400,6 +1686,33 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "grass"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-arceus",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -409,6 +1722,27 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "grass"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-arceus",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -418,6 +1752,31 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -427,6 +1786,36 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -435,6 +1824,37 @@ window.POKEMON_DATA = {
           "dex": 50,
           "types": [
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -443,6 +1863,40 @@ window.POKEMON_DATA = {
           "dex": 51,
           "types": [
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -451,6 +1905,37 @@ window.POKEMON_DATA = {
           "dex": 52,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "green-japan"
           ]
         },
         {
@@ -459,6 +1944,33 @@ window.POKEMON_DATA = {
           "dex": 53,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -467,6 +1979,45 @@ window.POKEMON_DATA = {
           "dex": 54,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -475,6 +2026,50 @@ window.POKEMON_DATA = {
           "dex": 55,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -483,6 +2078,35 @@ window.POKEMON_DATA = {
           "dex": 56,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "red-japan"
           ]
         },
         {
@@ -491,6 +2115,33 @@ window.POKEMON_DATA = {
           "dex": 57,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -499,6 +2150,40 @@ window.POKEMON_DATA = {
           "dex": 58,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "red-japan"
           ]
         },
         {
@@ -507,6 +2192,36 @@ window.POKEMON_DATA = {
           "dex": 59,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -515,6 +2230,39 @@ window.POKEMON_DATA = {
           "dex": 60,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "red-japan",
+            "green-japan"
           ]
         }
       ]
@@ -529,6 +2277,39 @@ window.POKEMON_DATA = {
           "dex": 61,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -538,6 +2319,37 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -546,6 +2358,43 @@ window.POKEMON_DATA = {
           "dex": 63,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "red-japan",
+            "green-japan",
+            "blue-japan"
           ]
         },
         {
@@ -554,6 +2403,44 @@ window.POKEMON_DATA = {
           "dex": 64,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -562,6 +2449,43 @@ window.POKEMON_DATA = {
           "dex": 65,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -570,6 +2494,42 @@ window.POKEMON_DATA = {
           "dex": 66,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -578,6 +2538,44 @@ window.POKEMON_DATA = {
           "dex": 67,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -586,6 +2584,42 @@ window.POKEMON_DATA = {
           "dex": 68,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -595,6 +2629,31 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "green-japan"
           ]
         },
         {
@@ -604,6 +2663,30 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "green-japan"
           ]
         },
         {
@@ -613,6 +2696,26 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -622,6 +2725,43 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -631,6 +2771,43 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -640,6 +2817,43 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -649,6 +2863,45 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -658,6 +2911,41 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -666,6 +2954,35 @@ window.POKEMON_DATA = {
           "dex": 77,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -674,6 +2991,33 @@ window.POKEMON_DATA = {
           "dex": 78,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -683,6 +3027,41 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -692,6 +3071,40 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -701,6 +3114,45 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "steel"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -710,6 +3162,46 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "steel"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -719,6 +3211,30 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "mega-dimension"
           ]
         },
         {
@@ -728,6 +3244,34 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -737,6 +3281,32 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -745,6 +3315,32 @@ window.POKEMON_DATA = {
           "dex": 86,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -754,6 +3350,34 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ice"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -762,6 +3386,41 @@ window.POKEMON_DATA = {
           "dex": 88,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -770,6 +3429,39 @@ window.POKEMON_DATA = {
           "dex": 89,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -778,6 +3470,42 @@ window.POKEMON_DATA = {
           "dex": 90,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "red-japan",
+            "green-japan"
           ]
         }
       ]
@@ -793,6 +3521,36 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ice"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -802,6 +3560,41 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -811,6 +3604,43 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -820,6 +3650,41 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -829,6 +3694,41 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -837,6 +3737,33 @@ window.POKEMON_DATA = {
           "dex": 96,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -845,6 +3772,29 @@ window.POKEMON_DATA = {
           "dex": 97,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -853,6 +3803,35 @@ window.POKEMON_DATA = {
           "dex": 98,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -861,6 +3840,32 @@ window.POKEMON_DATA = {
           "dex": 99,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -869,6 +3874,37 @@ window.POKEMON_DATA = {
           "dex": 100,
           "types": [
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -877,6 +3913,35 @@ window.POKEMON_DATA = {
           "dex": 101,
           "types": [
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -886,6 +3951,35 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -895,6 +3989,33 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -903,6 +4024,34 @@ window.POKEMON_DATA = {
           "dex": 104,
           "types": [
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "mega-dimension",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -911,6 +4060,36 @@ window.POKEMON_DATA = {
           "dex": 105,
           "types": [
             "ground"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -919,6 +4098,29 @@ window.POKEMON_DATA = {
           "dex": 106,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -927,6 +4129,29 @@ window.POKEMON_DATA = {
           "dex": 107,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -935,6 +4160,37 @@ window.POKEMON_DATA = {
           "dex": 108,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -943,6 +4199,34 @@ window.POKEMON_DATA = {
           "dex": 109,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -951,6 +4235,40 @@ window.POKEMON_DATA = {
           "dex": 110,
           "types": [
             "poison"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -960,6 +4278,43 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "rock"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -969,6 +4324,42 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "rock"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -977,6 +4368,43 @@ window.POKEMON_DATA = {
           "dex": 113,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -985,6 +4413,37 @@ window.POKEMON_DATA = {
           "dex": 114,
           "types": [
             "grass"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -993,6 +4452,40 @@ window.POKEMON_DATA = {
           "dex": 115,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1001,6 +4494,45 @@ window.POKEMON_DATA = {
           "dex": 116,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan",
+            "blue-japan"
           ]
         },
         {
@@ -1009,6 +4541,42 @@ window.POKEMON_DATA = {
           "dex": 117,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1017,6 +4585,46 @@ window.POKEMON_DATA = {
           "dex": 118,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1025,6 +4633,48 @@ window.POKEMON_DATA = {
           "dex": 119,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1033,6 +4683,43 @@ window.POKEMON_DATA = {
           "dex": 120,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         }
       ]
@@ -1048,6 +4735,42 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1057,6 +4780,38 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "mega-dimension"
           ]
         },
         {
@@ -1066,6 +4821,40 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "red-japan"
           ]
         },
         {
@@ -1075,6 +4864,29 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -1083,6 +4895,36 @@ window.POKEMON_DATA = {
           "dex": 125,
           "types": [
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan"
           ]
         },
         {
@@ -1091,6 +4933,36 @@ window.POKEMON_DATA = {
           "dex": 126,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "green-japan"
           ]
         },
         {
@@ -1099,6 +4971,43 @@ window.POKEMON_DATA = {
           "dex": 127,
           "types": [
             "bug"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-za",
+            "champions",
+            "green-japan"
           ]
         },
         {
@@ -1107,6 +5016,41 @@ window.POKEMON_DATA = {
           "dex": 128,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1115,6 +5059,54 @@ window.POKEMON_DATA = {
           "dex": 129,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1124,6 +5116,51 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1133,6 +5170,42 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ice"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1141,6 +5214,47 @@ window.POKEMON_DATA = {
           "dex": 132,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "champions",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1149,6 +5263,42 @@ window.POKEMON_DATA = {
           "dex": 133,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1157,6 +5307,38 @@ window.POKEMON_DATA = {
           "dex": 134,
           "types": [
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1165,6 +5347,38 @@ window.POKEMON_DATA = {
           "dex": 135,
           "types": [
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1173,6 +5387,38 @@ window.POKEMON_DATA = {
           "dex": 136,
           "types": [
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1181,6 +5427,40 @@ window.POKEMON_DATA = {
           "dex": 137,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "red-japan",
+            "green-japan",
+            "blue-japan"
           ]
         },
         {
@@ -1190,6 +5470,33 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1199,6 +5506,24 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -1208,6 +5533,33 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1217,6 +5569,24 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -1226,6 +5596,39 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1234,6 +5637,42 @@ window.POKEMON_DATA = {
           "dex": 143,
           "types": [
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1243,6 +5682,30 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1252,6 +5715,30 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1261,6 +5748,30 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1269,6 +5780,40 @@ window.POKEMON_DATA = {
           "dex": 147,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         },
         {
@@ -1277,6 +5822,39 @@ window.POKEMON_DATA = {
           "dex": 148,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "blue-japan"
           ]
         },
         {
@@ -1286,6 +5864,37 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1294,6 +5903,29 @@ window.POKEMON_DATA = {
           "dex": 150,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "red-japan",
+            "green-japan"
           ]
         }
       ]
@@ -1308,6 +5940,21 @@ window.POKEMON_DATA = {
           "dex": 151,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "lets-go-pikachu",
+            "lets-go-eevee"
           ]
         },
         {
@@ -1316,6 +5963,22 @@ window.POKEMON_DATA = {
           "dex": 152,
           "types": [
             "grass"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -1324,6 +5987,17 @@ window.POKEMON_DATA = {
           "dex": 153,
           "types": [
             "grass"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -1332,6 +6006,17 @@ window.POKEMON_DATA = {
           "dex": 154,
           "types": [
             "grass"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1340,6 +6025,22 @@ window.POKEMON_DATA = {
           "dex": 155,
           "types": [
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -1348,6 +6049,17 @@ window.POKEMON_DATA = {
           "dex": 156,
           "types": [
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -1356,6 +6068,17 @@ window.POKEMON_DATA = {
           "dex": 157,
           "types": [
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -1364,6 +6087,22 @@ window.POKEMON_DATA = {
           "dex": 158,
           "types": [
             "water"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -1372,6 +6111,17 @@ window.POKEMON_DATA = {
           "dex": 159,
           "types": [
             "water"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -1380,6 +6130,17 @@ window.POKEMON_DATA = {
           "dex": 160,
           "types": [
             "water"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1388,6 +6149,22 @@ window.POKEMON_DATA = {
           "dex": 161,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1396,6 +6173,18 @@ window.POKEMON_DATA = {
           "dex": 162,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1405,6 +6194,29 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1414,6 +6226,35 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1423,6 +6264,23 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -1432,6 +6290,25 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -1441,6 +6318,26 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -1450,6 +6347,31 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1459,6 +6381,37 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "mega-dimension"
           ]
         },
         {
@@ -1468,6 +6421,37 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -1477,6 +6461,38 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -1485,6 +6501,39 @@ window.POKEMON_DATA = {
           "dex": 172,
           "types": [
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -1493,6 +6542,34 @@ window.POKEMON_DATA = {
           "dex": 173,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -1502,6 +6579,34 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "fairy"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -1510,6 +6615,27 @@ window.POKEMON_DATA = {
           "dex": 175,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "legends-arceus"
           ]
         },
         {
@@ -1519,6 +6645,20 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -1528,6 +6668,28 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -1537,6 +6699,26 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -1545,6 +6727,30 @@ window.POKEMON_DATA = {
           "dex": 179,
           "types": [
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -1553,6 +6759,26 @@ window.POKEMON_DATA = {
           "dex": 180,
           "types": [
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         }
       ]
@@ -1567,6 +6793,23 @@ window.POKEMON_DATA = {
           "dex": 181,
           "types": [
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1575,6 +6818,26 @@ window.POKEMON_DATA = {
           "dex": 182,
           "types": [
             "grass"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -1584,6 +6847,34 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fairy"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1593,6 +6884,34 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fairy"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -1601,6 +6920,37 @@ window.POKEMON_DATA = {
           "dex": 185,
           "types": [
             "rock"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1609,6 +6959,30 @@ window.POKEMON_DATA = {
           "dex": 186,
           "types": [
             "water"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -1618,6 +6992,23 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1627,6 +7018,20 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1636,6 +7041,17 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1644,6 +7060,29 @@ window.POKEMON_DATA = {
           "dex": 190,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1652,6 +7091,27 @@ window.POKEMON_DATA = {
           "dex": 191,
           "types": [
             "grass"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1660,6 +7120,20 @@ window.POKEMON_DATA = {
           "dex": 192,
           "types": [
             "grass"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1669,6 +7143,26 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1678,6 +7172,31 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1687,6 +7206,32 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1695,6 +7240,32 @@ window.POKEMON_DATA = {
           "dex": 196,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1703,6 +7274,32 @@ window.POKEMON_DATA = {
           "dex": 197,
           "types": [
             "dark"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1712,6 +7309,32 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1721,6 +7344,31 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1729,6 +7377,28 @@ window.POKEMON_DATA = {
           "dex": 200,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "white",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1737,6 +7407,23 @@ window.POKEMON_DATA = {
           "dex": 201,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -1745,6 +7432,27 @@ window.POKEMON_DATA = {
           "dex": 202,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -1754,6 +7462,31 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -1762,6 +7495,24 @@ window.POKEMON_DATA = {
           "dex": 204,
           "types": [
             "bug"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1771,6 +7522,23 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "steel"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -1779,6 +7547,35 @@ window.POKEMON_DATA = {
           "dex": 206,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1788,6 +7585,28 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "colosseum",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1797,6 +7616,27 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1805,6 +7645,25 @@ window.POKEMON_DATA = {
           "dex": 209,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -1813,6 +7672,24 @@ window.POKEMON_DATA = {
           "dex": 210,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -1828,6 +7705,37 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "poison"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -1837,6 +7745,30 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "steel"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1846,6 +7778,33 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "rock"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -1855,6 +7814,43 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fighting"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1864,6 +7860,39 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "ice"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1872,6 +7901,25 @@ window.POKEMON_DATA = {
           "dex": 216,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1880,6 +7928,22 @@ window.POKEMON_DATA = {
           "dex": 217,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -1888,6 +7952,28 @@ window.POKEMON_DATA = {
           "dex": 218,
           "types": [
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1897,6 +7983,30 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "rock"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1906,6 +8016,34 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1915,6 +8053,28 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -1924,6 +8084,34 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "rock"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -1932,6 +8120,34 @@ window.POKEMON_DATA = {
           "dex": 223,
           "types": [
             "water"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -1940,6 +8156,34 @@ window.POKEMON_DATA = {
           "dex": 224,
           "types": [
             "water"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -1949,6 +8193,35 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -1958,6 +8231,35 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -1967,6 +8269,39 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1976,6 +8311,27 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -1985,6 +8341,26 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -1994,6 +8370,28 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dragon"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2002,6 +8400,28 @@ window.POKEMON_DATA = {
           "dex": 231,
           "types": [
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2010,6 +8430,20 @@ window.POKEMON_DATA = {
           "dex": 232,
           "types": [
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2018,6 +8452,24 @@ window.POKEMON_DATA = {
           "dex": 233,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2026,6 +8478,28 @@ window.POKEMON_DATA = {
           "dex": 234,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "omega-ruby",
+            "alpha-sapphire",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2034,6 +8508,28 @@ window.POKEMON_DATA = {
           "dex": 235,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2042,6 +8538,24 @@ window.POKEMON_DATA = {
           "dex": 236,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2050,6 +8564,20 @@ window.POKEMON_DATA = {
           "dex": 237,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2059,6 +8587,22 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2067,6 +8611,30 @@ window.POKEMON_DATA = {
           "dex": 239,
           "types": [
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2075,6 +8643,29 @@ window.POKEMON_DATA = {
           "dex": 240,
           "types": [
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -2089,6 +8680,28 @@ window.POKEMON_DATA = {
           "dex": 241,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2097,6 +8710,29 @@ window.POKEMON_DATA = {
           "dex": 242,
           "types": [
             "normal"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2105,6 +8741,21 @@ window.POKEMON_DATA = {
           "dex": 243,
           "types": [
             "electric"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2113,6 +8764,21 @@ window.POKEMON_DATA = {
           "dex": 244,
           "types": [
             "fire"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2121,6 +8787,22 @@ window.POKEMON_DATA = {
           "dex": 245,
           "types": [
             "water"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2130,6 +8812,31 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "xd",
+            "diamond",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -2139,6 +8846,28 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -2148,6 +8877,30 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "dark"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2157,6 +8910,20 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "alpha-sapphire",
+            "ultra-moon",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2166,6 +8933,20 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "flying"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "colosseum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "ultra-sun",
+            "the-crown-tundra-sword"
           ]
         },
         {
@@ -2175,6 +8956,18 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "grass"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver"
           ]
         },
         {
@@ -2183,6 +8976,18 @@ window.POKEMON_DATA = {
           "dex": 252,
           "types": [
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2191,6 +8996,20 @@ window.POKEMON_DATA = {
           "dex": 253,
           "types": [
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2199,6 +9018,19 @@ window.POKEMON_DATA = {
           "dex": 254,
           "types": [
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -2207,6 +9039,18 @@ window.POKEMON_DATA = {
           "dex": 255,
           "types": [
             "fire"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2216,6 +9060,20 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "fighting"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2225,6 +9083,19 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "fighting"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -2233,6 +9104,18 @@ window.POKEMON_DATA = {
           "dex": 258,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2242,6 +9125,20 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2251,6 +9148,19 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -2259,6 +9169,21 @@ window.POKEMON_DATA = {
           "dex": 261,
           "types": [
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2267,6 +9192,18 @@ window.POKEMON_DATA = {
           "dex": 262,
           "types": [
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2275,6 +9212,26 @@ window.POKEMON_DATA = {
           "dex": 263,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2283,6 +9240,21 @@ window.POKEMON_DATA = {
           "dex": 264,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2291,6 +9263,21 @@ window.POKEMON_DATA = {
           "dex": 265,
           "types": [
             "bug"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -2299,6 +9286,21 @@ window.POKEMON_DATA = {
           "dex": 266,
           "types": [
             "bug"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -2308,6 +9310,23 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -2316,6 +9335,23 @@ window.POKEMON_DATA = {
           "dex": 268,
           "types": [
             "bug"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -2325,6 +9361,21 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -2334,6 +9385,24 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         }
       ]
@@ -2349,6 +9418,28 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2358,6 +9449,19 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2366,6 +9470,23 @@ window.POKEMON_DATA = {
           "dex": 273,
           "types": [
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2375,6 +9496,28 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2384,6 +9527,19 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2393,6 +9549,17 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         },
         {
@@ -2402,6 +9569,23 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -2411,6 +9595,36 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2420,6 +9634,37 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -2429,6 +9674,33 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -2438,6 +9710,28 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -2447,6 +9741,27 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "platinum",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2456,6 +9771,29 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2465,6 +9803,26 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2473,6 +9831,21 @@ window.POKEMON_DATA = {
           "dex": 285,
           "types": [
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2482,6 +9855,21 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fighting"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2490,6 +9878,24 @@ window.POKEMON_DATA = {
           "dex": 287,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2498,6 +9904,23 @@ window.POKEMON_DATA = {
           "dex": 288,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2506,6 +9929,19 @@ window.POKEMON_DATA = {
           "dex": 289,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2515,6 +9951,22 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -2524,6 +9976,21 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2533,6 +10000,17 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "ghost"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -2541,6 +10019,19 @@ window.POKEMON_DATA = {
           "dex": 293,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -2549,6 +10040,20 @@ window.POKEMON_DATA = {
           "dex": 294,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -2557,6 +10062,19 @@ window.POKEMON_DATA = {
           "dex": 295,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2565,6 +10083,28 @@ window.POKEMON_DATA = {
           "dex": 296,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2573,6 +10113,23 @@ window.POKEMON_DATA = {
           "dex": 297,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2582,6 +10139,28 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "fairy"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2590,6 +10169,30 @@ window.POKEMON_DATA = {
           "dex": 299,
           "types": [
             "rock"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2598,6 +10201,20 @@ window.POKEMON_DATA = {
           "dex": 300,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         }
       ]
@@ -2612,6 +10229,18 @@ window.POKEMON_DATA = {
           "dex": 301,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         },
         {
@@ -2621,6 +10250,34 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "ghost"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2630,6 +10287,30 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "fairy"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2639,6 +10320,25 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "rock"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -2648,6 +10348,22 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "rock"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -2657,6 +10373,23 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "rock"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2666,6 +10399,27 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -2675,6 +10429,30 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2683,6 +10461,25 @@ window.POKEMON_DATA = {
           "dex": 309,
           "types": [
             "electric"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -2691,6 +10488,30 @@ window.POKEMON_DATA = {
           "dex": 310,
           "types": [
             "electric"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2699,6 +10520,23 @@ window.POKEMON_DATA = {
           "dex": 311,
           "types": [
             "electric"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2707,6 +10545,22 @@ window.POKEMON_DATA = {
           "dex": 312,
           "types": [
             "electric"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2715,6 +10569,22 @@ window.POKEMON_DATA = {
           "dex": 313,
           "types": [
             "bug"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2723,6 +10593,22 @@ window.POKEMON_DATA = {
           "dex": 314,
           "types": [
             "bug"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2732,6 +10618,35 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za"
           ]
         },
         {
@@ -2740,6 +10655,23 @@ window.POKEMON_DATA = {
           "dex": 316,
           "types": [
             "poison"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2748,6 +10680,18 @@ window.POKEMON_DATA = {
           "dex": 317,
           "types": [
             "poison"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2757,6 +10701,30 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-za"
           ]
         },
         {
@@ -2766,6 +10734,31 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2774,6 +10767,32 @@ window.POKEMON_DATA = {
           "dex": 320,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2782,6 +10801,30 @@ window.POKEMON_DATA = {
           "dex": 321,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -2791,6 +10834,26 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -2800,6 +10863,26 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2808,6 +10891,35 @@ window.POKEMON_DATA = {
           "dex": 324,
           "types": [
             "fire"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -2816,6 +10928,27 @@ window.POKEMON_DATA = {
           "dex": 325,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2824,6 +10957,24 @@ window.POKEMON_DATA = {
           "dex": 326,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2832,6 +10983,24 @@ window.POKEMON_DATA = {
           "dex": 327,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -2840,6 +11009,32 @@ window.POKEMON_DATA = {
           "dex": 328,
           "types": [
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2849,6 +11044,30 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "dragon"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -2858,6 +11077,29 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "dragon"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -2872,6 +11114,20 @@ window.POKEMON_DATA = {
           "dex": 331,
           "types": [
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2881,6 +11137,22 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -2890,6 +11162,30 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -2899,6 +11195,31 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -2907,6 +11228,30 @@ window.POKEMON_DATA = {
           "dex": 335,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2915,6 +11260,29 @@ window.POKEMON_DATA = {
           "dex": 336,
           "types": [
             "poison"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -2924,6 +11292,27 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -2933,6 +11322,27 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -2942,6 +11352,41 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2951,6 +11396,41 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2959,6 +11439,30 @@ window.POKEMON_DATA = {
           "dex": 341,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2968,6 +11472,30 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -2977,6 +11505,26 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2986,6 +11534,23 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -2995,6 +11560,26 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3004,6 +11589,17 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "grass"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3013,6 +11609,26 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "bug"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3022,6 +11638,17 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "bug"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3030,6 +11657,33 @@ window.POKEMON_DATA = {
           "dex": 349,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -3038,6 +11692,34 @@ window.POKEMON_DATA = {
           "dex": 350,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -3046,6 +11728,23 @@ window.POKEMON_DATA = {
           "dex": 351,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "champions"
           ]
         },
         {
@@ -3054,6 +11753,22 @@ window.POKEMON_DATA = {
           "dex": 352,
           "types": [
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "mega-dimension"
           ]
         },
         {
@@ -3062,6 +11777,24 @@ window.POKEMON_DATA = {
           "dex": 353,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -3070,6 +11803,29 @@ window.POKEMON_DATA = {
           "dex": 354,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3078,6 +11834,24 @@ window.POKEMON_DATA = {
           "dex": 355,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3086,6 +11860,27 @@ window.POKEMON_DATA = {
           "dex": 356,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3095,6 +11890,25 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3103,6 +11917,29 @@ window.POKEMON_DATA = {
           "dex": 358,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -3111,6 +11948,33 @@ window.POKEMON_DATA = {
           "dex": 359,
           "types": [
             "dark"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3119,6 +11983,17 @@ window.POKEMON_DATA = {
           "dex": 360,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield"
           ]
         }
       ]
@@ -3133,6 +12008,33 @@ window.POKEMON_DATA = {
           "dex": 361,
           "types": [
             "ice"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -3141,6 +12043,29 @@ window.POKEMON_DATA = {
           "dex": 362,
           "types": [
             "ice"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3150,6 +12075,30 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "pearl",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -3159,6 +12108,24 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -3168,6 +12135,20 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -3176,6 +12157,25 @@ window.POKEMON_DATA = {
           "dex": 366,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -3184,6 +12184,19 @@ window.POKEMON_DATA = {
           "dex": 367,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black",
+            "black-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -3192,6 +12205,19 @@ window.POKEMON_DATA = {
           "dex": 368,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "white",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -3201,6 +12227,30 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "rock"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3209,6 +12259,32 @@ window.POKEMON_DATA = {
           "dex": 370,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3217,6 +12293,30 @@ window.POKEMON_DATA = {
           "dex": 371,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -3225,6 +12325,26 @@ window.POKEMON_DATA = {
           "dex": 372,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -3234,6 +12354,25 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "xd",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -3243,6 +12382,29 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -3252,6 +12414,30 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -3261,6 +12447,28 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "colosseum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3269,6 +12477,19 @@ window.POKEMON_DATA = {
           "dex": 377,
           "types": [
             "rock"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3277,6 +12498,19 @@ window.POKEMON_DATA = {
           "dex": 378,
           "types": [
             "ice"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3285,6 +12519,19 @@ window.POKEMON_DATA = {
           "dex": 379,
           "types": [
             "steel"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -3294,6 +12541,18 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-moon",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -3303,6 +12562,18 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "soulsilver",
+            "black-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "the-crown-tundra-sword",
+            "mega-dimension"
           ]
         },
         {
@@ -3311,6 +12582,17 @@ window.POKEMON_DATA = {
           "dex": 382,
           "types": [
             "water"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-moon",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -3319,6 +12601,17 @@ window.POKEMON_DATA = {
           "dex": 383,
           "types": [
             "ground"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "the-crown-tundra-sword",
+            "mega-dimension"
           ]
         },
         {
@@ -3328,6 +12621,20 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "flying"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -3337,6 +12644,13 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         },
         {
@@ -3345,6 +12659,13 @@ window.POKEMON_DATA = {
           "dex": 386,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         },
         {
@@ -3353,6 +12674,18 @@ window.POKEMON_DATA = {
           "dex": 387,
           "types": [
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3361,6 +12694,18 @@ window.POKEMON_DATA = {
           "dex": 388,
           "types": [
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3370,6 +12715,17 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -3378,6 +12734,18 @@ window.POKEMON_DATA = {
           "dex": 390,
           "types": [
             "fire"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -3393,6 +12761,18 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "fighting"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3402,6 +12782,17 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "fighting"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -3410,6 +12801,18 @@ window.POKEMON_DATA = {
           "dex": 393,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3418,6 +12821,18 @@ window.POKEMON_DATA = {
           "dex": 394,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3427,6 +12842,17 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "steel"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -3436,6 +12862,23 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -3445,6 +12888,23 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -3454,6 +12914,22 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -3462,6 +12938,18 @@ window.POKEMON_DATA = {
           "dex": 399,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3471,6 +12959,20 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3479,6 +12981,20 @@ window.POKEMON_DATA = {
           "dex": 401,
           "types": [
             "bug"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3487,6 +13003,24 @@ window.POKEMON_DATA = {
           "dex": 402,
           "types": [
             "bug"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3495,6 +13029,22 @@ window.POKEMON_DATA = {
           "dex": 403,
           "types": [
             "electric"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3503,6 +13053,26 @@ window.POKEMON_DATA = {
           "dex": 404,
           "types": [
             "electric"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3511,6 +13081,23 @@ window.POKEMON_DATA = {
           "dex": 405,
           "types": [
             "electric"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -3520,6 +13107,25 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za"
           ]
         },
         {
@@ -3529,6 +13135,26 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3537,6 +13163,26 @@ window.POKEMON_DATA = {
           "dex": 408,
           "types": [
             "rock"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3545,6 +13191,21 @@ window.POKEMON_DATA = {
           "dex": 409,
           "types": [
             "rock"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -3554,6 +13215,26 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "steel"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3563,6 +13244,21 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "steel"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -3571,6 +13267,18 @@ window.POKEMON_DATA = {
           "dex": 412,
           "types": [
             "bug"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3581,6 +13289,16 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3590,6 +13308,16 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3599,6 +13327,28 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3608,6 +13358,28 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3616,6 +13388,24 @@ window.POKEMON_DATA = {
           "dex": 417,
           "types": [
             "electric"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3624,6 +13414,24 @@ window.POKEMON_DATA = {
           "dex": 418,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3632,6 +13440,26 @@ window.POKEMON_DATA = {
           "dex": 419,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3640,6 +13468,20 @@ window.POKEMON_DATA = {
           "dex": 420,
           "types": [
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         }
       ]
@@ -3654,6 +13496,22 @@ window.POKEMON_DATA = {
           "dex": 421,
           "types": [
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3663,6 +13521,22 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3673,6 +13547,26 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3681,6 +13575,22 @@ window.POKEMON_DATA = {
           "dex": 424,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3690,6 +13600,28 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3699,6 +13631,32 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3707,6 +13665,23 @@ window.POKEMON_DATA = {
           "dex": 427,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za"
           ]
         },
         {
@@ -3715,6 +13690,24 @@ window.POKEMON_DATA = {
           "dex": 428,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3723,6 +13716,21 @@ window.POKEMON_DATA = {
           "dex": 429,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "white",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3732,6 +13740,23 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3740,6 +13765,16 @@ window.POKEMON_DATA = {
           "dex": 431,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3748,6 +13783,16 @@ window.POKEMON_DATA = {
           "dex": 432,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3756,6 +13801,23 @@ window.POKEMON_DATA = {
           "dex": 433,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -3765,6 +13827,20 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dark"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3774,6 +13850,22 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dark"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3783,6 +13875,28 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "psychic"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3792,6 +13906,32 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "psychic"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3800,6 +13940,28 @@ window.POKEMON_DATA = {
           "dex": 438,
           "types": [
             "rock"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3809,6 +13971,23 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "mega-dimension"
           ]
         },
         {
@@ -3817,6 +13996,28 @@ window.POKEMON_DATA = {
           "dex": 440,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3826,6 +14027,20 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3835,6 +14050,23 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "dark"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -3844,6 +14076,30 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -3853,6 +14109,27 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -3862,6 +14139,28 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3870,6 +14169,26 @@ window.POKEMON_DATA = {
           "dex": 446,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -3878,6 +14197,35 @@ window.POKEMON_DATA = {
           "dex": 447,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -3887,6 +14235,34 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "steel"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -3896,6 +14272,23 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -3905,6 +14298,24 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         }
       ]
@@ -3920,6 +14331,24 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "bug"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3929,6 +14358,26 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dark"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3938,6 +14387,26 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "fighting"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -3947,6 +14416,25 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "fighting"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -3955,6 +14443,20 @@ window.POKEMON_DATA = {
           "dex": 455,
           "types": [
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3963,6 +14465,26 @@ window.POKEMON_DATA = {
           "dex": 456,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3971,6 +14493,26 @@ window.POKEMON_DATA = {
           "dex": 457,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -3980,6 +14522,26 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "flying"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -3989,6 +14551,25 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ice"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -3998,6 +14579,30 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ice"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4007,6 +14612,31 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "ice"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -4016,6 +14646,26 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "steel"
+          ],
+          "games": [
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4024,6 +14674,20 @@ window.POKEMON_DATA = {
           "dex": 463,
           "types": [
             "normal"
+          ],
+          "games": [
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -4033,6 +14697,21 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "rock"
+          ],
+          "games": [
+            "platinum",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -4041,6 +14720,18 @@ window.POKEMON_DATA = {
           "dex": 465,
           "types": [
             "grass"
+          ],
+          "games": [
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -4049,6 +14740,20 @@ window.POKEMON_DATA = {
           "dex": 466,
           "types": [
             "electric"
+          ],
+          "games": [
+            "platinum",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4057,6 +14762,20 @@ window.POKEMON_DATA = {
           "dex": 467,
           "types": [
             "fire"
+          ],
+          "games": [
+            "platinum",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4066,6 +14785,14 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "flying"
+          ],
+          "games": [
+            "platinum",
+            "sun",
+            "moon",
+            "sword",
+            "shield",
+            "legends-arceus"
           ]
         },
         {
@@ -4075,6 +14802,20 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4083,6 +14824,26 @@ window.POKEMON_DATA = {
           "dex": 470,
           "types": [
             "grass"
+          ],
+          "games": [
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4091,6 +14852,26 @@ window.POKEMON_DATA = {
           "dex": 471,
           "types": [
             "ice"
+          ],
+          "games": [
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4100,6 +14881,19 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "flying"
+          ],
+          "games": [
+            "platinum",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -4109,6 +14903,25 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "ground"
+          ],
+          "games": [
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -4117,6 +14930,19 @@ window.POKEMON_DATA = {
           "dex": 474,
           "types": [
             "normal"
+          ],
+          "games": [
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -4126,6 +14952,24 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fighting"
+          ],
+          "games": [
+            "platinum",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4135,6 +14979,22 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "steel"
+          ],
+          "games": [
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4143,6 +15003,16 @@ window.POKEMON_DATA = {
           "dex": 477,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4152,6 +15022,26 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "ghost"
+          ],
+          "games": [
+            "platinum",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4161,6 +15051,30 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "ghost"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -4169,6 +15083,22 @@ window.POKEMON_DATA = {
           "dex": 480,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         }
       ]
@@ -4183,6 +15113,22 @@ window.POKEMON_DATA = {
           "dex": 481,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -4191,6 +15137,22 @@ window.POKEMON_DATA = {
           "dex": 482,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -4200,6 +15162,19 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "dragon"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "alpha-sapphire",
+            "ultra-sun",
+            "the-crown-tundra-sword",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -4209,6 +15184,19 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dragon"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "omega-ruby",
+            "ultra-moon",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -4218,6 +15206,20 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "steel"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "mega-dimension"
           ]
         },
         {
@@ -4226,6 +15228,19 @@ window.POKEMON_DATA = {
           "dex": 486,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -4235,6 +15250,10 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "dragon"
+          ],
+          "games": [
+            "platinum",
+            "legends-arceus"
           ]
         },
         {
@@ -4243,6 +15262,20 @@ window.POKEMON_DATA = {
           "dex": 488,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -4251,6 +15284,9 @@ window.POKEMON_DATA = {
           "dex": 489,
           "types": [
             "water"
+          ],
+          "games": [
+            "legends-arceus"
           ]
         },
         {
@@ -4259,6 +15295,16 @@ window.POKEMON_DATA = {
           "dex": 490,
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -4267,6 +15313,13 @@ window.POKEMON_DATA = {
           "dex": 491,
           "types": [
             "dark"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "legends-arceus",
+            "mega-dimension"
           ]
         },
         {
@@ -4275,6 +15328,9 @@ window.POKEMON_DATA = {
           "dex": 492,
           "types": [
             "grass"
+          ],
+          "games": [
+            "legends-arceus"
           ]
         },
         {
@@ -4283,6 +15339,12 @@ window.POKEMON_DATA = {
           "dex": 493,
           "types": [
             "normal"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "legends-arceus"
           ]
         },
         {
@@ -4292,6 +15354,12 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2"
           ]
         },
         {
@@ -4300,6 +15368,16 @@ window.POKEMON_DATA = {
           "dex": 495,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4308,6 +15386,14 @@ window.POKEMON_DATA = {
           "dex": 496,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4316,6 +15402,17 @@ window.POKEMON_DATA = {
           "dex": 497,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -4324,6 +15421,17 @@ window.POKEMON_DATA = {
           "dex": 498,
           "types": [
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -4333,6 +15441,15 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -4342,6 +15459,18 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4350,6 +15479,17 @@ window.POKEMON_DATA = {
           "dex": 501,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4358,6 +15498,15 @@ window.POKEMON_DATA = {
           "dex": 502,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4366,6 +15515,18 @@ window.POKEMON_DATA = {
           "dex": 503,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -4374,6 +15535,15 @@ window.POKEMON_DATA = {
           "dex": 504,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za"
           ]
         },
         {
@@ -4382,6 +15552,16 @@ window.POKEMON_DATA = {
           "dex": 505,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4390,6 +15570,20 @@ window.POKEMON_DATA = {
           "dex": 506,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4398,6 +15592,18 @@ window.POKEMON_DATA = {
           "dex": 507,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4406,6 +15612,20 @@ window.POKEMON_DATA = {
           "dex": 508,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4414,6 +15634,17 @@ window.POKEMON_DATA = {
           "dex": 509,
           "types": [
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "mega-dimension"
           ]
         },
         {
@@ -4422,6 +15653,22 @@ window.POKEMON_DATA = {
           "dex": 510,
           "types": [
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension",
+            "champions"
           ]
         }
       ]
@@ -4436,6 +15683,15 @@ window.POKEMON_DATA = {
           "dex": 511,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za"
           ]
         },
         {
@@ -4444,6 +15700,16 @@ window.POKEMON_DATA = {
           "dex": 512,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4452,6 +15718,15 @@ window.POKEMON_DATA = {
           "dex": 513,
           "types": [
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za"
           ]
         },
         {
@@ -4460,6 +15735,16 @@ window.POKEMON_DATA = {
           "dex": 514,
           "types": [
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4468,6 +15753,15 @@ window.POKEMON_DATA = {
           "dex": 515,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za"
           ]
         },
         {
@@ -4476,6 +15770,16 @@ window.POKEMON_DATA = {
           "dex": 516,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4484,6 +15788,19 @@ window.POKEMON_DATA = {
           "dex": 517,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "mega-dimension"
           ]
         },
         {
@@ -4492,6 +15809,20 @@ window.POKEMON_DATA = {
           "dex": 518,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -4501,6 +15832,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4510,6 +15851,18 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4519,6 +15872,18 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4527,6 +15892,14 @@ window.POKEMON_DATA = {
           "dex": 522,
           "types": [
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4535,6 +15908,18 @@ window.POKEMON_DATA = {
           "dex": 523,
           "types": [
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4543,6 +15928,22 @@ window.POKEMON_DATA = {
           "dex": 524,
           "types": [
             "rock"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4551,6 +15952,26 @@ window.POKEMON_DATA = {
           "dex": 525,
           "types": [
             "rock"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4559,6 +15980,22 @@ window.POKEMON_DATA = {
           "dex": 526,
           "types": [
             "rock"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4568,6 +16005,20 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4577,6 +16028,20 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4585,6 +16050,17 @@ window.POKEMON_DATA = {
           "dex": 529,
           "types": [
             "ground"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -4594,6 +16070,22 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4602,6 +16094,22 @@ window.POKEMON_DATA = {
           "dex": 531,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4610,6 +16118,20 @@ window.POKEMON_DATA = {
           "dex": 532,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4618,6 +16140,20 @@ window.POKEMON_DATA = {
           "dex": 533,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4626,6 +16162,23 @@ window.POKEMON_DATA = {
           "dex": 534,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -4634,6 +16187,16 @@ window.POKEMON_DATA = {
           "dex": 535,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4643,6 +16206,20 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4652,6 +16229,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4660,6 +16249,18 @@ window.POKEMON_DATA = {
           "dex": 538,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -4668,6 +16269,18 @@ window.POKEMON_DATA = {
           "dex": 539,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "mega-dimension"
           ]
         },
         {
@@ -4677,6 +16290,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         }
       ]
@@ -4692,6 +16313,16 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4701,6 +16332,18 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4710,6 +16353,19 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-za"
           ]
         },
         {
@@ -4719,6 +16375,17 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-za"
           ]
         },
         {
@@ -4728,6 +16395,20 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "poison"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4737,6 +16418,22 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fairy"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4746,6 +16443,23 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fairy"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -4754,6 +16468,27 @@ window.POKEMON_DATA = {
           "dex": 548,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4762,6 +16497,25 @@ window.POKEMON_DATA = {
           "dex": 549,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4771,6 +16525,25 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -4780,6 +16553,25 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -4789,6 +16581,25 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -4798,6 +16609,28 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4806,6 +16639,17 @@ window.POKEMON_DATA = {
           "dex": 554,
           "types": [
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4814,6 +16658,16 @@ window.POKEMON_DATA = {
           "dex": 555,
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4822,6 +16676,22 @@ window.POKEMON_DATA = {
           "dex": 556,
           "types": [
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4831,6 +16701,18 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "rock"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -4840,6 +16722,24 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "rock"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4849,6 +16749,23 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -4858,6 +16775,24 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4867,6 +16802,20 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4875,6 +16824,15 @@ window.POKEMON_DATA = {
           "dex": 562,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "mega-dimension"
           ]
         },
         {
@@ -4883,6 +16841,20 @@ window.POKEMON_DATA = {
           "dex": 563,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -4892,6 +16864,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "rock"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4901,6 +16885,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "rock"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4910,6 +16906,18 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4919,6 +16927,18 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -4927,6 +16947,23 @@ window.POKEMON_DATA = {
           "dex": 568,
           "types": [
             "poison"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -4935,6 +16972,24 @@ window.POKEMON_DATA = {
           "dex": 569,
           "types": [
             "poison"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -4943,6 +16998,21 @@ window.POKEMON_DATA = {
           "dex": 570,
           "types": [
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         }
       ]
@@ -4957,6 +17027,22 @@ window.POKEMON_DATA = {
           "dex": 571,
           "types": [
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -4965,6 +17051,22 @@ window.POKEMON_DATA = {
           "dex": 572,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4973,6 +17075,22 @@ window.POKEMON_DATA = {
           "dex": 573,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4981,6 +17099,24 @@ window.POKEMON_DATA = {
           "dex": 574,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4989,6 +17125,22 @@ window.POKEMON_DATA = {
           "dex": 575,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -4997,6 +17149,22 @@ window.POKEMON_DATA = {
           "dex": 576,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5005,6 +17173,20 @@ window.POKEMON_DATA = {
           "dex": 577,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5013,6 +17195,22 @@ window.POKEMON_DATA = {
           "dex": 578,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5021,6 +17219,21 @@ window.POKEMON_DATA = {
           "dex": 579,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -5030,6 +17243,16 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -5039,6 +17262,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -5047,6 +17282,23 @@ window.POKEMON_DATA = {
           "dex": 582,
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -5055,6 +17307,23 @@ window.POKEMON_DATA = {
           "dex": 583,
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -5063,6 +17332,24 @@ window.POKEMON_DATA = {
           "dex": 584,
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5073,6 +17360,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5083,6 +17380,18 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5092,6 +17401,24 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5100,6 +17427,20 @@ window.POKEMON_DATA = {
           "dex": 588,
           "types": [
             "bug"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5109,6 +17450,20 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5118,6 +17473,19 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -5127,6 +17495,21 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "poison"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -5137,6 +17520,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -5147,6 +17542,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -5155,6 +17562,22 @@ window.POKEMON_DATA = {
           "dex": 594,
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5164,6 +17587,20 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5173,6 +17610,22 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5182,6 +17635,18 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5191,6 +17656,18 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5199,6 +17676,18 @@ window.POKEMON_DATA = {
           "dex": 599,
           "types": [
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -5207,6 +17696,18 @@ window.POKEMON_DATA = {
           "dex": 600,
           "types": [
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         }
       ]
@@ -5221,6 +17722,18 @@ window.POKEMON_DATA = {
           "dex": 601,
           "types": [
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5229,6 +17742,21 @@ window.POKEMON_DATA = {
           "dex": 602,
           "types": [
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5237,6 +17765,19 @@ window.POKEMON_DATA = {
           "dex": 603,
           "types": [
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5245,6 +17786,24 @@ window.POKEMON_DATA = {
           "dex": 604,
           "types": [
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5253,6 +17812,18 @@ window.POKEMON_DATA = {
           "dex": 605,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -5261,6 +17832,20 @@ window.POKEMON_DATA = {
           "dex": 606,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5270,6 +17855,27 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -5279,6 +17885,21 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -5288,6 +17909,24 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5296,6 +17935,24 @@ window.POKEMON_DATA = {
           "dex": 610,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5304,6 +17961,22 @@ window.POKEMON_DATA = {
           "dex": 611,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5312,6 +17985,20 @@ window.POKEMON_DATA = {
           "dex": 612,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5320,6 +18007,22 @@ window.POKEMON_DATA = {
           "dex": 613,
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5328,6 +18031,25 @@ window.POKEMON_DATA = {
           "dex": 614,
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -5336,6 +18058,19 @@ window.POKEMON_DATA = {
           "dex": 615,
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -5344,6 +18079,20 @@ window.POKEMON_DATA = {
           "dex": 616,
           "types": [
             "bug"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5352,6 +18101,20 @@ window.POKEMON_DATA = {
           "dex": 617,
           "types": [
             "bug"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5361,6 +18124,24 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5369,6 +18150,20 @@ window.POKEMON_DATA = {
           "dex": 619,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -5377,6 +18172,22 @@ window.POKEMON_DATA = {
           "dex": 620,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -5385,6 +18196,20 @@ window.POKEMON_DATA = {
           "dex": 621,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5394,6 +18219,23 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -5403,6 +18245,26 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -5412,6 +18274,24 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -5421,6 +18301,26 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -5429,6 +18329,16 @@ window.POKEMON_DATA = {
           "dex": 626,
           "types": [
             "normal"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5438,6 +18348,29 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5447,6 +18380,25 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5456,6 +18408,28 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -5465,6 +18439,24 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -5479,6 +18471,18 @@ window.POKEMON_DATA = {
           "dex": 631,
           "types": [
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5488,6 +18492,18 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5497,6 +18513,22 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "dragon"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -5506,6 +18538,20 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "dragon"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -5515,6 +18561,21 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "dragon"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -5524,6 +18585,22 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -5533,6 +18610,19 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -5542,6 +18632,19 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -5551,6 +18654,19 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -5560,6 +18676,19 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -5569,6 +18698,13 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus"
           ]
         },
         {
@@ -5579,6 +18715,13 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus"
           ]
         },
         {
@@ -5588,6 +18731,15 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "fire"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "ultra-sun",
+            "the-crown-tundra-sword"
           ]
         },
         {
@@ -5597,6 +18749,15 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "electric"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "alpha-sapphire",
+            "ultra-moon",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5607,6 +18768,13 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus"
           ]
         },
         {
@@ -5616,6 +18784,18 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -5625,6 +18805,13 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "mega-dimension"
           ]
         },
         {
@@ -5634,6 +18821,13 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "psychic"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "mega-dimension"
           ]
         },
         {
@@ -5643,6 +18837,13 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "mega-dimension"
           ]
         },
         {
@@ -5651,6 +18852,13 @@ window.POKEMON_DATA = {
           "dex": 650,
           "types": [
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5659,6 +18867,13 @@ window.POKEMON_DATA = {
           "dex": 651,
           "types": [
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5668,6 +18883,16 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fighting"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5676,6 +18901,13 @@ window.POKEMON_DATA = {
           "dex": 653,
           "types": [
             "fire"
+          ],
+          "games": [
+            "x",
+            "y",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5684,6 +18916,13 @@ window.POKEMON_DATA = {
           "dex": 654,
           "types": [
             "fire"
+          ],
+          "games": [
+            "x",
+            "y",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5693,6 +18932,16 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5701,6 +18950,13 @@ window.POKEMON_DATA = {
           "dex": 656,
           "types": [
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5709,6 +18965,13 @@ window.POKEMON_DATA = {
           "dex": 657,
           "types": [
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5718,6 +18981,16 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dark"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5726,6 +18999,13 @@ window.POKEMON_DATA = {
           "dex": 659,
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -5735,6 +19015,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "ground"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         }
       ]
@@ -5750,6 +19040,21 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5759,6 +19064,21 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5768,6 +19088,24 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5776,6 +19114,15 @@ window.POKEMON_DATA = {
           "dex": 664,
           "types": [
             "bug"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -5784,6 +19131,13 @@ window.POKEMON_DATA = {
           "dex": 665,
           "types": [
             "bug"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -5794,6 +19148,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5803,6 +19165,17 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5813,6 +19186,18 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5822,6 +19207,15 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -5831,6 +19225,16 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5840,6 +19244,16 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5848,6 +19262,13 @@ window.POKEMON_DATA = {
           "dex": 672,
           "types": [
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -5856,6 +19277,13 @@ window.POKEMON_DATA = {
           "dex": 673,
           "types": [
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -5864,6 +19292,17 @@ window.POKEMON_DATA = {
           "dex": 674,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -5873,6 +19312,20 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "dark"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5882,6 +19335,14 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5890,6 +19351,15 @@ window.POKEMON_DATA = {
           "dex": 677,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5898,6 +19368,16 @@ window.POKEMON_DATA = {
           "dex": 678,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5907,6 +19387,17 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "ghost"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -5916,6 +19407,15 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "ghost"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -5925,6 +19425,14 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "ghost"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5933,6 +19441,13 @@ window.POKEMON_DATA = {
           "dex": 682,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -5941,6 +19456,14 @@ window.POKEMON_DATA = {
           "dex": 683,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5949,6 +19472,13 @@ window.POKEMON_DATA = {
           "dex": 684,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -5957,6 +19487,14 @@ window.POKEMON_DATA = {
           "dex": 685,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5966,6 +19504,19 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -5975,6 +19526,22 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -5984,6 +19551,17 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-za"
           ]
         },
         {
@@ -5993,6 +19571,20 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6002,6 +19594,17 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         }
       ]
@@ -6017,6 +19620,18 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6025,6 +19640,17 @@ window.POKEMON_DATA = {
           "dex": 692,
           "types": [
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -6033,6 +19659,18 @@ window.POKEMON_DATA = {
           "dex": 693,
           "types": [
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6042,6 +19680,13 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -6051,6 +19696,18 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6060,6 +19717,15 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -6069,6 +19735,16 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6078,6 +19754,15 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ice"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -6087,6 +19772,16 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "ice"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6095,6 +19790,23 @@ window.POKEMON_DATA = {
           "dex": 700,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6104,6 +19816,20 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6113,6 +19839,20 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6122,6 +19862,19 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -6130,6 +19883,24 @@ window.POKEMON_DATA = {
           "dex": 704,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -6138,6 +19909,24 @@ window.POKEMON_DATA = {
           "dex": 705,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -6146,6 +19935,25 @@ window.POKEMON_DATA = {
           "dex": 706,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6155,6 +19963,22 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6164,6 +19988,21 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -6173,6 +20012,22 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6182,6 +20037,13 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -6191,6 +20053,14 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6199,6 +20069,18 @@ window.POKEMON_DATA = {
           "dex": 712,
           "types": [
             "ice"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -6207,6 +20089,21 @@ window.POKEMON_DATA = {
           "dex": 713,
           "types": [
             "ice"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6216,6 +20113,21 @@ window.POKEMON_DATA = {
           "types": [
             "flying",
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -6225,6 +20137,24 @@ window.POKEMON_DATA = {
           "types": [
             "flying",
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -6233,6 +20163,13 @@ window.POKEMON_DATA = {
           "dex": 716,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "the-crown-tundra-sword",
+            "legends-za"
           ]
         },
         {
@@ -6242,6 +20179,13 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-moon",
+            "the-crown-tundra-shield",
+            "legends-za"
           ]
         },
         {
@@ -6251,6 +20195,15 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ground"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za"
           ]
         },
         {
@@ -6260,6 +20213,11 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "legends-za"
           ]
         },
         {
@@ -6269,6 +20227,11 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "ghost"
+          ],
+          "games": [
+            "x",
+            "y",
+            "mega-dimension"
           ]
         }
       ]
@@ -6284,6 +20247,11 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "water"
+          ],
+          "games": [
+            "x",
+            "y",
+            "mega-dimension"
           ]
         },
         {
@@ -6293,6 +20261,17 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6302,6 +20281,15 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6311,6 +20299,16 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -6319,6 +20317,16 @@ window.POKEMON_DATA = {
           "dex": 725,
           "types": [
             "fire"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6327,6 +20335,14 @@ window.POKEMON_DATA = {
           "dex": 726,
           "types": [
             "fire"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6336,6 +20352,15 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "dark"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -6344,6 +20369,16 @@ window.POKEMON_DATA = {
           "dex": 728,
           "types": [
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6352,6 +20387,14 @@ window.POKEMON_DATA = {
           "dex": 729,
           "types": [
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6361,6 +20404,15 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -6370,6 +20422,14 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6379,6 +20439,14 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6388,6 +20456,15 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -6396,6 +20473,14 @@ window.POKEMON_DATA = {
           "dex": 734,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -6404,6 +20489,14 @@ window.POKEMON_DATA = {
           "dex": 735,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -6412,6 +20505,16 @@ window.POKEMON_DATA = {
           "dex": 736,
           "types": [
             "bug"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6421,6 +20524,18 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "electric"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6430,6 +20545,18 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "electric"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6438,6 +20565,17 @@ window.POKEMON_DATA = {
           "dex": 739,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -6447,6 +20585,18 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "ice"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -6457,6 +20607,18 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6466,6 +20628,18 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6475,6 +20649,20 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6483,6 +20671,18 @@ window.POKEMON_DATA = {
           "dex": 744,
           "types": [
             "rock"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6492,6 +20692,19 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "rock"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -6500,6 +20713,16 @@ window.POKEMON_DATA = {
           "dex": 746,
           "types": [
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -6509,6 +20732,18 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -6518,6 +20753,19 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -6526,6 +20774,18 @@ window.POKEMON_DATA = {
           "dex": 749,
           "types": [
             "ground"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6534,6 +20794,21 @@ window.POKEMON_DATA = {
           "dex": 750,
           "types": [
             "ground"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         }
       ]
@@ -6549,6 +20824,20 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "bug"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6558,6 +20847,21 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "bug"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -6566,6 +20870,18 @@ window.POKEMON_DATA = {
           "dex": 753,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6574,6 +20890,20 @@ window.POKEMON_DATA = {
           "dex": 754,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6583,6 +20913,16 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -6592,6 +20932,18 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6601,6 +20953,20 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "fire"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6610,6 +20976,23 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "fire"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -6619,6 +21002,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -6628,6 +21021,18 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6636,6 +21041,16 @@ window.POKEMON_DATA = {
           "dex": 761,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -6644,6 +21059,18 @@ window.POKEMON_DATA = {
           "dex": 762,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -6652,6 +21079,21 @@ window.POKEMON_DATA = {
           "dex": 763,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -6660,6 +21102,18 @@ window.POKEMON_DATA = {
           "dex": 764,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6669,6 +21123,21 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "psychic"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -6677,6 +21146,21 @@ window.POKEMON_DATA = {
           "dex": 766,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -6686,6 +21170,17 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -6695,6 +21190,17 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -6704,6 +21210,17 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "ground"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -6713,6 +21230,19 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "ground"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -6721,6 +21251,18 @@ window.POKEMON_DATA = {
           "dex": 771,
           "types": [
             "water"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6729,6 +21271,14 @@ window.POKEMON_DATA = {
           "dex": 772,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -6737,6 +21287,14 @@ window.POKEMON_DATA = {
           "dex": 773,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -6746,6 +21304,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6754,6 +21320,14 @@ window.POKEMON_DATA = {
           "dex": 775,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -6763,6 +21337,16 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "dragon"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-crown-tundra-sword"
           ]
         },
         {
@@ -6772,6 +21356,16 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "steel"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6781,6 +21375,22 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -6790,6 +21400,16 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "psychic"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -6799,6 +21419,18 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "dragon"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         }
       ]
@@ -6814,6 +21446,18 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6822,6 +21466,18 @@ window.POKEMON_DATA = {
           "dex": 782,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6831,6 +21487,18 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -6840,6 +21508,19 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -6849,6 +21530,14 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6858,6 +21547,14 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6867,6 +21564,14 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6876,6 +21581,14 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6884,6 +21597,14 @@ window.POKEMON_DATA = {
           "dex": 789,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6892,6 +21613,12 @@ window.POKEMON_DATA = {
           "dex": 790,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -6901,6 +21628,13 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "steel"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword"
           ]
         },
         {
@@ -6910,6 +21644,13 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "ghost"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6919,6 +21660,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "poison"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6928,6 +21677,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6937,6 +21694,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6945,6 +21710,14 @@ window.POKEMON_DATA = {
           "dex": 796,
           "types": [
             "electric"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6954,6 +21727,14 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6963,6 +21744,14 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "steel"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6972,6 +21761,14 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "dragon"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6980,6 +21777,14 @@ window.POKEMON_DATA = {
           "dex": 800,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -6989,6 +21794,13 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "fairy"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "mega-dimension"
           ]
         },
         {
@@ -6998,6 +21810,13 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "ghost"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "mega-dimension"
           ]
         },
         {
@@ -7006,6 +21825,12 @@ window.POKEMON_DATA = {
           "dex": 803,
           "types": [
             "poison"
+          ],
+          "games": [
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7015,6 +21840,10 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dragon"
+          ],
+          "games": [
+            "ultra-sun",
+            "ultra-moon"
           ]
         },
         {
@@ -7024,6 +21853,12 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "steel"
+          ],
+          "games": [
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7033,6 +21868,12 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "ghost"
+          ],
+          "games": [
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7041,6 +21882,11 @@ window.POKEMON_DATA = {
           "dex": 807,
           "types": [
             "electric"
+          ],
+          "games": [
+            "ultra-sun",
+            "ultra-moon",
+            "mega-dimension"
           ]
         },
         {
@@ -7049,6 +21895,11 @@ window.POKEMON_DATA = {
           "dex": 808,
           "types": [
             "steel"
+          ],
+          "games": [
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "mega-dimension"
           ]
         },
         {
@@ -7057,6 +21908,11 @@ window.POKEMON_DATA = {
           "dex": 809,
           "types": [
             "steel"
+          ],
+          "games": [
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "mega-dimension"
           ]
         },
         {
@@ -7065,6 +21921,12 @@ window.POKEMON_DATA = {
           "dex": 810,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -7079,6 +21941,12 @@ window.POKEMON_DATA = {
           "dex": 811,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7087,6 +21955,12 @@ window.POKEMON_DATA = {
           "dex": 812,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7095,6 +21969,12 @@ window.POKEMON_DATA = {
           "dex": 813,
           "types": [
             "fire"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7103,6 +21983,12 @@ window.POKEMON_DATA = {
           "dex": 814,
           "types": [
             "fire"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7111,6 +21997,12 @@ window.POKEMON_DATA = {
           "dex": 815,
           "types": [
             "fire"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7119,6 +22011,12 @@ window.POKEMON_DATA = {
           "dex": 816,
           "types": [
             "water"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7127,6 +22025,12 @@ window.POKEMON_DATA = {
           "dex": 817,
           "types": [
             "water"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7135,6 +22039,12 @@ window.POKEMON_DATA = {
           "dex": 818,
           "types": [
             "water"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7143,6 +22053,18 @@ window.POKEMON_DATA = {
           "dex": 819,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7151,6 +22073,18 @@ window.POKEMON_DATA = {
           "dex": 820,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7159,6 +22093,15 @@ window.POKEMON_DATA = {
           "dex": 821,
           "types": [
             "flying"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -7167,6 +22110,15 @@ window.POKEMON_DATA = {
           "dex": 822,
           "types": [
             "flying"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -7176,6 +22128,16 @@ window.POKEMON_DATA = {
           "types": [
             "flying",
             "steel"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -7184,6 +22146,12 @@ window.POKEMON_DATA = {
           "dex": 824,
           "types": [
             "bug"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -7193,6 +22161,12 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "psychic"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -7202,6 +22176,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "psychic"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7210,6 +22192,11 @@ window.POKEMON_DATA = {
           "dex": 827,
           "types": [
             "dark"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "mega-dimension"
           ]
         },
         {
@@ -7218,6 +22205,15 @@ window.POKEMON_DATA = {
           "dex": 828,
           "types": [
             "dark"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -7226,6 +22222,12 @@ window.POKEMON_DATA = {
           "dex": 829,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7234,6 +22236,12 @@ window.POKEMON_DATA = {
           "dex": 830,
           "types": [
             "grass"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7242,6 +22250,12 @@ window.POKEMON_DATA = {
           "dex": 831,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7250,6 +22264,14 @@ window.POKEMON_DATA = {
           "dex": 832,
           "types": [
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7258,6 +22280,16 @@ window.POKEMON_DATA = {
           "dex": 833,
           "types": [
             "water"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7267,6 +22299,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "rock"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7275,6 +22319,12 @@ window.POKEMON_DATA = {
           "dex": 835,
           "types": [
             "electric"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7283,6 +22333,14 @@ window.POKEMON_DATA = {
           "dex": 836,
           "types": [
             "electric"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7291,6 +22349,14 @@ window.POKEMON_DATA = {
           "dex": 837,
           "types": [
             "rock"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7300,6 +22366,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "fire"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7309,6 +22383,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "fire"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7318,6 +22400,16 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dragon"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         }
       ]
@@ -7333,6 +22425,17 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dragon"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -7342,6 +22445,17 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dragon"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -7350,6 +22464,14 @@ window.POKEMON_DATA = {
           "dex": 843,
           "types": [
             "ground"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7358,6 +22480,17 @@ window.POKEMON_DATA = {
           "dex": 844,
           "types": [
             "ground"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -7367,6 +22500,16 @@ window.POKEMON_DATA = {
           "types": [
             "flying",
             "water"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7375,6 +22518,16 @@ window.POKEMON_DATA = {
           "dex": 846,
           "types": [
             "water"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7383,6 +22536,18 @@ window.POKEMON_DATA = {
           "dex": 847,
           "types": [
             "water"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7392,6 +22557,13 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "poison"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -7401,6 +22573,13 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "poison"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -7410,6 +22589,12 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "bug"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7419,6 +22604,12 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "bug"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7427,6 +22618,13 @@ window.POKEMON_DATA = {
           "dex": 852,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -7435,6 +22633,15 @@ window.POKEMON_DATA = {
           "dex": 853,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -7443,6 +22650,16 @@ window.POKEMON_DATA = {
           "dex": 854,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7451,6 +22668,17 @@ window.POKEMON_DATA = {
           "dex": 855,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -7459,6 +22687,16 @@ window.POKEMON_DATA = {
           "dex": 856,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7467,6 +22705,16 @@ window.POKEMON_DATA = {
           "dex": 857,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7476,6 +22724,17 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -7485,6 +22744,16 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7494,6 +22763,16 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7503,6 +22782,17 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -7512,6 +22802,12 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7520,6 +22816,15 @@ window.POKEMON_DATA = {
           "dex": 863,
           "types": [
             "steel"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -7528,6 +22833,12 @@ window.POKEMON_DATA = {
           "dex": 864,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7536,6 +22847,13 @@ window.POKEMON_DATA = {
           "dex": 865,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-crown-tundra-sword",
+            "mega-dimension"
           ]
         },
         {
@@ -7545,6 +22863,14 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "psychic"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -7554,6 +22880,12 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -7562,6 +22894,12 @@ window.POKEMON_DATA = {
           "dex": 868,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7570,6 +22908,15 @@ window.POKEMON_DATA = {
           "dex": 869,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -7578,6 +22925,18 @@ window.POKEMON_DATA = {
           "dex": 870,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         }
       ]
@@ -7592,6 +22951,16 @@ window.POKEMON_DATA = {
           "dex": 871,
           "types": [
             "electric"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7601,6 +22970,14 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "bug"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7610,6 +22987,14 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "bug"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7618,6 +23003,14 @@ window.POKEMON_DATA = {
           "dex": 874,
           "types": [
             "rock"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7626,6 +23019,14 @@ window.POKEMON_DATA = {
           "dex": 875,
           "types": [
             "ice"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7636,6 +23037,17 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -7645,6 +23057,18 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "dark"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -7653,6 +23077,14 @@ window.POKEMON_DATA = {
           "dex": 878,
           "types": [
             "steel"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7661,6 +23093,14 @@ window.POKEMON_DATA = {
           "dex": 879,
           "types": [
             "steel"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7670,6 +23110,12 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "dragon"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7679,6 +23125,12 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "ice"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7688,6 +23140,12 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dragon"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7697,6 +23155,12 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ice"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7706,6 +23170,14 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "dragon"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -7715,6 +23187,14 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7724,6 +23204,14 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7733,6 +23221,15 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -7741,6 +23238,10 @@ window.POKEMON_DATA = {
           "dex": 888,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield"
           ]
         },
         {
@@ -7749,6 +23250,10 @@ window.POKEMON_DATA = {
           "dex": 889,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "sword",
+            "shield"
           ]
         },
         {
@@ -7758,6 +23263,10 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dragon"
+          ],
+          "games": [
+            "sword",
+            "shield"
           ]
         },
         {
@@ -7766,6 +23275,10 @@ window.POKEMON_DATA = {
           "dex": 891,
           "types": [
             "fighting"
+          ],
+          "games": [
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -7776,6 +23289,10 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "dark"
+          ],
+          "games": [
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -7785,6 +23302,10 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "grass"
+          ],
+          "games": [
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -7793,6 +23314,10 @@ window.POKEMON_DATA = {
           "dex": 894,
           "types": [
             "electric"
+          ],
+          "games": [
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7801,6 +23326,10 @@ window.POKEMON_DATA = {
           "dex": 895,
           "types": [
             "dragon"
+          ],
+          "games": [
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7809,6 +23338,10 @@ window.POKEMON_DATA = {
           "dex": 896,
           "types": [
             "ice"
+          ],
+          "games": [
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7817,6 +23350,10 @@ window.POKEMON_DATA = {
           "dex": 897,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7826,6 +23363,10 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "grass"
+          ],
+          "games": [
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -7835,6 +23376,10 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "psychic"
+          ],
+          "games": [
+            "legends-arceus",
+            "champions"
           ]
         },
         {
@@ -7844,6 +23389,13 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "rock"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         }
       ]
@@ -7859,6 +23411,11 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "normal"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -7869,6 +23426,12 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -7878,6 +23441,10 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "poison"
+          ],
+          "games": [
+            "legends-arceus",
+            "champions"
           ]
         },
         {
@@ -7887,6 +23454,13 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "poison"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -7897,6 +23471,9 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "flying"
+          ],
+          "games": [
+            "legends-arceus"
           ]
         },
         {
@@ -7905,6 +23482,10 @@ window.POKEMON_DATA = {
           "dex": 906,
           "types": [
             "grass"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7913,6 +23494,10 @@ window.POKEMON_DATA = {
           "dex": 907,
           "types": [
             "grass"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7922,6 +23507,11 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dark"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -7930,6 +23520,10 @@ window.POKEMON_DATA = {
           "dex": 909,
           "types": [
             "fire"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7938,6 +23532,10 @@ window.POKEMON_DATA = {
           "dex": 910,
           "types": [
             "fire"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7947,6 +23545,11 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -7955,6 +23558,10 @@ window.POKEMON_DATA = {
           "dex": 912,
           "types": [
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7963,6 +23570,10 @@ window.POKEMON_DATA = {
           "dex": 913,
           "types": [
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7972,6 +23583,11 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fighting"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -7980,6 +23596,10 @@ window.POKEMON_DATA = {
           "dex": 915,
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7989,6 +23609,10 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -7997,6 +23621,10 @@ window.POKEMON_DATA = {
           "dex": 917,
           "types": [
             "bug"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8005,6 +23633,10 @@ window.POKEMON_DATA = {
           "dex": 918,
           "types": [
             "bug"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8013,6 +23645,10 @@ window.POKEMON_DATA = {
           "dex": 919,
           "types": [
             "bug"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8022,6 +23658,10 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "dark"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8030,6 +23670,10 @@ window.POKEMON_DATA = {
           "dex": 921,
           "types": [
             "electric"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8039,6 +23683,10 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "fighting"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8048,6 +23696,10 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "fighting"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8056,6 +23708,12 @@ window.POKEMON_DATA = {
           "dex": 924,
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8064,6 +23722,13 @@ window.POKEMON_DATA = {
           "dex": 925,
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -8072,6 +23737,11 @@ window.POKEMON_DATA = {
           "dex": 926,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8080,6 +23750,11 @@ window.POKEMON_DATA = {
           "dex": 927,
           "types": [
             "fairy"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8089,6 +23764,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8098,6 +23777,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8107,6 +23790,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         }
       ]
@@ -8123,6 +23810,11 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8131,6 +23823,11 @@ window.POKEMON_DATA = {
           "dex": 932,
           "types": [
             "rock"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8139,6 +23836,11 @@ window.POKEMON_DATA = {
           "dex": 933,
           "types": [
             "rock"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8147,6 +23849,12 @@ window.POKEMON_DATA = {
           "dex": 934,
           "types": [
             "rock"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8155,6 +23863,11 @@ window.POKEMON_DATA = {
           "dex": 935,
           "types": [
             "fire"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8164,6 +23877,12 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "psychic"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8173,6 +23892,12 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8181,6 +23906,10 @@ window.POKEMON_DATA = {
           "dex": 938,
           "types": [
             "electric"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8189,6 +23918,11 @@ window.POKEMON_DATA = {
           "dex": 939,
           "types": [
             "electric"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -8198,6 +23932,10 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8207,6 +23945,10 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8215,6 +23957,11 @@ window.POKEMON_DATA = {
           "dex": 942,
           "types": [
             "dark"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8223,6 +23970,11 @@ window.POKEMON_DATA = {
           "dex": 943,
           "types": [
             "dark"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8232,6 +23984,11 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8241,6 +23998,11 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8250,6 +24012,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8259,6 +24025,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8268,6 +24038,12 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "grass"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8277,6 +24053,12 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "grass"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8285,6 +24067,10 @@ window.POKEMON_DATA = {
           "dex": 950,
           "types": [
             "rock"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8293,6 +24079,11 @@ window.POKEMON_DATA = {
           "dex": 951,
           "types": [
             "grass"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8302,6 +24093,12 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fire"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8310,6 +24107,12 @@ window.POKEMON_DATA = {
           "dex": 953,
           "types": [
             "bug"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8319,6 +24122,12 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "psychic"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8327,6 +24136,10 @@ window.POKEMON_DATA = {
           "dex": 955,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8335,6 +24148,11 @@ window.POKEMON_DATA = {
           "dex": 956,
           "types": [
             "psychic"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -8344,6 +24162,11 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "steel"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8353,6 +24176,11 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "steel"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8362,6 +24190,12 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "steel"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8370,6 +24204,10 @@ window.POKEMON_DATA = {
           "dex": 960,
           "types": [
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         }
       ]
@@ -8384,6 +24222,10 @@ window.POKEMON_DATA = {
           "dex": 961,
           "types": [
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8393,6 +24235,12 @@ window.POKEMON_DATA = {
           "types": [
             "flying",
             "dark"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8401,6 +24249,10 @@ window.POKEMON_DATA = {
           "dex": 963,
           "types": [
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8409,6 +24261,11 @@ window.POKEMON_DATA = {
           "dex": 964,
           "types": [
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -8418,6 +24275,10 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "poison"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8427,6 +24288,10 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "poison"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8436,6 +24301,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8444,6 +24314,13 @@ window.POKEMON_DATA = {
           "dex": 968,
           "types": [
             "steel"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -8453,6 +24330,13 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "poison"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8462,6 +24346,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "poison"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8470,6 +24362,11 @@ window.POKEMON_DATA = {
           "dex": 971,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8478,6 +24375,12 @@ window.POKEMON_DATA = {
           "dex": 972,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8487,6 +24390,11 @@ window.POKEMON_DATA = {
           "types": [
             "flying",
             "fighting"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8495,6 +24403,10 @@ window.POKEMON_DATA = {
           "dex": 974,
           "types": [
             "ice"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8503,6 +24415,10 @@ window.POKEMON_DATA = {
           "dex": 975,
           "types": [
             "ice"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8512,6 +24428,10 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "psychic"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8520,6 +24440,11 @@ window.POKEMON_DATA = {
           "dex": 977,
           "types": [
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8529,6 +24454,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8538,6 +24468,14 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8547,6 +24485,10 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "ground"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8556,6 +24498,13 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "psychic"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -8565,6 +24514,12 @@ window.POKEMON_DATA = {
           "showInFavourites": false,
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8574,6 +24529,13 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "steel"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -8583,6 +24545,10 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "fighting"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8592,6 +24558,10 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "psychic"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8601,6 +24571,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dark"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8610,6 +24584,10 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "fairy"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8619,6 +24597,10 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "fighting"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8628,6 +24610,10 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "ground"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8637,6 +24623,10 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "steel"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         }
       ]
@@ -8652,6 +24642,10 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8661,6 +24655,10 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "electric"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8670,6 +24668,10 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8679,6 +24681,10 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "poison"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8688,6 +24694,10 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "electric"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8697,6 +24707,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ice"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8706,6 +24721,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ice"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8715,6 +24735,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "ice"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8723,6 +24748,11 @@ window.POKEMON_DATA = {
           "dex": 999,
           "types": [
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -8732,6 +24762,12 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -8741,6 +24777,10 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "grass"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8750,6 +24790,10 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "ice"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8759,6 +24803,10 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "ground"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8768,6 +24816,10 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "fire"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8777,6 +24829,10 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "dark"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8786,6 +24842,10 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "fighting"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8795,6 +24855,10 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "dragon"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8804,6 +24868,10 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "dragon"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -8813,6 +24881,10 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dragon"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8822,6 +24894,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "psychic"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8831,6 +24907,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dragon"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8840,6 +24920,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8849,6 +24933,11 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -8858,6 +24947,10 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "fighting"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8867,6 +24960,10 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "psychic"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8876,6 +24973,10 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "fairy"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8884,6 +24985,10 @@ window.POKEMON_DATA = {
           "dex": 1017,
           "types": [
             "grass"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -8893,6 +24998,11 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "dragon"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -8902,6 +25012,11 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dragon"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -8911,6 +25026,10 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "dragon"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -8926,6 +25045,10 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "dragon"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8935,6 +25058,10 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "psychic"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8944,6 +25071,10 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "psychic"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8952,6 +25083,10 @@ window.POKEMON_DATA = {
           "dex": 1024,
           "types": [
             "normal"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -8961,6 +25096,10 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "ghost"
+          ],
+          "games": [
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -8975,6 +25114,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-a",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -8983,6 +25135,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-b",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -8991,6 +25156,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-c",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -8999,6 +25177,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-d",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9007,6 +25198,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-e",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9015,6 +25219,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-f",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9023,6 +25240,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-g",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9031,6 +25261,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-h",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9039,6 +25282,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-i",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9047,6 +25303,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-j",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9055,6 +25324,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-k",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9063,6 +25345,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-l",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9071,6 +25366,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-m",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9079,6 +25387,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-n",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9087,6 +25408,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-o",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9095,6 +25429,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-p",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9103,6 +25450,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-q",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9111,6 +25471,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-r",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9119,6 +25492,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-s",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9127,6 +25513,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-t",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9135,6 +25534,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-u",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9143,6 +25555,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-v",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9151,6 +25576,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-w",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9159,6 +25597,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-x",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9167,6 +25618,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-y",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9175,6 +25639,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-z",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9183,6 +25660,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-exclamation",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9191,6 +25681,19 @@ window.POKEMON_DATA = {
           "imageId": "unown-question",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         }
       ]
@@ -9205,6 +25708,15 @@ window.POKEMON_DATA = {
           "imageId": "deoxys-normal",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         },
         {
@@ -9213,6 +25725,13 @@ window.POKEMON_DATA = {
           "imageId": "deoxys-attack",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         },
         {
@@ -9221,6 +25740,13 @@ window.POKEMON_DATA = {
           "imageId": "deoxys-defense",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         },
         {
@@ -9229,6 +25755,13 @@ window.POKEMON_DATA = {
           "imageId": "deoxys-speed",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "omega-ruby",
+            "alpha-sapphire"
           ]
         }
       ]
@@ -9243,6 +25776,18 @@ window.POKEMON_DATA = {
           "imageId": "burmy",
           "types": [
             "bug"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9251,6 +25796,16 @@ window.POKEMON_DATA = {
           "imageId": "burmy-sandy",
           "types": [
             "bug"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9259,6 +25814,16 @@ window.POKEMON_DATA = {
           "imageId": "burmy-trash",
           "types": [
             "bug"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9268,6 +25833,16 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9277,6 +25852,16 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9286,6 +25871,16 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "steel"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -9294,6 +25889,22 @@ window.POKEMON_DATA = {
           "imageId": "shellos-west",
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -9302,6 +25913,22 @@ window.POKEMON_DATA = {
           "imageId": "shellos-east",
           "types": [
             "water"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -9311,6 +25938,22 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -9320,6 +25963,22 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -9328,6 +25987,23 @@ window.POKEMON_DATA = {
           "imageId": "hippopotas",
           "types": [
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -9336,6 +26012,21 @@ window.POKEMON_DATA = {
           "imageId": "hippopotas-female",
           "types": [
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -9344,6 +26035,24 @@ window.POKEMON_DATA = {
           "imageId": "hippowdon",
           "types": [
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9352,6 +26061,22 @@ window.POKEMON_DATA = {
           "imageId": "hippowdon-female",
           "types": [
             "ground"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9361,6 +26086,30 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "ghost"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -9370,6 +26119,22 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "fire"
+          ],
+          "games": [
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -9379,6 +26144,22 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "water"
+          ],
+          "games": [
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -9388,6 +26169,22 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "ice"
+          ],
+          "games": [
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -9397,6 +26194,22 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -9406,6 +26219,22 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "grass"
+          ],
+          "games": [
+            "platinum",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -9414,6 +26243,12 @@ window.POKEMON_DATA = {
           "imageId": "shaymin-land",
           "types": [
             "grass"
+          ],
+          "games": [
+            "diamond",
+            "pearl",
+            "platinum",
+            "legends-arceus"
           ]
         },
         {
@@ -9423,6 +26258,9 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "flying"
+          ],
+          "games": [
+            "legends-arceus"
           ]
         }
       ]
@@ -9438,6 +26276,18 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -9447,6 +26297,14 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield"
           ]
         },
         {
@@ -9455,6 +26313,26 @@ window.POKEMON_DATA = {
           "imageId": "basculin-red-striped",
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -9463,6 +26341,26 @@ window.POKEMON_DATA = {
           "imageId": "basculin-blue-striped",
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -9472,6 +26370,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9481,6 +26389,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9490,6 +26408,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9499,6 +26427,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9508,6 +26446,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9517,6 +26465,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9526,6 +26484,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9535,6 +26503,16 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "grass"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -9544,6 +26522,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -9553,6 +26543,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -9562,6 +26564,20 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -9571,6 +26587,18 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -9579,6 +26607,16 @@ window.POKEMON_DATA = {
           "imageId": "tornadus-incarnate",
           "types": [
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "ultra-sun",
+            "the-crown-tundra-sword",
+            "legends-arceus"
           ]
         },
         {
@@ -9587,6 +26625,13 @@ window.POKEMON_DATA = {
           "imageId": "tornadus-therian",
           "types": [
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus"
           ]
         },
         {
@@ -9596,6 +26641,16 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "alpha-sapphire",
+            "ultra-moon",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -9605,6 +26660,13 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus"
           ]
         },
         {
@@ -9614,6 +26676,19 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "ultra-sun",
+            "ultra-moon",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus"
           ]
         },
         {
@@ -9623,6 +26698,13 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus"
           ]
         },
         {
@@ -9632,6 +26714,13 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "mega-dimension"
           ]
         },
         {
@@ -9641,6 +26730,15 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         }
       ]
@@ -9656,6 +26754,18 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9665,6 +26775,18 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9673,6 +26795,15 @@ window.POKEMON_DATA = {
           "imageId": "flabebe-red",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -9681,6 +26812,15 @@ window.POKEMON_DATA = {
           "imageId": "flabebe-orange",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -9689,6 +26829,15 @@ window.POKEMON_DATA = {
           "imageId": "flabebe-yellow",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -9697,6 +26846,15 @@ window.POKEMON_DATA = {
           "imageId": "flabebe-white",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -9705,6 +26863,15 @@ window.POKEMON_DATA = {
           "imageId": "flabebe-blue",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za"
           ]
         },
         {
@@ -9713,6 +26880,16 @@ window.POKEMON_DATA = {
           "imageId": "floette-red",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9721,6 +26898,16 @@ window.POKEMON_DATA = {
           "imageId": "floette-orange",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9729,6 +26916,16 @@ window.POKEMON_DATA = {
           "imageId": "floette-yellow",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9737,6 +26934,16 @@ window.POKEMON_DATA = {
           "imageId": "floette-white",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9745,6 +26952,16 @@ window.POKEMON_DATA = {
           "imageId": "floette-blue",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9753,6 +26970,16 @@ window.POKEMON_DATA = {
           "imageId": "floette-eternal",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9761,6 +26988,16 @@ window.POKEMON_DATA = {
           "imageId": "florges-red",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9769,6 +27006,16 @@ window.POKEMON_DATA = {
           "imageId": "florges-orange",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9777,6 +27024,16 @@ window.POKEMON_DATA = {
           "imageId": "florges-yellow",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9785,6 +27042,16 @@ window.POKEMON_DATA = {
           "imageId": "florges-white",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9793,6 +27060,16 @@ window.POKEMON_DATA = {
           "imageId": "florges-blue",
           "types": [
             "fairy"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9801,6 +27078,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-natural",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9809,6 +27094,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-heart",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9817,6 +27110,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-star",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9825,6 +27126,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-diamond",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9833,6 +27142,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-debutante",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9841,6 +27158,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-matron",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9849,6 +27174,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-dandy",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9857,6 +27190,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-la-reine",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9865,6 +27206,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-kabuki",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9873,6 +27222,14 @@ window.POKEMON_DATA = {
           "imageId": "furfrou-pharaoh",
           "types": [
             "normal"
+          ],
+          "games": [
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9881,6 +27238,17 @@ window.POKEMON_DATA = {
           "imageId": "meowstic-male",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9889,6 +27257,17 @@ window.POKEMON_DATA = {
           "imageId": "meowstic-female",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         }
       ]
@@ -9904,6 +27283,13 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -9913,6 +27299,13 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -9922,6 +27315,13 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -9931,6 +27331,13 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-za"
           ]
         },
         {
@@ -9940,6 +27347,18 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9949,6 +27368,18 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9958,6 +27389,18 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9967,6 +27410,18 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "grass"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         }
       ]
@@ -9982,6 +27437,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -9991,6 +27454,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10000,6 +27471,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10009,6 +27488,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10018,6 +27505,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10027,6 +27522,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10036,6 +27539,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10045,6 +27556,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10054,6 +27573,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10063,6 +27590,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10072,6 +27607,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10081,6 +27624,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10090,6 +27641,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10099,6 +27658,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10108,6 +27675,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10117,6 +27692,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10126,6 +27709,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10135,6 +27726,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10144,6 +27743,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10153,6 +27760,14 @@ window.POKEMON_DATA = {
           "types": [
             "bug",
             "flying"
+          ],
+          "games": [
+            "x",
+            "y",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         }
       ]
@@ -10168,6 +27783,26 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee"
           ]
         },
         {
@@ -10177,6 +27812,26 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "normal"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee"
           ]
         },
         {
@@ -10186,6 +27841,49 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10195,6 +27893,39 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "steel"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10204,6 +27935,41 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "steel"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10212,6 +27978,40 @@ window.POKEMON_DATA = {
           "imageId": "vulpix-alola",
           "types": [
             "ice"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10221,6 +28021,39 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10230,6 +28063,34 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "steel"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10239,6 +28100,34 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "steel"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10247,6 +28136,31 @@ window.POKEMON_DATA = {
           "imageId": "meowth-alola",
           "types": [
             "dark"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10255,6 +28169,31 @@ window.POKEMON_DATA = {
           "imageId": "persian-alola",
           "types": [
             "dark"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10264,6 +28203,41 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10273,6 +28247,41 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10282,6 +28291,41 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "electric"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10291,6 +28335,35 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dark"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10300,6 +28373,35 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "dark"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10309,6 +28411,30 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "dragon"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10318,6 +28444,31 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "ghost"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "mega-dimension"
           ]
         },
         {
@@ -10327,6 +28478,18 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10336,6 +28499,18 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10345,6 +28520,18 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10354,6 +28541,18 @@ window.POKEMON_DATA = {
           "types": [
             "ghost",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10362,6 +28561,21 @@ window.POKEMON_DATA = {
           "imageId": "lycanroc-midday",
           "types": [
             "rock"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -10370,6 +28584,21 @@ window.POKEMON_DATA = {
           "imageId": "lycanroc-midnight",
           "types": [
             "rock"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -10378,6 +28607,19 @@ window.POKEMON_DATA = {
           "imageId": "lycanroc-dusk",
           "types": [
             "rock"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         }
       ]
@@ -10393,6 +28635,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10402,6 +28652,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10411,6 +28669,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10420,6 +28686,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10429,6 +28703,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10438,6 +28720,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10447,6 +28737,14 @@ window.POKEMON_DATA = {
           "types": [
             "rock",
             "flying"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         }
       ]
@@ -10461,6 +28759,33 @@ window.POKEMON_DATA = {
           "imageId": "meowth-galar",
           "types": [
             "steel"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10469,6 +28794,30 @@ window.POKEMON_DATA = {
           "imageId": "ponyta-galar",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -10478,6 +28827,30 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus"
           ]
         },
         {
@@ -10486,6 +28859,37 @@ window.POKEMON_DATA = {
           "imageId": "slowpoke-galar",
           "types": [
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za"
           ]
         },
         {
@@ -10495,6 +28899,34 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10503,6 +28935,26 @@ window.POKEMON_DATA = {
           "imageId": "farfetchd-galar",
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "mega-dimension"
           ]
         },
         {
@@ -10512,6 +28964,35 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "fairy"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -10521,6 +29002,35 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "psychic"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "mega-dimension"
           ]
         },
         {
@@ -10530,6 +29040,24 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10539,6 +29067,24 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10548,6 +29094,24 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "flying"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10557,6 +29121,27 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "psychic"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10565,6 +29150,29 @@ window.POKEMON_DATA = {
           "imageId": "corsola-galar",
           "types": [
             "ghost"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10574,6 +29182,19 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10583,6 +29204,19 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "normal"
+          ],
+          "games": [
+            "ruby",
+            "sapphire",
+            "emerald",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10591,6 +29225,16 @@ window.POKEMON_DATA = {
           "imageId": "darumaka-galar",
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10599,6 +29243,16 @@ window.POKEMON_DATA = {
           "imageId": "darmanitan-galar-standard",
           "types": [
             "ice"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield"
           ]
         },
         {
@@ -10608,6 +29262,15 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sword",
+            "shield",
+            "mega-dimension"
           ]
         },
         {
@@ -10617,6 +29280,20 @@ window.POKEMON_DATA = {
           "types": [
             "ground",
             "steel"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10626,6 +29303,15 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "poison"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10635,6 +29321,15 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "poison"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10643,6 +29338,16 @@ window.POKEMON_DATA = {
           "imageId": "sinistea",
           "types": [
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10651,6 +29356,16 @@ window.POKEMON_DATA = {
           "imageId": "sinistea-antique",
           "types": [
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10659,6 +29374,17 @@ window.POKEMON_DATA = {
           "imageId": "polteageist",
           "types": [
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10667,6 +29393,17 @@ window.POKEMON_DATA = {
           "imageId": "polteageist-antique",
           "types": [
             "ghost"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10676,6 +29413,18 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10685,6 +29434,18 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "normal"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-isle-of-armor-shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10694,6 +29455,10 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "dark"
+          ],
+          "games": [
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         },
         {
@@ -10703,6 +29468,10 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "water"
+          ],
+          "games": [
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield"
           ]
         }
       ]
@@ -10718,6 +29487,33 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "rock"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -10727,6 +29523,34 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "rock"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -10736,6 +29560,30 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "grass"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -10745,6 +29593,30 @@ window.POKEMON_DATA = {
           "types": [
             "electric",
             "grass"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "ruby",
+            "sapphire",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "omega-ruby",
+            "alpha-sapphire",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -10754,6 +29626,17 @@ window.POKEMON_DATA = {
           "types": [
             "fire",
             "ghost"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10763,6 +29646,24 @@ window.POKEMON_DATA = {
           "types": [
             "dark",
             "poison"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "mega-dimension",
+            "champions"
           ]
         },
         {
@@ -10772,6 +29673,35 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "poison"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -10781,6 +29711,16 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "dark"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10790,6 +29730,23 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fighting"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -10798,6 +29755,25 @@ window.POKEMON_DATA = {
           "imageId": "basculin-white-striped",
           "types": [
             "water"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -10807,6 +29783,21 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -10816,6 +29807,22 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "ghost"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "x",
+            "y",
+            "ultra-sun",
+            "ultra-moon",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "champions"
           ]
         },
         {
@@ -10825,6 +29832,25 @@ window.POKEMON_DATA = {
           "types": [
             "psychic",
             "flying"
+          ],
+          "games": [
+            "black",
+            "white",
+            "black-2",
+            "white-2",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet"
           ]
         },
         {
@@ -10834,6 +29860,24 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za"
           ]
         },
         {
@@ -10843,6 +29887,25 @@ window.POKEMON_DATA = {
           "types": [
             "steel",
             "dragon"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10852,6 +29915,19 @@ window.POKEMON_DATA = {
           "types": [
             "ice",
             "rock"
+          ],
+          "games": [
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "legends-arceus",
+            "scarlet",
+            "violet",
+            "legends-za",
+            "champions"
           ]
         },
         {
@@ -10861,6 +29937,16 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "fighting"
+          ],
+          "games": [
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "legends-arceus",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10870,6 +29956,12 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -10879,6 +29971,12 @@ window.POKEMON_DATA = {
           "types": [
             "water",
             "ghost"
+          ],
+          "games": [
+            "legends-arceus",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -10888,6 +29986,9 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "flying"
+          ],
+          "games": [
+            "legends-arceus"
           ]
         },
         {
@@ -10897,6 +29998,9 @@ window.POKEMON_DATA = {
           "types": [
             "fairy",
             "flying"
+          ],
+          "games": [
+            "legends-arceus"
           ]
         }
       ]
@@ -10911,6 +30015,33 @@ window.POKEMON_DATA = {
           "imageId": "tauros-paldea-combat-breed",
           "types": [
             "fighting"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10920,6 +30051,33 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "fire"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10929,6 +30087,33 @@ window.POKEMON_DATA = {
           "types": [
             "fighting",
             "water"
+          ],
+          "games": [
+            "red",
+            "blue",
+            "yellow",
+            "gold",
+            "silver",
+            "crystal",
+            "firered",
+            "leafgreen",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sun",
+            "moon",
+            "ultra-sun",
+            "ultra-moon",
+            "lets-go-pikachu",
+            "lets-go-eevee",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "scarlet",
+            "violet",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
           ]
         },
         {
@@ -10938,6 +30123,28 @@ window.POKEMON_DATA = {
           "types": [
             "poison",
             "ground"
+          ],
+          "games": [
+            "gold",
+            "silver",
+            "crystal",
+            "diamond",
+            "pearl",
+            "platinum",
+            "heartgold",
+            "soulsilver",
+            "x",
+            "y",
+            "sword",
+            "shield",
+            "the-isle-of-armor-sword",
+            "the-isle-of-armor-shield",
+            "brilliant-diamond",
+            "shining-pearl",
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -10946,6 +30153,10 @@ window.POKEMON_DATA = {
           "imageId": "oinkologne-male",
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -10954,6 +30165,10 @@ window.POKEMON_DATA = {
           "imageId": "oinkologne-female",
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet"
           ]
         },
         {
@@ -10963,6 +30178,11 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10972,6 +30192,11 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10981,6 +30206,11 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10990,6 +30220,11 @@ window.POKEMON_DATA = {
           "types": [
             "normal",
             "flying"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -10999,6 +30234,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -11008,6 +30248,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -11017,6 +30262,11 @@ window.POKEMON_DATA = {
           "types": [
             "dragon",
             "water"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -11025,6 +30275,12 @@ window.POKEMON_DATA = {
           "imageId": "dudunsparce-two-segment",
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -11033,6 +30289,12 @@ window.POKEMON_DATA = {
           "imageId": "dudunsparce-three-segment",
           "types": [
             "normal"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -11041,6 +30303,11 @@ window.POKEMON_DATA = {
           "imageId": "gimmighoul",
           "types": [
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -11049,6 +30316,11 @@ window.POKEMON_DATA = {
           "imageId": "gimmighoul-roaming",
           "types": [
             "ghost"
+          ],
+          "games": [
+            "scarlet",
+            "violet",
+            "mega-dimension"
           ]
         },
         {
@@ -11058,6 +30330,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -11067,6 +30343,10 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet"
           ]
         },
         {
@@ -11076,6 +30356,11 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         },
         {
@@ -11085,6 +30370,11 @@ window.POKEMON_DATA = {
           "types": [
             "grass",
             "ghost"
+          ],
+          "games": [
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
           ]
         }
       ]
@@ -11217,6 +30507,61 @@ window.POKEMON_DATA = {
         "quaquaval"
       ]
     }
+  ],
+  "games": [
+    "red",
+    "blue",
+    "yellow",
+    "gold",
+    "silver",
+    "crystal",
+    "ruby",
+    "sapphire",
+    "emerald",
+    "firered",
+    "leafgreen",
+    "colosseum",
+    "xd",
+    "diamond",
+    "pearl",
+    "platinum",
+    "heartgold",
+    "soulsilver",
+    "black",
+    "white",
+    "black-2",
+    "white-2",
+    "x",
+    "y",
+    "omega-ruby",
+    "alpha-sapphire",
+    "sun",
+    "moon",
+    "ultra-sun",
+    "ultra-moon",
+    "lets-go-pikachu",
+    "lets-go-eevee",
+    "sword",
+    "shield",
+    "the-isle-of-armor-sword",
+    "the-isle-of-armor-shield",
+    "the-crown-tundra-sword",
+    "the-crown-tundra-shield",
+    "brilliant-diamond",
+    "shining-pearl",
+    "legends-arceus",
+    "scarlet",
+    "violet",
+    "the-teal-mask-scarlet",
+    "the-teal-mask-violet",
+    "the-indigo-disk-scarlet",
+    "the-indigo-disk-violet",
+    "legends-za",
+    "mega-dimension",
+    "champions",
+    "red-japan",
+    "green-japan",
+    "blue-japan"
   ],
   "favouriteGroups": [
     {

@@ -28,6 +28,33 @@
     <input id="search-input" type="search" autocomplete="off" placeholder="Search Pokémon or forms">
   </form>
 
+  <section id="dex-filter-panel" class="dex-filter-panel" aria-label="Dex filters">
+    <div class="filter-row">
+      <div class="segmented-control" role="group" aria-label="Dex display">
+        <button type="button" data-filter-enabled="false" class="active">All</button>
+        <button type="button" data-filter-enabled="true">Filter</button>
+      </div>
+    </div>
+    <div class="filter-details" hidden>
+      <div class="filter-row">
+        <label for="game-filter-source">Games</label>
+        <select id="game-filter-source">
+          <option value="owned">Games I Own</option>
+          <option value="specific">Specific Game</option>
+        </select>
+        <select id="specific-game-select" hidden></select>
+        <label class="checkbox-control">
+          <input id="missing-only-filter" type="checkbox">
+          <span>Missing only</span>
+        </label>
+      </div>
+      <div class="filter-row owned-games-row">
+        <button type="button" id="manage-owned-games">Manage owned games</button>
+        <span id="owned-games-summary">No games selected</span>
+      </div>
+    </div>
+  </section>
+
   <nav class="dock" aria-label="Main navigation">
     <button type="button" data-view="pokedex" class="active"><svg class="dock-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.5 4.5h9.25a3.75 3.75 0 0 1 3.75 3.75v11.25H9.25a3.75 3.75 0 0 1-3.75-3.75V4.5Z"></path><path d="M9 8h6"></path><path d="M9 11.5h5"></path><path d="M9 15h3"></path></svg>Dex</button>
     <button type="button" data-view="search"><svg class="dock-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="5.75"></circle><path d="m15 15 4.5 4.5"></path></svg>Search</button>
