@@ -5,6 +5,7 @@
   const FAVOURITES_KEY = 'pokemon-home-tracker-favourites-v1';
   const GAME_FILTER_KEY = 'pokemon-home-tracker-game-filter-v1';
   const FAVOURITE_COLOURS = ['White', 'Grey', 'Black', 'Brown', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Magenta', 'Pink'];
+  const STATUS_NAMES = ['missing', 'target', 'caught', 'home'];
   const REGION_STARTS = new Map([[1, 'Kanto'], [152, 'Johto'], [252, 'Hoenn'], [387, 'Sinnoh'], [494, 'Unova'], [650, 'Kalos'], [722, 'Alola'], [810, 'Galar'], [899, 'Hisui'], [906, 'Paldea']]);
   const FORM_BOX_BY_POKEMON = new Map(DATA.boxes.filter(box => box.id.startsWith('forms-')).flatMap(box => box.pokemon.map(pokemon => [pokemon.id, box.id])));
   const boxesEl = document.querySelector('#boxes');
@@ -280,28 +281,92 @@
     return '';
   }
 
-  function card(box, pokemon, mode, queueStatus, favouriteMode = false) {
-    const status = getStatus(box.id, pokemon.id, mode);
+  function updateCardVisual(button, pokemon, status, favouriteMode = false, mode = activeMode) {
     const region = REGION_STARTS.get(pokemon.dex);
-    const names = ['missing', 'target', 'caught', 'home'];
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = `pokemon ${names[status]}`;
+    const statusName = STATUS_NAMES[status];
+    button.className = `pokemon ${statusName}`;
     button.classList.toggle('favourite', favouriteMode && favourites[mode][pokemon.id]);
     button.dataset.label = pokemon.name;
-    button.title = `${pokemon.name}: ${names[status]}`;
+    button.title = `${pokemon.name}: ${statusName}`;
     button.setAttribute('aria-label', button.title);
     button.innerHTML = `${region ? `<div class="region-pill">${region}</div>` : ''}${favouriteMode ? '<span class="favourite-mark" aria-hidden="true">★</span>' : ''}<span class="status">${statusIcon(status)}</span>${imageMarkup(pokemon, mode, 'alt=""')}<small>${pokemon.name}</small>`;
     addImageFallbacks(button);
+  }
+
+  function refreshBoxMeta(section, box) {
+    const boxMeta = section.querySelector('.box-meta');
+    if (!boxMeta) return;
+    const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length;
+    const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
+    const visiblePokemon = section.querySelectorAll('.pokemon-grid .pokemon').length;
+    const existingMatchCount = boxMeta.querySelector('.match-count');
+    const matchMeta = existingMatchCount ? `<span class="match-count">${visiblePokemon} match${visiblePokemon === 1 ? '' : 'es'}</span>` : '';
+    boxMeta.innerHTML = `${matchMeta}${progressDonut('regular', regularHome, box.pokemon.length)}${progressDonut('shiny', shinyHome, box.pokemon.length)}`;
+  }
+
+  function refreshVisibleBoxMeta(box) {
+    boxesEl.querySelectorAll('.box').forEach(section => {
+      if (section.dataset.boxId === box.id) refreshBoxMeta(section, box);
+    });
+  }
+
+  function removeEmptySection(section) {
+    if (section.querySelector('.pokemon-grid .pokemon')) return;
+    const heading = section.previousElementSibling;
+    const next = section.nextElementSibling;
+    section.remove();
+    if (heading?.classList.contains('box-section-title') && (!next || next.classList.contains('box-section-title'))) heading.remove();
+  }
+
+  function removeQueueSectionWithoutMatches(section, queueStatus) {
+    if (queueStatus === null) return;
+    const selector = queueStatus === 1 ? '.pokemon.target' : '.pokemon.caught';
+    if (section.querySelector(selector)) return;
+    const heading = section.previousElementSibling;
+    const next = section.nextElementSibling;
+    section.remove();
+    if (heading?.classList.contains('box-section-title') && (!next || next.classList.contains('box-section-title'))) heading.remove();
+  }
+
+  function syncEmptyState() {
+    const hasBoxes = boxesEl.querySelector('.box') !== null;
+    const hasSearchQuery = normalizeSearch(searchQuery) !== '';
+    emptyEl.hidden = hasBoxes || (view === 'search' && !hasSearchQuery);
+  }
+
+  function updatePokemonStatus(button, box, pokemon, mode, queueStatus, favouriteMode = false) {
+    const status = getStatus(box.id, pokemon.id, mode);
+    const nextStatus = queueStatus === null ? (status + 1) % STATUS_NAMES.length : status + 1;
+    state[key(box.id, pokemon.id, mode)] = nextStatus;
+    if (nextStatus === 0) delete state[key(box.id, pokemon.id, mode)];
+    saveState();
+
+    const section = button.closest('.box');
+    const remainsVisible = queueStatus !== null || view !== 'pokedex' || pokemonMatchesGameFilter(box, pokemon);
+
+    if (remainsVisible) button.replaceWith(card(box, pokemon, mode, queueStatus, favouriteMode));
+    else {
+      const grid = button.closest('.pokemon-grid');
+      button.remove();
+      if (grid && !grid.querySelector('.pokemon')) removeEmptySection(section);
+    }
+    if (section?.isConnected) removeQueueSectionWithoutMatches(section, queueStatus);
+    refreshVisibleBoxMeta(box);
+    syncEmptyState();
+  }
+
+  function card(box, pokemon, mode, queueStatus, favouriteMode = false) {
+    const status = getStatus(box.id, pokemon.id, mode);
+    const button = document.createElement('button');
+    button.type = 'button';
+    updateCardVisual(button, pokemon, status, favouriteMode, mode);
     if (favouriteMode) button.addEventListener('click', () => {
       if (favourites[mode][pokemon.id]) delete favourites[mode][pokemon.id];
       else favourites[mode][pokemon.id] = pokemon.id;
       saveFavourites(); render();
     });
     else if (queueStatus === null || status === queueStatus) button.addEventListener('click', () => {
-      state[key(box.id, pokemon.id, mode)] = queueStatus === null ? (status + 1) % 4 : status + 1;
-      if (state[key(box.id, pokemon.id, mode)] === 0) delete state[key(box.id, pokemon.id, mode)];
-      saveState(); render();
+      updatePokemonStatus(button, box, pokemon, mode, queueStatus, favouriteMode);
     });
     return button;
   }
@@ -421,6 +486,7 @@
     const queueClass = queueStatus === 1 ? 'queue-box target-box' : queueStatus === 2 ? 'queue-box transfer-box' : '';
     section.className = `box ${regions.length ? 'region-start' : ''} ${isOpen ? 'open' : ''} ${queueClass} ${forceOpen ? 'forced-open' : ''}`;
     section.dataset.panelKey = panelKey;
+    section.dataset.boxId = box.id;
     if (queueStatus === null && !forceOpen) renderedPanels.set(panelKey, { box, mode, queueStatus, options: { ...options } });
     const regularHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'regular') === 3).length;
     const shinyHome = box.pokemon.filter(p => getStatus(box.id, p.id, 'shiny') === 3).length;
