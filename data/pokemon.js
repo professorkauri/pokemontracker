@@ -29537,6 +29537,165 @@ window.POKEMON_DATA = {
       ]
     },
     {
+      "id": "forms-16",
+      "title": "Galar Forms II",
+      "pokemon": [
+        {
+          "id": "alcremie-vanilla-strawberry",
+          "name": "Alcremie Vanilla Cream · Strawberry Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-mint-berry",
+          "name": "Alcremie Mint Cream · Berry Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-ruby-swirl-love",
+          "name": "Alcremie Ruby Swirl · Love Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-ruby-love",
+          "name": "Alcremie Ruby Cream · Love Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-rainbow-love",
+          "name": "Alcremie Rainbow Swirl · Love Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-lemon-star",
+          "name": "Alcremie Lemon Cream · Star Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-matcha-clover",
+          "name": "Alcremie Matcha Cream · Clover Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-caramel-flower",
+          "name": "Alcremie Caramel Swirl · Flower Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        },
+        {
+          "id": "alcremie-salted-ribbon",
+          "name": "Alcremie Salted Cream · Ribbon Sweet",
+          "imageId": "alcremie",
+          "types": [
+            "fairy"
+          ],
+          "games": [
+            "sword",
+            "shield",
+            "the-crown-tundra-sword",
+            "the-crown-tundra-shield",
+            "the-indigo-disk-scarlet",
+            "the-indigo-disk-violet",
+            "champions"
+          ]
+        }
+      ]
+    },
+    {
       "id": "forms-9",
       "title": "Hisui Forms",
       "pokemon": [
