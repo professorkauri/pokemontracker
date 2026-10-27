@@ -394,8 +394,11 @@ main {
 }
 .chooser-head {
   padding: 11px 10px;
-  background: var(--surface-soft);
-  border-bottom: 1px solid var(--line);
+    background: color-mix(in srgb, rgb(242 255 251) 100%, white 100%);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 .chooser-head,
 .chooser-actions {
@@ -1231,7 +1234,7 @@ main {
   display: flex;
   flex-direction:column;
   align-items: center;
-  gap: 14px;
+  gap: 0px;
   margin: 12px 0 16px;
 }
 .pokemon-info-genus {
@@ -1297,6 +1300,56 @@ main {
 .pokemon-info section {
   border-top: 1px solid var(--line);
   padding: 16px;
+
+  &:nth-of-type(1) {
+    background: var(--panel);
+  }
+}
+.pokemon-info-forms {
+  display: grid;
+  gap: 12px;
+}
+.pokemon-info-forms-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.pokemon-info-forms-head h3 {
+  margin: 0;
+}
+.pokemon-info-forms-mode {
+  display: flex;
+  gap: 3px;
+  padding: 2px;
+  border-radius: 7px;
+  background: var(--panel);
+}
+.pokemon-info-forms-mode button {
+  border: 0;
+  border-radius: 5px;
+  padding: 4px 7px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.pokemon-info-forms-mode button.active {
+  background: var(--green);
+  color: var(--white);
+}
+.pokemon-info-form-group h4 {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+.pokemon-info-form-group .pokemon-grid {
+  gap: 7px;
+}
+.pokemon-info-forms .region-pill {
+  display: none;
 }
 .evolution-list {
   display: grid;
@@ -1556,7 +1609,7 @@ main {
   display: block;
 }
 .pokemon-info h3 {
-  margin: 14px 0 8px;
+  margin: 8px 0;
   color: var(--navy);
   font-size: 0.92rem;
 }

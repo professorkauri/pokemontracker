@@ -418,7 +418,7 @@
     const infoBox = sourceBox ? sourceBox : findPokemonBox(pokemon.id)?.box;
     const statusButton = (statusMode, label) => {
       const status = infoBox ? getStatus(infoBox.id, pokemon.id, statusMode) : 0;
-      return `<div class="pokemon-info-artwork-choice"><span>${label}</span><button type="button" class="pokemon ${STATUS_NAMES[status]}" data-info-mode="${statusMode}" data-mode="${statusMode}" data-box-id="${escapeHtml(infoBox?.id || '')}" data-pokemon-id="${escapeHtml(pokemon.id)}" aria-label="${label} status: ${STATUS_NAMES[status]}"><span class="status">${statusIcon(status)}</span><img src="${artworkPath(pokemon.id, statusMode)}" alt="${label} ${escapeHtml(pokemon.name)}"><small>${escapeHtml(pokemon.name)}</small></button></div>`;
+      return `<div class="pokemon-info-artwork-choice"><span>${label}</span><button type="button" class="pokemon ${STATUS_NAMES[status]}" data-info-mode="${statusMode}" data-mode="${statusMode}" data-box-id="${escapeHtml(infoBox?.id || '')}" data-pokemon-id="${escapeHtml(pokemon.id)}" aria-label="${label} status: ${STATUS_NAMES[status]}"><span class="status">${statusIcon(status)}</span><img src="${artworkPath(pokemon.id, statusMode)}" alt="${label} ${escapeHtml(pokemon.name)}"></button></div>`;
     };
     const locations = Object.entries(pokemon.locationsByGame || {});
     const entries = pokemon.pokedexEntries || [];
@@ -438,6 +438,14 @@
       ['Capture rate', pokemon.captureRate ?? '—'], ['Gender rate', pokemon.genderRate === -1 ? 'Genderless' : pokemon.genderRate ?? '—'],
       ['Hatch counter', pokemon.hatchCounter ?? '—'], ['Habitat', pokemon.habitat ? titleCaseGame(pokemon.habitat) : '—'], ['Colour', pokemon.colour ? titleCaseGame(pokemon.colour) : '—']
     ].map(([label, value]) => `<div><span>${label}</span><strong>${escapeHtml(value)}</strong></div>`).join('');
+    const evolutionFamilyIds = new Set(evolution.flatMap(branch => branch.flatMap(id => {
+      const entry = allPokemon.find(candidate => candidate.id === id);
+      return [id, baseSpeciesId(entry || { id })];
+    })));
+    const formGroups = DATA.boxes
+      .filter(box => box.id.startsWith('dex-') || box.id.startsWith('forms-'))
+      .map(box => ({ box, pokemon: box.pokemon.filter(entry => evolutionFamilyIds.has(entry.id) || evolutionFamilyIds.has(baseSpeciesId(entry))) }))
+      .filter(group => group.pokemon.length);
     const modal = document.createElement('div');
     modal.id = 'pokemon-info-modal';
     modal.className = 'chooser-backdrop pokemon-info-backdrop';
@@ -445,6 +453,7 @@
       <div class="chooser-head"><h2 id="pokemon-info-title"><span class="pokemon-info-dex-number">#${String(pokemon.dex || '').padStart(3, '0')}</span> ${escapeHtml(pokemon.name)}${pokemon.genus ? ` <span class="pokemon-info-genus">${escapeHtml(pokemon.genus)}</span>` : ''}</h2><button type="button" class="chooser-close" aria-label="Close Pokémon information">×</button></div>
       <div class="pokemon-info-main"><div class="pokemon-info-artwork">${statusButton('regular', 'Regular')}${statusButton('shiny', 'Shiny')}</div><div>${typeBadgeMarkup(pokemon.types)}<p class="pokemon-info-egg-groups"><span>Egg Groups:</span> ${pokemon.eggGroups?.map(titleCaseGame).join(' · ') || '—'}</p></div></div>
       ${evolutionMarkup}
+      ${formGroups.length ? `<section class="pokemon-info-forms-section"><div class="pokemon-info-forms-head"><h3>Collected Forms</h3><div class="pokemon-info-forms-mode"><button type="button" data-forms-mode="regular" class="${mode === 'regular' ? 'active' : ''}">Regular</button><button type="button" data-forms-mode="shiny" class="${mode === 'shiny' ? 'active' : ''}">Shiny</button></div></div><div class="pokemon-info-forms"></div></section>` : ''}
       <section class="pokemon-info-stats-section"><h3>Stats</h3><div class="pokemon-info-stats">${statRows}</div><div class="pokemon-info-metadata">${metadata}</div></section>
       <section><h3>Available in</h3><div class="pokemon-info-locations">${locations.length ? locations.map(([game, places]) => `<div><strong>${escapeHtml(titleCaseGame(game))}</strong><span>${places.map(titleCaseGame).join(' · ')}</span></div>`).join('') : '<p>Location information unavailable.</p>'}</div></section>
       <section><h3>Pokédex Entries</h3>${regionalDexLabel ? `<p class="pokemon-info-regional-dex"><strong>Regional Dex</strong> ${escapeHtml(regionalDexLabel)}</p>` : ''}<div class="pokemon-info-entries">${entries.length ? entries.map(entry => `<div><strong>${escapeHtml(titleCaseGame(entry.game))}</strong><span>${escapeHtml(entry.text)}</span></div>`).join('') : '<p>No Pokédex entries available.</p>'}</div></section>
@@ -462,6 +471,26 @@
       updatePokemonStatus(button, infoBox, pokemon, statusMode, null, false);
     }));
     document.body.append(modal);
+    const formsContainer = modal.querySelector('.pokemon-info-forms');
+    if (formsContainer) {
+      const renderForms = formMode => {
+        formsContainer.replaceChildren();
+        for (const group of formGroups) {
+          const groupElement = document.createElement('div');
+          groupElement.className = 'pokemon-info-form-group';
+          const groupLabel = group.box.id.startsWith('dex-') ? `${group.box.title} (National Dex)` : `${group.box.title} box`;
+          groupElement.innerHTML = `<h4>${escapeHtml(groupLabel)}</h4><div class="pokemon-grid"></div>`;
+          const grid = groupElement.querySelector('.pokemon-grid');
+          group.pokemon.forEach(form => grid.append(card(group.box, form, formMode, null, false)));
+          formsContainer.append(groupElement);
+        }
+      };
+      modal.querySelectorAll('[data-forms-mode]').forEach(button => button.addEventListener('click', () => {
+        modal.querySelectorAll('[data-forms-mode]').forEach(option => option.classList.toggle('active', option === button));
+        renderForms(button.dataset.formsMode);
+      }));
+      renderForms(mode);
+    }
   }
 
   function evolutionBySpeciesForPopup(pokemon) {
