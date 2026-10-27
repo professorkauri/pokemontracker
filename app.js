@@ -465,25 +465,29 @@
   }
 
   function evolutionBySpeciesForPopup(pokemon) {
-    return (pokemon.evolutionBranches || []).filter(branch => branch.includes(baseSpeciesId(pokemon)));
+    const base = baseSpeciesId(pokemon);
+    const branches = allPokemon
+      .filter(entry => baseSpeciesId(entry) === base)
+      .flatMap(entry => entry.evolutionBranches || []);
+    return [...new Map(branches.map(branch => [branch.join('|'), branch])).values()]
+      .filter(branch => branch.some(id => baseSpeciesId(allPokemon.find(entry => entry.id === id) || { id }) === base));
   }
 
   function evolutionMethodFor(fromId, toId) {
-    const source = nationalSpecies.find(entry => entry.id === fromId) || allPokemon.find(entry => entry.id === fromId);
-    return source?.evolutionDetails?.filter(detail => detail.to === toId).flatMap(detail => detail.methods) || [];
+    const source = allPokemon.find(entry => entry.id === fromId) || nationalSpecies.find(entry => entry.id === fromId);
+    return source?.evolutionDetails?.filter(detail => (!detail.from || detail.from === fromId) && detail.to === toId).flatMap(detail => detail.methods) || [];
   }
 
   function evolutionGridMarkup(branches, pokemon) {
     let sharedLength = 0;
     while (branches.every(branch => branch[sharedLength] && branch[sharedLength] === branches[0][sharedLength])) sharedLength++;
-    sharedLength = Math.max(1, sharedLength);
     const rows = Math.max(1, branches.length);
     const cells = [];
     const nodeMarkup = id => {
       const target = findPokemonBox(id)?.pokemon || allPokemon.find(entry => entry.id === id);
       const image = `<img src="${imagePath(id, 'regular')}" alt="" loading="lazy">`;
       const name = target?.name || titleCaseGame(id);
-      return baseSpeciesId(pokemon) === id || !target
+      return pokemon.id === id || !target
         ? `<span class="evolution-current">${image}<span>${escapeHtml(name)}</span></span>`
         : `<button type="button" class="evolution-target" data-pokemon-id="${escapeHtml(target.id)}">${image}<span>${escapeHtml(name)}</span></button>`;
     };
@@ -509,10 +513,14 @@
       cells.push(`<div class="evolution-grid-cell evolution-grid-node${source}${branchSource}${shared}" style="grid-column:${index * 2 + 1};grid-row:1 / span ${rows}">${nodeMarkup(branches[0][index])}</div>`);
       if (index < sharedLength - 1) cells.push(`<div class="evolution-grid-cell evolution-grid-method${shared}" style="grid-column:${index * 2 + 2};grid-row:1 / span ${rows}">${methodMarkup(branches[0][index], branches[0][index + 1])}</div>`);
     }
-    const start = (sharedLength - 1) * 2 + 2;
+    const startIndex = sharedLength > 0 ? sharedLength - 1 : 0;
+    const start = sharedLength > 0 ? (sharedLength - 1) * 2 + 2 : 1;
     branches.forEach((branch, row) => {
-      for (let index = sharedLength - 1; index < branch.length - 1; index++) {
-        const column = start + (index - sharedLength + 1) * 2;
+      if (sharedLength === 0) {
+        cells.push(`<div class="evolution-grid-cell evolution-grid-node" style="grid-column:1;grid-row:${row + 1}">${nodeMarkup(branch[0])}</div>`);
+      }
+      for (let index = startIndex; index < branch.length - 1; index++) {
+        const column = (sharedLength === 0 ? 2 : start) + (index - startIndex) * 2;
         cells.push(`<div class="evolution-grid-cell evolution-grid-method evolution-grid-branch-method" style="grid-column:${column};grid-row:${row + 1}">${methodMarkup(branch[index], branch[index + 1])}</div>`);
         const source = index + 1 < branch.length - 1 ? ' evolution-grid-source' : '';
         cells.push(`<div class="evolution-grid-cell evolution-grid-node${source}" style="grid-column:${column + 1};grid-row:${row + 1}">${nodeMarkup(branch[index + 1])}</div>`);

@@ -1285,11 +1285,13 @@ main {
   color: var(--green-dark);
   font-size: 0.78rem;
   font-weight: bold;
+  text-align:center;
 
   & span {
     color:var(--green);
     font-style:italic;
     font-weight:normal;
+    font-size:0.8em;
   }
 }
 .pokemon-info section {
@@ -1394,6 +1396,10 @@ main {
   font-weight: 600;
   z-index:1;
 }
+.evolution-current {
+  font-weight:normal;
+  color:var(--green);
+}
 .evolution-target img,
 .evolution-current img {
   width: 48px;
@@ -1454,7 +1460,7 @@ main {
 .pokemon-stat-bar {
   display: block;
   width: 100%;
-  border-radius: inherit;
+  border-radius: 0px;
 }
 .pokemon-stat > strong {
   color: var(--green);

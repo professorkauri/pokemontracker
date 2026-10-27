@@ -286,18 +286,39 @@ function evolutionMethod(details) {
 function collectEvolutionData(chain) {
   const detailsBySpecies = new Map();
   const branches = [];
-  function walk(node, path = []) {
-    const current = [...path, node.species.name];
-    if (!node.evolves_to.length) branches.push(current);
-    for (const next of node.evolves_to) {
-      const details = next.evolution_details.map(evolutionMethod).filter(detail => Object.keys(detail).length);
-      const currentDetails = detailsBySpecies.get(node.species.name) || [];
-      currentDetails.push({ to: next.species.name, methods: details });
-      detailsBySpecies.set(node.species.name, currentDetails);
-      walk(next, current);
+  function transitions(node, next) {
+    const details = next.evolution_details || [];
+    const formDetails = details.filter(detail => detail.required_pokemon_form || detail.evolved_pokemon_form);
+    if (!formDetails.length) return [{ from: node.species.name, to: next.species.name, methods: details.map(evolutionMethod).filter(detail => Object.keys(detail).length) }];
+    const defaultDetails = details.filter(detail => !detail.required_pokemon_form && !detail.evolved_pokemon_form);
+    const transitions = defaultDetails.length ? [{ from: node.species.name, to: next.species.name, methods: defaultDetails.map(evolutionMethod).filter(detail => Object.keys(detail).length) }] : [];
+    return transitions.concat(formDetails.map(detail => ({
+      from: detail.required_pokemon_form?.name || node.species.name,
+      to: detail.evolved_pokemon_form?.name || next.species.name,
+      methods: [evolutionMethod(detail)].filter(method => Object.keys(method).length)
+    })));
+  }
+  function walk(node, currentId, path) {
+    const outgoing = node.evolves_to.flatMap(next => transitions(node, next).map(transition => ({ next, transition }))
+      .filter(({ transition }) => transition.from === currentId));
+    if (!outgoing.length) {
+      branches.push(path);
+      return;
+    }
+    for (const { next, transition } of outgoing) {
+      const currentDetails = detailsBySpecies.get(transition.from) || [];
+      currentDetails.push({ to: transition.to, methods: transition.methods });
+      detailsBySpecies.set(transition.from, currentDetails);
+      walk(next, transition.to, [...path, transition.to]);
     }
   }
-  walk(chain.chain);
+  const root = chain.chain;
+  const rootTransitions = root.evolves_to.flatMap(next => transitions(root, next));
+  const startIds = [...new Set(rootTransitions.map(transition => transition.from))];
+  if (!startIds.length) branches.push([root.species.name]);
+  for (const startId of startIds) {
+    walk(root, startId, [startId]);
+  }
   return { detailsBySpecies, branches };
 }
 async function fetchGameOrder() {
@@ -457,7 +478,7 @@ for (const [, chain] of evolutionChainEntries) {
   }
 }
 for (const pokemon of allEntries) {
-  const evolution = evolutionBySpecies.get(baseSpeciesId(pokemon.imageId || pokemon.id));
+  const evolution = evolutionBySpecies.get(pokemon.id) || evolutionBySpecies.get(baseSpeciesId(pokemon.imageId || pokemon.id));
   pokemon.evolutionDetails = evolution?.details || [];
   pokemon.evolutionBranches = evolution?.branches || [];
 }

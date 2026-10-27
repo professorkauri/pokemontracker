@@ -5678,11 +5678,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 20
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "timeOfDay": "night"
                 }
               ]
             }
@@ -7987,7 +7982,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "use-item",
                   "item": "thunder-stone"
-                },
+                }
+              ]
+            },
+            {
+              "to": "raichu-alola",
+              "methods": [
                 {
                   "trigger": "use-item",
                   "item": "thunder-stone"
@@ -8000,6 +8000,11 @@ window.POKEMON_DATA = {
               "pichu",
               "pikachu",
               "raichu"
+            ],
+            [
+              "pichu",
+              "pikachu",
+              "raichu-alola"
             ]
           ]
         },
@@ -8656,10 +8661,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 22
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "ice-stone"
                 }
               ]
             }
@@ -11894,10 +11895,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "use-item",
                   "item": "fire-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "ice-stone"
                 }
               ]
             }
@@ -17289,10 +17286,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 26
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 26
                 }
               ]
             }
@@ -17962,19 +17955,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 28
-                },
-                {
-                  "trigger": "level-up",
-                  "minHappiness": 160
-                }
-              ]
-            },
-            {
-              "to": "perrserker",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 28
                 }
               ]
             }
@@ -17983,10 +17963,6 @@ window.POKEMON_DATA = {
             [
               "meowth",
               "persian"
-            ],
-            [
-              "meowth",
-              "perrserker"
             ]
           ]
         },
@@ -20306,10 +20282,6 @@ window.POKEMON_DATA = {
             {
               "to": "arcanine",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "fire-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "fire-stone"
@@ -27096,10 +27068,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 25
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 25
                 }
               ]
             }
@@ -27645,9 +27613,6 @@ window.POKEMON_DATA = {
             {
               "to": "golem",
               "methods": [
-                {
-                  "trigger": "trade"
-                },
                 {
                   "trigger": "trade"
                 }
@@ -28215,10 +28180,6 @@ window.POKEMON_DATA = {
             {
               "to": "rapidash",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 40
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 40
@@ -28934,10 +28895,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 37
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "galarica-cuff"
                 }
               ]
             },
@@ -28947,10 +28904,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "trade",
                   "heldItem": "kings-rock"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "galarica-wreath"
                 }
               ]
             }
@@ -30373,22 +30326,8 @@ window.POKEMON_DATA = {
               "isle-of-armor-caves-area"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "sirfetchd",
-              "methods": [
-                {
-                  "trigger": "three-critical-hits"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "farfetchd",
-              "sirfetchd"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "doduo",
@@ -31991,10 +31930,6 @@ window.POKEMON_DATA = {
             {
               "to": "muk",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 38
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 38
@@ -36713,10 +36648,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 30
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "leaf-stone"
                 }
               ]
             }
@@ -37465,7 +37396,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "use-item",
                   "item": "leaf-stone"
-                },
+                }
+              ]
+            },
+            {
+              "to": "exeggutor-alola",
+              "methods": [
                 {
                   "trigger": "use-item",
                   "item": "leaf-stone"
@@ -37477,6 +37413,10 @@ window.POKEMON_DATA = {
             [
               "exeggcute",
               "exeggutor"
+            ],
+            [
+              "exeggcute",
+              "exeggutor-alola"
             ]
           ]
         },
@@ -38096,7 +38036,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 28
-                },
+                }
+              ]
+            },
+            {
+              "to": "marowak-alola",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 28,
@@ -38109,6 +38054,10 @@ window.POKEMON_DATA = {
             [
               "cubone",
               "marowak"
+            ],
+            [
+              "cubone",
+              "marowak-alola"
             ]
           ]
         },
@@ -39610,7 +39559,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 35
-                },
+                }
+              ]
+            },
+            {
+              "to": "weezing-galar",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 35
@@ -39622,6 +39576,10 @@ window.POKEMON_DATA = {
             [
               "koffing",
               "weezing"
+            ],
+            [
+              "koffing",
+              "weezing-galar"
             ]
           ]
         },
@@ -45265,22 +45223,11 @@ window.POKEMON_DATA = {
               "isle-of-armor-caves-area"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "mr-rime",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 42
-                }
-              ]
-            }
-          ],
+          "evolutionDetails": [],
           "evolutionBranches": [
             [
               "mime-jr",
-              "mr-mime",
-              "mr-rime"
+              "mr-mime"
             ]
           ]
         },
@@ -50810,23 +50757,48 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "location": "eterna-forest"
-                },
+                }
+              ]
+            },
+            {
+              "to": "leafeon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "pinwheel-forest"
-                },
+                }
+              ]
+            },
+            {
+              "to": "leafeon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "kalos-route-20"
-                },
+                }
+              ]
+            },
+            {
+              "to": "leafeon",
+              "methods": [
                 {
                   "trigger": "use-item",
                   "item": "leaf-stone"
-                },
+                }
+              ]
+            },
+            {
+              "to": "leafeon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "petalburg-woods"
-                },
+                }
+              ]
+            },
+            {
+              "to": "leafeon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "lush-jungle"
@@ -50839,23 +50811,48 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "location": "sinnoh-route-217"
-                },
+                }
+              ]
+            },
+            {
+              "to": "glaceon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "twist-mountain"
-                },
+                }
+              ]
+            },
+            {
+              "to": "glaceon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "frost-cavern"
-                },
+                }
+              ]
+            },
+            {
+              "to": "glaceon",
+              "methods": [
                 {
                   "trigger": "use-item",
                   "item": "ice-stone"
-                },
+                }
+              ]
+            },
+            {
+              "to": "glaceon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "shoal-cave"
-                },
+                }
+              ]
+            },
+            {
+              "to": "glaceon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "location": "mount-lanakila"
@@ -50869,7 +50866,12 @@ window.POKEMON_DATA = {
                   "trigger": "level-up",
                   "minAffection": 2,
                   "knownMoveType": "fairy"
-                },
+                }
+              ]
+            },
+            {
+              "to": "sylveon",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minHappiness": 160,
@@ -56784,6 +56786,11 @@ window.POKEMON_DATA = {
               "cyndaquil",
               "quilava",
               "typhlosion"
+            ],
+            [
+              "cyndaquil",
+              "quilava",
+              "typhlosion-hisui"
             ]
           ]
         },
@@ -56946,7 +56953,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 36
-                },
+                }
+              ]
+            },
+            {
+              "to": "typhlosion-hisui",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 36
@@ -56959,6 +56971,11 @@ window.POKEMON_DATA = {
               "cyndaquil",
               "quilava",
               "typhlosion"
+            ],
+            [
+              "cyndaquil",
+              "quilava",
+              "typhlosion-hisui"
             ]
           ]
         },
@@ -61248,6 +61265,11 @@ window.POKEMON_DATA = {
               "pichu",
               "pikachu",
               "raichu"
+            ],
+            [
+              "pichu",
+              "pikachu",
+              "raichu-alola"
             ]
           ]
         },
@@ -66781,25 +66803,12 @@ window.POKEMON_DATA = {
                   "minLevel": 20
                 }
               ]
-            },
-            {
-              "to": "clodsire",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20
-                }
-              ]
             }
           ],
           "evolutionBranches": [
             [
               "wooper",
               "quagsire"
-            ],
-            [
-              "wooper",
-              "clodsire"
             ]
           ]
         },
@@ -70063,12 +70072,17 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "dudunsparce",
+              "to": "dudunsparce-two-segment",
               "methods": [
                 {
                   "trigger": "level-up",
                   "knownMove": "hyper-drill"
-                },
+                }
+              ]
+            },
+            {
+              "to": "dudunsparce-three-segment",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "knownMove": "hyper-drill"
@@ -70079,7 +70093,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "dunsparce",
-              "dudunsparce"
+              "dudunsparce-two-segment"
+            ],
+            [
+              "dunsparce",
+              "dudunsparce-three-segment"
             ]
           ]
         },
@@ -71404,29 +71422,8 @@ window.POKEMON_DATA = {
               "training-lowlands-max-den-a"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "overqwil",
-              "methods": [
-                {
-                  "trigger": "strong-style-move"
-                },
-                {
-                  "trigger": "level-up",
-                  "knownMove": "barb-barrage"
-                },
-                {
-                  "trigger": "use-move"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "qwilfish",
-              "overqwil"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "scizor",
@@ -72778,26 +72775,12 @@ window.POKEMON_DATA = {
                   "heldItem": "razor-claw"
                 }
               ]
-            },
-            {
-              "to": "sneasler",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "timeOfDay": "day",
-                  "heldItem": "razor-claw"
-                }
-              ]
             }
           ],
           "evolutionBranches": [
             [
               "sneasel",
               "weavile"
-            ],
-            [
-              "sneasel",
-              "sneasler"
             ]
           ]
         },
@@ -74608,23 +74591,8 @@ window.POKEMON_DATA = {
               "isle-of-armor-caves-area"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "cursola",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 38
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "corsola",
-              "cursola"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "remoraid",
@@ -84107,10 +84075,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 20
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20
                 }
               ]
             }
@@ -84118,8 +84082,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "zigzagoon",
-              "linoone",
-              "obstagoon"
+              "linoone"
             ]
           ]
         },
@@ -84349,23 +84312,11 @@ window.POKEMON_DATA = {
               "max-lair-area"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "obstagoon",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 35,
-                  "timeOfDay": "night"
-                }
-              ]
-            }
-          ],
+          "evolutionDetails": [],
           "evolutionBranches": [
             [
               "zigzagoon",
-              "linoone",
-              "obstagoon"
+              "linoone"
             ]
           ]
         },
@@ -117380,26 +117331,6 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "wormadam",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                }
-              ]
-            },
-            {
               "to": "mothim",
               "methods": [
                 {
@@ -117411,10 +117342,6 @@ window.POKEMON_DATA = {
             }
           ],
           "evolutionBranches": [
-            [
-              "burmy",
-              "wormadam"
-            ],
             [
               "burmy",
               "mothim"
@@ -117513,12 +117440,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "burmy",
-              "wormadam"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "mothim",
@@ -119444,27 +119366,8 @@ window.POKEMON_DATA = {
               "seafolk-village-main"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "gastrodon",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 30
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 30
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "shellos",
-              "gastrodon"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "gastrodon",
@@ -119724,12 +119627,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "shellos",
-              "gastrodon"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "ambipom",
@@ -123204,7 +123102,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "knownMove": "mimic"
-                },
+                }
+              ]
+            },
+            {
+              "to": "mr-mime-galar",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "knownMove": "mimic"
@@ -123215,7 +123118,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "mime-jr",
-              "mr-mime",
+              "mr-mime"
+            ],
+            [
+              "mime-jr",
+              "mr-mime-galar",
               "mr-rime"
             ]
           ]
@@ -134112,6 +134019,11 @@ window.POKEMON_DATA = {
               "oshawott",
               "dewott",
               "samurott"
+            ],
+            [
+              "oshawott",
+              "dewott",
+              "samurott-hisui"
             ]
           ]
         },
@@ -134215,7 +134127,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 36
-                },
+                }
+              ]
+            },
+            {
+              "to": "samurott-hisui",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 36
@@ -134228,6 +134145,11 @@ window.POKEMON_DATA = {
               "oshawott",
               "dewott",
               "samurott"
+            ],
+            [
+              "oshawott",
+              "dewott",
+              "samurott-hisui"
             ]
           ]
         },
@@ -142596,7 +142518,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "use-item",
                   "item": "sun-stone"
-                },
+                }
+              ]
+            },
+            {
+              "to": "lilligant-hisui",
+              "methods": [
                 {
                   "trigger": "use-item",
                   "item": "sun-stone"
@@ -142608,6 +142535,10 @@ window.POKEMON_DATA = {
             [
               "petilil",
               "lilligant"
+            ],
+            [
+              "petilil",
+              "lilligant-hisui"
             ]
           ]
         },
@@ -142906,27 +142837,8 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet"
           ],
           "locationsByGame": {},
-          "evolutionDetails": [
-            {
-              "to": "basculegion",
-              "methods": [
-                {
-                  "trigger": "recoil-damage",
-                  "gender": 2
-                },
-                {
-                  "trigger": "recoil-damage",
-                  "gender": 1
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "basculin",
-              "basculegion"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "sandile",
@@ -143641,10 +143553,6 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 35
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "ice-stone"
                 }
               ]
             }
@@ -145031,25 +144939,12 @@ window.POKEMON_DATA = {
                   "minLevel": 34
                 }
               ]
-            },
-            {
-              "to": "runerigus",
-              "methods": [
-                {
-                  "trigger": "take-damage",
-                  "location": "dusty-bowl"
-                }
-              ]
             }
           ],
           "evolutionBranches": [
             [
               "yamask",
               "cofagrigus"
-            ],
-            [
-              "yamask",
-              "runerigus"
             ]
           ]
         },
@@ -146362,10 +146257,6 @@ window.POKEMON_DATA = {
             {
               "to": "zoroark",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 30
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 30
@@ -148922,35 +148813,8 @@ window.POKEMON_DATA = {
               "unova-route-7-area"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "sawsbuck",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "deerling",
-              "sawsbuck"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "sawsbuck",
@@ -149073,12 +148937,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "deerling",
-              "sawsbuck"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "emolga",
@@ -156302,7 +156161,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 54
-                },
+                }
+              ]
+            },
+            {
+              "to": "braviary-hisui",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 54
@@ -156314,6 +156178,10 @@ window.POKEMON_DATA = {
             [
               "rufflet",
               "braviary"
+            ],
+            [
+              "rufflet",
+              "braviary-hisui"
             ]
           ]
         },
@@ -161049,100 +160917,8 @@ window.POKEMON_DATA = {
               "hauoli-city-main"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "spewpa",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 9
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "spewpa",
@@ -161220,100 +160996,8 @@ window.POKEMON_DATA = {
               "kalos-berry-fields-area"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "vivillon",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 12
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "vivillon",
@@ -161400,13 +161084,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "litleo",
@@ -161703,40 +161381,8 @@ window.POKEMON_DATA = {
               "melemele-meadow-area"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "floette",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "flabebe",
-              "floette",
-              "florges"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "floette",
@@ -161839,40 +161485,8 @@ window.POKEMON_DATA = {
               "friend-safari-fairy"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "florges",
-              "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "flabebe",
-              "floette",
-              "florges"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "florges",
@@ -161961,13 +161575,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "flabebe",
-              "floette",
-              "florges"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "skiddo",
@@ -162708,13 +162316,18 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "meowstic",
+              "to": "meowstic-male",
               "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 25,
                   "gender": 2
-                },
+                }
+              ]
+            },
+            {
+              "to": "meowstic-female",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 25,
@@ -162726,7 +162339,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "espurr",
-              "meowstic"
+              "meowstic-male"
+            ],
+            [
+              "espurr",
+              "meowstic-female"
             ]
           ]
         },
@@ -162793,12 +162410,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "espurr",
-              "meowstic"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "honedge",
@@ -166332,7 +165944,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 40
-                },
+                }
+              ]
+            },
+            {
+              "to": "sliggoo-hisui",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 40
@@ -166345,6 +165962,11 @@ window.POKEMON_DATA = {
               "goomy",
               "sliggoo",
               "goodra"
+            ],
+            [
+              "goomy",
+              "sliggoo-hisui",
+              "goodra-hisui"
             ]
           ]
         },
@@ -166507,11 +166129,6 @@ window.POKEMON_DATA = {
             {
               "to": "goodra",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 50,
-                  "needsOverworldRain": true
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 50,
@@ -167267,31 +166884,8 @@ window.POKEMON_DATA = {
             "legends-za"
           ],
           "locationsByGame": {},
-          "evolutionDetails": [
-            {
-              "to": "gourgeist",
-              "methods": [
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "pumpkaboo",
-              "gourgeist"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "gourgeist",
@@ -167354,12 +166948,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "pumpkaboo",
-              "gourgeist"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "bergmite",
@@ -167509,7 +167098,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 37
-                },
+                }
+              ]
+            },
+            {
+              "to": "avalugg-hisui",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 37
@@ -167521,6 +167115,10 @@ window.POKEMON_DATA = {
             [
               "bergmite",
               "avalugg"
+            ],
+            [
+              "bergmite",
+              "avalugg-hisui"
             ]
           ]
         },
@@ -168599,6 +168197,11 @@ window.POKEMON_DATA = {
               "rowlet",
               "dartrix",
               "decidueye"
+            ],
+            [
+              "rowlet",
+              "dartrix",
+              "decidueye-hisui"
             ]
           ]
         },
@@ -168696,7 +168299,12 @@ window.POKEMON_DATA = {
                 {
                   "trigger": "level-up",
                   "minLevel": 34
-                },
+                }
+              ]
+            },
+            {
+              "to": "decidueye-hisui",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 36
@@ -168709,6 +168317,11 @@ window.POKEMON_DATA = {
               "rowlet",
               "dartrix",
               "decidueye"
+            ],
+            [
+              "rowlet",
+              "dartrix",
+              "decidueye-hisui"
             ]
           ]
         },
@@ -171400,22 +171013,22 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "lycanroc",
+              "to": "lycanroc-midday",
               "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 25,
                   "timeOfDay": "day"
-                },
+                }
+              ]
+            },
+            {
+              "to": "lycanroc-midnight",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 25,
                   "timeOfDay": "night"
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 25,
-                  "timeOfDay": "dusk"
                 }
               ]
             }
@@ -171423,7 +171036,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "rockruff",
-              "lycanroc"
+              "lycanroc-midday"
+            ],
+            [
+              "rockruff",
+              "lycanroc-midnight"
             ]
           ]
         },
@@ -171499,12 +171116,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "rockruff",
-              "lycanroc"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "wishiwashi",
@@ -183609,12 +183221,17 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "toxtricity",
+              "to": "toxtricity-amped",
               "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 30
-                },
+                }
+              ]
+            },
+            {
+              "to": "toxtricity-low-key",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 30
@@ -183625,7 +183242,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "toxel",
-              "toxtricity"
+              "toxtricity-amped"
+            ],
+            [
+              "toxel",
+              "toxtricity-low-key"
             ]
           ]
         },
@@ -183674,12 +183295,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "toxel",
-              "toxtricity"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "sizzlipede",
@@ -184223,27 +183839,8 @@ window.POKEMON_DATA = {
               "old-cemetery-max-den-b"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "polteageist",
-              "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "cracked-pot"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "chipped-pot"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "sinistea",
-              "polteageist"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "polteageist",
@@ -184339,12 +183936,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "sinistea",
-              "polteageist"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "hatenna",
@@ -185263,8 +184855,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "zigzagoon",
-              "linoone",
+              "zigzagoon-galar",
+              "linoone-galar",
               "obstagoon"
             ]
           ]
@@ -185385,7 +184977,7 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "meowth",
+              "meowth-galar",
               "perrserker"
             ]
           ]
@@ -185472,7 +185064,7 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "corsola",
+              "corsola-galar",
               "cursola"
             ]
           ]
@@ -185563,7 +185155,7 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "farfetchd",
+              "farfetchd-galar",
               "sirfetchd"
             ]
           ]
@@ -185676,7 +185268,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "mime-jr",
-              "mr-mime",
+              "mr-mime-galar",
               "mr-rime"
             ]
           ]
@@ -185764,7 +185356,7 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "yamask",
+              "yamask-galar",
               "runerigus"
             ]
           ]
@@ -185848,318 +185440,628 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "alcremie",
+              "to": "alcremie-vanilla-cream-strawberry-sweet",
               "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-cream-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-matcha-cream-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-mint-cream-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-lemon-cream-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-salted-cream-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-swirl-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-caramel-swirl-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-rainbow-swirl-strawberry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "dusk",
                   "heldItem": "strawberry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-vanilla-cream-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-cream-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-matcha-cream-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-mint-cream-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-lemon-cream-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-salted-cream-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-swirl-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-caramel-swirl-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-rainbow-swirl-berry-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "dusk",
                   "heldItem": "berry-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-vanilla-cream-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-cream-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-matcha-cream-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-mint-cream-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-lemon-cream-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-salted-cream-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-swirl-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-caramel-swirl-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-rainbow-swirl-love-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "dusk",
                   "heldItem": "love-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-vanilla-cream-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-cream-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-matcha-cream-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-mint-cream-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-lemon-cream-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-salted-cream-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-swirl-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-caramel-swirl-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-rainbow-swirl-star-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "dusk",
                   "heldItem": "star-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-vanilla-cream-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-cream-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-matcha-cream-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-mint-cream-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-lemon-cream-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-salted-cream-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-swirl-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-caramel-swirl-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-rainbow-swirl-clover-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "dusk",
                   "heldItem": "clover-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-vanilla-cream-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-cream-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-matcha-cream-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-mint-cream-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-lemon-cream-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-salted-cream-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-swirl-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-caramel-swirl-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-rainbow-swirl-flower-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "dusk",
                   "heldItem": "flower-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-vanilla-cream-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-cream-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-matcha-cream-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-mint-cream-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-lemon-cream-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-salted-cream-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "night",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-ruby-swirl-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-caramel-swirl-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "day",
                   "heldItem": "ribbon-sweet"
-                },
+                }
+              ]
+            },
+            {
+              "to": "alcremie-rainbow-swirl-ribbon-sweet",
+              "methods": [
                 {
                   "trigger": "spin",
                   "timeOfDay": "dusk",
@@ -186171,7 +186073,255 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "milcery",
-              "alcremie"
+              "alcremie-vanilla-cream-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-cream-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-matcha-cream-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-mint-cream-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-lemon-cream-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-salted-cream-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-swirl-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-caramel-swirl-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-rainbow-swirl-strawberry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-vanilla-cream-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-cream-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-matcha-cream-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-mint-cream-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-lemon-cream-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-salted-cream-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-swirl-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-caramel-swirl-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-rainbow-swirl-berry-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-vanilla-cream-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-cream-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-matcha-cream-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-mint-cream-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-lemon-cream-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-salted-cream-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-swirl-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-caramel-swirl-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-rainbow-swirl-love-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-vanilla-cream-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-cream-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-matcha-cream-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-mint-cream-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-lemon-cream-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-salted-cream-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-swirl-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-caramel-swirl-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-rainbow-swirl-star-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-vanilla-cream-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-cream-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-matcha-cream-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-mint-cream-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-lemon-cream-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-salted-cream-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-swirl-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-caramel-swirl-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-rainbow-swirl-clover-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-vanilla-cream-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-cream-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-matcha-cream-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-mint-cream-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-lemon-cream-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-salted-cream-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-swirl-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-caramel-swirl-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-rainbow-swirl-flower-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-vanilla-cream-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-cream-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-matcha-cream-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-mint-cream-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-lemon-cream-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-salted-cream-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-ruby-swirl-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-caramel-swirl-ribbon-sweet"
+            ],
+            [
+              "milcery",
+              "alcremie-rainbow-swirl-ribbon-sweet"
             ]
           ]
         },
@@ -186258,12 +186408,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "falinks",
@@ -188218,18 +188363,33 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "urshifu",
+              "to": "urshifu-single-strike",
               "methods": [
                 {
                   "trigger": "tower-of-darkness"
-                },
+                }
+              ]
+            },
+            {
+              "to": "urshifu-rapid-strike",
+              "methods": [
                 {
                   "trigger": "tower-of-waters"
-                },
+                }
+              ]
+            },
+            {
+              "to": "urshifu-single-strike",
+              "methods": [
                 {
                   "trigger": "use-item",
                   "item": "scroll-of-darkness"
-                },
+                }
+              ]
+            },
+            {
+              "to": "urshifu-rapid-strike",
+              "methods": [
                 {
                   "trigger": "use-item",
                   "item": "scroll-of-waters"
@@ -188240,7 +188400,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "kubfu",
-              "urshifu"
+              "urshifu-single-strike"
+            ],
+            [
+              "kubfu",
+              "urshifu-rapid-strike"
             ]
           ]
         },
@@ -188283,12 +188447,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "kubfu",
-              "urshifu"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "zarude",
@@ -188931,12 +189090,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "basculin",
-              "basculegion"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "sneasler",
@@ -188999,7 +189153,7 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "sneasel",
+              "sneasel-hisui",
               "sneasler"
             ]
           ]
@@ -189070,7 +189224,7 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "qwilfish",
+              "qwilfish-hisui",
               "overqwil"
             ]
           ]
@@ -189837,13 +189991,18 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "oinkologne",
+              "to": "oinkologne-male",
               "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 18,
                   "gender": 2
-                },
+                }
+              ]
+            },
+            {
+              "to": "oinkologne-female",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 18,
@@ -189855,7 +190014,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "lechonk",
-              "oinkologne"
+              "oinkologne-male"
+            ],
+            [
+              "lechonk",
+              "oinkologne-female"
             ]
           ]
         },
@@ -189897,12 +190060,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "lechonk",
-              "oinkologne"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "tarountula",
@@ -190477,12 +190635,17 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "maushold",
+              "to": "maushold-family-of-four",
               "methods": [
                 {
                   "trigger": "in-battle-level-up",
                   "minLevel": 25
-                },
+                }
+              ]
+            },
+            {
+              "to": "maushold-family-of-three",
+              "methods": [
                 {
                   "trigger": "in-battle-level-up",
                   "minLevel": 25
@@ -190493,7 +190656,11 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "tandemaus",
-              "maushold"
+              "maushold-family-of-four"
+            ],
+            [
+              "tandemaus",
+              "maushold-family-of-three"
             ]
           ]
         },
@@ -190540,12 +190707,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "tandemaus",
-              "maushold"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "fidough",
@@ -194506,7 +194668,7 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "wooper",
+              "wooper-paldea",
               "clodsire"
             ]
           ]
@@ -194626,12 +194788,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "dunsparce",
-              "dudunsparce"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "kingambit",
@@ -196538,27 +196695,8 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet"
           ],
           "locationsByGame": {},
-          "evolutionDetails": [
-            {
-              "to": "sinistcha",
-              "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "unremarkable-teacup"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "masterpiece-teacup"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "poltchageist",
-              "sinistcha"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "sinistcha",
@@ -196621,12 +196759,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "poltchageist",
-              "sinistcha"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "okidogi",
@@ -199281,7 +199414,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "espurr",
-              "meowstic"
+              "meowstic-male"
             ]
           ]
         },
@@ -199389,7 +199522,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "espurr",
-              "meowstic"
+              "meowstic-female"
             ]
           ]
         },
@@ -199683,8 +199816,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "basculin",
-              "basculegion"
+              "basculin-white-striped",
+              "basculegion-male"
             ]
           ]
         },
@@ -199752,8 +199885,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "basculin",
-              "basculegion"
+              "basculin-white-striped",
+              "basculegion-female"
             ]
           ]
         },
@@ -199821,7 +199954,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "lechonk",
-              "oinkologne"
+              "oinkologne-male"
             ]
           ]
         },
@@ -199889,7 +200022,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "lechonk",
-              "oinkologne"
+              "oinkologne-female"
             ]
           ]
         }
@@ -204894,26 +205027,6 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "wormadam",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                }
-              ]
-            },
-            {
               "to": "mothim",
               "methods": [
                 {
@@ -204925,10 +205038,6 @@ window.POKEMON_DATA = {
             }
           ],
           "evolutionBranches": [
-            [
-              "burmy",
-              "wormadam"
-            ],
             [
               "burmy",
               "mothim"
@@ -205050,44 +205159,20 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "wormadam",
+              "to": "wormadam-sandy",
               "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 20,
                   "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                }
-              ]
-            },
-            {
-              "to": "mothim",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 2
                 }
               ]
             }
           ],
           "evolutionBranches": [
             [
-              "burmy",
-              "wormadam"
-            ],
-            [
-              "burmy",
-              "mothim"
+              "burmy-sandy",
+              "wormadam-sandy"
             ]
           ]
         },
@@ -205206,44 +205291,20 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "wormadam",
+              "to": "wormadam-trash",
               "methods": [
                 {
                   "trigger": "level-up",
                   "minLevel": 20,
                   "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 1
-                }
-              ]
-            },
-            {
-              "to": "mothim",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20,
-                  "gender": 2
                 }
               ]
             }
           ],
           "evolutionBranches": [
             [
-              "burmy",
-              "wormadam"
-            ],
-            [
-              "burmy",
-              "mothim"
+              "burmy-trash",
+              "wormadam-trash"
             ]
           ]
         },
@@ -205360,8 +205421,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "burmy",
-              "wormadam"
+              "burmy-plant",
+              "wormadam-plant"
             ]
           ]
         },
@@ -205478,8 +205539,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "burmy",
-              "wormadam"
+              "burmy-sandy",
+              "wormadam-sandy"
             ]
           ]
         },
@@ -205596,8 +205657,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "burmy",
-              "wormadam"
+              "burmy-trash",
+              "wormadam-trash"
             ]
           ]
         },
@@ -205756,12 +205817,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "gastrodon",
+              "to": "gastrodon-west",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 30
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 30
@@ -205771,8 +205828,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "shellos",
-              "gastrodon"
+              "shellos-west",
+              "gastrodon-west"
             ]
           ]
         },
@@ -205931,12 +205988,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "gastrodon",
+              "to": "gastrodon-east",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 30
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 30
@@ -205946,8 +205999,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "shellos",
-              "gastrodon"
+              "shellos-east",
+              "gastrodon-east"
             ]
           ]
         },
@@ -206108,8 +206161,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "shellos",
-              "gastrodon"
+              "shellos-west",
+              "gastrodon-west"
             ]
           ]
         },
@@ -206270,8 +206323,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "shellos",
-              "gastrodon"
+              "shellos-east",
+              "gastrodon-east"
             ]
           ]
         },
@@ -207754,27 +207807,8 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-a"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "basculegion",
-              "methods": [
-                {
-                  "trigger": "recoil-damage",
-                  "gender": 2
-                },
-                {
-                  "trigger": "recoil-damage",
-                  "gender": 1
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "basculin",
-              "basculegion"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "basculin-blue-striped",
@@ -208076,27 +208110,8 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-a"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "basculegion",
-              "methods": [
-                {
-                  "trigger": "recoil-damage",
-                  "gender": 2
-                },
-                {
-                  "trigger": "recoil-damage",
-                  "gender": 1
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "basculin",
-              "basculegion"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "deerling-spring",
@@ -208194,20 +208209,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "sawsbuck",
+              "to": "sawsbuck-spring",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 34
@@ -208217,8 +208220,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-spring",
+              "sawsbuck-spring"
             ]
           ]
         },
@@ -208318,20 +208321,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "sawsbuck",
+              "to": "sawsbuck-summer",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 34
@@ -208341,8 +208332,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-summer",
+              "sawsbuck-summer"
             ]
           ]
         },
@@ -208442,20 +208433,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "sawsbuck",
+              "to": "sawsbuck-autumn",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 34
@@ -208465,8 +208444,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-autumn",
+              "sawsbuck-autumn"
             ]
           ]
         },
@@ -208566,20 +208545,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "sawsbuck",
+              "to": "sawsbuck-winter",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 34
@@ -208589,8 +208556,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-winter",
+              "sawsbuck-winter"
             ]
           ]
         },
@@ -208691,8 +208658,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-spring",
+              "sawsbuck-spring"
             ]
           ]
         },
@@ -208793,8 +208760,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-summer",
+              "sawsbuck-summer"
             ]
           ]
         },
@@ -208895,8 +208862,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-autumn",
+              "sawsbuck-autumn"
             ]
           ]
         },
@@ -208997,8 +208964,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "deerling",
-              "sawsbuck"
+              "deerling-winter",
+              "sawsbuck-winter"
             ]
           ]
         },
@@ -209931,24 +209898,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "floette",
+              "to": "floette-red",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 19
@@ -209958,9 +209909,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-red",
+              "floette-red",
+              "florges-red"
             ]
           ]
         },
@@ -210049,24 +210000,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "floette",
+              "to": "floette-orange",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 19
@@ -210076,9 +210011,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-orange",
+              "floette-orange",
+              "florges-orange"
             ]
           ]
         },
@@ -210167,24 +210102,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "floette",
+              "to": "floette-yellow",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 19
@@ -210194,9 +210113,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-yellow",
+              "floette-yellow",
+              "florges-yellow"
             ]
           ]
         },
@@ -210285,24 +210204,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "floette",
+              "to": "floette-white",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 19
@@ -210312,9 +210215,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-white",
+              "floette-white",
+              "florges-white"
             ]
           ]
         },
@@ -210403,24 +210306,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "floette",
+              "to": "floette-blue",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
-                {
-                  "trigger": "level-up",
-                  "minLevel": 19
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 19
@@ -210430,9 +210317,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-blue",
+              "floette-blue",
+              "florges-blue"
             ]
           ]
         },
@@ -210523,24 +210410,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "florges",
+              "to": "florges-red",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "shiny-stone"
@@ -210550,9 +210421,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-red",
+              "floette-red",
+              "florges-red"
             ]
           ]
         },
@@ -210643,24 +210514,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "florges",
+              "to": "florges-orange",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "shiny-stone"
@@ -210670,9 +210525,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-orange",
+              "floette-orange",
+              "florges-orange"
             ]
           ]
         },
@@ -210763,24 +210618,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "florges",
+              "to": "florges-yellow",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "shiny-stone"
@@ -210790,9 +210629,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-yellow",
+              "floette-yellow",
+              "florges-yellow"
             ]
           ]
         },
@@ -210883,24 +210722,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "florges",
+              "to": "florges-white",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "shiny-stone"
@@ -210910,9 +210733,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-white",
+              "floette-white",
+              "florges-white"
             ]
           ]
         },
@@ -211003,24 +210826,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "florges",
+              "to": "florges-blue",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "shiny-stone"
@@ -211030,9 +210837,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-blue",
+              "floette-blue",
+              "florges-blue"
             ]
           ]
         },
@@ -211121,40 +210928,8 @@ window.POKEMON_DATA = {
             "champions"
           ],
           "locationsByGame": {},
-          "evolutionDetails": [
-            {
-              "to": "florges",
-              "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "shiny-stone"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "flabebe",
-              "floette",
-              "florges"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "florges-red",
@@ -211244,9 +211019,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-red",
+              "floette-red",
+              "florges-red"
             ]
           ]
         },
@@ -211338,9 +211113,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-orange",
+              "floette-orange",
+              "florges-orange"
             ]
           ]
         },
@@ -211432,9 +211207,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-yellow",
+              "floette-yellow",
+              "florges-yellow"
             ]
           ]
         },
@@ -211526,9 +211301,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-white",
+              "floette-white",
+              "florges-white"
             ]
           ]
         },
@@ -211620,9 +211395,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "flabebe",
-              "floette",
-              "florges"
+              "flabebe-blue",
+              "floette-blue",
+              "florges-blue"
             ]
           ]
         },
@@ -212577,17 +212352,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "gourgeist",
+              "to": "gourgeist-small",
               "methods": [
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
                 {
                   "trigger": "trade"
                 }
@@ -212596,8 +212362,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-small",
+              "gourgeist-small"
             ]
           ]
         },
@@ -212713,17 +212479,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "gourgeist",
+              "to": "gourgeist-average",
               "methods": [
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
                 {
                   "trigger": "trade"
                 }
@@ -212732,8 +212489,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-average",
+              "gourgeist-average"
             ]
           ]
         },
@@ -212842,17 +212599,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "gourgeist",
+              "to": "gourgeist-large",
               "methods": [
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
                 {
                   "trigger": "trade"
                 }
@@ -212861,8 +212609,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-large",
+              "gourgeist-large"
             ]
           ]
         },
@@ -212971,17 +212719,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "gourgeist",
+              "to": "gourgeist-super",
               "methods": [
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
-                {
-                  "trigger": "trade"
-                },
                 {
                   "trigger": "trade"
                 }
@@ -212990,8 +212729,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-super",
+              "gourgeist-super"
             ]
           ]
         },
@@ -213103,8 +212842,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-small",
+              "gourgeist-small"
             ]
           ]
         },
@@ -213231,8 +212970,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-average",
+              "gourgeist-average"
             ]
           ]
         },
@@ -213344,8 +213083,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-large",
+              "gourgeist-large"
             ]
           ]
         },
@@ -213457,8 +213196,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "pumpkaboo",
-              "gourgeist"
+              "pumpkaboo-super",
+              "gourgeist-super"
             ]
           ]
         }
@@ -213547,9 +213286,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-archipelago",
+              "spewpa-archipelago",
+              "vivillon-archipelago"
             ]
           ]
         },
@@ -213632,9 +213371,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-continental",
+              "spewpa-continental",
+              "vivillon-continental"
             ]
           ]
         },
@@ -213717,9 +213456,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-elegant",
+              "spewpa-elegant",
+              "vivillon-elegant"
             ]
           ]
         },
@@ -213802,9 +213541,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-fancy",
+              "spewpa-fancy",
+              "vivillon-fancy"
             ]
           ]
         },
@@ -213887,9 +213626,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-garden",
+              "spewpa-garden",
+              "vivillon-garden"
             ]
           ]
         },
@@ -213972,9 +213711,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-high-plains",
+              "spewpa-high-plains",
+              "vivillon-high-plains"
             ]
           ]
         },
@@ -214057,9 +213796,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-icy-snow",
+              "spewpa-icy-snow",
+              "vivillon-icy-snow"
             ]
           ]
         },
@@ -214142,9 +213881,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-jungle",
+              "spewpa-jungle",
+              "vivillon-jungle"
             ]
           ]
         },
@@ -214227,9 +213966,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-marine",
+              "spewpa-marine",
+              "vivillon-marine"
             ]
           ]
         },
@@ -214312,9 +214051,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-meadow",
+              "spewpa-meadow",
+              "vivillon-meadow"
             ]
           ]
         },
@@ -214397,9 +214136,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-modern",
+              "spewpa-modern",
+              "vivillon-modern"
             ]
           ]
         },
@@ -214482,9 +214221,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-monsoon",
+              "spewpa-monsoon",
+              "vivillon-monsoon"
             ]
           ]
         },
@@ -214567,9 +214306,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-ocean",
+              "spewpa-ocean",
+              "vivillon-ocean"
             ]
           ]
         },
@@ -214652,9 +214391,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-poke-ball",
+              "spewpa-poke-ball",
+              "vivillon-poke-ball"
             ]
           ]
         },
@@ -214737,9 +214476,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-polar",
+              "spewpa-polar",
+              "vivillon-polar"
             ]
           ]
         },
@@ -214822,9 +214561,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-river",
+              "spewpa-river",
+              "vivillon-river"
             ]
           ]
         },
@@ -214907,9 +214646,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-sandstorm",
+              "spewpa-sandstorm",
+              "vivillon-sandstorm"
             ]
           ]
         },
@@ -214992,9 +214731,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-savanna",
+              "spewpa-savanna",
+              "vivillon-savanna"
             ]
           ]
         },
@@ -215077,9 +214816,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-sun",
+              "spewpa-sun",
+              "vivillon-sun"
             ]
           ]
         },
@@ -215162,9 +214901,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "scatterbug",
-              "spewpa",
-              "vivillon"
+              "scatterbug-tundra",
+              "spewpa-tundra",
+              "vivillon-tundra"
             ]
           ]
         }
@@ -215443,12 +215182,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "raticate",
+              "to": "raticate-alola",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 20,
@@ -215459,8 +215194,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "rattata",
-              "raticate"
+              "rattata-alola",
+              "raticate-alola"
             ]
           ]
         },
@@ -215745,8 +215480,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "rattata",
-              "raticate"
+              "rattata-alola",
+              "raticate-alola"
             ]
           ]
         },
@@ -216011,7 +215746,7 @@ window.POKEMON_DATA = {
             [
               "pichu",
               "pikachu",
-              "raichu"
+              "raichu-alola"
             ]
           ]
         },
@@ -216258,12 +215993,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "sandslash",
+              "to": "sandslash-alola",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 22
-                },
                 {
                   "trigger": "use-item",
                   "item": "ice-stone"
@@ -216273,8 +216004,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "sandshrew",
-              "sandslash"
+              "sandshrew-alola",
+              "sandslash-alola"
             ]
           ]
         },
@@ -216510,8 +216241,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "sandshrew",
-              "sandslash"
+              "sandshrew-alola",
+              "sandslash-alola"
             ]
           ]
         },
@@ -216762,12 +216493,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "ninetales",
+              "to": "ninetales-alola",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "fire-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "ice-stone"
@@ -216777,8 +216504,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "vulpix",
-              "ninetales"
+              "vulpix-alola",
+              "ninetales-alola"
             ]
           ]
         },
@@ -217010,8 +216737,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "vulpix",
-              "ninetales"
+              "vulpix-alola",
+              "ninetales-alola"
             ]
           ]
         },
@@ -217282,12 +217009,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "dugtrio",
+              "to": "dugtrio-alola",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 26
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 26
@@ -217297,8 +217020,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "diglett",
-              "dugtrio"
+              "diglett-alola",
+              "dugtrio-alola"
             ]
           ]
         },
@@ -217562,8 +217285,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "diglett",
-              "dugtrio"
+              "diglett-alola",
+              "dugtrio-alola"
             ]
           ]
         },
@@ -217817,36 +217540,19 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "persian",
+              "to": "persian-alola",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 28
-                },
                 {
                   "trigger": "level-up",
                   "minHappiness": 160
-                }
-              ]
-            },
-            {
-              "to": "perrserker",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 28
                 }
               ]
             }
           ],
           "evolutionBranches": [
             [
-              "meowth",
-              "persian"
-            ],
-            [
-              "meowth",
-              "perrserker"
+              "meowth-alola",
+              "persian-alola"
             ]
           ]
         },
@@ -218082,8 +217788,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "meowth",
-              "persian"
+              "meowth-alola",
+              "persian-alola"
             ]
           ]
         },
@@ -218327,12 +218033,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "graveler",
+              "to": "graveler-alola",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 25
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 25
@@ -218342,9 +218044,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "geodude",
-              "graveler",
-              "golem"
+              "geodude-alola",
+              "graveler-alola",
+              "golem-alola"
             ]
           ]
         },
@@ -218590,11 +218292,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "golem",
+              "to": "golem-alola",
               "methods": [
-                {
-                  "trigger": "trade"
-                },
                 {
                   "trigger": "trade"
                 }
@@ -218603,9 +218302,9 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "geodude",
-              "graveler",
-              "golem"
+              "geodude-alola",
+              "graveler-alola",
+              "golem-alola"
             ]
           ]
         },
@@ -218835,9 +218534,9 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "geodude",
-              "graveler",
-              "golem"
+              "geodude-alola",
+              "graveler-alola",
+              "golem-alola"
             ]
           ]
         },
@@ -219079,12 +218778,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "muk",
+              "to": "muk-alola",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 38
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 38
@@ -219094,8 +218789,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "grimer",
-              "muk"
+              "grimer-alola",
+              "muk-alola"
             ]
           ]
         },
@@ -219314,8 +219009,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "grimer",
-              "muk"
+              "grimer-alola",
+              "muk-alola"
             ]
           ]
         },
@@ -219557,7 +219252,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "exeggcute",
-              "exeggutor"
+              "exeggutor-alola"
             ]
           ]
         },
@@ -219798,7 +219493,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "cubone",
-              "marowak"
+              "marowak-alola"
             ]
           ]
         },
@@ -220336,7 +220031,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "rockruff",
-              "lycanroc"
+              "lycanroc-midday"
             ]
           ]
         },
@@ -220470,7 +220165,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "rockruff",
-              "lycanroc"
+              "lycanroc-midnight"
             ]
           ]
         },
@@ -220570,8 +220265,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "rockruff",
-              "lycanroc"
+              "rockruff-own-tempo",
+              "lycanroc-dusk"
             ]
           ]
         }
@@ -221374,19 +221069,6 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "persian",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 28
-                },
-                {
-                  "trigger": "level-up",
-                  "minHappiness": 160
-                }
-              ]
-            },
-            {
               "to": "perrserker",
               "methods": [
                 {
@@ -221398,11 +221080,7 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "meowth",
-              "persian"
-            ],
-            [
-              "meowth",
+              "meowth-galar",
               "perrserker"
             ]
           ]
@@ -221618,12 +221296,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "rapidash",
+              "to": "rapidash-galar",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 40
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 40
@@ -221633,8 +221307,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "ponyta",
-              "rapidash"
+              "ponyta-galar",
+              "rapidash-galar"
             ]
           ]
         },
@@ -221853,8 +221527,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "ponyta",
-              "rapidash"
+              "ponyta-galar",
+              "rapidash-galar"
             ]
           ]
         },
@@ -222125,12 +221799,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "slowbro",
+              "to": "slowbro-galar",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 37
-                },
                 {
                   "trigger": "use-item",
                   "item": "galarica-cuff"
@@ -222138,12 +221808,8 @@ window.POKEMON_DATA = {
               ]
             },
             {
-              "to": "slowking",
+              "to": "slowking-galar",
               "methods": [
-                {
-                  "trigger": "trade",
-                  "heldItem": "kings-rock"
-                },
                 {
                   "trigger": "use-item",
                   "item": "galarica-wreath"
@@ -222153,12 +221819,12 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "slowpoke",
-              "slowbro"
+              "slowpoke-galar",
+              "slowbro-galar"
             ],
             [
-              "slowpoke",
-              "slowking"
+              "slowpoke-galar",
+              "slowking-galar"
             ]
           ]
         },
@@ -222386,8 +222052,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "slowpoke",
-              "slowbro"
+              "slowpoke-galar",
+              "slowbro-galar"
             ]
           ]
         },
@@ -222604,7 +222270,7 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "farfetchd",
+              "farfetchd-galar",
               "sirfetchd"
             ]
           ]
@@ -222862,7 +222528,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "koffing",
-              "weezing"
+              "weezing-galar"
             ]
           ]
         },
@@ -223140,7 +222806,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "mime-jr",
-              "mr-mime",
+              "mr-mime-galar",
               "mr-rime"
             ]
           ]
@@ -223911,8 +223577,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "slowpoke",
-              "slowking"
+              "slowpoke-galar",
+              "slowking-galar"
             ]
           ]
         },
@@ -224133,7 +223799,7 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "corsola",
+              "corsola-galar",
               "cursola"
             ]
           ]
@@ -224319,12 +223985,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "linoone",
+              "to": "linoone-galar",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 20
@@ -224334,8 +223996,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "zigzagoon",
-              "linoone",
+              "zigzagoon-galar",
+              "linoone-galar",
               "obstagoon"
             ]
           ]
@@ -224545,8 +224207,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "zigzagoon",
-              "linoone",
+              "zigzagoon-galar",
+              "linoone-galar",
               "obstagoon"
             ]
           ]
@@ -224673,12 +224335,8 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "darmanitan",
+              "to": "darmanitan-galar-standard",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 35
-                },
                 {
                   "trigger": "use-item",
                   "item": "ice-stone"
@@ -224688,8 +224346,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "darumaka",
-              "darmanitan"
+              "darumaka-galar",
+              "darmanitan-galar-standard"
             ]
           ]
         },
@@ -224813,8 +224471,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "darumaka",
-              "darmanitan"
+              "darumaka-galar",
+              "darmanitan-galar-standard"
             ]
           ]
         },
@@ -224940,15 +224598,6 @@ window.POKEMON_DATA = {
           },
           "evolutionDetails": [
             {
-              "to": "cofagrigus",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 34
-                }
-              ]
-            },
-            {
               "to": "runerigus",
               "methods": [
                 {
@@ -224960,11 +224609,7 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "yamask",
-              "cofagrigus"
-            ],
-            [
-              "yamask",
+              "yamask-galar",
               "runerigus"
             ]
           ]
@@ -225220,7 +224865,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "toxel",
-              "toxtricity"
+              "toxtricity-amped"
             ]
           ]
         },
@@ -225310,7 +224955,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "toxel",
-              "toxtricity"
+              "toxtricity-low-key"
             ]
           ]
         },
@@ -225408,27 +225053,8 @@ window.POKEMON_DATA = {
               "old-cemetery-max-den-b"
             ]
           },
-          "evolutionDetails": [
-            {
-              "to": "polteageist",
-              "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "cracked-pot"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "chipped-pot"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "sinistea",
-              "polteageist"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "sinistea-antique",
@@ -225498,12 +225124,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "polteageist",
+              "to": "polteageist-antique",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "cracked-pot"
-                },
                 {
                   "trigger": "use-item",
                   "item": "chipped-pot"
@@ -225513,8 +225135,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "sinistea",
-              "polteageist"
+              "sinistea-antique",
+              "polteageist-antique"
             ]
           ]
         },
@@ -225612,12 +225234,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "sinistea",
-              "polteageist"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "polteageist-antique",
@@ -225690,8 +225307,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "sinistea",
-              "polteageist"
+              "sinistea-antique",
+              "polteageist-antique"
             ]
           ]
         },
@@ -225752,7 +225369,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "kubfu",
-              "urshifu"
+              "urshifu-single-strike"
             ]
           ]
         },
@@ -225813,7 +225430,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "kubfu",
-              "urshifu"
+              "urshifu-rapid-strike"
             ]
           ]
         }
@@ -225906,12 +225523,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-mint-berry",
@@ -225996,12 +225608,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-ruby-swirl-love",
@@ -226086,12 +225693,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-ruby-love",
@@ -226176,12 +225778,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-rainbow-love",
@@ -226266,12 +225863,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-lemon-star",
@@ -226356,12 +225948,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-matcha-clover",
@@ -226446,12 +226033,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-caramel-flower",
@@ -226536,12 +226118,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "alcremie-salted-ribbon",
@@ -226626,12 +226203,7 @@ window.POKEMON_DATA = {
             ]
           },
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "milcery",
-              "alcremie"
-            ]
-          ]
+          "evolutionBranches": []
         }
       ]
     },
@@ -226861,12 +226433,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "arcanine",
+              "to": "arcanine-hisui",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "fire-stone"
-                },
                 {
                   "trigger": "use-item",
                   "item": "fire-stone"
@@ -226876,8 +226444,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "growlithe",
-              "arcanine"
+              "growlithe-hisui",
+              "arcanine-hisui"
             ]
           ]
         },
@@ -227106,8 +226674,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "growlithe",
-              "arcanine"
+              "growlithe-hisui",
+              "arcanine-hisui"
             ]
           ]
         },
@@ -227302,12 +226870,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "electrode",
+              "to": "electrode-hisui",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 30
-                },
                 {
                   "trigger": "use-item",
                   "item": "leaf-stone"
@@ -227317,8 +226881,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "voltorb",
-              "electrode"
+              "voltorb-hisui",
+              "electrode-hisui"
             ]
           ]
         },
@@ -227514,8 +227078,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "voltorb",
-              "electrode"
+              "voltorb-hisui",
+              "electrode-hisui"
             ]
           ]
         },
@@ -227672,7 +227236,7 @@ window.POKEMON_DATA = {
             [
               "cyndaquil",
               "quilava",
-              "typhlosion"
+              "typhlosion-hisui"
             ]
           ]
         },
@@ -227853,11 +227417,21 @@ window.POKEMON_DATA = {
               "methods": [
                 {
                   "trigger": "strong-style-move"
-                },
+                }
+              ]
+            },
+            {
+              "to": "overqwil",
+              "methods": [
                 {
                   "trigger": "level-up",
                   "knownMove": "barb-barrage"
-                },
+                }
+              ]
+            },
+            {
+              "to": "overqwil",
+              "methods": [
                 {
                   "trigger": "use-move"
                 }
@@ -227866,7 +227440,7 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "qwilfish",
+              "qwilfish-hisui",
               "overqwil"
             ]
           ]
@@ -228078,16 +227652,6 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "weavile",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "timeOfDay": "night",
-                  "heldItem": "razor-claw"
-                }
-              ]
-            },
-            {
               "to": "sneasler",
               "methods": [
                 {
@@ -228100,11 +227664,7 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "sneasel",
-              "weavile"
-            ],
-            [
-              "sneasel",
+              "sneasel-hisui",
               "sneasler"
             ]
           ]
@@ -228210,7 +227770,7 @@ window.POKEMON_DATA = {
             [
               "oshawott",
               "dewott",
-              "samurott"
+              "samurott-hisui"
             ]
           ]
         },
@@ -228358,7 +227918,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "petilil",
-              "lilligant"
+              "lilligant-hisui"
             ]
           ]
         },
@@ -228494,12 +228054,17 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "basculegion",
+              "to": "basculegion-male",
               "methods": [
                 {
                   "trigger": "recoil-damage",
                   "gender": 2
-                },
+                }
+              ]
+            },
+            {
+              "to": "basculegion-female",
+              "methods": [
                 {
                   "trigger": "recoil-damage",
                   "gender": 1
@@ -228509,8 +228074,12 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "basculin",
-              "basculegion"
+              "basculin-white-striped",
+              "basculegion-male"
+            ],
+            [
+              "basculin-white-striped",
+              "basculegion-female"
             ]
           ]
         },
@@ -228633,12 +228202,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "zoroark",
+              "to": "zoroark-hisui",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 30
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 30
@@ -228648,8 +228213,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "zorua",
-              "zoroark"
+              "zorua-hisui",
+              "zoroark-hisui"
             ]
           ]
         },
@@ -228775,8 +228340,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "zorua",
-              "zoroark"
+              "zorua-hisui",
+              "zoroark-hisui"
             ]
           ]
         },
@@ -228925,7 +228490,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "rufflet",
-              "braviary"
+              "braviary-hisui"
             ]
           ]
         },
@@ -229056,13 +228621,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "goodra",
+              "to": "goodra-hisui",
               "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 50,
-                  "needsOverworldRain": true
-                },
                 {
                   "trigger": "level-up",
                   "minLevel": 50,
@@ -229074,8 +228634,8 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "goomy",
-              "sliggoo",
-              "goodra"
+              "sliggoo-hisui",
+              "goodra-hisui"
             ]
           ]
         },
@@ -229210,8 +228770,8 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "goomy",
-              "sliggoo",
-              "goodra"
+              "sliggoo-hisui",
+              "goodra-hisui"
             ]
           ]
         },
@@ -229316,7 +228876,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "bergmite",
-              "avalugg"
+              "avalugg-hisui"
             ]
           ]
         },
@@ -229414,7 +228974,7 @@ window.POKEMON_DATA = {
             [
               "rowlet",
               "dartrix",
-              "decidueye"
+              "decidueye-hisui"
             ]
           ]
         },
@@ -230387,15 +229947,6 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "quagsire",
-              "methods": [
-                {
-                  "trigger": "level-up",
-                  "minLevel": 20
-                }
-              ]
-            },
-            {
               "to": "clodsire",
               "methods": [
                 {
@@ -230407,11 +229958,7 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "wooper",
-              "quagsire"
-            ],
-            [
-              "wooper",
+              "wooper-paldea",
               "clodsire"
             ]
           ]
@@ -230969,7 +230516,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "dunsparce",
-              "dudunsparce"
+              "dudunsparce-two-segment"
             ]
           ]
         },
@@ -231040,7 +230587,7 @@ window.POKEMON_DATA = {
           "evolutionBranches": [
             [
               "dunsparce",
-              "dudunsparce"
+              "dudunsparce-three-segment"
             ]
           ]
         },
@@ -231244,27 +230791,8 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet"
           ],
           "locationsByGame": {},
-          "evolutionDetails": [
-            {
-              "to": "sinistcha",
-              "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "unremarkable-teacup"
-                },
-                {
-                  "trigger": "use-item",
-                  "item": "masterpiece-teacup"
-                }
-              ]
-            }
-          ],
-          "evolutionBranches": [
-            [
-              "poltchageist",
-              "sinistcha"
-            ]
-          ]
+          "evolutionDetails": [],
+          "evolutionBranches": []
         },
         {
           "id": "poltchageist-artisan",
@@ -231326,12 +230854,8 @@ window.POKEMON_DATA = {
           "locationsByGame": {},
           "evolutionDetails": [
             {
-              "to": "sinistcha",
+              "to": "sinistcha-masterpiece",
               "methods": [
-                {
-                  "trigger": "use-item",
-                  "item": "unremarkable-teacup"
-                },
                 {
                   "trigger": "use-item",
                   "item": "masterpiece-teacup"
@@ -231341,8 +230865,8 @@ window.POKEMON_DATA = {
           ],
           "evolutionBranches": [
             [
-              "poltchageist",
-              "sinistcha"
+              "poltchageist-artisan",
+              "sinistcha-masterpiece"
             ]
           ]
         },
@@ -231407,12 +230931,7 @@ window.POKEMON_DATA = {
           ],
           "locationsByGame": {},
           "evolutionDetails": [],
-          "evolutionBranches": [
-            [
-              "poltchageist",
-              "sinistcha"
-            ]
-          ]
+          "evolutionBranches": []
         },
         {
           "id": "sinistcha-masterpiece",
@@ -231477,8 +230996,8 @@ window.POKEMON_DATA = {
           "evolutionDetails": [],
           "evolutionBranches": [
             [
-              "poltchageist",
-              "sinistcha"
+              "poltchageist-artisan",
+              "sinistcha-masterpiece"
             ]
           ]
         }
