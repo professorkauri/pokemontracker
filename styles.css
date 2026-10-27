@@ -1251,9 +1251,9 @@ main {
   display: grid;
   justify-items: center;
   gap: 3px;
-  color: var(--muted);
+  color: var(--green);
   font-size: 0.62rem;
-  font-weight: 800;
+  font-weight: normal;
 }
 .pokemon-info-artwork .pokemon {
   width: 92px;
@@ -1285,16 +1285,17 @@ main {
 .pokemon-info-status.home { border-color: var(--teal); background: rgb(189 239 231 / 0.35); }
 .pokemon-info-egg-groups {
   margin: 10px 0 0;
-  color: var(--green-dark);
-  font-size: 0.78rem;
-  font-weight: bold;
-  text-align:center;
+  color: var(--navy);
+    font-size: 0.7rem;
+    font-weight: normal;
+    text-align: center;
 
   & span {
     color:var(--green);
     font-style:italic;
     font-weight:normal;
     font-size:0.8em;
+    display:block;
   }
 }
 .pokemon-info section {
@@ -1458,6 +1459,26 @@ main {
   width: 48px;
   height: 48px;
   object-fit: contain;
+}
+.evolution-types {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 2px;
+}
+.evolution-types img {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  border-radius:3px;
+
+  &:has(+ &) {
+    border-radius:3px 0 0 3px;
+  }
+
+  & + & {
+    border-radius: 0 3px 3px 0;
+  }
 }
 .evolution-target { cursor: pointer; }
 .evolution-target:hover { background: var(--green); color: var(--white); }

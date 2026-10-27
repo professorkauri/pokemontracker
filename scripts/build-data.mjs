@@ -184,7 +184,7 @@ const rawForms = [
   ['Alola Forms', [P('oricorio-baile','Oricorio Baile'),P('oricorio-pom-pom','Oricorio Pom-Pom'),P('oricorio-pau','Oricorio Pa’u'),P('oricorio-sensu','Oricorio Sensu'),P('lycanroc-midday','Lycanroc Midday'),P('lycanroc-midnight','Lycanroc Midnight'),P('lycanroc-dusk','Lycanroc Dusk'),P('minior-red','Minior Red Core'),P('minior-orange','Minior Orange Core'),P('minior-yellow','Minior Yellow Core'),P('minior-green','Minior Green Core'),P('minior-blue','Minior Blue Core'),P('minior-indigo','Minior Indigo Core'),P('minior-violet','Minior Violet Core')]],
   ['Galar Forms', [P('corsola-galar','Galarian Corsola'),P('cursola','Cursola'),P('farfetchd-galar','Galarian Farfetch’d'),P('sirfetchd','Sirfetch’d'),P('meowth-galar','Galarian Meowth'),P('perrserker','Perrserker'),P('mr-mime-galar','Galarian Mr. Mime'),P('mr-rime','Mr. Rime'),P('yamask','Yamask'),P('yamask-galar','Galarian Yamask'),P('stunfisk','Stunfisk'),P('stunfisk-galar','Galarian Stunfisk'),P('darumaka','Darumaka'),P('darumaka-galar','Galarian Darumaka'),P('darmanitan-galar-standard','Galarian Darmanitan'),P('toxtricity-amped','Toxtricity Amped'),P('toxtricity-low-key','Toxtricity Low Key'),P('sinistea','Sinistea Phony Form'),P('sinistea-antique','Sinistea Antique Form'),P('polteageist','Polteageist Phony Form'),P('polteageist-antique','Polteageist Antique Form'),P('urshifu-single-strike','Urshifu Single Strike'),P('urshifu-rapid-strike','Urshifu Rapid Strike'),P('alcremie-vanilla-strawberry','Alcremie Vanilla Cream · Strawberry Sweet','alcremie'),P('alcremie-mint-berry','Alcremie Mint Cream · Berry Sweet','alcremie'),P('alcremie-ruby-swirl-love','Alcremie Ruby Swirl · Love Sweet','alcremie'),P('alcremie-ruby-love','Alcremie Ruby Cream · Love Sweet','alcremie'),P('alcremie-rainbow-love','Alcremie Rainbow Swirl · Love Sweet','alcremie'),P('alcremie-lemon-star','Alcremie Lemon Cream · Star Sweet','alcremie'),P('alcremie-matcha-clover','Alcremie Matcha Cream · Clover Sweet','alcremie'),P('alcremie-caramel-flower','Alcremie Caramel Swirl · Flower Sweet','alcremie'),P('alcremie-salted-ribbon','Alcremie Salted Cream · Ribbon Sweet','alcremie')]],
   ['Hisui Forms', [P('growlithe-hisui','Hisuian Growlithe'),P('arcanine-hisui','Hisuian Arcanine'),P('voltorb-hisui','Hisuian Voltorb'),P('electrode-hisui','Hisuian Electrode'),P('basculin-white-striped','Basculin White-Striped'),P('samurott-hisui','Hisuian Samurott'),P('lilligant-hisui','Hisuian Lilligant'),P('zorua-hisui','Hisuian Zorua'),P('zoroark-hisui','Hisuian Zoroark'),P('braviary-hisui','Hisuian Braviary'),P('sliggoo-hisui','Hisuian Sliggoo'),P('goodra-hisui','Hisuian Goodra'),P('avalugg-hisui','Hisuian Avalugg'),P('decidueye-hisui','Hisuian Decidueye'),P('enamorus-incarnate','Enamorus Incarnate'),P('enamorus-therian','Enamorus Therian')]],
-  ['Paldea & Convergent Forms', [P('squawkabilly-green-plumage','Squawkabilly Green'),P('squawkabilly-blue-plumage','Squawkabilly Blue'),P('squawkabilly-yellow-plumage','Squawkabilly Yellow'),P('squawkabilly-white-plumage','Squawkabilly White'),P('tatsugiri-curly','Tatsugiri Curly'),P('tatsugiri-droopy','Tatsugiri Droopy'),P('tatsugiri-stretchy','Tatsugiri Stretchy'),P('dudunsparce-two-segment','Dudunsparce Two Segment'),P('dudunsparce-three-segment','Dudunsparce Three Segment'),P('gimmighoul','Gimmighoul Chest'),P('gimmighoul-roaming','Gimmighoul Roaming'),P('poltchageist','Poltchageist Counterfeit Form'),P('poltchageist-artisan','Poltchageist Artisan Form'),P('sinistcha','Sinistcha Unremarkable Form'),P('sinistcha-masterpiece','Sinistcha Masterpiece Form'),P('tentacool','Tentacool'),P('toedscool','Toedscool'),P('tentacruel','Tentacruel'),P('toedscruel','Toedscruel'),P('diglett','Diglett'),P('wiglett','Wiglett'),P('dugtrio','Dugtrio'),P('wugtrio','Wugtrio')]]
+  ['Paldea & Convergent Forms', [P('squawkabilly-green-plumage','Squawkabilly Green'),P('squawkabilly-blue-plumage','Squawkabilly Blue'),P('squawkabilly-yellow-plumage','Squawkabilly Yellow'),P('squawkabilly-white-plumage','Squawkabilly White'),P('tatsugiri-curly','Tatsugiri Curly'),P('tatsugiri-droopy','Tatsugiri Droopy'),P('tatsugiri-stretchy','Tatsugiri Stretchy'),P('dudunsparce-two-segment','Dudunsparce Two Segment'),P('dudunsparce-three-segment','Dudunsparce Three Segment'),P('maushold-family-of-three','Maushold Family of Three'),P('maushold-family-of-four','Maushold Family of Four'),P('gimmighoul','Gimmighoul Chest'),P('gimmighoul-roaming','Gimmighoul Roaming'),P('poltchageist','Poltchageist Counterfeit Form'),P('poltchageist-artisan','Poltchageist Artisan Form'),P('sinistcha','Sinistcha Unremarkable Form'),P('sinistcha-masterpiece','Sinistcha Masterpiece Form'),P('tentacool','Tentacool'),P('toedscool','Toedscool'),P('tentacruel','Tentacruel'),P('toedscruel','Toedscruel'),P('diglett','Diglett'),P('wiglett','Wiglett'),P('dugtrio','Dugtrio'),P('wugtrio','Wugtrio')]]
 ];
 const galarFormSet = rawForms.find(([name]) => name === 'Galar Forms');
 const alcremieFormSet = galarFormSet[1].filter(form => form.id.startsWith('alcremie-'));
@@ -212,7 +212,7 @@ const formSetDefaults = new Set([
   'furfrou-natural', 'pumpkaboo-average', 'gourgeist-average', 'oricorio-baile', 'lycanroc-midday',
   'toxtricity-amped', 'sinistea', 'polteageist', 'urshifu-single-strike', 'enamorus-incarnate',
   'squawkabilly-green-plumage', 'tatsugiri-curly', 'dudunsparce-two-segment', 'gimmighoul',
-  'poltchageist', 'sinistcha',
+  'poltchageist', 'sinistcha', 'maushold-family-of-three', 'maushold-family-of-four',
   'squawkabilly-green-plumage',
   'alcremie-vanilla-strawberry', 'alcremie-mint-berry', 'alcremie-ruby-swirl-love',
   'alcremie-ruby-love', 'alcremie-rainbow-love', 'alcremie-lemon-star',
@@ -266,22 +266,16 @@ const english = entries => entries?.find(entry => entry.language?.name === 'en')
   ?.replace(/[\n\f]/g, ' ').replace(/\s+/g, ' ').trim();
 const englishGenus = entries => entries?.find(entry => entry.language?.name === 'en')?.genus;
 function evolutionMethod(details) {
-  const method = {};
-  if (details.trigger?.name) method.trigger = details.trigger.name;
-  for (const [key, label] of [
-    ['min_level', 'minLevel'], ['min_happiness', 'minHappiness'], ['min_beauty', 'minBeauty'],
-    ['min_affection', 'minAffection'], ['time_of_day', 'timeOfDay'], ['known_move', 'knownMove'],
-    ['known_move_type', 'knownMoveType'], ['location', 'location'], ['held_item', 'heldItem'],
-    ['item', 'item'], ['gender', 'gender'], ['party_species', 'partySpecies'],
-    ['party_type', 'partyType'], ['needs_overworld_rain', 'needsOverworldRain'],
-    ['turn_upside_down', 'turnUpsideDown']
-  ]) {
-    const value = details[key];
-    if (value !== null && value !== undefined && value !== false && value !== '') {
-      method[label] = typeof value === 'object' ? value.name : value;
-    }
-  }
-  return method;
+  const camelCase = key => key.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+  const simplify = value => {
+    if (Array.isArray(value)) return value.map(simplify);
+    if (!value || typeof value !== 'object') return value;
+    if (value.name) return value.name;
+    return Object.fromEntries(Object.entries(value).map(([key, nested]) => [camelCase(key), simplify(nested)]));
+  };
+  return Object.fromEntries(Object.entries(details)
+    .filter(([, value]) => value !== null && value !== undefined && value !== '')
+    .map(([key, value]) => [camelCase(key), simplify(value)]));
 }
 function collectEvolutionData(chain) {
   const detailsBySpecies = new Map();

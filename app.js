@@ -20,6 +20,9 @@
   const nationalSpecies = DATA.boxes.filter(box => box.id.startsWith('dex-')).flatMap(box => box.pokemon);
   const allPokemon = DATA.boxes.flatMap(box => box.pokemon);
   const locationGameIds = new Set(allPokemon.flatMap(pokemon => Object.keys(pokemon.locationsByGame || {})));
+  const EVOLUTION_FAMILY_OVERRIDES = new Map([
+    ['tyrogue', new Set(['tyrogue', 'hitmonlee', 'hitmonchan', 'hitmontop'])]
+  ]);
   const allGames = DATA.games?.length
     ? [...DATA.games.filter(game => locationGameIds.has(game)), ...[...locationGameIds].filter(game => !DATA.games.includes(game))]
     : [...locationGameIds].sort();
@@ -495,11 +498,18 @@
 
   function evolutionBySpeciesForPopup(pokemon) {
     const base = baseSpeciesId(pokemon);
+    const family = base === 'milcery' || base === 'alcremie'
+      ? new Set(allPokemon.filter(entry => entry.id === 'milcery' || entry.imageId === 'alcremie').map(entry => entry.id))
+      : EVOLUTION_FAMILY_OVERRIDES.get(base)
+        || [...EVOLUTION_FAMILY_OVERRIDES.values()].find(ids => ids.has(base))
+        || new Set([base]);
     const branches = allPokemon
-      .filter(entry => baseSpeciesId(entry) === base)
+      .filter(entry => family.has(entry.id) || family.has(baseSpeciesId(entry)))
       .flatMap(entry => entry.evolutionBranches || []);
     return [...new Map(branches.map(branch => [branch.join('|'), branch])).values()]
-      .filter(branch => branch.some(id => baseSpeciesId(allPokemon.find(entry => entry.id === id) || { id }) === base));
+      .filter(branch => family.size > 1
+        ? branch.some(id => family.has(id))
+        : branch.some(id => baseSpeciesId(allPokemon.find(entry => entry.id === id) || { id }) === base));
   }
 
   function evolutionMethodFor(fromId, toId) {
@@ -514,11 +524,14 @@
     const cells = [];
     const nodeMarkup = id => {
       const target = findPokemonBox(id)?.pokemon || allPokemon.find(entry => entry.id === id);
-      const image = `<img src="${imagePath(id, 'regular')}" alt="" loading="lazy">`;
+      const image = `<img src="${imagePath(target?.imageId || id, 'regular')}" alt="" loading="lazy">`;
       const name = target?.name || titleCaseGame(id);
+      const typeSymbols = target?.types?.length
+        ? `<span class="evolution-types">${target.types.map(type => `<img src="images/types/scarlet-violet/symbols/${type}.png" alt="${titleCaseGame(type)} type" loading="lazy">`).join('')}</span>`
+        : '';
       return pokemon.id === id || !target
-        ? `<span class="evolution-current">${image}<span>${escapeHtml(name)}</span></span>`
-        : `<button type="button" class="evolution-target" data-pokemon-id="${escapeHtml(target.id)}">${image}<span>${escapeHtml(name)}</span></button>`;
+        ? `<span class="evolution-current">${image}<span>${escapeHtml(name)}</span>${typeSymbols}</span>`
+        : `<button type="button" class="evolution-target" data-pokemon-id="${escapeHtml(target.id)}">${image}<span>${escapeHtml(name)}</span>${typeSymbols}</button>`;
     };
     const methodMarkup = (fromId, toId) => {
       const methods = evolutionMethodFor(fromId, toId);
@@ -526,11 +539,48 @@
       const groups = new Map();
       for (const method of methods) {
         const trigger = method.trigger ? titleCaseGame(method.trigger) : 'Special method';
-        const detail = method.location ? titleCaseGame(method.location) : method.item ? titleCaseGame(method.item)
-          : method.minLevel ? `Lv. ${method.minLevel}` : method.minHappiness ? `${method.minHappiness} happiness`
-            : method.minAffection ? `${method.minAffection} affection` : '';
+        const details = [];
+        if (method.item) details.push(titleCaseGame(method.item));
+        if (method.heldItem) details.push(`Holding ${titleCaseGame(method.heldItem)}`);
+        if (method.minLevel) details.push(`Lv. ${method.minLevel}`);
+        if (method.minHappiness) details.push(`${method.minHappiness} happiness`);
+        if (method.minBeauty) details.push(`${method.minBeauty} beauty`);
+        if (method.minAffection) details.push(`${method.minAffection} affection`);
+        if (method.timeOfDay) details.push(`During ${titleCaseGame(method.timeOfDay)}`);
+        if (method.needsOverworldRain) details.push('During Rain');
+        if (method.turnUpsideDown) details.push('Turning Console Upside Down');
+        if (method.location) details.push(titleCaseGame(method.location));
+        if (method.region) details.push(titleCaseGame(method.region));
+        if (method.knownMove) details.push(`Knowing ${titleCaseGame(method.knownMove)}`);
+        if (method.knownMoveType) details.push(`Knowing a ${titleCaseGame(method.knownMoveType)} move`);
+        if (method.gender !== undefined && method.gender !== null) {
+          const genders = { 1: 'Female', 2: 'Male' };
+          details.push(genders[method.gender] || String(method.gender));
+        }
+        if (method.partySpecies) details.push(`With ${titleCaseGame(method.partySpecies)} in party`);
+        if (method.partyType) details.push(`With a ${titleCaseGame(method.partyType)} type in party`);
+        if (method.usedMove) details.push(`Using ${titleCaseGame(method.usedMove)}`);
+        if (method.tradeSpecies) details.push(`Trade for ${titleCaseGame(method.tradeSpecies)}`);
+        if (method.minMoveCount) details.push(`${method.minMoveCount} move uses`);
+        if (method.minSteps) details.push(`${method.minSteps} steps`);
+        if (method.minDamageTaken) details.push(`${method.minDamageTaken} damage taken`);
+        if (method.relativePhysicalStats !== undefined && method.relativePhysicalStats !== null) {
+          const physicalStats = { '-1': 'Lower Attack', '0': 'Equal Attack and Defense', '1': 'Higher Attack' };
+          details.push(physicalStats[String(method.relativePhysicalStats)] || String(method.relativePhysicalStats));
+        }
+        if (method.allowedNatures?.length) details.push(`Nature: ${method.allowedNatures.map(titleCaseGame).join(', ')}`);
+        if (method.nearSpecialRock) details.push('Near a special rock');
+        if (method.needsMultiplayer) details.push('With multiplayer');
+        if (method.conditionExpression) {
+          const condition = typeof method.conditionExpression === 'object'
+            ? method.conditionExpression.expression
+              + (method.conditionExpression.percentageChance !== null && method.conditionExpression.percentageChance !== undefined
+                ? ` (${method.conditionExpression.percentageChance}% chance)` : '')
+            : method.conditionExpression;
+          details.push(`Condition: ${String(condition)}`);
+        }
         if (!groups.has(trigger)) groups.set(trigger, []);
-        if (detail && !groups.get(trigger).includes(detail)) groups.get(trigger).push(detail);
+        for (const detail of details) if (!groups.get(trigger).includes(detail)) groups.get(trigger).push(detail);
       }
       return `<span class="evolution-method">${[...groups].map(([trigger, details]) => `<span class="evolution-method-group"><span class="evolution-trigger">${escapeHtml(trigger)}</span><span class="evolution-method-details">${details.map(escapeHtml).join('<br>')}</span></span>`).join('')}</span>`;
     };

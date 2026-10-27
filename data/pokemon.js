@@ -254,8 +254,14 @@ window.POKEMON_DATA = {
               "to": "ivysaur",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -474,8 +480,14 @@ window.POKEMON_DATA = {
               "to": "venusaur",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -953,8 +965,14 @@ window.POKEMON_DATA = {
               "to": "charmeleon",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -1181,8 +1199,14 @@ window.POKEMON_DATA = {
               "to": "charizard",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -1728,8 +1752,14 @@ window.POKEMON_DATA = {
               "to": "wartortle",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -1947,8 +1977,14 @@ window.POKEMON_DATA = {
               "to": "blastoise",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -2536,8 +2572,14 @@ window.POKEMON_DATA = {
               "to": "metapod",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 7
+                  "minLevel": 7,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -2898,8 +2940,14 @@ window.POKEMON_DATA = {
               "to": "butterfree",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 10
+                  "minLevel": 10,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -3530,8 +3578,14 @@ window.POKEMON_DATA = {
               "to": "kakuna",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 7
+                  "minLevel": 7,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -3811,8 +3865,14 @@ window.POKEMON_DATA = {
               "to": "beedrill",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 10
+                  "minLevel": 10,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -4504,8 +4564,14 @@ window.POKEMON_DATA = {
               "to": "pidgeotto",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -4862,8 +4928,14 @@ window.POKEMON_DATA = {
               "to": "pidgeot",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -5676,8 +5748,14 @@ window.POKEMON_DATA = {
               "to": "raticate",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -6580,8 +6658,14 @@ window.POKEMON_DATA = {
               "to": "fearow",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -7270,8 +7354,14 @@ window.POKEMON_DATA = {
               "to": "arbok",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -7980,8 +8070,15 @@ window.POKEMON_DATA = {
               "to": "raichu",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "pikachu"
                 }
               ]
             },
@@ -7989,8 +8086,17 @@ window.POKEMON_DATA = {
               "to": "raichu-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "alola",
+                  "requiredPokemonForm": "pikachu",
+                  "evolvedPokemonForm": "raichu-alola"
                 }
               ]
             }
@@ -8659,8 +8765,14 @@ window.POKEMON_DATA = {
               "to": "sandslash",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -9331,8 +9443,14 @@ window.POKEMON_DATA = {
               "to": "nidorina",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -9651,8 +9769,14 @@ window.POKEMON_DATA = {
               "to": "nidoqueen",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "moon-stone",
                   "trigger": "use-item",
-                  "item": "moon-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -10206,8 +10330,14 @@ window.POKEMON_DATA = {
               "to": "nidorino",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -10525,8 +10655,14 @@ window.POKEMON_DATA = {
               "to": "nidoking",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "moon-stone",
                   "trigger": "use-item",
-                  "item": "moon-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -11205,8 +11341,14 @@ window.POKEMON_DATA = {
               "to": "clefable",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "moon-stone",
                   "trigger": "use-item",
-                  "item": "moon-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -11893,8 +12035,14 @@ window.POKEMON_DATA = {
               "to": "ninetales",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "fire-stone",
                   "trigger": "use-item",
-                  "item": "fire-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -12595,8 +12743,14 @@ window.POKEMON_DATA = {
               "to": "wigglytuff",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "moon-stone",
                   "trigger": "use-item",
-                  "item": "moon-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -13799,8 +13953,14 @@ window.POKEMON_DATA = {
               "to": "golbat",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -14656,8 +14816,14 @@ window.POKEMON_DATA = {
               "to": "crobat",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -15067,8 +15233,14 @@ window.POKEMON_DATA = {
               "to": "gloom",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 21
+                  "minLevel": 21,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -15424,8 +15596,14 @@ window.POKEMON_DATA = {
               "to": "vileplume",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -15433,8 +15611,14 @@ window.POKEMON_DATA = {
               "to": "bellossom",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
+                  "item": "sun-stone",
                   "trigger": "use-item",
-                  "item": "sun-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -16056,8 +16240,14 @@ window.POKEMON_DATA = {
               "to": "parasect",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -16658,8 +16848,14 @@ window.POKEMON_DATA = {
               "to": "venomoth",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 31
+                  "minLevel": 31,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -17284,8 +17480,14 @@ window.POKEMON_DATA = {
               "to": "dugtrio",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -17953,8 +18155,14 @@ window.POKEMON_DATA = {
               "to": "persian",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -18811,8 +19019,14 @@ window.POKEMON_DATA = {
               "to": "golduck",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 33
+                  "minLevel": 33,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -19648,8 +19862,14 @@ window.POKEMON_DATA = {
               "to": "primeape",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -19922,7 +20142,15 @@ window.POKEMON_DATA = {
               "to": "annihilape",
               "methods": [
                 {
-                  "trigger": "use-move"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "use-move",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "usedMove": "rage-fist",
+                  "minMoveCount": 20
                 }
               ]
             }
@@ -20283,8 +20511,14 @@ window.POKEMON_DATA = {
               "to": "arcanine",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "fire-stone",
                   "trigger": "use-item",
-                  "item": "fire-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -21239,8 +21473,14 @@ window.POKEMON_DATA = {
               "to": "poliwhirl",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -21748,8 +21988,14 @@ window.POKEMON_DATA = {
               "to": "poliwrath",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "water-stone",
                   "trigger": "use-item",
-                  "item": "water-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -21757,8 +22003,14 @@ window.POKEMON_DATA = {
               "to": "politoed",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "kings-rock"
+                  "heldItem": "kings-rock",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -22503,8 +22755,14 @@ window.POKEMON_DATA = {
               "to": "kadabra",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -22854,7 +23112,13 @@ window.POKEMON_DATA = {
               "to": "alakazam",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -23582,8 +23846,14 @@ window.POKEMON_DATA = {
               "to": "machoke",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -24047,7 +24317,13 @@ window.POKEMON_DATA = {
               "to": "machamp",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -24646,8 +24922,14 @@ window.POKEMON_DATA = {
               "to": "weepinbell",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 21
+                  "minLevel": 21,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -24934,8 +25216,14 @@ window.POKEMON_DATA = {
               "to": "victreebel",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -25895,8 +26183,14 @@ window.POKEMON_DATA = {
               "to": "tentacruel",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -27066,8 +27360,14 @@ window.POKEMON_DATA = {
               "to": "graveler",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -27614,7 +27914,13 @@ window.POKEMON_DATA = {
               "to": "golem",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -28181,8 +28487,14 @@ window.POKEMON_DATA = {
               "to": "rapidash",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -28893,8 +29205,14 @@ window.POKEMON_DATA = {
               "to": "slowbro",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -28902,8 +29220,14 @@ window.POKEMON_DATA = {
               "to": "slowking",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "kings-rock"
+                  "heldItem": "kings-rock",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -29646,8 +29970,14 @@ window.POKEMON_DATA = {
               "to": "magneton",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -30021,32 +30351,74 @@ window.POKEMON_DATA = {
               "to": "magnezone",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "mt-coronet"
+                  "location": "mt-coronet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "chargestone-cave"
+                  "location": "chargestone-cave",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "kalos-route-13"
+                  "location": "kalos-route-13",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "blush-mountain"
+                  "location": "blush-mountain",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "vast-poni-canyon"
+                  "location": "vast-poni-canyon",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "omega-ruby-alpha-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "new-mauville"
+                  "location": "new-mauville",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -30663,8 +31035,14 @@ window.POKEMON_DATA = {
               "to": "dodrio",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 31
+                  "minLevel": 31,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -31289,8 +31667,14 @@ window.POKEMON_DATA = {
               "to": "dewgong",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -31931,8 +32315,14 @@ window.POKEMON_DATA = {
               "to": "muk",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -32738,8 +33128,14 @@ window.POKEMON_DATA = {
               "to": "cloyster",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "water-stone",
                   "trigger": "use-item",
-                  "item": "water-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -33563,8 +33959,14 @@ window.POKEMON_DATA = {
               "to": "haunter",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -34035,7 +34437,13 @@ window.POKEMON_DATA = {
               "to": "gengar",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -34828,8 +35236,14 @@ window.POKEMON_DATA = {
               "to": "steelix",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "metal-coat"
+                  "heldItem": "metal-coat",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -35138,8 +35552,14 @@ window.POKEMON_DATA = {
               "to": "hypno",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -35926,8 +36346,14 @@ window.POKEMON_DATA = {
               "to": "kingler",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -36646,8 +37072,14 @@ window.POKEMON_DATA = {
               "to": "electrode",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -37394,8 +37826,14 @@ window.POKEMON_DATA = {
               "to": "exeggutor",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -37403,8 +37841,16 @@ window.POKEMON_DATA = {
               "to": "exeggutor-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "alola",
+                  "evolvedPokemonForm": "exeggutor-alola"
                 }
               ]
             }
@@ -38034,8 +38480,14 @@ window.POKEMON_DATA = {
               "to": "marowak",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -38043,9 +38495,17 @@ window.POKEMON_DATA = {
               "to": "marowak-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 28,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false,
+                  "region": "alola",
+                  "evolvedPokemonForm": "marowak-alola"
                 }
               ]
             }
@@ -39223,8 +39683,14 @@ window.POKEMON_DATA = {
               "to": "lickilicky",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "rollout"
+                  "knownMove": "rollout",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -39557,8 +40023,14 @@ window.POKEMON_DATA = {
               "to": "weezing",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -39566,8 +40038,16 @@ window.POKEMON_DATA = {
               "to": "weezing-galar",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "galar",
+                  "evolvedPokemonForm": "weezing-galar"
                 }
               ]
             }
@@ -40250,8 +40730,14 @@ window.POKEMON_DATA = {
               "to": "rhydon",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -40605,8 +41091,14 @@ window.POKEMON_DATA = {
               "to": "rhyperior",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "protector"
+                  "heldItem": "protector",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -41251,8 +41743,14 @@ window.POKEMON_DATA = {
               "to": "blissey",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -41624,8 +42122,14 @@ window.POKEMON_DATA = {
               "to": "tangrowth",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "ancient-power"
+                  "knownMove": "ancient-power",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -42416,8 +42920,14 @@ window.POKEMON_DATA = {
               "to": "seadra",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -42789,8 +43299,14 @@ window.POKEMON_DATA = {
               "to": "kingdra",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "dragon-scale"
+                  "heldItem": "dragon-scale",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -43559,8 +44075,14 @@ window.POKEMON_DATA = {
               "to": "seaking",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 33
+                  "minLevel": 33,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -44574,8 +45096,14 @@ window.POKEMON_DATA = {
               "to": "starmie",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "water-stone",
                   "trigger": "use-item",
-                  "item": "water-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -45548,8 +46076,14 @@ window.POKEMON_DATA = {
               "to": "scizor",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "metal-coat"
+                  "heldItem": "metal-coat",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -45557,8 +46091,14 @@ window.POKEMON_DATA = {
               "to": "kleavor",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
+                  "item": "black-augurite",
                   "trigger": "use-item",
-                  "item": "black-augurite"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -46210,8 +46750,14 @@ window.POKEMON_DATA = {
               "to": "electivire",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "electirizer"
+                  "heldItem": "electirizer",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -46544,8 +47090,14 @@ window.POKEMON_DATA = {
               "to": "magmortar",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "magmarizer"
+                  "heldItem": "magmarizer",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -48716,8 +49268,14 @@ window.POKEMON_DATA = {
               "to": "gyarados",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -50708,8 +51266,15 @@ window.POKEMON_DATA = {
               "to": "vaporeon",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "water-stone",
                   "trigger": "use-item",
-                  "item": "water-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50717,8 +51282,15 @@ window.POKEMON_DATA = {
               "to": "jolteon",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50726,8 +51298,15 @@ window.POKEMON_DATA = {
               "to": "flareon",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
+                  "item": "fire-stone",
                   "trigger": "use-item",
-                  "item": "fire-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50735,9 +51314,16 @@ window.POKEMON_DATA = {
               "to": "espeon",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minHappiness": 160,
-                  "timeOfDay": "day"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "day",
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50745,9 +51331,16 @@ window.POKEMON_DATA = {
               "to": "umbreon",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minHappiness": 160,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50755,8 +51348,15 @@ window.POKEMON_DATA = {
               "to": "leafeon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "eterna-forest"
+                  "location": "eterna-forest",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50764,8 +51364,15 @@ window.POKEMON_DATA = {
               "to": "leafeon",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "pinwheel-forest"
+                  "location": "pinwheel-forest",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50773,8 +51380,15 @@ window.POKEMON_DATA = {
               "to": "leafeon",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "kalos-route-20"
+                  "location": "kalos-route-20",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50782,8 +51396,15 @@ window.POKEMON_DATA = {
               "to": "leafeon",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50791,8 +51412,15 @@ window.POKEMON_DATA = {
               "to": "leafeon",
               "methods": [
                 {
+                  "versionGroup": "omega-ruby-alpha-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "petalburg-woods"
+                  "location": "petalburg-woods",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50800,8 +51428,15 @@ window.POKEMON_DATA = {
               "to": "leafeon",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "lush-jungle"
+                  "location": "lush-jungle",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50809,8 +51444,15 @@ window.POKEMON_DATA = {
               "to": "glaceon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "sinnoh-route-217"
+                  "location": "sinnoh-route-217",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50818,8 +51460,15 @@ window.POKEMON_DATA = {
               "to": "glaceon",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "twist-mountain"
+                  "location": "twist-mountain",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50827,8 +51476,15 @@ window.POKEMON_DATA = {
               "to": "glaceon",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "frost-cavern"
+                  "location": "frost-cavern",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50836,8 +51492,15 @@ window.POKEMON_DATA = {
               "to": "glaceon",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "ice-stone",
                   "trigger": "use-item",
-                  "item": "ice-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50845,8 +51508,15 @@ window.POKEMON_DATA = {
               "to": "glaceon",
               "methods": [
                 {
+                  "versionGroup": "omega-ruby-alpha-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "shoal-cave"
+                  "location": "shoal-cave",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50854,8 +51524,15 @@ window.POKEMON_DATA = {
               "to": "glaceon",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "mount-lanakila"
+                  "location": "mount-lanakila",
+                  "nearSpecialRock": true,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50863,9 +51540,16 @@ window.POKEMON_DATA = {
               "to": "sylveon",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": false,
                   "trigger": "level-up",
+                  "knownMoveType": "fairy",
                   "minAffection": 2,
-                  "knownMoveType": "fairy"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             },
@@ -50873,9 +51557,16 @@ window.POKEMON_DATA = {
               "to": "sylveon",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "knownMoveType": "fairy",
                   "minHappiness": 160,
-                  "knownMoveType": "fairy"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "eevee"
                 }
               ]
             }
@@ -51991,8 +52682,14 @@ window.POKEMON_DATA = {
               "to": "porygon2",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "up-grade"
+                  "heldItem": "up-grade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -52284,8 +52981,14 @@ window.POKEMON_DATA = {
               "to": "omastar",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -52788,8 +53491,14 @@ window.POKEMON_DATA = {
               "to": "kabutops",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -54964,8 +55673,14 @@ window.POKEMON_DATA = {
               "to": "dragonair",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -55301,8 +56016,14 @@ window.POKEMON_DATA = {
               "to": "dragonite",
               "methods": [
                 {
+                  "versionGroup": "red-blue",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 55
+                  "minLevel": 55,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -56246,8 +56967,14 @@ window.POKEMON_DATA = {
               "to": "bayleef",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -56414,8 +57141,14 @@ window.POKEMON_DATA = {
               "to": "meganium",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -56771,12 +57504,25 @@ window.POKEMON_DATA = {
               "to": "quilava",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 14
+                  "minLevel": 14,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui"
                 }
               ]
             }
@@ -56951,8 +57697,14 @@ window.POKEMON_DATA = {
               "to": "typhlosion",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -56960,8 +57712,16 @@ window.POKEMON_DATA = {
               "to": "typhlosion-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui",
+                  "evolvedPokemonForm": "typhlosion-hisui"
                 }
               ]
             }
@@ -57322,8 +58082,14 @@ window.POKEMON_DATA = {
               "to": "croconaw",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -57490,8 +58256,14 @@ window.POKEMON_DATA = {
               "to": "feraligatr",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -57864,8 +58636,14 @@ window.POKEMON_DATA = {
               "to": "furret",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 15
+                  "minLevel": 15,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -58479,8 +59257,14 @@ window.POKEMON_DATA = {
               "to": "noctowl",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -59132,8 +59916,14 @@ window.POKEMON_DATA = {
               "to": "ledian",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -59656,8 +60446,14 @@ window.POKEMON_DATA = {
               "to": "ariados",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -60606,8 +61402,14 @@ window.POKEMON_DATA = {
               "to": "lanturn",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 27
+                  "minLevel": 27,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -61254,8 +62056,14 @@ window.POKEMON_DATA = {
               "to": "pikachu",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 220
+                  "minHappiness": 220,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -61545,8 +62353,14 @@ window.POKEMON_DATA = {
               "to": "clefairy",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -61815,8 +62629,14 @@ window.POKEMON_DATA = {
               "to": "jigglypuff",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -62071,8 +62891,14 @@ window.POKEMON_DATA = {
               "to": "togetic",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -62280,8 +63106,14 @@ window.POKEMON_DATA = {
               "to": "togekiss",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -62579,8 +63411,14 @@ window.POKEMON_DATA = {
               "to": "xatu",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -63101,8 +63939,14 @@ window.POKEMON_DATA = {
               "to": "flaaffy",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 15
+                  "minLevel": 15,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -63324,8 +64168,14 @@ window.POKEMON_DATA = {
               "to": "ampharos",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -64037,8 +64887,14 @@ window.POKEMON_DATA = {
               "to": "azumarill",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -65115,8 +65971,14 @@ window.POKEMON_DATA = {
               "to": "skiploom",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -65312,8 +66174,14 @@ window.POKEMON_DATA = {
               "to": "jumpluff",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 27
+                  "minLevel": 27,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -65818,8 +66686,14 @@ window.POKEMON_DATA = {
               "to": "ambipom",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "double-hit"
+                  "knownMove": "double-hit",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -66062,8 +66936,14 @@ window.POKEMON_DATA = {
               "to": "sunflora",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
+                  "item": "sun-stone",
                   "trigger": "use-item",
-                  "item": "sun-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -66475,8 +67355,14 @@ window.POKEMON_DATA = {
               "to": "yanmega",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "ancient-power"
+                  "knownMove": "ancient-power",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -66799,8 +67685,14 @@ window.POKEMON_DATA = {
               "to": "quagsire",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -67952,8 +68844,14 @@ window.POKEMON_DATA = {
               "to": "honchkrow",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
+                  "item": "dusk-stone",
                   "trigger": "use-item",
-                  "item": "dusk-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -68440,8 +69338,14 @@ window.POKEMON_DATA = {
               "to": "mismagius",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
+                  "item": "dusk-stone",
                   "trigger": "use-item",
-                  "item": "dusk-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -69227,8 +70131,14 @@ window.POKEMON_DATA = {
               "to": "farigiraf",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "twin-beam"
+                  "knownMove": "twin-beam",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -69568,8 +70478,14 @@ window.POKEMON_DATA = {
               "to": "forretress",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 31
+                  "minLevel": 31,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -70075,8 +70991,22 @@ window.POKEMON_DATA = {
               "to": "dudunsparce-two-segment",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "hyper-drill"
+                  "knownMove": "hyper-drill",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "dudunsparce-two-segment",
+                  "conditionExpression": {
+                    "expression": "EC 100 % 0 !=",
+                    "percentageChance": 99,
+                    "variables": [
+                      "encryption-constant"
+                    ]
+                  }
                 }
               ]
             },
@@ -70084,8 +71014,22 @@ window.POKEMON_DATA = {
               "to": "dudunsparce-three-segment",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "hyper-drill"
+                  "knownMove": "hyper-drill",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "dudunsparce-three-segment",
+                  "conditionExpression": {
+                    "expression": "EC 100 % 0 ==",
+                    "percentageChance": 1,
+                    "variables": [
+                      "encryption-constant"
+                    ]
+                  }
                 }
               ]
             }
@@ -70336,9 +71280,15 @@ window.POKEMON_DATA = {
               "to": "gliscor",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "heldItem": "razor-fang",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "razor-fang"
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -70857,8 +71807,14 @@ window.POKEMON_DATA = {
               "to": "granbull",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 23
+                  "minLevel": 23,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -72770,9 +73726,15 @@ window.POKEMON_DATA = {
               "to": "weavile",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "heldItem": "razor-claw",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "razor-claw"
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -72995,8 +73957,14 @@ window.POKEMON_DATA = {
               "to": "ursaring",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -73225,9 +74193,15 @@ window.POKEMON_DATA = {
               "to": "ursaluna",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
+                  "item": "peat-block",
                   "trigger": "use-item",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "full-moon",
-                  "item": "peat-block"
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -73481,8 +74455,14 @@ window.POKEMON_DATA = {
               "to": "magcargo",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -73981,8 +74961,14 @@ window.POKEMON_DATA = {
               "to": "piloswine",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 33
+                  "minLevel": 33,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -74257,8 +75243,14 @@ window.POKEMON_DATA = {
               "to": "mamoswine",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "ancient-power"
+                  "knownMove": "ancient-power",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -74929,8 +75921,14 @@ window.POKEMON_DATA = {
               "to": "octillery",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -76583,8 +77581,14 @@ window.POKEMON_DATA = {
               "to": "houndoom",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -77212,8 +78216,14 @@ window.POKEMON_DATA = {
               "to": "donphan",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -77612,8 +78622,14 @@ window.POKEMON_DATA = {
               "to": "porygon-z",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "dubious-disc"
+                  "heldItem": "dubious-disc",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -77846,7 +78862,15 @@ window.POKEMON_DATA = {
               "to": "wyrdeer",
               "methods": [
                 {
-                  "trigger": "agile-style-move"
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
+                  "trigger": "agile-style-move",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "usedMove": "psyshield-bash",
+                  "minMoveCount": 20
                 }
               ]
             }
@@ -78358,8 +79382,15 @@ window.POKEMON_DATA = {
               "to": "hitmonlee",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "relativePhysicalStats": 1,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -78367,8 +79398,15 @@ window.POKEMON_DATA = {
               "to": "hitmonchan",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "relativePhysicalStats": -1,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -78376,8 +79414,15 @@ window.POKEMON_DATA = {
               "to": "hitmontop",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "relativePhysicalStats": 0,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -78822,8 +79867,14 @@ window.POKEMON_DATA = {
               "to": "jynx",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -79097,8 +80148,14 @@ window.POKEMON_DATA = {
               "to": "electabuzz",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -79373,8 +80430,14 @@ window.POKEMON_DATA = {
               "to": "magmar",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -80955,8 +82018,14 @@ window.POKEMON_DATA = {
               "to": "pupitar",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -81187,8 +82256,14 @@ window.POKEMON_DATA = {
               "to": "tyranitar",
               "methods": [
                 {
+                  "versionGroup": "gold-silver",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 55
+                  "minLevel": 55,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -82130,8 +83205,14 @@ window.POKEMON_DATA = {
               "to": "grovyle",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -82297,8 +83378,14 @@ window.POKEMON_DATA = {
               "to": "sceptile",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -82620,8 +83707,14 @@ window.POKEMON_DATA = {
               "to": "combusken",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -82786,8 +83879,14 @@ window.POKEMON_DATA = {
               "to": "blaziken",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -83109,8 +84208,14 @@ window.POKEMON_DATA = {
               "to": "marshtomp",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -83276,8 +84381,14 @@ window.POKEMON_DATA = {
               "to": "swampert",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -83628,8 +84739,14 @@ window.POKEMON_DATA = {
               "to": "mightyena",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -84073,8 +85190,14 @@ window.POKEMON_DATA = {
               "to": "linoone",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -84598,12 +85721,38 @@ window.POKEMON_DATA = {
               "to": "silcoon",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "minLevel": 7
+                  "minLevel": 7,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "conditionExpression": {
+                    "expression": "PID 16 >> 10 % 4 <=",
+                    "percentageChance": 50,
+                    "variables": [
+                      "personality-value"
+                    ]
+                  }
                 },
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 7
+                  "minLevel": 7,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "conditionExpression": {
+                    "expression": "EC 16 >> 10 % 4 <=",
+                    "percentageChance": 50,
+                    "variables": [
+                      "encryption-constant"
+                    ]
+                  }
                 }
               ]
             },
@@ -84611,12 +85760,38 @@ window.POKEMON_DATA = {
               "to": "cascoon",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "minLevel": 7
+                  "minLevel": 7,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "conditionExpression": {
+                    "expression": "PID 16 >> 10 % 5 >=",
+                    "percentageChance": 50,
+                    "variables": [
+                      "personality-value"
+                    ]
+                  }
                 },
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 7
+                  "minLevel": 7,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "conditionExpression": {
+                    "expression": "EC 16 >> 10 % 5 >=",
+                    "percentageChance": 50,
+                    "variables": [
+                      "encryption-constant"
+                    ]
+                  }
                 }
               ]
             }
@@ -84817,8 +85992,14 @@ window.POKEMON_DATA = {
               "to": "beautifly",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 10
+                  "minLevel": 10,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -85200,8 +86381,14 @@ window.POKEMON_DATA = {
               "to": "dustox",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 10
+                  "minLevel": 10,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -85591,8 +86778,14 @@ window.POKEMON_DATA = {
               "to": "lombre",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 14
+                  "minLevel": 14,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -85839,8 +87032,14 @@ window.POKEMON_DATA = {
               "to": "ludicolo",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
+                  "item": "water-stone",
                   "trigger": "use-item",
-                  "item": "water-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -86232,8 +87431,14 @@ window.POKEMON_DATA = {
               "to": "nuzleaf",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 14
+                  "minLevel": 14,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -86463,8 +87668,14 @@ window.POKEMON_DATA = {
               "to": "shiftry",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -86822,8 +88033,14 @@ window.POKEMON_DATA = {
               "to": "swellow",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -87510,8 +88727,14 @@ window.POKEMON_DATA = {
               "to": "pelipper",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -88300,8 +89523,14 @@ window.POKEMON_DATA = {
               "to": "kirlia",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -88547,8 +89776,14 @@ window.POKEMON_DATA = {
               "to": "gardevoir",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -88556,9 +89791,15 @@ window.POKEMON_DATA = {
               "to": "gallade",
               "methods": [
                 {
-                  "trigger": "use-item",
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "item": "dawn-stone",
-                  "gender": 2
+                  "trigger": "use-item",
+                  "gender": 2,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -89031,8 +90272,14 @@ window.POKEMON_DATA = {
               "to": "masquerain",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -89440,8 +90687,14 @@ window.POKEMON_DATA = {
               "to": "breloom",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 23
+                  "minLevel": 23,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -89783,8 +91036,14 @@ window.POKEMON_DATA = {
               "to": "vigoroth",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -89954,8 +91213,14 @@ window.POKEMON_DATA = {
               "to": "slaking",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -90321,8 +91586,14 @@ window.POKEMON_DATA = {
               "to": "ninjask",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -90330,7 +91601,13 @@ window.POKEMON_DATA = {
               "to": "shedinja",
               "methods": [
                 {
-                  "trigger": "shed"
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
+                  "trigger": "shed",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -90919,8 +92196,14 @@ window.POKEMON_DATA = {
               "to": "loudred",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -91129,8 +92412,14 @@ window.POKEMON_DATA = {
               "to": "exploud",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -91632,8 +92921,14 @@ window.POKEMON_DATA = {
               "to": "hariyama",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -92077,8 +93372,14 @@ window.POKEMON_DATA = {
               "to": "marill",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -92356,32 +93657,74 @@ window.POKEMON_DATA = {
               "to": "probopass",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "mt-coronet"
+                  "location": "mt-coronet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "chargestone-cave"
+                  "location": "chargestone-cave",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "kalos-route-13"
+                  "location": "kalos-route-13",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "blush-mountain"
+                  "location": "blush-mountain",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "vast-poni-canyon"
+                  "location": "vast-poni-canyon",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "omega-ruby-alpha-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "new-mauville"
+                  "location": "new-mauville",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -92572,8 +93915,14 @@ window.POKEMON_DATA = {
               "to": "delcatty",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
+                  "item": "moon-stone",
                   "trigger": "use-item",
-                  "item": "moon-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -93579,8 +94928,14 @@ window.POKEMON_DATA = {
               "to": "lairon",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -93819,8 +95174,14 @@ window.POKEMON_DATA = {
               "to": "aggron",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -94274,8 +95635,14 @@ window.POKEMON_DATA = {
               "to": "medicham",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -94758,8 +96125,14 @@ window.POKEMON_DATA = {
               "to": "manectric",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -96149,8 +97522,14 @@ window.POKEMON_DATA = {
               "to": "roserade",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -96355,8 +97734,14 @@ window.POKEMON_DATA = {
               "to": "swalot",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -96777,8 +98162,14 @@ window.POKEMON_DATA = {
               "to": "sharpedo",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -97495,8 +98886,14 @@ window.POKEMON_DATA = {
               "to": "wailord",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -97999,8 +99396,14 @@ window.POKEMON_DATA = {
               "to": "camerupt",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 33
+                  "minLevel": 33,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -98709,8 +100112,14 @@ window.POKEMON_DATA = {
               "to": "grumpig",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -99411,8 +100820,14 @@ window.POKEMON_DATA = {
               "to": "vibrava",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -99634,8 +101049,14 @@ window.POKEMON_DATA = {
               "to": "flygon",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 45
+                  "minLevel": 45,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -100030,8 +101451,14 @@ window.POKEMON_DATA = {
               "to": "cacturne",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -100473,8 +101900,14 @@ window.POKEMON_DATA = {
               "to": "altaria",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -102136,8 +103569,14 @@ window.POKEMON_DATA = {
               "to": "whiscash",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -102828,8 +104267,14 @@ window.POKEMON_DATA = {
               "to": "crawdaunt",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -103339,8 +104784,14 @@ window.POKEMON_DATA = {
               "to": "claydol",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -103796,8 +105247,14 @@ window.POKEMON_DATA = {
               "to": "cradily",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -104203,8 +105660,14 @@ window.POKEMON_DATA = {
               "to": "armaldo",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -104665,16 +106128,34 @@ window.POKEMON_DATA = {
               "to": "milotic",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "minBeauty": 170
+                  "minBeauty": 170,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "prism-scale"
+                  "heldItem": "prism-scale",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "omega-ruby-alpha-sapphire",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "minBeauty": 170
+                  "minBeauty": 170,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -105621,8 +107102,14 @@ window.POKEMON_DATA = {
               "to": "banette",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -106095,8 +107582,14 @@ window.POKEMON_DATA = {
               "to": "dusclops",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -106327,8 +107820,14 @@ window.POKEMON_DATA = {
               "to": "dusknoir",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "reaper-cloth"
+                  "heldItem": "reaper-cloth",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -107313,8 +108812,14 @@ window.POKEMON_DATA = {
               "to": "wobbuffet",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 15
+                  "minLevel": 15,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -107656,8 +109161,14 @@ window.POKEMON_DATA = {
               "to": "glalie",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -107665,9 +109176,15 @@ window.POKEMON_DATA = {
               "to": "froslass",
               "methods": [
                 {
-                  "trigger": "use-item",
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "item": "dawn-stone",
-                  "gender": 1
+                  "trigger": "use-item",
+                  "gender": 1,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -108216,8 +109733,14 @@ window.POKEMON_DATA = {
               "to": "sealeo",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -108436,8 +109959,14 @@ window.POKEMON_DATA = {
               "to": "walrein",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 44
+                  "minLevel": 44,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -108849,8 +110378,14 @@ window.POKEMON_DATA = {
               "to": "huntail",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "deep-sea-tooth"
+                  "heldItem": "deep-sea-tooth",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -108858,8 +110393,14 @@ window.POKEMON_DATA = {
               "to": "gorebyss",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "deep-sea-scale"
+                  "heldItem": "deep-sea-scale",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -109989,8 +111530,14 @@ window.POKEMON_DATA = {
               "to": "shelgon",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -110209,8 +111756,14 @@ window.POKEMON_DATA = {
               "to": "salamence",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 50
+                  "minLevel": 50,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -110668,8 +112221,14 @@ window.POKEMON_DATA = {
               "to": "metang",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -110923,8 +112482,14 @@ window.POKEMON_DATA = {
               "to": "metagross",
               "methods": [
                 {
+                  "versionGroup": "ruby-sapphire",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 45
+                  "minLevel": 45,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -112904,8 +114469,14 @@ window.POKEMON_DATA = {
               "to": "grotle",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -113046,8 +114617,14 @@ window.POKEMON_DATA = {
               "to": "torterra",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -113324,8 +114901,14 @@ window.POKEMON_DATA = {
               "to": "monferno",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 14
+                  "minLevel": 14,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -113474,8 +115057,14 @@ window.POKEMON_DATA = {
               "to": "infernape",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -113753,8 +115342,14 @@ window.POKEMON_DATA = {
               "to": "prinplup",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -113896,8 +115491,14 @@ window.POKEMON_DATA = {
               "to": "empoleon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -114223,8 +115824,14 @@ window.POKEMON_DATA = {
               "to": "staravia",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 14
+                  "minLevel": 14,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -114422,8 +116029,14 @@ window.POKEMON_DATA = {
               "to": "staraptor",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -114815,8 +116428,14 @@ window.POKEMON_DATA = {
               "to": "bibarel",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 15
+                  "minLevel": 15,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -115190,8 +116809,14 @@ window.POKEMON_DATA = {
               "to": "kricketune",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 10
+                  "minLevel": 10,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -115618,8 +117243,14 @@ window.POKEMON_DATA = {
               "to": "luxio",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 15
+                  "minLevel": 15,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -115823,8 +117454,14 @@ window.POKEMON_DATA = {
               "to": "luxray",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -116235,9 +117872,15 @@ window.POKEMON_DATA = {
               "to": "roselia",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minHappiness": 160,
-                  "timeOfDay": "day"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "day",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -116618,8 +118261,14 @@ window.POKEMON_DATA = {
               "to": "rampardos",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -116968,8 +118617,14 @@ window.POKEMON_DATA = {
               "to": "bastiodon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -117334,9 +118989,15 @@ window.POKEMON_DATA = {
               "to": "mothim",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 2,
                   "minLevel": 20,
-                  "gender": 2
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -117859,9 +119520,15 @@ window.POKEMON_DATA = {
               "to": "vespiquen",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 1,
                   "minLevel": 21,
-                  "gender": 1
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -118470,8 +120137,14 @@ window.POKEMON_DATA = {
               "to": "floatzel",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -118963,8 +120636,14 @@ window.POKEMON_DATA = {
               "to": "cherrim",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -120036,8 +121715,14 @@ window.POKEMON_DATA = {
               "to": "drifblim",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -120499,8 +122184,14 @@ window.POKEMON_DATA = {
               "to": "lopunny",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -121151,8 +122842,14 @@ window.POKEMON_DATA = {
               "to": "purugly",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -121593,9 +123290,15 @@ window.POKEMON_DATA = {
               "to": "chimecho",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minHappiness": 220,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -121786,8 +123489,14 @@ window.POKEMON_DATA = {
               "to": "skuntank",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -122326,8 +124035,14 @@ window.POKEMON_DATA = {
               "to": "bronzong",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 33
+                  "minLevel": 33,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -122858,8 +124573,14 @@ window.POKEMON_DATA = {
               "to": "sudowoodo",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "mimic"
+                  "knownMove": "mimic",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -123100,8 +124821,14 @@ window.POKEMON_DATA = {
               "to": "mr-mime",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "mimic"
+                  "knownMove": "mimic",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -123109,8 +124836,16 @@ window.POKEMON_DATA = {
               "to": "mr-mime-galar",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "mimic"
+                  "knownMove": "mimic",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "galar",
+                  "evolvedPokemonForm": "mr-mime-galar"
                 }
               ]
             }
@@ -123401,9 +125136,15 @@ window.POKEMON_DATA = {
               "to": "chansey",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "heldItem": "oval-stone",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "oval-stone"
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -123973,8 +125714,14 @@ window.POKEMON_DATA = {
               "to": "gabite",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -124185,8 +125932,14 @@ window.POKEMON_DATA = {
               "to": "garchomp",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 48
+                  "minLevel": 48,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -124653,8 +126406,14 @@ window.POKEMON_DATA = {
               "to": "snorlax",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -124923,9 +126682,15 @@ window.POKEMON_DATA = {
               "to": "lucario",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minHappiness": 160,
-                  "timeOfDay": "day"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "day",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -125351,8 +127116,14 @@ window.POKEMON_DATA = {
               "to": "hippowdon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -125795,8 +127566,14 @@ window.POKEMON_DATA = {
               "to": "drapion",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -126270,8 +128047,14 @@ window.POKEMON_DATA = {
               "to": "toxicroak",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -126920,8 +128703,14 @@ window.POKEMON_DATA = {
               "to": "lumineon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 31
+                  "minLevel": 31,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -127416,8 +129205,14 @@ window.POKEMON_DATA = {
               "to": "mantine",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "partySpecies": "remoraid"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "partySpecies": "remoraid",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -127648,8 +129443,14 @@ window.POKEMON_DATA = {
               "to": "abomasnow",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -133312,8 +135113,14 @@ window.POKEMON_DATA = {
               "to": "servine",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -133419,8 +135226,14 @@ window.POKEMON_DATA = {
               "to": "serperior",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -133656,8 +135469,14 @@ window.POKEMON_DATA = {
               "to": "pignite",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -133765,8 +135584,14 @@ window.POKEMON_DATA = {
               "to": "emboar",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -134008,8 +135833,14 @@ window.POKEMON_DATA = {
               "to": "dewott",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -134125,8 +135956,14 @@ window.POKEMON_DATA = {
               "to": "samurott",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -134134,8 +135971,16 @@ window.POKEMON_DATA = {
               "to": "samurott-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui",
+                  "evolvedPokemonForm": "samurott-hisui"
                 }
               ]
             }
@@ -134390,8 +136235,14 @@ window.POKEMON_DATA = {
               "to": "watchog",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -134748,8 +136599,14 @@ window.POKEMON_DATA = {
               "to": "herdier",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -134932,8 +136789,14 @@ window.POKEMON_DATA = {
               "to": "stoutland",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -135283,8 +137146,14 @@ window.POKEMON_DATA = {
               "to": "liepard",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -135636,8 +137505,14 @@ window.POKEMON_DATA = {
               "to": "simisage",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -135869,8 +137744,14 @@ window.POKEMON_DATA = {
               "to": "simisear",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "fire-stone",
                   "trigger": "use-item",
-                  "item": "fire-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -136102,8 +137983,14 @@ window.POKEMON_DATA = {
               "to": "simipour",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "water-stone",
                   "trigger": "use-item",
-                  "item": "water-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -136383,8 +138270,14 @@ window.POKEMON_DATA = {
               "to": "musharna",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "moon-stone",
                   "trigger": "use-item",
-                  "item": "moon-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -136725,8 +138618,14 @@ window.POKEMON_DATA = {
               "to": "tranquill",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 21
+                  "minLevel": 21,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -136932,8 +138831,14 @@ window.POKEMON_DATA = {
               "to": "unfezant",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -137244,8 +139149,14 @@ window.POKEMON_DATA = {
               "to": "zebstrika",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 27
+                  "minLevel": 27,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -137608,8 +139519,14 @@ window.POKEMON_DATA = {
               "to": "boldore",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -137961,7 +139878,13 @@ window.POKEMON_DATA = {
               "to": "gigalith",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -138443,8 +140366,14 @@ window.POKEMON_DATA = {
               "to": "swoobat",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -138801,8 +140730,14 @@ window.POKEMON_DATA = {
               "to": "excadrill",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 31
+                  "minLevel": 31,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -139708,8 +141643,14 @@ window.POKEMON_DATA = {
               "to": "gurdurr",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -139905,7 +141846,13 @@ window.POKEMON_DATA = {
               "to": "conkeldurr",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -140230,8 +142177,14 @@ window.POKEMON_DATA = {
               "to": "palpitoad",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -140451,8 +142404,14 @@ window.POKEMON_DATA = {
               "to": "seismitoad",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -141110,8 +143069,14 @@ window.POKEMON_DATA = {
               "to": "swadloon",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -141256,8 +143221,14 @@ window.POKEMON_DATA = {
               "to": "leavanny",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 220
+                  "minHappiness": 220,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -141563,8 +143534,14 @@ window.POKEMON_DATA = {
               "to": "whirlipede",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -141726,8 +143703,14 @@ window.POKEMON_DATA = {
               "to": "scolipede",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -142101,8 +144084,14 @@ window.POKEMON_DATA = {
               "to": "whimsicott",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "sun-stone",
                   "trigger": "use-item",
-                  "item": "sun-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -142516,8 +144505,14 @@ window.POKEMON_DATA = {
               "to": "lilligant",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "sun-stone",
                   "trigger": "use-item",
-                  "item": "sun-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -142525,8 +144520,16 @@ window.POKEMON_DATA = {
               "to": "lilligant-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
+                  "item": "sun-stone",
                   "trigger": "use-item",
-                  "item": "sun-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui",
+                  "evolvedPokemonForm": "lilligant-hisui"
                 }
               ]
             }
@@ -143035,8 +145038,14 @@ window.POKEMON_DATA = {
               "to": "krokorok",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 29
+                  "minLevel": 29,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -143232,8 +145241,14 @@ window.POKEMON_DATA = {
               "to": "krookodile",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -143551,8 +145566,14 @@ window.POKEMON_DATA = {
               "to": "darmanitan",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -144046,8 +146067,14 @@ window.POKEMON_DATA = {
               "to": "crustle",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -144460,8 +146487,14 @@ window.POKEMON_DATA = {
               "to": "scrafty",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 39
+                  "minLevel": 39,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -144935,8 +146968,14 @@ window.POKEMON_DATA = {
               "to": "cofagrigus",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -145238,8 +147277,14 @@ window.POKEMON_DATA = {
               "to": "carracosta",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -145542,8 +147587,14 @@ window.POKEMON_DATA = {
               "to": "archeops",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -145881,8 +147932,14 @@ window.POKEMON_DATA = {
               "to": "garbodor",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -146258,8 +148315,14 @@ window.POKEMON_DATA = {
               "to": "zoroark",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -146623,8 +148686,14 @@ window.POKEMON_DATA = {
               "to": "cinccino",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -146960,8 +149029,14 @@ window.POKEMON_DATA = {
               "to": "gothorita",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -147124,8 +149199,14 @@ window.POKEMON_DATA = {
               "to": "gothitelle",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 41
+                  "minLevel": 41,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -147428,8 +149509,14 @@ window.POKEMON_DATA = {
               "to": "duosion",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -147591,8 +149678,14 @@ window.POKEMON_DATA = {
               "to": "reuniclus",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 41
+                  "minLevel": 41,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -147862,8 +149955,14 @@ window.POKEMON_DATA = {
               "to": "swanna",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -148246,8 +150345,14 @@ window.POKEMON_DATA = {
               "to": "vanillish",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -148476,8 +150581,14 @@ window.POKEMON_DATA = {
               "to": "vanilluxe",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 47
+                  "minLevel": 47,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -149380,7 +151491,14 @@ window.POKEMON_DATA = {
               "to": "escavalier",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "tradeSpecies": "shelmet",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -149707,8 +151825,14 @@ window.POKEMON_DATA = {
               "to": "amoonguss",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 39
+                  "minLevel": 39,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -149998,8 +152122,14 @@ window.POKEMON_DATA = {
               "to": "jellicent",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -150485,8 +152615,14 @@ window.POKEMON_DATA = {
               "to": "galvantula",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -150865,8 +153001,14 @@ window.POKEMON_DATA = {
               "to": "ferrothorn",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -151207,8 +153349,14 @@ window.POKEMON_DATA = {
               "to": "klang",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -151367,8 +153515,14 @@ window.POKEMON_DATA = {
               "to": "klinklang",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 49
+                  "minLevel": 49,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -151675,8 +153829,14 @@ window.POKEMON_DATA = {
               "to": "eelektrik",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 39
+                  "minLevel": 39,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -151791,8 +153951,14 @@ window.POKEMON_DATA = {
               "to": "eelektross",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -152093,8 +154259,14 @@ window.POKEMON_DATA = {
               "to": "beheeyem",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -152464,8 +154636,14 @@ window.POKEMON_DATA = {
               "to": "lampent",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 41
+                  "minLevel": 41,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -152639,8 +154817,14 @@ window.POKEMON_DATA = {
               "to": "chandelure",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "item": "dusk-stone",
                   "trigger": "use-item",
-                  "item": "dusk-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -152988,8 +155172,14 @@ window.POKEMON_DATA = {
               "to": "fraxure",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -153150,8 +155340,14 @@ window.POKEMON_DATA = {
               "to": "haxorus",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 48
+                  "minLevel": 48,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -153487,8 +155683,14 @@ window.POKEMON_DATA = {
               "to": "beartic",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -154044,7 +156246,14 @@ window.POKEMON_DATA = {
               "to": "accelgor",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "black-white",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "tradeSpecies": "karrablast",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -154579,8 +156788,14 @@ window.POKEMON_DATA = {
               "to": "mienshao",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 50
+                  "minLevel": 50,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -155154,8 +157369,14 @@ window.POKEMON_DATA = {
               "to": "golurk",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 43
+                  "minLevel": 43,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -155594,8 +157815,14 @@ window.POKEMON_DATA = {
               "to": "bisharp",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 52
+                  "minLevel": 52,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -155806,7 +158033,13 @@ window.POKEMON_DATA = {
               "to": "kingambit",
               "methods": [
                 {
-                  "trigger": "three-defeated-bisharp"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "three-defeated-bisharp",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -156159,8 +158392,14 @@ window.POKEMON_DATA = {
               "to": "braviary",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 54
+                  "minLevel": 54,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -156168,8 +158407,16 @@ window.POKEMON_DATA = {
               "to": "braviary-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 54
+                  "minLevel": 54,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui",
+                  "evolvedPokemonForm": "braviary-hisui"
                 }
               ]
             }
@@ -156565,8 +158812,14 @@ window.POKEMON_DATA = {
               "to": "mandibuzz",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 54
+                  "minLevel": 54,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -157288,8 +159541,14 @@ window.POKEMON_DATA = {
               "to": "zweilous",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 50
+                  "minLevel": 50,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -157435,8 +159694,14 @@ window.POKEMON_DATA = {
               "to": "hydreigon",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 64
+                  "minLevel": 64,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -157741,8 +160006,14 @@ window.POKEMON_DATA = {
               "to": "volcarona",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 59
+                  "minLevel": 59,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -159249,8 +161520,14 @@ window.POKEMON_DATA = {
               "to": "quilladin",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -159344,8 +161621,14 @@ window.POKEMON_DATA = {
               "to": "chesnaught",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -159529,8 +161812,14 @@ window.POKEMON_DATA = {
               "to": "braixen",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -159624,8 +161913,14 @@ window.POKEMON_DATA = {
               "to": "delphox",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -159809,8 +162104,14 @@ window.POKEMON_DATA = {
               "to": "frogadier",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -159904,8 +162205,14 @@ window.POKEMON_DATA = {
               "to": "greninja",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -160133,8 +162440,14 @@ window.POKEMON_DATA = {
               "to": "diggersby",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -160465,8 +162778,14 @@ window.POKEMON_DATA = {
               "to": "fletchinder",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -160653,8 +162972,14 @@ window.POKEMON_DATA = {
               "to": "talonflame",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -161193,8 +163518,14 @@ window.POKEMON_DATA = {
               "to": "pyroar",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -161658,8 +163989,14 @@ window.POKEMON_DATA = {
               "to": "gogoat",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -161915,9 +164252,15 @@ window.POKEMON_DATA = {
               "to": "pangoro",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 32,
-                  "partyType": "dark"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "partyType": "dark",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -162319,9 +164662,16 @@ window.POKEMON_DATA = {
               "to": "meowstic-male",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 2,
                   "minLevel": 25,
-                  "gender": 2
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "meowstic-male"
                 }
               ]
             },
@@ -162329,9 +164679,16 @@ window.POKEMON_DATA = {
               "to": "meowstic-female",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 1,
                   "minLevel": 25,
-                  "gender": 1
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "meowstic-female"
                 }
               ]
             }
@@ -162529,8 +164886,14 @@ window.POKEMON_DATA = {
               "to": "doublade",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -162642,8 +165005,14 @@ window.POKEMON_DATA = {
               "to": "aegislash",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "item": "dusk-stone",
                   "trigger": "use-item",
-                  "item": "dusk-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -162825,8 +165194,14 @@ window.POKEMON_DATA = {
               "to": "aromatisse",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "sachet"
+                  "heldItem": "sachet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -163032,8 +165407,14 @@ window.POKEMON_DATA = {
               "to": "slurpuff",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "trade",
-                  "heldItem": "whipped-dream"
+                  "heldItem": "whipped-dream",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -163321,8 +165702,13 @@ window.POKEMON_DATA = {
               "to": "malamar",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "turnUpsideDown": true
                 }
               ]
@@ -163658,8 +166044,14 @@ window.POKEMON_DATA = {
               "to": "barbaracle",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 39
+                  "minLevel": 39,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -163946,8 +166338,14 @@ window.POKEMON_DATA = {
               "to": "dragalge",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 48
+                  "minLevel": 48,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -164204,8 +166602,14 @@ window.POKEMON_DATA = {
               "to": "clawitzer",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -164451,8 +166855,14 @@ window.POKEMON_DATA = {
               "to": "heliolisk",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "item": "sun-stone",
                   "trigger": "use-item",
-                  "item": "sun-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -164713,9 +167123,15 @@ window.POKEMON_DATA = {
               "to": "tyrantrum",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 39,
-                  "timeOfDay": "day"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "day",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -164979,9 +167395,15 @@ window.POKEMON_DATA = {
               "to": "aurorus",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 39,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -165942,8 +168364,14 @@ window.POKEMON_DATA = {
               "to": "sliggoo",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -165951,8 +168379,16 @@ window.POKEMON_DATA = {
               "to": "sliggoo-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui",
+                  "evolvedPokemonForm": "sliggoo-hisui"
                 }
               ]
             }
@@ -166130,9 +168566,14 @@ window.POKEMON_DATA = {
               "to": "goodra",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 50,
-                  "needsOverworldRain": true
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": true,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -166640,7 +169081,13 @@ window.POKEMON_DATA = {
               "to": "trevenant",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -167096,8 +169543,14 @@ window.POKEMON_DATA = {
               "to": "avalugg",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -167105,8 +169558,16 @@ window.POKEMON_DATA = {
               "to": "avalugg-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 37
+                  "minLevel": 37,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui",
+                  "evolvedPokemonForm": "avalugg-hisui"
                 }
               ]
             }
@@ -167443,8 +169904,14 @@ window.POKEMON_DATA = {
               "to": "noivern",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 48
+                  "minLevel": 48,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -168186,8 +170653,14 @@ window.POKEMON_DATA = {
               "to": "dartrix",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -168297,8 +170770,14 @@ window.POKEMON_DATA = {
               "to": "decidueye",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -168306,8 +170785,16 @@ window.POKEMON_DATA = {
               "to": "decidueye-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "region": "hisui",
+                  "evolvedPokemonForm": "decidueye-hisui"
                 }
               ]
             }
@@ -168529,8 +171016,14 @@ window.POKEMON_DATA = {
               "to": "torracat",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -168628,8 +171121,14 @@ window.POKEMON_DATA = {
               "to": "incineroar",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -168841,8 +171340,14 @@ window.POKEMON_DATA = {
               "to": "brionne",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 17
+                  "minLevel": 17,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -168941,8 +171446,14 @@ window.POKEMON_DATA = {
               "to": "primarina",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -169185,8 +171696,14 @@ window.POKEMON_DATA = {
               "to": "trumbeak",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 14
+                  "minLevel": 14,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -169336,8 +171853,14 @@ window.POKEMON_DATA = {
               "to": "toucannon",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -169606,9 +172129,15 @@ window.POKEMON_DATA = {
               "to": "gumshoos",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 20,
-                  "timeOfDay": "day"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "day",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -169927,8 +172456,14 @@ window.POKEMON_DATA = {
               "to": "charjabug",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -170071,16 +172606,34 @@ window.POKEMON_DATA = {
               "to": "vikavolt",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "vast-poni-canyon"
+                  "location": "vast-poni-canyon",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "blush-mountain"
+                  "location": "blush-mountain",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -170373,12 +172926,24 @@ window.POKEMON_DATA = {
               "to": "crabominable",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": false,
                   "trigger": "level-up",
-                  "location": "mount-lanakila"
+                  "location": "mount-lanakila",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 },
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "ice-stone",
                   "trigger": "use-item",
-                  "item": "ice-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -170718,8 +173283,14 @@ window.POKEMON_DATA = {
               "to": "ribombee",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -171016,9 +173587,17 @@ window.POKEMON_DATA = {
               "to": "lycanroc-midday",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 25,
-                  "timeOfDay": "day"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "day",
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "rockruff",
+                  "evolvedPokemonForm": "lycanroc-midday"
                 }
               ]
             },
@@ -171026,9 +173605,17 @@ window.POKEMON_DATA = {
               "to": "lycanroc-midnight",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 25,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "rockruff",
+                  "evolvedPokemonForm": "lycanroc-midnight"
                 }
               ]
             }
@@ -171373,8 +173960,14 @@ window.POKEMON_DATA = {
               "to": "toxapex",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -171708,8 +174301,14 @@ window.POKEMON_DATA = {
               "to": "mudsdale",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -172054,8 +174653,14 @@ window.POKEMON_DATA = {
               "to": "araquanid",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -172395,9 +175000,15 @@ window.POKEMON_DATA = {
               "to": "lurantis",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 34,
-                  "timeOfDay": "day"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "day",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -172695,8 +175306,14 @@ window.POKEMON_DATA = {
               "to": "shiinotic",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -173015,9 +175632,15 @@ window.POKEMON_DATA = {
               "to": "salazzle",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 1,
                   "minLevel": 33,
-                  "gender": 1
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -173337,8 +175960,14 @@ window.POKEMON_DATA = {
               "to": "bewear",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 27
+                  "minLevel": 27,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -173636,8 +176265,14 @@ window.POKEMON_DATA = {
               "to": "steenee",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -173781,8 +176416,14 @@ window.POKEMON_DATA = {
               "to": "tsareena",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "stomp"
+                  "knownMove": "stomp",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -174493,8 +177134,14 @@ window.POKEMON_DATA = {
               "to": "golisopod",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -174751,8 +177398,14 @@ window.POKEMON_DATA = {
               "to": "palossand",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -175155,8 +177808,14 @@ window.POKEMON_DATA = {
               "to": "silvally",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -176225,8 +178884,14 @@ window.POKEMON_DATA = {
               "to": "hakamo-o",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -176358,8 +179023,14 @@ window.POKEMON_DATA = {
               "to": "kommo-o",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 45
+                  "minLevel": 45,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -176987,8 +179658,14 @@ window.POKEMON_DATA = {
               "to": "cosmoem",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 43
+                  "minLevel": 43,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -177082,8 +179759,14 @@ window.POKEMON_DATA = {
               "to": "solgaleo",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 53
+                  "minLevel": 53,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -177091,8 +179774,14 @@ window.POKEMON_DATA = {
               "to": "lunala",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 53
+                  "minLevel": 53,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -178252,8 +180941,14 @@ window.POKEMON_DATA = {
               "to": "naganadel",
               "methods": [
                 {
+                  "versionGroup": "ultra-sun-ultra-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "dragon-pulse"
+                  "knownMove": "dragon-pulse",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -178606,7 +181301,13 @@ window.POKEMON_DATA = {
               "to": "melmetal",
               "methods": [
                 {
-                  "trigger": "meltan-candies"
+                  "versionGroup": "lets-go-pikachu-lets-go-eevee",
+                  "isDefault": true,
+                  "trigger": "meltan-candies",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -178760,8 +181461,14 @@ window.POKEMON_DATA = {
               "to": "thwackey",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -178845,8 +181552,14 @@ window.POKEMON_DATA = {
               "to": "rillaboom",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -179002,8 +181715,14 @@ window.POKEMON_DATA = {
               "to": "raboot",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -179081,8 +181800,14 @@ window.POKEMON_DATA = {
               "to": "cinderace",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -179238,8 +181963,14 @@ window.POKEMON_DATA = {
               "to": "drizzile",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -179317,8 +182048,14 @@ window.POKEMON_DATA = {
               "to": "inteleon",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -179560,8 +182297,14 @@ window.POKEMON_DATA = {
               "to": "greedent",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -179812,8 +182555,14 @@ window.POKEMON_DATA = {
               "to": "corvisquire",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -179936,8 +182685,14 @@ window.POKEMON_DATA = {
               "to": "corviknight",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -180214,8 +182969,14 @@ window.POKEMON_DATA = {
               "to": "dottler",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 10
+                  "minLevel": 10,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -180339,8 +183100,14 @@ window.POKEMON_DATA = {
               "to": "orbeetle",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -180574,8 +183341,14 @@ window.POKEMON_DATA = {
               "to": "thievul",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -180825,8 +183598,14 @@ window.POKEMON_DATA = {
               "to": "eldegoss",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -181067,8 +183846,14 @@ window.POKEMON_DATA = {
               "to": "dubwool",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -181360,8 +184145,14 @@ window.POKEMON_DATA = {
               "to": "drednaw",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 22
+                  "minLevel": 22,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -181618,8 +184409,14 @@ window.POKEMON_DATA = {
               "to": "boltund",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -181854,8 +184651,14 @@ window.POKEMON_DATA = {
               "to": "carkol",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -181996,8 +184799,14 @@ window.POKEMON_DATA = {
               "to": "coalossal",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -182274,8 +185083,14 @@ window.POKEMON_DATA = {
               "to": "flapple",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "tart-apple",
                   "trigger": "use-item",
-                  "item": "tart-apple"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -182283,8 +185098,14 @@ window.POKEMON_DATA = {
               "to": "appletun",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "sweet-apple",
                   "trigger": "use-item",
-                  "item": "sweet-apple"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -182292,8 +185113,14 @@ window.POKEMON_DATA = {
               "to": "dipplin",
               "methods": [
                 {
+                  "versionGroup": "the-teal-mask",
+                  "isDefault": true,
+                  "item": "syrupy-apple",
                   "trigger": "use-item",
-                  "item": "syrupy-apple"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -182605,8 +185432,14 @@ window.POKEMON_DATA = {
               "to": "sandaconda",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -182973,8 +185806,14 @@ window.POKEMON_DATA = {
               "to": "barraskewda",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -183224,8 +186063,30 @@ window.POKEMON_DATA = {
               "to": "toxtricity-amped",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "toxtricity-amped",
+                  "allowedNatures": [
+                    "hardy",
+                    "docile",
+                    "hasty",
+                    "adamant",
+                    "impish",
+                    "rash",
+                    "jolly",
+                    "naughty",
+                    "lax",
+                    "quirky",
+                    "naive",
+                    "brave",
+                    "sassy"
+                  ]
                 }
               ]
             },
@@ -183233,8 +186094,29 @@ window.POKEMON_DATA = {
               "to": "toxtricity-low-key",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "toxtricity-low-key",
+                  "allowedNatures": [
+                    "bold",
+                    "modest",
+                    "calm",
+                    "timid",
+                    "lonely",
+                    "mild",
+                    "gentle",
+                    "bashful",
+                    "careful",
+                    "relaxed",
+                    "quiet",
+                    "serious"
+                  ]
                 }
               ]
             }
@@ -183405,8 +186287,14 @@ window.POKEMON_DATA = {
               "to": "centiskorch",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -183621,8 +186509,14 @@ window.POKEMON_DATA = {
               "to": "grapploct",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "taunt"
+                  "knownMove": "taunt",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -184070,8 +186964,14 @@ window.POKEMON_DATA = {
               "to": "hattrem",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -184209,8 +187109,14 @@ window.POKEMON_DATA = {
               "to": "hatterene",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -184471,8 +187377,14 @@ window.POKEMON_DATA = {
               "to": "morgrem",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 32
+                  "minLevel": 32,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -184604,8 +187516,14 @@ window.POKEMON_DATA = {
               "to": "grimmsnarl",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -185443,9 +188361,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-vanilla-cream-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-vanilla-cream-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185453,9 +188386,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-cream-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-cream-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185463,9 +188411,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-matcha-cream-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-matcha-cream-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185473,9 +188436,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-mint-cream-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-mint-cream-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185483,9 +188461,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-lemon-cream-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-lemon-cream-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185493,9 +188486,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-salted-cream-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-salted-cream-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185503,9 +188511,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-swirl-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-swirl-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185513,9 +188536,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-caramel-swirl-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-caramel-swirl-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185523,9 +188561,23 @@ window.POKEMON_DATA = {
               "to": "alcremie-rainbow-swirl-strawberry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "strawberry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "dusk",
-                  "heldItem": "strawberry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-rainbow-swirl-strawberry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_SEC 10 >=",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185533,9 +188585,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-vanilla-cream-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-vanilla-cream-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185543,9 +188610,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-cream-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-cream-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185553,9 +188635,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-matcha-cream-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-matcha-cream-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185563,9 +188660,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-mint-cream-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-mint-cream-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185573,9 +188685,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-lemon-cream-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-lemon-cream-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185583,9 +188710,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-salted-cream-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-salted-cream-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185593,9 +188735,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-swirl-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-swirl-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185603,9 +188760,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-caramel-swirl-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-caramel-swirl-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185613,9 +188785,23 @@ window.POKEMON_DATA = {
               "to": "alcremie-rainbow-swirl-berry-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "berry-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "dusk",
-                  "heldItem": "berry-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-rainbow-swirl-berry-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_SEC 10 >=",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185623,9 +188809,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-vanilla-cream-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-vanilla-cream-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185633,9 +188834,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-cream-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-cream-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185643,9 +188859,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-matcha-cream-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-matcha-cream-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185653,9 +188884,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-mint-cream-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-mint-cream-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185663,9 +188909,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-lemon-cream-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-lemon-cream-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185673,9 +188934,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-salted-cream-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-salted-cream-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185683,9 +188959,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-swirl-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-swirl-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185693,9 +188984,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-caramel-swirl-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-caramel-swirl-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185703,9 +189009,23 @@ window.POKEMON_DATA = {
               "to": "alcremie-rainbow-swirl-love-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "love-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "dusk",
-                  "heldItem": "love-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-rainbow-swirl-love-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_SEC 10 >=",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185713,9 +189033,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-vanilla-cream-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-vanilla-cream-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185723,9 +189058,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-cream-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-cream-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185733,9 +189083,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-matcha-cream-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-matcha-cream-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185743,9 +189108,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-mint-cream-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-mint-cream-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185753,9 +189133,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-lemon-cream-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-lemon-cream-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185763,9 +189158,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-salted-cream-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-salted-cream-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185773,9 +189183,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-swirl-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-swirl-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185783,9 +189208,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-caramel-swirl-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-caramel-swirl-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185793,9 +189233,23 @@ window.POKEMON_DATA = {
               "to": "alcremie-rainbow-swirl-star-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "star-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "dusk",
-                  "heldItem": "star-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-rainbow-swirl-star-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_SEC 10 >=",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185803,9 +189257,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-vanilla-cream-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-vanilla-cream-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185813,9 +189282,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-cream-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-cream-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185823,9 +189307,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-matcha-cream-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-matcha-cream-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185833,9 +189332,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-mint-cream-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-mint-cream-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185843,9 +189357,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-lemon-cream-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-lemon-cream-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185853,9 +189382,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-salted-cream-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-salted-cream-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185863,9 +189407,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-swirl-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-swirl-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185873,9 +189432,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-caramel-swirl-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-caramel-swirl-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185883,9 +189457,23 @@ window.POKEMON_DATA = {
               "to": "alcremie-rainbow-swirl-clover-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "clover-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "dusk",
-                  "heldItem": "clover-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-rainbow-swirl-clover-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_SEC 10 >=",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185893,9 +189481,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-vanilla-cream-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-vanilla-cream-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185903,9 +189506,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-cream-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-cream-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185913,9 +189531,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-matcha-cream-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-matcha-cream-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185923,9 +189556,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-mint-cream-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-mint-cream-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185933,9 +189581,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-lemon-cream-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-lemon-cream-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185943,9 +189606,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-salted-cream-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-salted-cream-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185953,9 +189631,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-swirl-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-swirl-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185963,9 +189656,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-caramel-swirl-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-caramel-swirl-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185973,9 +189681,23 @@ window.POKEMON_DATA = {
               "to": "alcremie-rainbow-swirl-flower-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "flower-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "dusk",
-                  "heldItem": "flower-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-rainbow-swirl-flower-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_SEC 10 >=",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185983,9 +189705,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-vanilla-cream-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-vanilla-cream-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -185993,9 +189730,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-cream-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-cream-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -186003,9 +189755,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-matcha-cream-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-matcha-cream-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -186013,9 +189780,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-mint-cream-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-mint-cream-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -186023,9 +189805,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-lemon-cream-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-lemon-cream-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -186033,9 +189830,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-salted-cream-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "night",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-salted-cream-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -186043,9 +189855,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-ruby-swirl-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-ruby-swirl-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -186053,9 +189880,24 @@ window.POKEMON_DATA = {
               "to": "alcremie-caramel-swirl-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-caramel-swirl-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-direction",
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             },
@@ -186063,9 +189905,23 @@ window.POKEMON_DATA = {
               "to": "alcremie-rainbow-swirl-ribbon-sweet",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "spin",
+                  "heldItem": "ribbon-sweet",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "dusk",
-                  "heldItem": "ribbon-sweet"
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "alcremie-rainbow-swirl-ribbon-sweet",
+                  "conditionExpression": {
+                    "expression": "SPIN_SEC 10 >=",
+                    "percentageChance": null,
+                    "variables": [
+                      "spin-duration"
+                    ]
+                  }
                 }
               ]
             }
@@ -186758,9 +190614,15 @@ window.POKEMON_DATA = {
               "to": "frosmoth",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minHappiness": 160,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -187208,8 +191070,14 @@ window.POKEMON_DATA = {
               "to": "copperajah",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -187762,8 +191630,14 @@ window.POKEMON_DATA = {
               "to": "archaludon",
               "methods": [
                 {
+                  "versionGroup": "the-indigo-disk",
+                  "isDefault": true,
+                  "item": "metal-alloy",
                   "trigger": "use-item",
-                  "item": "metal-alloy"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -187873,8 +191747,14 @@ window.POKEMON_DATA = {
               "to": "drakloak",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 50
+                  "minLevel": 50,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -187989,8 +191869,14 @@ window.POKEMON_DATA = {
               "to": "dragapult",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 60
+                  "minLevel": 60,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -188366,7 +192252,14 @@ window.POKEMON_DATA = {
               "to": "urshifu-single-strike",
               "methods": [
                 {
-                  "trigger": "tower-of-darkness"
+                  "versionGroup": "the-isle-of-armor",
+                  "isDefault": false,
+                  "trigger": "tower-of-darkness",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "urshifu-single-strike"
                 }
               ]
             },
@@ -188374,7 +192267,14 @@ window.POKEMON_DATA = {
               "to": "urshifu-rapid-strike",
               "methods": [
                 {
-                  "trigger": "tower-of-waters"
+                  "versionGroup": "the-isle-of-armor",
+                  "isDefault": false,
+                  "trigger": "tower-of-waters",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "urshifu-rapid-strike"
                 }
               ]
             },
@@ -188382,8 +192282,15 @@ window.POKEMON_DATA = {
               "to": "urshifu-single-strike",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "scroll-of-darkness",
                   "trigger": "use-item",
-                  "item": "scroll-of-darkness"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "urshifu-single-strike"
                 }
               ]
             },
@@ -188391,8 +192298,15 @@ window.POKEMON_DATA = {
               "to": "urshifu-rapid-strike",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "scroll-of-waters",
                   "trigger": "use-item",
-                  "item": "scroll-of-waters"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "urshifu-rapid-strike"
                 }
               ]
             }
@@ -189331,8 +193245,14 @@ window.POKEMON_DATA = {
               "to": "floragato",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -189407,8 +193327,14 @@ window.POKEMON_DATA = {
               "to": "meowscarada",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -189551,8 +193477,14 @@ window.POKEMON_DATA = {
               "to": "crocalor",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -189626,8 +193558,14 @@ window.POKEMON_DATA = {
               "to": "skeledirge",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -189770,8 +193708,14 @@ window.POKEMON_DATA = {
               "to": "quaxwell",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 16
+                  "minLevel": 16,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -189846,8 +193790,14 @@ window.POKEMON_DATA = {
               "to": "quaquaval",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 36
+                  "minLevel": 36,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -189994,9 +193944,16 @@ window.POKEMON_DATA = {
               "to": "oinkologne-male",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 2,
                   "minLevel": 18,
-                  "gender": 2
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "oinkologne-male"
                 }
               ]
             },
@@ -190004,9 +193961,16 @@ window.POKEMON_DATA = {
               "to": "oinkologne-female",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 1,
                   "minLevel": 18,
-                  "gender": 1
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "oinkologne-female"
                 }
               ]
             }
@@ -190123,8 +194087,14 @@ window.POKEMON_DATA = {
               "to": "spidops",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 15
+                  "minLevel": 15,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -190261,8 +194231,14 @@ window.POKEMON_DATA = {
               "to": "lokix",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -190404,8 +194380,14 @@ window.POKEMON_DATA = {
               "to": "pawmo",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 18
+                  "minLevel": 18,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -190484,7 +194466,14 @@ window.POKEMON_DATA = {
               "to": "pawmot",
               "methods": [
                 {
-                  "trigger": "level-up"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "level-up",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "minSteps": 1000
                 }
               ]
             }
@@ -190638,8 +194627,22 @@ window.POKEMON_DATA = {
               "to": "maushold-family-of-four",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "in-battle-level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "maushold-family-of-four",
+                  "conditionExpression": {
+                    "expression": "EC 100 % 0 !=",
+                    "percentageChance": 99,
+                    "variables": [
+                      "encryption-constant"
+                    ]
+                  }
                 }
               ]
             },
@@ -190647,8 +194650,22 @@ window.POKEMON_DATA = {
               "to": "maushold-family-of-three",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "in-battle-level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "evolvedPokemonForm": "maushold-family-of-three",
+                  "conditionExpression": {
+                    "expression": "EC 100 % 0 ==",
+                    "percentageChance": 1,
+                    "variables": [
+                      "encryption-constant"
+                    ]
+                  }
                 }
               ]
             }
@@ -190773,8 +194790,14 @@ window.POKEMON_DATA = {
               "to": "dachsbun",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -190915,8 +194938,14 @@ window.POKEMON_DATA = {
               "to": "dolliv",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -190991,8 +195020,14 @@ window.POKEMON_DATA = {
               "to": "arboliva",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -191195,8 +195230,14 @@ window.POKEMON_DATA = {
               "to": "naclstack",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -191276,8 +195317,14 @@ window.POKEMON_DATA = {
               "to": "garganacl",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -191426,8 +195473,14 @@ window.POKEMON_DATA = {
               "to": "armarouge",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "auspicious-armor",
                   "trigger": "use-item",
-                  "item": "auspicious-armor"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             },
@@ -191435,8 +195488,14 @@ window.POKEMON_DATA = {
               "to": "ceruledge",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "malicious-armor",
                   "trigger": "use-item",
-                  "item": "malicious-armor"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -191655,8 +195714,14 @@ window.POKEMON_DATA = {
               "to": "bellibolt",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "thunder-stone",
                   "trigger": "use-item",
-                  "item": "thunder-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -191805,8 +195870,14 @@ window.POKEMON_DATA = {
               "to": "kilowattrel",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -191955,8 +196026,14 @@ window.POKEMON_DATA = {
               "to": "mabosstiff",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -192108,8 +196185,14 @@ window.POKEMON_DATA = {
               "to": "grafaiai",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -192254,7 +196337,14 @@ window.POKEMON_DATA = {
               "to": "brambleghast",
               "methods": [
                 {
-                  "trigger": "level-up"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "level-up",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "minSteps": 1000
                 }
               ]
             }
@@ -192392,8 +196482,14 @@ window.POKEMON_DATA = {
               "to": "toedscruel",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -192603,8 +196699,14 @@ window.POKEMON_DATA = {
               "to": "scovillain",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "fire-stone",
                   "trigger": "use-item",
-                  "item": "fire-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -192753,7 +196855,14 @@ window.POKEMON_DATA = {
               "to": "rabsca",
               "methods": [
                 {
-                  "trigger": "level-up"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "level-up",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "minSteps": 1000
                 }
               ]
             }
@@ -192898,8 +197007,14 @@ window.POKEMON_DATA = {
               "to": "espathra",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -193049,8 +197164,14 @@ window.POKEMON_DATA = {
               "to": "tinkatuff",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 24
+                  "minLevel": 24,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -193131,8 +197252,14 @@ window.POKEMON_DATA = {
               "to": "tinkaton",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -193284,8 +197411,14 @@ window.POKEMON_DATA = {
               "to": "wugtrio",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -193500,8 +197633,14 @@ window.POKEMON_DATA = {
               "to": "palafin",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": true,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -193622,8 +197761,14 @@ window.POKEMON_DATA = {
               "to": "revavroom",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -193901,8 +198046,14 @@ window.POKEMON_DATA = {
               "to": "glimmora",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -194049,9 +198200,15 @@ window.POKEMON_DATA = {
               "to": "houndstone",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 30,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -194266,8 +198423,14 @@ window.POKEMON_DATA = {
               "to": "cetitan",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "item": "ice-stone",
                   "trigger": "use-item",
-                  "item": "ice-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -195656,8 +199819,14 @@ window.POKEMON_DATA = {
               "to": "arctibax",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 35
+                  "minLevel": 35,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -195735,8 +199904,14 @@ window.POKEMON_DATA = {
               "to": "baxcalibur",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 54
+                  "minLevel": 54,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -195879,7 +200054,13 @@ window.POKEMON_DATA = {
               "to": "gholdengo",
               "methods": [
                 {
-                  "trigger": "gimmighoul-coins"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "gimmighoul-coins",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -196623,8 +200804,14 @@ window.POKEMON_DATA = {
               "to": "hydrapple",
               "methods": [
                 {
+                  "versionGroup": "the-indigo-disk",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "dragon-cheer"
+                  "knownMove": "dragon-cheer",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -197706,8 +201893,14 @@ window.POKEMON_DATA = {
               "to": "hippowdon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -197853,8 +202046,14 @@ window.POKEMON_DATA = {
               "to": "hippowdon",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -198679,8 +202878,14 @@ window.POKEMON_DATA = {
               "to": "jellicent",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -198787,8 +202992,14 @@ window.POKEMON_DATA = {
               "to": "jellicent",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -205030,9 +209241,15 @@ window.POKEMON_DATA = {
               "to": "mothim",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 2,
                   "minLevel": 20,
-                  "gender": 2
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -205162,9 +209379,17 @@ window.POKEMON_DATA = {
               "to": "wormadam-sandy",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 1,
                   "minLevel": 20,
-                  "gender": 1
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "burmy-sandy",
+                  "evolvedPokemonForm": "wormadam-sandy"
                 }
               ]
             }
@@ -205294,9 +209519,17 @@ window.POKEMON_DATA = {
               "to": "wormadam-trash",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "gender": 1,
                   "minLevel": 20,
-                  "gender": 1
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "burmy-trash",
+                  "evolvedPokemonForm": "wormadam-trash"
                 }
               ]
             }
@@ -205820,8 +210053,16 @@ window.POKEMON_DATA = {
               "to": "gastrodon-west",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "shellos-west",
+                  "evolvedPokemonForm": "gastrodon-west"
                 }
               ]
             }
@@ -205991,8 +210232,16 @@ window.POKEMON_DATA = {
               "to": "gastrodon-east",
               "methods": [
                 {
+                  "versionGroup": "diamond-pearl",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "shellos-east",
+                  "evolvedPokemonForm": "gastrodon-east"
                 }
               ]
             }
@@ -208212,8 +212461,16 @@ window.POKEMON_DATA = {
               "to": "sawsbuck-spring",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "deerling-spring",
+                  "evolvedPokemonForm": "sawsbuck-spring"
                 }
               ]
             }
@@ -208324,8 +212581,16 @@ window.POKEMON_DATA = {
               "to": "sawsbuck-summer",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "deerling-summer",
+                  "evolvedPokemonForm": "sawsbuck-summer"
                 }
               ]
             }
@@ -208436,8 +212701,16 @@ window.POKEMON_DATA = {
               "to": "sawsbuck-autumn",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "deerling-autumn",
+                  "evolvedPokemonForm": "sawsbuck-autumn"
                 }
               ]
             }
@@ -208548,8 +212821,16 @@ window.POKEMON_DATA = {
               "to": "sawsbuck-winter",
               "methods": [
                 {
+                  "versionGroup": "black-white",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 34
+                  "minLevel": 34,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "deerling-winter",
+                  "evolvedPokemonForm": "sawsbuck-winter"
                 }
               ]
             }
@@ -209901,8 +214182,16 @@ window.POKEMON_DATA = {
               "to": "floette-red",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 19
+                  "minLevel": 19,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "flabebe-red",
+                  "evolvedPokemonForm": "floette-red"
                 }
               ]
             }
@@ -210003,8 +214292,16 @@ window.POKEMON_DATA = {
               "to": "floette-orange",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 19
+                  "minLevel": 19,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "flabebe-orange",
+                  "evolvedPokemonForm": "floette-orange"
                 }
               ]
             }
@@ -210105,8 +214402,16 @@ window.POKEMON_DATA = {
               "to": "floette-yellow",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 19
+                  "minLevel": 19,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "flabebe-yellow",
+                  "evolvedPokemonForm": "floette-yellow"
                 }
               ]
             }
@@ -210207,8 +214512,16 @@ window.POKEMON_DATA = {
               "to": "floette-white",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 19
+                  "minLevel": 19,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "flabebe-white",
+                  "evolvedPokemonForm": "floette-white"
                 }
               ]
             }
@@ -210309,8 +214622,16 @@ window.POKEMON_DATA = {
               "to": "floette-blue",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 19
+                  "minLevel": 19,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "flabebe-blue",
+                  "evolvedPokemonForm": "floette-blue"
                 }
               ]
             }
@@ -210413,8 +214734,16 @@ window.POKEMON_DATA = {
               "to": "florges-red",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "floette-red",
+                  "evolvedPokemonForm": "florges-red"
                 }
               ]
             }
@@ -210517,8 +214846,16 @@ window.POKEMON_DATA = {
               "to": "florges-orange",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "floette-orange",
+                  "evolvedPokemonForm": "florges-orange"
                 }
               ]
             }
@@ -210621,8 +214958,16 @@ window.POKEMON_DATA = {
               "to": "florges-yellow",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "floette-yellow",
+                  "evolvedPokemonForm": "florges-yellow"
                 }
               ]
             }
@@ -210725,8 +215070,16 @@ window.POKEMON_DATA = {
               "to": "florges-white",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "floette-white",
+                  "evolvedPokemonForm": "florges-white"
                 }
               ]
             }
@@ -210829,8 +215182,16 @@ window.POKEMON_DATA = {
               "to": "florges-blue",
               "methods": [
                 {
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "item": "shiny-stone",
                   "trigger": "use-item",
-                  "item": "shiny-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "floette-blue",
+                  "evolvedPokemonForm": "florges-blue"
                 }
               ]
             }
@@ -212355,7 +216716,15 @@ window.POKEMON_DATA = {
               "to": "gourgeist-small",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "pumpkaboo-small",
+                  "evolvedPokemonForm": "gourgeist-small"
                 }
               ]
             }
@@ -212482,7 +216851,15 @@ window.POKEMON_DATA = {
               "to": "gourgeist-average",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "pumpkaboo-average",
+                  "evolvedPokemonForm": "gourgeist-average"
                 }
               ]
             }
@@ -212602,7 +216979,15 @@ window.POKEMON_DATA = {
               "to": "gourgeist-large",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "pumpkaboo-large",
+                  "evolvedPokemonForm": "gourgeist-large"
                 }
               ]
             }
@@ -212722,7 +217107,15 @@ window.POKEMON_DATA = {
               "to": "gourgeist-super",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "x-y",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "pumpkaboo-super",
+                  "evolvedPokemonForm": "gourgeist-super"
                 }
               ]
             }
@@ -215185,9 +219578,17 @@ window.POKEMON_DATA = {
               "to": "raticate-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 20,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "rattata-alola",
+                  "evolvedPokemonForm": "raticate-alola"
                 }
               ]
             }
@@ -215996,8 +220397,16 @@ window.POKEMON_DATA = {
               "to": "sandslash-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
+                  "item": "ice-stone",
                   "trigger": "use-item",
-                  "item": "ice-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "sandshrew-alola",
+                  "evolvedPokemonForm": "sandslash-alola"
                 }
               ]
             }
@@ -216496,8 +220905,16 @@ window.POKEMON_DATA = {
               "to": "ninetales-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
+                  "item": "ice-stone",
                   "trigger": "use-item",
-                  "item": "ice-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "vulpix-alola",
+                  "evolvedPokemonForm": "ninetales-alola"
                 }
               ]
             }
@@ -217012,8 +221429,16 @@ window.POKEMON_DATA = {
               "to": "dugtrio-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 26
+                  "minLevel": 26,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "diglett-alola",
+                  "evolvedPokemonForm": "dugtrio-alola"
                 }
               ]
             }
@@ -217543,8 +221968,16 @@ window.POKEMON_DATA = {
               "to": "persian-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minHappiness": 160
+                  "minHappiness": 160,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "meowth-alola",
+                  "evolvedPokemonForm": "persian-alola"
                 }
               ]
             }
@@ -218036,8 +222469,16 @@ window.POKEMON_DATA = {
               "to": "graveler-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 25
+                  "minLevel": 25,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "geodude-alola",
+                  "evolvedPokemonForm": "graveler-alola"
                 }
               ]
             }
@@ -218295,7 +222736,15 @@ window.POKEMON_DATA = {
               "to": "golem-alola",
               "methods": [
                 {
-                  "trigger": "trade"
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
+                  "trigger": "trade",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "graveler-alola",
+                  "evolvedPokemonForm": "golem-alola"
                 }
               ]
             }
@@ -218781,8 +223230,16 @@ window.POKEMON_DATA = {
               "to": "muk-alola",
               "methods": [
                 {
+                  "versionGroup": "sun-moon",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "grimer-alola",
+                  "evolvedPokemonForm": "muk-alola"
                 }
               ]
             }
@@ -221072,8 +225529,15 @@ window.POKEMON_DATA = {
               "to": "perrserker",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 28
+                  "minLevel": 28,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "meowth-galar"
                 }
               ]
             }
@@ -221299,8 +225763,16 @@ window.POKEMON_DATA = {
               "to": "rapidash-galar",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 40
+                  "minLevel": 40,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "ponyta-galar",
+                  "evolvedPokemonForm": "rapidash-galar"
                 }
               ]
             }
@@ -221802,8 +226274,16 @@ window.POKEMON_DATA = {
               "to": "slowbro-galar",
               "methods": [
                 {
+                  "versionGroup": "the-isle-of-armor",
+                  "isDefault": true,
+                  "item": "galarica-cuff",
                   "trigger": "use-item",
-                  "item": "galarica-cuff"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "slowpoke-galar",
+                  "evolvedPokemonForm": "slowbro-galar"
                 }
               ]
             },
@@ -221811,8 +226291,16 @@ window.POKEMON_DATA = {
               "to": "slowking-galar",
               "methods": [
                 {
+                  "versionGroup": "the-isle-of-armor",
+                  "isDefault": true,
+                  "item": "galarica-wreath",
                   "trigger": "use-item",
-                  "item": "galarica-wreath"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "slowpoke-galar",
+                  "evolvedPokemonForm": "slowking-galar"
                 }
               ]
             }
@@ -222263,7 +226751,14 @@ window.POKEMON_DATA = {
               "to": "sirfetchd",
               "methods": [
                 {
-                  "trigger": "three-critical-hits"
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "trigger": "three-critical-hits",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "farfetchd-galar"
                 }
               ]
             }
@@ -222797,8 +227292,15 @@ window.POKEMON_DATA = {
               "to": "mr-rime",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 42
+                  "minLevel": 42,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "mr-mime-galar"
                 }
               ]
             }
@@ -223791,8 +228293,15 @@ window.POKEMON_DATA = {
               "to": "cursola",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 38
+                  "minLevel": 38,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "corsola-galar"
                 }
               ]
             }
@@ -223988,8 +228497,16 @@ window.POKEMON_DATA = {
               "to": "linoone-galar",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "zigzagoon-galar",
+                  "evolvedPokemonForm": "linoone-galar"
                 }
               ]
             }
@@ -224198,9 +228715,16 @@ window.POKEMON_DATA = {
               "to": "obstagoon",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 35,
-                  "timeOfDay": "night"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "timeOfDay": "night",
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "linoone-galar"
                 }
               ]
             }
@@ -224338,8 +228862,16 @@ window.POKEMON_DATA = {
               "to": "darmanitan-galar-standard",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "ice-stone",
                   "trigger": "use-item",
-                  "item": "ice-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "darumaka-galar",
+                  "evolvedPokemonForm": "darmanitan-galar-standard"
                 }
               ]
             }
@@ -224601,8 +229133,16 @@ window.POKEMON_DATA = {
               "to": "runerigus",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
                   "trigger": "take-damage",
-                  "location": "dusty-bowl"
+                  "location": "dusty-bowl",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "yamask-galar",
+                  "minDamageTaken": 49
                 }
               ]
             }
@@ -225127,8 +229667,16 @@ window.POKEMON_DATA = {
               "to": "polteageist-antique",
               "methods": [
                 {
+                  "versionGroup": "sword-shield",
+                  "isDefault": true,
+                  "item": "chipped-pot",
                   "trigger": "use-item",
-                  "item": "chipped-pot"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "sinistea-antique",
+                  "evolvedPokemonForm": "polteageist-antique"
                 }
               ]
             }
@@ -226436,8 +230984,16 @@ window.POKEMON_DATA = {
               "to": "arcanine-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
+                  "item": "fire-stone",
                   "trigger": "use-item",
-                  "item": "fire-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "growlithe-hisui",
+                  "evolvedPokemonForm": "arcanine-hisui"
                 }
               ]
             }
@@ -226873,8 +231429,16 @@ window.POKEMON_DATA = {
               "to": "electrode-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
+                  "item": "leaf-stone",
                   "trigger": "use-item",
-                  "item": "leaf-stone"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "voltorb-hisui",
+                  "evolvedPokemonForm": "electrode-hisui"
                 }
               ]
             }
@@ -227416,7 +231980,16 @@ window.POKEMON_DATA = {
               "to": "overqwil",
               "methods": [
                 {
-                  "trigger": "strong-style-move"
+                  "versionGroup": "legends-arceus",
+                  "isDefault": false,
+                  "trigger": "strong-style-move",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "qwilfish-hisui",
+                  "usedMove": "barb-barrage",
+                  "minMoveCount": 20
                 }
               ]
             },
@@ -227424,8 +231997,15 @@ window.POKEMON_DATA = {
               "to": "overqwil",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "knownMove": "barb-barrage"
+                  "knownMove": "barb-barrage",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "qwilfish-hisui"
                 }
               ]
             },
@@ -227433,7 +232013,16 @@ window.POKEMON_DATA = {
               "to": "overqwil",
               "methods": [
                 {
-                  "trigger": "use-move"
+                  "versionGroup": "legends-za",
+                  "isDefault": false,
+                  "trigger": "use-move",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "qwilfish-hisui",
+                  "usedMove": "barb-barrage",
+                  "minMoveCount": 20
                 }
               ]
             }
@@ -227655,9 +232244,16 @@ window.POKEMON_DATA = {
               "to": "sneasler",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
+                  "heldItem": "razor-claw",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
                   "timeOfDay": "day",
-                  "heldItem": "razor-claw"
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "sneasel-hisui"
                 }
               ]
             }
@@ -228057,8 +232653,17 @@ window.POKEMON_DATA = {
               "to": "basculegion-male",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "recoil-damage",
-                  "gender": 2
+                  "gender": 2,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "basculin-white-striped",
+                  "evolvedPokemonForm": "basculegion-male",
+                  "minDamageTaken": 294
                 }
               ]
             },
@@ -228066,8 +232671,17 @@ window.POKEMON_DATA = {
               "to": "basculegion-female",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "recoil-damage",
-                  "gender": 1
+                  "gender": 1,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "basculin-white-striped",
+                  "evolvedPokemonForm": "basculegion-female",
+                  "minDamageTaken": 294
                 }
               ]
             }
@@ -228205,8 +232819,16 @@ window.POKEMON_DATA = {
               "to": "zoroark-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 30
+                  "minLevel": 30,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "zorua-hisui",
+                  "evolvedPokemonForm": "zoroark-hisui"
                 }
               ]
             }
@@ -228624,9 +233246,16 @@ window.POKEMON_DATA = {
               "to": "goodra-hisui",
               "methods": [
                 {
+                  "versionGroup": "legends-arceus",
+                  "isDefault": true,
                   "trigger": "level-up",
                   "minLevel": 50,
-                  "needsOverworldRain": true
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": true,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "sliggoo-hisui",
+                  "evolvedPokemonForm": "goodra-hisui"
                 }
               ]
             }
@@ -229950,8 +234579,15 @@ window.POKEMON_DATA = {
               "to": "clodsire",
               "methods": [
                 {
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
                   "trigger": "level-up",
-                  "minLevel": 20
+                  "minLevel": 20,
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "wooper-paldea"
                 }
               ]
             }
@@ -229960,6 +234596,154 @@ window.POKEMON_DATA = {
             [
               "wooper-paldea",
               "clodsire"
+            ]
+          ]
+        },
+        {
+          "id": "maushold-family-of-three",
+          "name": "Maushold Family of Three",
+          "imageId": "maushold-family-of-three",
+          "types": [
+            "normal"
+          ],
+          "abilities": [
+            {
+              "name": "friend-guard",
+              "hidden": false
+            },
+            {
+              "name": "cheek-pouch",
+              "hidden": false
+            },
+            {
+              "name": "technician",
+              "hidden": true
+            }
+          ],
+          "stats": {
+            "hp": 74,
+            "attack": 75,
+            "defense": 70,
+            "special-attack": 65,
+            "special-defense": 75,
+            "speed": 111
+          },
+          "height": 3,
+          "weight": 23,
+          "captureRate": 75,
+          "genderRate": -1,
+          "hatchCounter": 10,
+          "eggGroups": [
+            "ground",
+            "fairy"
+          ],
+          "habitat": null,
+          "colour": "white",
+          "generation": "generation-ix",
+          "genus": "Family Pokémon",
+          "pokedexEntries": [
+            {
+              "game": "scarlet",
+              "text": "The two little ones just appeared one day. The group might be a family of related Pokémon, but nobody knows for sure."
+            },
+            {
+              "game": "violet",
+              "text": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight."
+            }
+          ],
+          "regionalDexNumbers": {
+            "national": 925,
+            "paldea": 72,
+            "kitakami": 98,
+            "champions": 925
+          },
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
+          ],
+          "locationsByGame": {},
+          "evolutionDetails": [],
+          "evolutionBranches": [
+            [
+              "tandemaus",
+              "maushold-family-of-three"
+            ]
+          ]
+        },
+        {
+          "id": "maushold-family-of-four",
+          "name": "Maushold Family of Four",
+          "imageId": "maushold-family-of-four",
+          "types": [
+            "normal"
+          ],
+          "abilities": [
+            {
+              "name": "friend-guard",
+              "hidden": false
+            },
+            {
+              "name": "cheek-pouch",
+              "hidden": false
+            },
+            {
+              "name": "technician",
+              "hidden": true
+            }
+          ],
+          "stats": {
+            "hp": 74,
+            "attack": 75,
+            "defense": 70,
+            "special-attack": 65,
+            "special-defense": 75,
+            "speed": 111
+          },
+          "height": 3,
+          "weight": 28,
+          "captureRate": 75,
+          "genderRate": -1,
+          "hatchCounter": 10,
+          "eggGroups": [
+            "ground",
+            "fairy"
+          ],
+          "habitat": null,
+          "colour": "white",
+          "generation": "generation-ix",
+          "genus": "Family Pokémon",
+          "pokedexEntries": [
+            {
+              "game": "scarlet",
+              "text": "The two little ones just appeared one day. The group might be a family of related Pokémon, but nobody knows for sure."
+            },
+            {
+              "game": "violet",
+              "text": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight."
+            }
+          ],
+          "regionalDexNumbers": {
+            "national": 925,
+            "paldea": 72,
+            "kitakami": 98,
+            "champions": 925
+          },
+          "games": [
+            "scarlet",
+            "violet",
+            "the-teal-mask-scarlet",
+            "the-teal-mask-violet",
+            "champions"
+          ],
+          "locationsByGame": {},
+          "evolutionDetails": [],
+          "evolutionBranches": [
+            [
+              "tandemaus",
+              "maushold-family-of-four"
             ]
           ]
         },
@@ -230650,7 +235434,13 @@ window.POKEMON_DATA = {
               "to": "gholdengo",
               "methods": [
                 {
-                  "trigger": "gimmighoul-coins"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "gimmighoul-coins",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -230721,7 +235511,13 @@ window.POKEMON_DATA = {
               "to": "gholdengo",
               "methods": [
                 {
-                  "trigger": "gimmighoul-coins"
+                  "versionGroup": "scarlet-violet",
+                  "isDefault": true,
+                  "trigger": "gimmighoul-coins",
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false
                 }
               ]
             }
@@ -230857,8 +235653,16 @@ window.POKEMON_DATA = {
               "to": "sinistcha-masterpiece",
               "methods": [
                 {
+                  "versionGroup": "the-teal-mask",
+                  "isDefault": true,
+                  "item": "masterpiece-teacup",
                   "trigger": "use-item",
-                  "item": "masterpiece-teacup"
+                  "nearSpecialRock": false,
+                  "needsMultiplayer": false,
+                  "needsOverworldRain": false,
+                  "turnUpsideDown": false,
+                  "requiredPokemonForm": "poltchageist-artisan",
+                  "evolvedPokemonForm": "sinistcha-masterpiece"
                 }
               ]
             }
