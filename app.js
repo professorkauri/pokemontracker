@@ -401,7 +401,10 @@
   function showPokemonInfo(pokemon, mode, sourceBox = findPokemonBox(pokemon.id)?.box) {
     closePokemonInfo();
     const evolution = evolutionBySpeciesForPopup(pokemon);
-    const evolutionMarkup = evolution.length ? `<section><h3>Evolution</h3><div class="evolution-list">${evolution.map(branch => `<div class="evolution-branch">${branch.map((id, index) => {
+    const evolutionMarkup = evolution.length ? `<section><h3>Evolution</h3>${evolutionGridMarkup(evolution, pokemon)}</section>` : '';
+    /* legacy evolution markup removed */
+    /*
+    ${evolution.map(branch => `<div class="evolution-branch">${branch.map((id, index) => {
       const target = findPokemonBox(id)?.pokemon || allPokemon.find(entry => entry.id === id);
       const current = baseSpeciesId(pokemon) === id;
       const method = index ? evolutionMethodLabel(evolutionMethodFor(branch[index - 1], id)) : '';
@@ -410,7 +413,8 @@
       const [primaryMethod, ...methodDetails] = (method || 'Evolves').split(' · ');
       const methodMarkup = `<span class="evolution-method"><span class="evolution-trigger">${escapeHtml(primaryMethod)}</span>${methodDetails.length ? ` ${escapeHtml(methodDetails.join(' · '))}` : ''}</span>`;
       return `${index ? methodMarkup : ''}${current || !target ? `<span class="evolution-current">${evolutionImage}<span>${escapeHtml(evolutionName)}</span></span>` : `<button type="button" class="evolution-target" data-pokemon-id="${escapeHtml(target.id)}">${evolutionImage}<span>${escapeHtml(evolutionName)}</span></button>`}`;
-    }).join('')}</div>`).join('')}</div></section>` : '';
+    }).join('')}</div>`).join('')}</div></section>`
+    */
     const infoBox = sourceBox ? sourceBox : findPokemonBox(pokemon.id)?.box;
     const statusButton = (statusMode, label) => {
       const status = infoBox ? getStatus(infoBox.id, pokemon.id, statusMode) : 0;
@@ -420,7 +424,15 @@
     const entries = pokemon.pokedexEntries || [];
     const regionalDexLabel = Object.entries(pokemon.regionalDexNumbers || {})
       .map(([dex, number]) => `${titleCaseGame(dex)} #${number}`).join(' · ');
-    const statRows = Object.entries(pokemon.stats || {}).map(([stat, value]) => `<div><span>${escapeHtml(titleCaseGame(stat))}</span><strong>${value}</strong></div>`).join('');
+    const statDefinitions = [
+      ['hp', 'HP'], ['attack', 'Attack'], ['defense', 'Defense'],
+      ['special-attack', 'Sp. Atk'], ['special-defense', 'Sp. Def'], ['speed', 'Speed']
+    ];
+    const statRows = statDefinitions.map(([stat, label]) => {
+      const value = Number(pokemon.stats?.[stat] || 0);
+      const width = Math.min(100, Math.max(0, value / 255 * 100));
+      return `<div class="pokemon-stat pokemon-stat-${stat.replace('-', '-')}" aria-label="${label}: ${value}"><div class="pokemon-stat-track"><span class="pokemon-stat-bar" style="height:${width.toFixed(2)}%"></span></div><strong>${escapeHtml(label)}</strong><span>${value}</span></div>`;
+    }).join('');
     const metadata = [
       ['Height', pokemon.height ? `${pokemon.height / 10} m` : '—'], ['Weight', pokemon.weight ? `${pokemon.weight / 10} kg` : '—'],
       ['Capture rate', pokemon.captureRate ?? '—'], ['Gender rate', pokemon.genderRate === -1 ? 'Genderless' : pokemon.genderRate ?? '—'],
@@ -433,7 +445,7 @@
       <div class="chooser-head"><h2 id="pokemon-info-title"><span class="pokemon-info-dex-number">#${String(pokemon.dex || '').padStart(3, '0')}</span> ${escapeHtml(pokemon.name)}${pokemon.genus ? ` <span class="pokemon-info-genus">${escapeHtml(pokemon.genus)}</span>` : ''}</h2><button type="button" class="chooser-close" aria-label="Close Pokémon information">×</button></div>
       <div class="pokemon-info-main"><div class="pokemon-info-artwork">${statusButton('regular', 'Regular')}${statusButton('shiny', 'Shiny')}</div><div>${typeBadgeMarkup(pokemon.types)}<p class="pokemon-info-egg-groups"><span>Egg Groups:</span> ${pokemon.eggGroups?.map(titleCaseGame).join(' · ') || '—'}</p></div></div>
       ${evolutionMarkup}
-      <section><h3>Stats</h3><div class="pokemon-info-stats">${statRows}</div><div class="pokemon-info-metadata">${metadata}</div></section>
+      <section class="pokemon-info-stats-section"><h3>Stats</h3><div class="pokemon-info-stats">${statRows}</div><div class="pokemon-info-metadata">${metadata}</div></section>
       <section><h3>Available in</h3><div class="pokemon-info-locations">${locations.length ? locations.map(([game, places]) => `<div><strong>${escapeHtml(titleCaseGame(game))}</strong><span>${places.map(titleCaseGame).join(' · ')}</span></div>`).join('') : '<p>Location information unavailable.</p>'}</div></section>
       <section><h3>Pokédex Entries</h3>${regionalDexLabel ? `<p class="pokemon-info-regional-dex"><strong>Regional Dex</strong> ${escapeHtml(regionalDexLabel)}</p>` : ''}<div class="pokemon-info-entries">${entries.length ? entries.map(entry => `<div><strong>${escapeHtml(titleCaseGame(entry.game))}</strong><span>${escapeHtml(entry.text)}</span></div>`).join('') : '<p>No Pokédex entries available.</p>'}</div></section>
     </div>`;
@@ -459,6 +471,55 @@
   function evolutionMethodFor(fromId, toId) {
     const source = nationalSpecies.find(entry => entry.id === fromId) || allPokemon.find(entry => entry.id === fromId);
     return source?.evolutionDetails?.filter(detail => detail.to === toId).flatMap(detail => detail.methods) || [];
+  }
+
+  function evolutionGridMarkup(branches, pokemon) {
+    let sharedLength = 0;
+    while (branches.every(branch => branch[sharedLength] && branch[sharedLength] === branches[0][sharedLength])) sharedLength++;
+    sharedLength = Math.max(1, sharedLength);
+    const rows = Math.max(1, branches.length);
+    const cells = [];
+    const nodeMarkup = id => {
+      const target = findPokemonBox(id)?.pokemon || allPokemon.find(entry => entry.id === id);
+      const image = `<img src="${imagePath(id, 'regular')}" alt="" loading="lazy">`;
+      const name = target?.name || titleCaseGame(id);
+      return baseSpeciesId(pokemon) === id || !target
+        ? `<span class="evolution-current">${image}<span>${escapeHtml(name)}</span></span>`
+        : `<button type="button" class="evolution-target" data-pokemon-id="${escapeHtml(target.id)}">${image}<span>${escapeHtml(name)}</span></button>`;
+    };
+    const methodMarkup = (fromId, toId) => {
+      const methods = evolutionMethodFor(fromId, toId);
+      if (!methods.length) return '<span class="evolution-method"><span class="evolution-trigger">Evolves</span></span>';
+      const groups = new Map();
+      for (const method of methods) {
+        const trigger = method.trigger ? titleCaseGame(method.trigger) : 'Special method';
+        const detail = method.location ? titleCaseGame(method.location) : method.item ? titleCaseGame(method.item)
+          : method.minLevel ? `Lv. ${method.minLevel}` : method.minHappiness ? `${method.minHappiness} happiness`
+            : method.minAffection ? `${method.minAffection} affection` : '';
+        if (!groups.has(trigger)) groups.set(trigger, []);
+        if (detail && !groups.get(trigger).includes(detail)) groups.get(trigger).push(detail);
+      }
+      return `<span class="evolution-method">${[...groups].map(([trigger, details]) => `<span class="evolution-method-group"><span class="evolution-trigger">${escapeHtml(trigger)}</span><span class="evolution-method-details">${details.map(escapeHtml).join('<br>')}</span></span>`).join('')}</span>`;
+    };
+    for (let index = 0; index < sharedLength; index++) {
+      const shared = rows > 1 ? ' evolution-grid-shared' : '';
+      const hasBranches = branches.length > 1 && branches.some(branch => branch.length > sharedLength);
+      const source = index < sharedLength - 1 || hasBranches ? ' evolution-grid-source' : '';
+      const branchSource = hasBranches && index === sharedLength - 1 ? ' evolution-grid-branch-source' : '';
+      cells.push(`<div class="evolution-grid-cell evolution-grid-node${source}${branchSource}${shared}" style="grid-column:${index * 2 + 1};grid-row:1 / span ${rows}">${nodeMarkup(branches[0][index])}</div>`);
+      if (index < sharedLength - 1) cells.push(`<div class="evolution-grid-cell evolution-grid-method${shared}" style="grid-column:${index * 2 + 2};grid-row:1 / span ${rows}">${methodMarkup(branches[0][index], branches[0][index + 1])}</div>`);
+    }
+    const start = (sharedLength - 1) * 2 + 2;
+    branches.forEach((branch, row) => {
+      for (let index = sharedLength - 1; index < branch.length - 1; index++) {
+        const column = start + (index - sharedLength + 1) * 2;
+        cells.push(`<div class="evolution-grid-cell evolution-grid-method evolution-grid-branch-method" style="grid-column:${column};grid-row:${row + 1}">${methodMarkup(branch[index], branch[index + 1])}</div>`);
+        const source = index + 1 < branch.length - 1 ? ' evolution-grid-source' : '';
+        cells.push(`<div class="evolution-grid-cell evolution-grid-node${source}" style="grid-column:${column + 1};grid-row:${row + 1}">${nodeMarkup(branch[index + 1])}</div>`);
+      }
+    });
+    const columns = Math.max(...branches.map(branch => branch.length * 2 - 1), 1);
+    return `<div class="evolution-grid" style="--evolution-columns:${columns};--evolution-rows:${rows}">${cells.join('')}</div>`;
   }
 
   function card(box, pokemon, mode, queueStatus, favouriteMode = false) {

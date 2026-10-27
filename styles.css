@@ -1300,6 +1300,79 @@ main {
   display: grid;
   gap: 8px;
 }
+.evolution-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--evolution-columns), minmax(0, 1fr));
+  grid-template-rows: repeat(var(--evolution-rows), auto);
+  align-items: center;
+  gap: 16px 6px;
+  overflow-x: auto;
+  padding: 2px 0;
+}
+.evolution-grid-cell {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.evolution-grid-node {
+  align-self: stretch;
+}
+.evolution-grid-source,
+.evolution-grid-method {
+  position: relative;
+}
+.evolution-grid-source::after,
+.evolution-grid-method::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: -12px;
+  width: 12px;
+  height: 8px;
+  background: var(--green);
+  transform: translateY(-50%);
+  clip-path: polygon(0 40%, 68% 40%, 68% 0, 100% 50%, 68% 100%, 68% 60%, 0 60%);
+}
+.evolution-grid-branch-method::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: -12px;
+  width: 12px;
+  height: 8px;
+  background: var(--green);
+  transform: translateY(-50%);
+  clip-path: polygon(0 40%, 68% 40%, 68% 0, 100% 50%, 68% 100%, 68% 60%, 0 60%);
+}
+.evolution-grid-branch-source::after {
+  display:none;
+}
+.evolution-grid-method {
+  min-width: 58px;
+}
+.evolution-method {
+  display: grid;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-align: center;
+}
+.evolution-method-group {
+  display: grid;
+  gap: 2px;
+  border: 1px solid var(--line);
+  padding: 2px 5px;
+}
+.evolution-method-group + .evolution-method-group {
+  border-top: 0;
+}
+.evolution-method-details {
+  color: var(--ink);
+  line-height: 1.35;
+}
 .evolution-branch {
   display: flex;
   flex-wrap: wrap;
@@ -1315,10 +1388,11 @@ main {
   border: 0;
   border-radius: 6px;
   padding: 5px 7px;
-  background: var(--surface-float);
+  background: transparent;
   color: var(--green-dark);
   font-size: 0.6rem;
   font-weight: 600;
+  z-index:1;
 }
 .evolution-target img,
 .evolution-current img {
@@ -1346,8 +1420,62 @@ main {
   grid-template-columns: repeat(3, 1fr);
   gap: 6px;
 }
-.pokemon-info-stats div,
-.pokemon-info-metadata div {
+.pokemon-info-stats-section {
+  background: transparent;
+}
+.pokemon-info-stats {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+  align-items: end;
+  border-bottom: 1px dashed var(--line);
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+.pokemon-stat {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: 90px auto auto;
+  gap: 4px;
+  text-align: center;
+  font-size: 0.62rem;
+  font-weight: 600;
+}
+.pokemon-stat-track {
+  width: 20px;
+  height: 90px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  border: 1px solid rgb(40 66 70 / 0.16);
+  border-radius: 3px;
+  background: rgb(40 66 70 / 0.08);
+  margin: 0 auto;
+}
+.pokemon-stat-bar {
+  display: block;
+  width: 100%;
+  border-radius: inherit;
+}
+.pokemon-stat > strong {
+  color: var(--green);
+  font-size: 0.6rem;
+  font-style:italic;
+  font-weight:normal;
+}
+.pokemon-stat-hp .pokemon-stat-track { background: rgb(174 238 202 / 0.55); }
+.pokemon-stat-hp .pokemon-stat-bar { background: var(--home-ink); }
+.pokemon-stat-attack .pokemon-stat-track { background: rgb(255 237 166 / 0.65); }
+.pokemon-stat-attack .pokemon-stat-bar { background: var(--caught-status); }
+.pokemon-stat-defense .pokemon-stat-track { background: rgb(255 214 175 / 0.7); }
+.pokemon-stat-defense .pokemon-stat-bar { background: var(--amber); }
+.pokemon-stat-special-attack .pokemon-stat-track { background: rgb(185 241 238 / 0.7); }
+.pokemon-stat-special-attack .pokemon-stat-bar { background: var(--green); }
+.pokemon-stat-special-defense .pokemon-stat-track { background: rgb(197 215 255 / 0.7); }
+.pokemon-stat-special-defense .pokemon-stat-bar { background: var(--navy); }
+.pokemon-stat-speed .pokemon-stat-track { background: rgb(248 204 232 / 0.72); }
+.pokemon-stat-speed .pokemon-stat-bar { background: #c43a9e; }
+.pokemon-info-stats > div,
+.pokemon-info-metadata > div {
   display: grid;
   gap: 2px;
   padding: 6px;
@@ -1355,8 +1483,6 @@ main {
   background: var(--surface-float);
   font-size: 0.67rem;
 }
-.pokemon-info-stats span,
-.pokemon-info-metadata span { color: var(--muted); }
 .pokemon-info-stats strong,
 .pokemon-info-metadata strong { color: var(--navy); }
 .pokemon-info-locations,
