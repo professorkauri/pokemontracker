@@ -19,7 +19,10 @@
   const manageOwnedGames = document.querySelector('#manage-owned-games');
   const nationalSpecies = DATA.boxes.filter(box => box.id.startsWith('dex-')).flatMap(box => box.pokemon);
   const allPokemon = DATA.boxes.flatMap(box => box.pokemon);
-  const allGames = DATA.games?.length ? DATA.games : [...new Set(allPokemon.flatMap(pokemon => pokemon.games || []))].sort();
+  const locationGameIds = new Set(allPokemon.flatMap(pokemon => Object.keys(pokemon.locationsByGame || {})));
+  const allGames = DATA.games?.length
+    ? [...DATA.games.filter(game => locationGameIds.has(game)), ...[...locationGameIds].filter(game => !DATA.games.includes(game))]
+    : [...locationGameIds].sort();
   const speciesIds = new Set(nationalSpecies.map(pokemon => pokemon.id));
   const favouriteGroups = await loadFavouriteGroups();
   const excludedFavouriteGroupIds = new Set(favouriteGroups.filter(group => group.exclude).flatMap(group => group.pokemon || []));
@@ -178,7 +181,7 @@
     if (!matchesMissing) return false;
     const games = activeFilterGames();
     if (games === null) return true;
-    return games.length > 0 && pokemon.games?.some(game => games.includes(game));
+    return games.length > 0 && games.some(game => Object.prototype.hasOwnProperty.call(pokemon.locationsByGame || {}, game));
   }
   function dexFilterIsActive() {
     return gameFilter.missingOnly || gameFilter.source !== 'all';
@@ -341,6 +344,11 @@
     if (nextStatus === 0) delete state[key(box.id, pokemon.id, mode)];
     saveState();
 
+    document.querySelectorAll('.pokemon').forEach(candidate => {
+      if (candidate === button || candidate.dataset.boxId !== box.id || candidate.dataset.pokemonId !== pokemon.id || candidate.dataset.mode !== mode) return;
+      candidate.replaceWith(card(box, pokemon, mode, queueStatus, favouriteMode));
+    });
+
     const section = button.closest('.box');
     const remainsVisible = queueStatus !== null || view !== 'pokedex' || pokemonMatchesGameFilter(box, pokemon);
 
@@ -355,17 +363,135 @@
     syncEmptyState();
   }
 
+  function closePokemonInfo() {
+    document.querySelector('#pokemon-info-modal')?.remove();
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>\"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
+  }
+
+  function typeBadgeMarkup(types = []) {
+    return types.length
+      ? `<div class="pokemon-info-types" aria-label="Types">${types.map(type => `<span class="type-badge"><img class="type-badge-main" src="images/types/scarlet-violet/${type}.png" alt="${titleCaseGame(type)} type" loading="lazy"></span>`).join('')}</div>`
+      : '<p class="pokemon-info-types">Type information unavailable</p>';
+  }
+
+  function findPokemonBox(pokemonId) {
+    const box = DATA.boxes.find(candidate => candidate.pokemon.some(entry => entry.id === pokemonId));
+    return box ? { box, pokemon: box.pokemon.find(entry => entry.id === pokemonId) } : null;
+  }
+
+  function evolutionMethodLabel(methods = []) {
+    return methods.map(method => {
+      const parts = [];
+      if (method.trigger === 'level-up') parts.push('Level up');
+      else if (method.trigger) parts.push(titleCaseGame(method.trigger));
+      if (method.minLevel) parts.push(`Lv. ${method.minLevel}`);
+      if (method.item) parts.push(titleCaseGame(method.item));
+      if (method.minHappiness) parts.push(`${method.minHappiness} happiness`);
+      if (method.minAffection) parts.push(`${method.minAffection} affection`);
+      if (method.timeOfDay) parts.push(method.timeOfDay);
+      if (method.location) parts.push(titleCaseGame(method.location));
+      if (method.knownMoveType) parts.push(`${titleCaseGame(method.knownMoveType)} move`);
+      return parts.join(' · ') || 'Special method';
+    }).join(' / ');
+  }
+
+  function showPokemonInfo(pokemon, mode, sourceBox = findPokemonBox(pokemon.id)?.box) {
+    closePokemonInfo();
+    const evolution = evolutionBySpeciesForPopup(pokemon);
+    const evolutionMarkup = evolution.length ? `<section><h3>Evolution</h3><div class="evolution-list">${evolution.map(branch => `<div class="evolution-branch">${branch.map((id, index) => {
+      const target = findPokemonBox(id)?.pokemon || allPokemon.find(entry => entry.id === id);
+      const current = baseSpeciesId(pokemon) === id;
+      const method = index ? evolutionMethodLabel(evolutionMethodFor(branch[index - 1], id)) : '';
+      const evolutionName = target?.name || titleCaseGame(id);
+      const evolutionImage = `<img src="${imagePath(id, 'regular')}" alt="" loading="lazy">`;
+      const [primaryMethod, ...methodDetails] = (method || 'Evolves').split(' · ');
+      const methodMarkup = `<span class="evolution-method"><span class="evolution-trigger">${escapeHtml(primaryMethod)}</span>${methodDetails.length ? ` ${escapeHtml(methodDetails.join(' · '))}` : ''}</span>`;
+      return `${index ? methodMarkup : ''}${current || !target ? `<span class="evolution-current">${evolutionImage}<span>${escapeHtml(evolutionName)}</span></span>` : `<button type="button" class="evolution-target" data-pokemon-id="${escapeHtml(target.id)}">${evolutionImage}<span>${escapeHtml(evolutionName)}</span></button>`}`;
+    }).join('')}</div>`).join('')}</div></section>` : '';
+    const infoBox = sourceBox ? sourceBox : findPokemonBox(pokemon.id)?.box;
+    const statusButton = (statusMode, label) => {
+      const status = infoBox ? getStatus(infoBox.id, pokemon.id, statusMode) : 0;
+      return `<div class="pokemon-info-artwork-choice"><span>${label}</span><button type="button" class="pokemon ${STATUS_NAMES[status]}" data-info-mode="${statusMode}" data-mode="${statusMode}" data-box-id="${escapeHtml(infoBox?.id || '')}" data-pokemon-id="${escapeHtml(pokemon.id)}" aria-label="${label} status: ${STATUS_NAMES[status]}"><span class="status">${statusIcon(status)}</span><img src="${artworkPath(pokemon.id, statusMode)}" alt="${label} ${escapeHtml(pokemon.name)}"><small>${escapeHtml(pokemon.name)}</small></button></div>`;
+    };
+    const locations = Object.entries(pokemon.locationsByGame || {});
+    const entries = pokemon.pokedexEntries || [];
+    const regionalDexLabel = Object.entries(pokemon.regionalDexNumbers || {})
+      .map(([dex, number]) => `${titleCaseGame(dex)} #${number}`).join(' · ');
+    const statRows = Object.entries(pokemon.stats || {}).map(([stat, value]) => `<div><span>${escapeHtml(titleCaseGame(stat))}</span><strong>${value}</strong></div>`).join('');
+    const metadata = [
+      ['Height', pokemon.height ? `${pokemon.height / 10} m` : '—'], ['Weight', pokemon.weight ? `${pokemon.weight / 10} kg` : '—'],
+      ['Capture rate', pokemon.captureRate ?? '—'], ['Gender rate', pokemon.genderRate === -1 ? 'Genderless' : pokemon.genderRate ?? '—'],
+      ['Hatch counter', pokemon.hatchCounter ?? '—'], ['Habitat', pokemon.habitat ? titleCaseGame(pokemon.habitat) : '—'], ['Colour', pokemon.colour ? titleCaseGame(pokemon.colour) : '—']
+    ].map(([label, value]) => `<div><span>${label}</span><strong>${escapeHtml(value)}</strong></div>`).join('');
+    const modal = document.createElement('div');
+    modal.id = 'pokemon-info-modal';
+    modal.className = 'chooser-backdrop pokemon-info-backdrop';
+    modal.innerHTML = `<div class="chooser pokemon-info" role="dialog" aria-modal="true" aria-labelledby="pokemon-info-title">
+      <div class="chooser-head"><h2 id="pokemon-info-title"><span class="pokemon-info-dex-number">#${String(pokemon.dex || '').padStart(3, '0')}</span> ${escapeHtml(pokemon.name)}${pokemon.genus ? ` <span class="pokemon-info-genus">${escapeHtml(pokemon.genus)}</span>` : ''}</h2><button type="button" class="chooser-close" aria-label="Close Pokémon information">×</button></div>
+      <div class="pokemon-info-main"><div class="pokemon-info-artwork">${statusButton('regular', 'Regular')}${statusButton('shiny', 'Shiny')}</div><div>${typeBadgeMarkup(pokemon.types)}<p class="pokemon-info-egg-groups"><span>Egg Groups:</span> ${pokemon.eggGroups?.map(titleCaseGame).join(' · ') || '—'}</p></div></div>
+      ${evolutionMarkup}
+      <section><h3>Stats</h3><div class="pokemon-info-stats">${statRows}</div><div class="pokemon-info-metadata">${metadata}</div></section>
+      <section><h3>Available in</h3><div class="pokemon-info-locations">${locations.length ? locations.map(([game, places]) => `<div><strong>${escapeHtml(titleCaseGame(game))}</strong><span>${places.map(titleCaseGame).join(' · ')}</span></div>`).join('') : '<p>Location information unavailable.</p>'}</div></section>
+      <section><h3>Pokédex Entries</h3>${regionalDexLabel ? `<p class="pokemon-info-regional-dex"><strong>Regional Dex</strong> ${escapeHtml(regionalDexLabel)}</p>` : ''}<div class="pokemon-info-entries">${entries.length ? entries.map(entry => `<div><strong>${escapeHtml(titleCaseGame(entry.game))}</strong><span>${escapeHtml(entry.text)}</span></div>`).join('') : '<p>No Pokédex entries available.</p>'}</div></section>
+    </div>`;
+    const close = () => closePokemonInfo();
+    modal.querySelector('.chooser-close').addEventListener('click', close);
+    modal.addEventListener('click', event => { if (event.target === modal) close(); });
+    modal.querySelectorAll('.evolution-target').forEach(button => button.addEventListener('click', () => {
+      const next = findPokemonBox(button.dataset.pokemonId);
+      if (next) showPokemonInfo(next.pokemon, mode, next.box);
+    }));
+    modal.querySelectorAll('[data-info-mode]').forEach(button => button.addEventListener('click', () => {
+      if (!infoBox) return;
+      const statusMode = button.dataset.infoMode;
+      updatePokemonStatus(button, infoBox, pokemon, statusMode, null, false);
+    }));
+    document.body.append(modal);
+  }
+
+  function evolutionBySpeciesForPopup(pokemon) {
+    return (pokemon.evolutionBranches || []).filter(branch => branch.includes(baseSpeciesId(pokemon)));
+  }
+
+  function evolutionMethodFor(fromId, toId) {
+    const source = nationalSpecies.find(entry => entry.id === fromId) || allPokemon.find(entry => entry.id === fromId);
+    return source?.evolutionDetails?.filter(detail => detail.to === toId).flatMap(detail => detail.methods) || [];
+  }
+
   function card(box, pokemon, mode, queueStatus, favouriteMode = false) {
     const status = getStatus(box.id, pokemon.id, mode);
     const button = document.createElement('button');
     button.type = 'button';
+    button.dataset.boxId = box.id;
+    button.dataset.pokemonId = pokemon.id;
+    button.dataset.mode = mode;
     updateCardVisual(button, pokemon, status, favouriteMode, mode);
-    if (favouriteMode) button.addEventListener('click', () => {
+    let longPressTimer = null;
+    let longPressHandled = false;
+    button.addEventListener('pointerdown', event => {
+      if (event.pointerType === 'mouse' && event.button !== 0) return;
+      longPressHandled = false;
+      longPressTimer = window.setTimeout(() => {
+        longPressHandled = true;
+        showPokemonInfo(pokemon, mode, box);
+      }, 550);
+    });
+    const cancelLongPress = () => { if (longPressTimer !== null) window.clearTimeout(longPressTimer); longPressTimer = null; };
+    button.addEventListener('pointermove', event => { if (Math.hypot(event.movementX, event.movementY) > 8) cancelLongPress(); });
+    button.addEventListener('pointerup', cancelLongPress);
+    button.addEventListener('pointercancel', cancelLongPress);
+    button.addEventListener('contextmenu', event => event.preventDefault());
+    if (favouriteMode) button.addEventListener('click', event => {
+      if (longPressHandled) { longPressHandled = false; event.preventDefault(); return; }
       if (favourites[mode][pokemon.id]) delete favourites[mode][pokemon.id];
       else favourites[mode][pokemon.id] = pokemon.id;
       saveFavourites(); render();
     });
-    else if (queueStatus === null || status === queueStatus) button.addEventListener('click', () => {
+    else if (queueStatus === null || status === queueStatus) button.addEventListener('click', event => {
+      if (longPressHandled) { longPressHandled = false; event.preventDefault(); return; }
       updatePokemonStatus(button, box, pokemon, mode, queueStatus, favouriteMode);
     });
     return button;

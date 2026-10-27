@@ -262,6 +262,44 @@ async function fetchJson(url) {
   if (!response.ok) throw new Error(`Failed ${url}: ${response.status}`);
   return response.json();
 }
+const english = entries => entries?.find(entry => entry.language?.name === 'en')?.flavor_text
+  ?.replace(/[\n\f]/g, ' ').replace(/\s+/g, ' ').trim();
+const englishGenus = entries => entries?.find(entry => entry.language?.name === 'en')?.genus;
+function evolutionMethod(details) {
+  const method = {};
+  if (details.trigger?.name) method.trigger = details.trigger.name;
+  for (const [key, label] of [
+    ['min_level', 'minLevel'], ['min_happiness', 'minHappiness'], ['min_beauty', 'minBeauty'],
+    ['min_affection', 'minAffection'], ['time_of_day', 'timeOfDay'], ['known_move', 'knownMove'],
+    ['known_move_type', 'knownMoveType'], ['location', 'location'], ['held_item', 'heldItem'],
+    ['item', 'item'], ['gender', 'gender'], ['party_species', 'partySpecies'],
+    ['party_type', 'partyType'], ['needs_overworld_rain', 'needsOverworldRain'],
+    ['turn_upside_down', 'turnUpsideDown']
+  ]) {
+    const value = details[key];
+    if (value !== null && value !== undefined && value !== false && value !== '') {
+      method[label] = typeof value === 'object' ? value.name : value;
+    }
+  }
+  return method;
+}
+function collectEvolutionData(chain) {
+  const detailsBySpecies = new Map();
+  const branches = [];
+  function walk(node, path = []) {
+    const current = [...path, node.species.name];
+    if (!node.evolves_to.length) branches.push(current);
+    for (const next of node.evolves_to) {
+      const details = next.evolution_details.map(evolutionMethod).filter(detail => Object.keys(detail).length);
+      const currentDetails = detailsBySpecies.get(node.species.name) || [];
+      currentDetails.push({ to: next.species.name, methods: details });
+      detailsBySpecies.set(node.species.name, currentDetails);
+      walk(next, current);
+    }
+  }
+  walk(chain.chain);
+  return { detailsBySpecies, branches };
+}
 async function fetchGameOrder() {
   try {
     const versions = await fetchJson(`${VERSION_URL}?limit=200`);
@@ -302,6 +340,17 @@ const defaultTypeAliases = new Map([
   ['zygarde', 'zygarde-50'], ['mimikyu', 'mimikyu-disguised'], ['eiscue', 'eiscue-ice'], ['morpeko', 'morpeko-full-belly']
 ]);
 const typeIds = [...new Set([...allEntries.map(pokemon => pokemon.imageId || pokemon.id), ...defaultTypeAliases.values()])];
+const apiIds = [...new Set(allEntries.map(pokemon => pokemon.imageId || pokemon.id))];
+const pokemonDetailsEntries = await mapConcurrent(apiIds, async id => {
+  try { return [id, await fetchJson(`${API_URL}/${id}`)]; }
+  catch { return [id, null]; }
+});
+const pokemonDetailsById = new Map(pokemonDetailsEntries);
+const speciesDetailsEntries = await mapConcurrent([...nationalIds], async id => {
+  try { return [id, await fetchJson(`${SPECIES_URL}/${id}`)]; }
+  catch { return [id, null]; }
+});
+const speciesDetailsById = new Map(speciesDetailsEntries);
 const typeEntries = await mapConcurrent(typeIds, async id => {
   try {
     const details = await fetchJson(`${API_URL}/${id}`);
@@ -320,16 +369,45 @@ for (const pokemon of allEntries) {
   const fallback = allEntries.find(candidate => baseSpeciesId(candidate.imageId || candidate.id) === baseSpeciesId(pokemon.imageId || pokemon.id) && typesById.get(candidate.imageId || candidate.id)?.length);
   pokemon.types = directTypes.length ? directTypes : (fallback ? typesById.get(fallback.imageId || fallback.id) : []);
 }
+for (const pokemon of allEntries) {
+  const apiId = pokemon.imageId || pokemon.id;
+  const details = pokemonDetailsById.get(apiId) || pokemonDetailsById.get(baseSpeciesId(apiId));
+  const speciesDetails = speciesDetailsById.get(baseSpeciesId(apiId));
+  if (details) {
+    pokemon.abilities = details.abilities.filter(entry => entry.ability).map(entry => ({ name: entry.ability.name, hidden: entry.is_hidden }));
+    pokemon.stats = Object.fromEntries(details.stats.map(entry => [entry.stat.name, entry.base_stat]));
+    pokemon.height = details.height;
+    pokemon.weight = details.weight;
+  }
+  if (speciesDetails) {
+    pokemon.captureRate = speciesDetails.capture_rate;
+    pokemon.genderRate = speciesDetails.gender_rate;
+    pokemon.hatchCounter = speciesDetails.hatch_counter;
+    pokemon.eggGroups = speciesDetails.egg_groups.map(group => group.name);
+    pokemon.habitat = speciesDetails.habitat?.name || null;
+    pokemon.colour = speciesDetails.color?.name || null;
+    pokemon.generation = speciesDetails.generation?.name || null;
+    pokemon.genus = englishGenus(speciesDetails.genera) || null;
+    pokemon.pokedexEntries = [...new Map(speciesDetails.flavor_text_entries
+      .filter(entry => entry.language?.name === 'en')
+      .map(entry => [entry.version.name, english([entry])])).entries()]
+      .filter(([, text]) => text).map(([game, text]) => ({ game, text }));
+    pokemon.regionalDexNumbers = Object.fromEntries(speciesDetails.pokedex_numbers.map(entry => [entry.pokedex.name, entry.entry_number]));
+  }
+}
 const gameIds = [...new Set(allEntries.map(pokemon => pokemon.imageId || pokemon.id))];
 const encounterGameEntries = await mapConcurrent(gameIds, async id => {
   try {
     const encounters = await fetchJson(`${API_URL}/${id}/encounters`);
-    return [id, new Set(encounters.flatMap(location =>
-      location.version_details.map(detail => detail.version.name)
-    ))];
+    const locationsByGame = {};
+    for (const location of encounters) for (const detail of location.version_details) {
+      (locationsByGame[detail.version.name] ||= []).push(location.location_area.name);
+    }
+    for (const game of Object.keys(locationsByGame)) locationsByGame[game] = [...new Set(locationsByGame[game])].sort();
+    return [id, { games: new Set(Object.keys(locationsByGame)), locationsByGame }];
   }
   catch {
-    return [id, new Set(existingGames.get(id) || [])];
+    return [id, { games: new Set(existingGames.get(id) || []), locationsByGame: {} }];
   }
 });
 const encounterGamesById = new Map(encounterGameEntries);
@@ -347,10 +425,41 @@ const speciesGameEntries = await mapConcurrent([...nationalIds], async id => {
 const speciesGamesById = new Map(speciesGameEntries);
 for (const pokemon of allEntries) {
   const apiId = pokemon.imageId || pokemon.id;
-  const directGames = encounterGamesById.get(apiId) || new Set();
+  const encounterData = encounterGamesById.get(apiId) || { games: new Set(), locationsByGame: {} };
+  const directGames = encounterData.games;
   const regionalDexGames = speciesGamesById.get(baseSpeciesId(apiId)) || new Set();
   const games = sortGames(new Set([...directGames, ...regionalDexGames]), gameOrder);
   if (games.length) pokemon.games = games;
+  pokemon.locationsByGame = encounterData.locationsByGame;
+}
+const evolutionChainUrls = [...new Set([...speciesDetailsById.values()]
+  .filter(details => details?.evolution_chain?.url)
+  .map(details => details.evolution_chain.url))];
+const evolutionChainEntries = await mapConcurrent(evolutionChainUrls, async url => {
+  try { return [url, await fetchJson(url)]; }
+  catch { return [url, null]; }
+});
+const evolutionBySpecies = new Map();
+for (const [, chain] of evolutionChainEntries) {
+  if (!chain) continue;
+  const evolutionData = collectEvolutionData(chain);
+  for (const branch of evolutionData.branches) {
+    for (const id of branch) {
+      const existing = evolutionBySpecies.get(id) || { details: [], branches: [] };
+      if (!existing.branches.some(candidate => candidate.join('|') === branch.join('|'))) existing.branches.push(branch);
+      evolutionBySpecies.set(id, existing);
+    }
+  }
+  for (const [id, details] of evolutionData.detailsBySpecies) {
+    const existing = evolutionBySpecies.get(id) || { details: [], branches: [] };
+    existing.details.push(...details);
+    evolutionBySpecies.set(id, existing);
+  }
+}
+for (const pokemon of allEntries) {
+  const evolution = evolutionBySpecies.get(baseSpeciesId(pokemon.imageId || pokemon.id));
+  pokemon.evolutionDetails = evolution?.details || [];
+  pokemon.evolutionBranches = evolution?.branches || [];
 }
 const games = sortGames(new Set(gameOrder), gameOrder);
 const availableIds = new Set(allEntries.map(pokemon => pokemon.id));

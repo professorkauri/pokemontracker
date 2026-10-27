@@ -7,8 +7,11 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const source = await (await import('node:fs/promises')).readFile(resolve(root, 'data/pokemon.js'), 'utf8');
 const sandbox = { window: {} }; vm.runInNewContext(source, sandbox);
 const pokemon = [...new Map(sandbox.window.POKEMON_DATA.boxes.flatMap(b => b.pokemon).map(p => [p.id, p])).values()];
+const typeIds = { normal: 1, fighting: 2, flying: 3, poison: 4, ground: 5, rock: 6, bug: 7, ghost: 8, steel: 9, fire: 10, water: 11, grass: 12, electric: 13, psychic: 14, ice: 15, dragon: 16, dark: 17, fairy: 18 };
 await mkdir(resolve(root, 'images/regular'), { recursive: true });
 await mkdir(resolve(root, 'images/shiny'), { recursive: true });
+await mkdir(resolve(root, 'images/types/scarlet-violet'), { recursive: true });
+await mkdir(resolve(root, 'images/types/scarlet-violet/symbols'), { recursive: true });
 
 async function exists(path) { try { await access(path); return true; } catch { return false; } }
 async function fetchJson(url) { const res = await fetch(url); if (!res.ok) throw new Error(`${res.status} ${url}`); return res.json(); }
@@ -72,3 +75,10 @@ for (const p of pokemon) {
   } catch (error) { console.error(`\nSkipped ${p.id}: ${error.message}`); }
 }
 console.log('\nImages are ready. Re-run any time; existing files are skipped.');
+for (const [type, id] of Object.entries(typeIds)) {
+  const target = resolve(root, `images/types/scarlet-violet/${type}.png`);
+  const symbolTarget = resolve(root, `images/types/scarlet-violet/symbols/${type}.png`);
+  if (!await exists(target)) await download(`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-ix/scarlet-violet/${id}.png`, target);
+  if (!await exists(symbolTarget)) await download(`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-ix/scarlet-violet/small/${id}.png`, symbolTarget);
+}
+console.log('Scarlet/Violet type badges are ready.');

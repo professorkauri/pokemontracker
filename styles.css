@@ -159,7 +159,7 @@ button {
 }
 .collection-progress > div {
   display: grid;
-  grid-template-columns: 43px 1fr 48px;
+  grid-template-columns: 47px 1fr 58px;
   align-items: center;
   gap: 6px;
 }
@@ -382,14 +382,20 @@ main {
   border-radius: 8px;
   background: var(--card-solid);
   box-shadow: var(--modal-shadow);
-  padding: 16px;
+  padding: 0px;
 }
+
 .games-chooser {
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
   max-height: min(720px, calc(100vh - 36px));
   overflow: hidden;
   padding: 0;
+}
+.chooser-head {
+  padding: 11px 10px;
+  background: var(--surface-soft);
+  border-bottom: 1px solid var(--line);
 }
 .chooser-head,
 .chooser-actions {
@@ -412,7 +418,12 @@ main {
 }
 .chooser-head h2 {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 0.95rem;
+
+  & span {
+    color: var(--green);
+    font-weight:normal;
+  }
 }
 .chooser-close {
   border: 0;
@@ -1149,6 +1160,23 @@ main {
   grid-template-columns: repeat(5, 1fr);
   box-shadow: var(--dock-shadow);
 }
+.dock-hint {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  padding: 5px 10px;
+  border: 1px solid var(--dock-border);
+  border-radius: 999px;
+  background: var(--dock-bg);
+  color: var(--dock-text);
+  font-size: 0.66rem;
+  font-weight: 700;
+  white-space: nowrap;
+  pointer-events: none;
+}
 .dock button {
   border: 0;
   color: var(--dock-text);
@@ -1190,6 +1218,226 @@ main {
 }
 .dock b[hidden] {
   display: none;
+}
+.pokemon-info-backdrop {
+  align-items: end;
+  padding: 14px;
+}
+.pokemon-info {
+  max-height: min(720px, calc(100vh - 28px));
+  border-radius: 16px;
+}
+.pokemon-info-main {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 14px;
+  margin: 12px 0 16px;
+}
+.pokemon-info-genus {
+  display:block;
+  font-size: 0.72em;
+  font-style: italic;
+  font-weight: 500;
+}
+.pokemon-info-artwork {
+  display: flex;
+  gap: 8px;
+}
+.pokemon-info-artwork-choice {
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 800;
+}
+.pokemon-info-artwork .pokemon {
+  width: 92px;
+  aspect-ratio: 0.86;
+}
+.pokemon-info-status {
+  position: relative;
+  width: 92px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-float);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.62rem;
+  font-weight: 800;
+}
+.pokemon-info-status img {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+}
+.pokemon-info-status span {
+  display: block;
+  text-transform: capitalize;
+}
+.pokemon-info-status.target { border-color: var(--yellow); }
+.pokemon-info-status.caught { border-color: var(--green); }
+.pokemon-info-status.home { border-color: var(--teal); background: rgb(189 239 231 / 0.35); }
+.pokemon-info-egg-groups {
+  margin: 10px 0 0;
+  color: var(--green-dark);
+  font-size: 0.78rem;
+  font-weight: bold;
+
+  & span {
+    color:var(--green);
+    font-style:italic;
+    font-weight:normal;
+  }
+}
+.pokemon-info section {
+  border-top: 1px solid var(--line);
+  padding: 16px;
+}
+.evolution-list {
+  display: grid;
+  gap: 8px;
+}
+.evolution-branch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.evolution-target,
+.evolution-current {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  border: 0;
+  border-radius: 6px;
+  padding: 5px 7px;
+  background: var(--surface-float);
+  color: var(--green-dark);
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+.evolution-target img,
+.evolution-current img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.evolution-target { cursor: pointer; }
+.evolution-target:hover { background: var(--green); color: var(--white); }
+.evolution-method {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-align: center;
+}
+.evolution-trigger {
+  font-weight:normal;
+  color:var(--green);
+  display:block;
+  font-size:0.8em;
+}
+.pokemon-info-stats,
+.pokemon-info-metadata {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.pokemon-info-stats div,
+.pokemon-info-metadata div {
+  display: grid;
+  gap: 2px;
+  padding: 6px;
+  border-radius: 6px;
+  background: var(--surface-float);
+  font-size: 0.67rem;
+}
+.pokemon-info-stats span,
+.pokemon-info-metadata span { color: var(--muted); }
+.pokemon-info-stats strong,
+.pokemon-info-metadata strong { color: var(--navy); }
+.pokemon-info-locations,
+.pokemon-info-entries {
+  display: grid;
+  gap: 7px;
+}
+.pokemon-info-regional-dex {
+  margin: 8px 0;
+  color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1.45;
+}
+.pokemon-info-locations div,
+.pokemon-info-entries div {
+  display: grid;
+  grid-template-columns: minmax(82px, 0.4fr) 1fr;
+  gap: 8px;
+  font-size: 0.72rem;
+}
+.pokemon-info-locations span,
+.pokemon-info-entries span { color: var(--muted); }
+.pokemon-info-main img {
+  object-fit: contain;
+}
+.pokemon-info-main p,
+.pokemon-info-games p {
+  margin: 4px 0;
+}
+.pokemon-info-dex {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.pokemon-info-types {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin-top: 8px !important;
+  justify-content: center;
+}
+.pokemon-info-types img {
+  display: block;
+}
+.type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.type-badge-main {
+  width: 76px;
+  height: auto;
+}
+.type-badge-symbol {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.pokemon-info-types > .type-badge {
+  margin-bottom: 2px;
+}
+.pokemon-info-types > .type-badge:last-child {
+  margin-bottom: 0;
+}
+.pokemon-info-types > .type-badge img {
+  display: block;
+}
+.pokemon-info h3 {
+  margin: 14px 0 8px;
+  color: var(--navy);
+  font-size: 0.92rem;
+}
+.evolution-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: var(--green-dark);
+  font-weight: 700;
+}
+.evolution-arrow {
+  color: var(--muted);
 }
 .forced-open .box-head {
   cursor: default;
