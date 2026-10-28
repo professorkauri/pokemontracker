@@ -247,6 +247,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-2-main"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -473,6 +491,57 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -695,6 +764,60 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-shield": [
               "forest-of-focus-max-den-a",
               "training-lowlands-max-den-b"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -958,6 +1081,24 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-d",
               "lake-of-outrage-max-den-c",
               "postwick-leons-room"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -1192,6 +1333,51 @@ window.POKEMON_DATA = {
             "shield": [
               "hammerlocke-hills-max-den-d",
               "lake-of-outrage-max-den-c"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -1481,6 +1667,54 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-i",
               "loop-lagoon-max-den-c",
               "potbottom-desert-max-den-b"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -1745,6 +1979,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "seaward-cave-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -1970,6 +2222,57 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-water"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -2191,6 +2494,60 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-shield": [
               "stepping-stone-sea-max-den-c",
               "workout-sea-max-den-g"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -2565,6 +2922,9 @@ window.POKEMON_DATA = {
               "lush-jungle-south",
               "lush-jungle-west",
               "melemele-meadow-area"
+            ],
+            "silver": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -2933,6 +3293,12 @@ window.POKEMON_DATA = {
               "lush-jungle-south",
               "lush-jungle-west",
               "melemele-meadow-area"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -3287,6 +3653,27 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "pinwheel-forest-hidden-grotto-inner-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -3571,6 +3958,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "santalune-forest-area"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -3858,6 +4254,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-poison"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -4109,6 +4514,39 @@ window.POKEMON_DATA = {
             ],
             "black-2": [
               "pinwheel-forest-hidden-grotto-inner-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -4557,6 +4995,9 @@ window.POKEMON_DATA = {
               "friend-safari-flying",
               "kalos-route-2-area",
               "kalos-route-3-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -4921,6 +5362,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-3f"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -5176,6 +5626,48 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-10-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -5741,6 +6233,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-1-south"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -6188,6 +6686,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-1f"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -7347,6 +7854,27 @@ window.POKEMON_DATA = {
             ],
             "gold": [
               "goldenrod-city-game-corner"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -7650,6 +8178,36 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-roof"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -8063,6 +8621,33 @@ window.POKEMON_DATA = {
             ],
             "blue-japan": [
               "celadon-city-prize-corner"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -8405,6 +8990,105 @@ window.POKEMON_DATA = {
             "shield": [
               "giants-cap-max-den-d",
               "motostoke-riverbank-max-den-b"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -8758,6 +9442,39 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ground"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -9112,6 +9829,60 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -10002,6 +10773,42 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-c",
               "giants-bed-max-den-k",
               "max-lair-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -10883,6 +11690,42 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-c",
               "giants-bed-max-den-k",
               "max-lair-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -11334,6 +12177,24 @@ window.POKEMON_DATA = {
               "forest-of-focus-max-den-d",
               "insular-sea-max-den-a",
               "soothing-wetlands-max-den-b"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -11668,6 +12529,78 @@ window.POKEMON_DATA = {
               "forest-of-focus-max-den-d",
               "insular-sea-max-den-a",
               "soothing-wetlands-max-den-b"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -12028,6 +12961,51 @@ window.POKEMON_DATA = {
             ],
             "yellow": [
               "celadon-city-prize-corner"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -12330,6 +13308,84 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-b",
               "giants-bed-max-den-t",
               "snowslide-slope-max-den-h"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -12736,6 +13792,21 @@ window.POKEMON_DATA = {
               "alola-route-4-area",
               "alola-route-6-north",
               "alola-route-6-south"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -13063,6 +14134,78 @@ window.POKEMON_DATA = {
             ],
             "yellow": [
               "celadon-city-prize-corner"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -13946,6 +15089,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pokespot-cave"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -14809,6 +15964,24 @@ window.POKEMON_DATA = {
               "thrifty-megamart-abandoned-site",
               "vast-poni-canyon-inside",
               "vast-poni-canyon-northwest"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -15226,6 +16399,21 @@ window.POKEMON_DATA = {
               "north-lake-miloch-max-den-d",
               "rolling-fields-main",
               "watchtower-ruins-area"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -15589,6 +16777,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-poison"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -15866,6 +17075,69 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -16233,6 +17505,9 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-bug"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -16527,6 +17802,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-11-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -16841,6 +18137,18 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "unova-route-3-hidden-grotto-pond"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -17167,6 +18475,18 @@ window.POKEMON_DATA = {
             "y": [
               "friend-safari-bug",
               "friend-safari-poison"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -17473,6 +18793,36 @@ window.POKEMON_DATA = {
               "giants-mirror-main",
               "rolling-fields-main",
               "rolling-fields-max-den-b"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -17820,6 +19170,24 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-bf1"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -18148,6 +19516,42 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "isle-of-armor-caves-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -18438,6 +19842,54 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "mirage-spot-island-route-124"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -19012,6 +20464,24 @@ window.POKEMON_DATA = {
               "sandy-cave-area",
               "seaward-cave-area",
               "ten-carat-hill-inside"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -19557,6 +21027,36 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-outside"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -19855,6 +21355,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fighting"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -20135,6 +21665,42 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-5f"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -20504,6 +22070,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fire"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -20784,6 +22380,72 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-b",
               "giants-bed-max-den-t",
               "snowslide-slope-max-den-h"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -21466,6 +23128,12 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "brooklet-hill-north",
               "brooklet-hill-south"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -21981,6 +23649,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "malie-garden-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -22330,6 +24004,42 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-exterior"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -22748,6 +24458,24 @@ window.POKEMON_DATA = {
             ],
             "blue-japan": [
               "celadon-city-prize-corner"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -23105,6 +24833,45 @@ window.POKEMON_DATA = {
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -23386,6 +25153,99 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "accumula-town-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -23839,6 +25699,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ten-carat-hill-farthest-hollow"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -24310,6 +26182,33 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fighting"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -24595,6 +26494,99 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-d",
               "giants-bed-max-den-h",
               "snowslide-slope-max-den-b"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -24915,6 +26907,24 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "alola-route-5-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -25209,6 +27219,24 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-roof"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -25414,6 +27442,57 @@ window.POKEMON_DATA = {
           "locationsByGame": {
             "lets-go-eevee": [
               "kanto-sea-route-21-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -26176,6 +28255,27 @@ window.POKEMON_DATA = {
               "hauoli-city-beachfront",
               "kalae-bay-area",
               "melemele-sea-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -26768,6 +28868,39 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-wilds-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -27353,6 +29486,39 @@ window.POKEMON_DATA = {
               "terminus-cave-b1f-right",
               "terminus-cave-b2f",
               "terminus-cave-zygardes-chamber"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -27907,6 +30073,33 @@ window.POKEMON_DATA = {
               "mirage-spot-island-south-of-pacifidlog",
               "mirage-spot-island-south-of-route-134",
               "mirage-spot-mountain-south-east-of-route-129"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -28161,6 +30354,99 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "johto-safari-zone-peak"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -28480,6 +30766,27 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "isle-of-armor-caves-area"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -28749,6 +31056,45 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-3f"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -29198,6 +31544,24 @@ window.POKEMON_DATA = {
             "alpha-sapphire": [
               "mirage-spot-cave-north-of-fallarbor",
               "mirage-spot-cave-south-of-pacifidlog"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -29570,6 +31934,39 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "kalae-bay-area"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -29963,6 +32360,27 @@ window.POKEMON_DATA = {
               "alola-route-1-trainers-school",
               "hauoli-city-shopping-district",
               "malie-city-outer-cape"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -30344,6 +32762,45 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-4f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -30696,6 +33153,18 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-sword": [
               "isle-of-armor-caves-area"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -31028,6 +33497,12 @@ window.POKEMON_DATA = {
             "y": [
               "friend-safari-flying",
               "kalos-route-5-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -31310,6 +33785,30 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-1f"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -31660,6 +34159,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "phenac-city-stadium"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -31966,6 +34471,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ice"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -32308,6 +34834,36 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "phenac-city-stadium"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -32642,6 +35198,51 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-poison"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -33121,6 +35722,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-2f"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -33459,6 +36072,54 @@ window.POKEMON_DATA = {
             ],
             "x": [
               "friend-safari-ice"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -33952,6 +36613,36 @@ window.POKEMON_DATA = {
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -34430,6 +37121,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "thrifty-megamart-abandoned-site"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -34724,6 +37439,75 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-e",
               "old-cemetery-max-den-a",
               "slippery-slope-max-den-e"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -35229,6 +38013,18 @@ window.POKEMON_DATA = {
             "alpha-sapphire": [
               "mirage-spot-cave-north-of-fortree",
               "mirage-spot-cave-south-east-of-route-129"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -35545,6 +38341,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-psychic"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -35825,6 +38627,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-5f"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -36768,6 +39585,9 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-p",
               "giants-foot-max-den-b",
               "max-lair-area"
+            ],
+            "firered": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -37065,6 +39885,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pokespot-cave"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -37386,6 +40221,15 @@ window.POKEMON_DATA = {
             ],
             "omega-ruby": [
               "team-magma-hideout-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -37819,6 +40663,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "exeggutor-island-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -38110,6 +40960,60 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-2f"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -38473,6 +41377,9 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "wela-volcano-park-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -38840,6 +41747,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ground"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -39092,6 +42017,27 @@ window.POKEMON_DATA = {
               "rolling-fields-max-den-c",
               "south-lake-miloch-max-den-b",
               "stony-wilderness-max-den-e"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -39344,6 +42290,27 @@ window.POKEMON_DATA = {
               "rolling-fields-max-den-c",
               "south-lake-miloch-max-den-b",
               "stony-wilderness-max-den-e"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -39676,6 +42643,9 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-6f"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -40016,6 +42986,21 @@ window.POKEMON_DATA = {
               "motostoke-riverbank-max-den-d",
               "north-lake-miloch-max-den-c",
               "north-lake-miloch-max-den-d"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -40346,6 +43331,48 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "isle-of-armor-caves-area"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -40723,6 +43750,21 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "blush-mountain-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -41084,6 +44126,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-rock"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -41736,6 +44808,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-normal"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -42115,6 +45208,9 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -42486,6 +45582,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-bf1"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -42913,6 +46015,18 @@ window.POKEMON_DATA = {
             ],
             "blue-japan": [
               "celadon-city-prize-corner"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -43292,6 +46406,30 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -44068,6 +47206,18 @@ window.POKEMON_DATA = {
               "brooklet-hill-north",
               "brooklet-hill-south",
               "malie-garden-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -44648,6 +47798,18 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-e",
               "fields-of-honor-max-den-g",
               "soothing-wetlands-max-den-i"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -45089,6 +48251,21 @@ window.POKEMON_DATA = {
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -45427,6 +48604,60 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-exterior"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -45749,6 +48980,24 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "isle-of-armor-caves-area"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -46069,6 +49318,42 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-6f"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -46428,6 +49713,9 @@ window.POKEMON_DATA = {
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached",
               "seaward-cave-area"
+            ],
+            "yellow": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -46743,6 +50031,30 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-electric"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -47083,6 +50395,30 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fire"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -47450,6 +50786,39 @@ window.POKEMON_DATA = {
             ],
             "black-2": [
               "lostlorn-forest-hidden-grotto"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -47811,6 +51180,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-2f"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -49261,6 +52645,36 @@ window.POKEMON_DATA = {
               "seaward-cave-area",
               "tapu-village-area",
               "vast-poni-canyon-northwest"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -50071,6 +53485,45 @@ window.POKEMON_DATA = {
               "seaward-cave-area",
               "tapu-village-area",
               "vast-poni-canyon-northwest"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -50461,6 +53914,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-1f"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -50891,6 +54350,15 @@ window.POKEMON_DATA = {
             "alpha-sapphire": [
               "mirage-spot-cave-north-of-route-132",
               "mirage-spot-island-route-132"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -51259,6 +54727,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pokemon-hq-lab-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -51848,6 +55328,84 @@ window.POKEMON_DATA = {
             "shield": [
               "giants-mirror-max-den-b",
               "lake-of-outrage-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -52100,6 +55658,84 @@ window.POKEMON_DATA = {
             "shield": [
               "giants-mirror-max-den-c",
               "lake-of-outrage-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -52352,6 +55988,84 @@ window.POKEMON_DATA = {
             "shield": [
               "giants-cap-max-den-b",
               "lake-of-outrage-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -52675,6 +56389,18 @@ window.POKEMON_DATA = {
             ],
             "blue-japan": [
               "celadon-city-prize-corner"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -52974,6 +56700,18 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "nacrene-city-nacrene-museum"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -53202,6 +56940,51 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-b",
               "roaring-sea-caves-area",
               "snowslide-slope-max-den-i"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -53484,6 +57267,18 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "nacrene-city-nacrene-museum"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -53712,6 +57507,51 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-b",
               "roaring-sea-caves-area",
               "snowslide-slope-max-den-i"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -54035,6 +57875,18 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "nacrene-city-nacrene-museum"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -54382,6 +58234,39 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-exterior"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -54689,6 +58574,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-2f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -54994,6 +58888,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-2f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -55299,6 +59202,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-2f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -55666,6 +59578,15 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "poni-gauntlet-area",
               "poni-meadow-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -56009,6 +59930,21 @@ window.POKEMON_DATA = {
             ],
             "blue-japan": [
               "celadon-city-prize-corner"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -56352,6 +60288,54 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "gateon-port-lighthouse-top"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -56592,6 +60576,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "unknown-dungeon-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -56771,6 +60767,42 @@ window.POKEMON_DATA = {
           "locationsByGame": {
             "emerald": [
               "faraway-island-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -56960,6 +60992,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "mt-battle-lobby"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -57134,6 +61175,30 @@ window.POKEMON_DATA = {
               "phenac-city-west-exit",
               "shadow-pokemon-lab-bf2",
               "snagem-hideout-1f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -57304,7 +61369,35 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -57497,6 +61590,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "mt-battle-lobby"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -57690,6 +61792,30 @@ window.POKEMON_DATA = {
               "phenac-city-east-exit",
               "shadow-pokemon-lab-bf2",
               "snagem-hideout-1f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -57885,7 +62011,35 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -58075,6 +62229,15 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "mt-battle-lobby"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -58249,6 +62412,30 @@ window.POKEMON_DATA = {
               "phenac-city-south-exit",
               "shadow-pokemon-lab-bf2",
               "snagem-hideout-1f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -58419,7 +62606,35 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -58629,6 +62844,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-route-6-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -58824,6 +63045,18 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-town-entrance"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -59250,6 +63483,18 @@ window.POKEMON_DATA = {
               "loop-lagoon-max-den-b",
               "stepping-stone-sea-max-den-f",
               "workout-sea-max-den-d"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -59635,6 +63880,18 @@ window.POKEMON_DATA = {
               "loop-lagoon-max-den-b",
               "stepping-stone-sea-max-den-f",
               "workout-sea-max-den-d"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -59909,6 +64166,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "gateon-port-across-bridge"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -60170,6 +64433,18 @@ window.POKEMON_DATA = {
             "colosseum": [
               "snagem-hideout-1f",
               "the-under-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -60439,6 +64714,27 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-bf2"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -60743,6 +65039,24 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "shadow-pokemon-lab-bf2"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -61013,6 +65327,63 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-c",
               "giants-bed-max-den-k",
               "giants-bed-max-den-u"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -61395,6 +65766,18 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "akala-outskirts-area",
               "alola-route-8-main"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -61784,6 +66167,33 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "akala-outskirts-area",
               "alola-route-8-main"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -62049,6 +66459,63 @@ window.POKEMON_DATA = {
               "giants-cap-max-den-d",
               "hammerlocke-hills-max-den-f",
               "motostoke-riverbank-max-den-b"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -62346,6 +66813,42 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-a",
               "giants-bed-max-den-m",
               "snowslide-slope-max-den-g"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -62622,6 +67125,54 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-b",
               "soothing-wetlands-max-den-g",
               "stepping-stone-sea-max-den-d"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -62884,6 +67435,9 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fairy"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -63099,6 +67653,27 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "outskirt-stand-outside"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -63404,6 +67979,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "phenac-city-prestige-precept-center"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -63688,6 +68269,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-psychic"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -63932,6 +68519,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-outside"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -64161,6 +68760,30 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-town-duel-square"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -64356,7 +68979,53 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -64545,6 +69214,48 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -64880,6 +69591,18 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "brooklet-hill-main"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -65154,6 +69877,57 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -65461,6 +70235,30 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-b",
               "potbottom-desert-max-den-a",
               "training-lowlands-max-den-f"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -65723,6 +70521,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "malie-garden-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -65964,6 +70786,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pokespot-oasis"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -66167,6 +70995,18 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-town-duel-square"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -66347,6 +71187,27 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "johto-safari-zone-marshland"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -66679,6 +71540,21 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-normal"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -66929,6 +71805,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -67113,6 +71995,33 @@ window.POKEMON_DATA = {
             "colosseum": [
               "realgam-tower-area",
               "snagem-hideout-1f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -67348,6 +72257,15 @@ window.POKEMON_DATA = {
             "colosseum": [
               "pyrite-bldg-1f",
               "snagem-hideout-1f"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -67678,6 +72596,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ground"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -68066,6 +73002,18 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-town-duel-square"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -68311,6 +73259,51 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "outskirt-stand-outside"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -68556,6 +73549,51 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "outskirt-stand-outside"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -68837,6 +73875,27 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "pinwheel-forest-hidden-grotto-inner-area"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -69076,6 +74135,57 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "kalae-bay-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -69331,6 +74441,27 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-town-duel-square"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -69619,6 +74750,15 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "mirage-spot-cave-south-of-route-107"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -69892,6 +75032,12 @@ window.POKEMON_DATA = {
               "motostoke-riverbank-area",
               "motostoke-riverbank-max-den-c",
               "stony-wilderness-max-den-b"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -70124,6 +75270,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-psychic"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -70471,6 +75638,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "phenac-city-mayors-house"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -70679,6 +75852,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-steel"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -70984,6 +76187,18 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-cave-south-sewers"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -71273,6 +76488,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pokespot-rock"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -71570,6 +76800,36 @@ window.POKEMON_DATA = {
               "rolling-fields-max-den-h",
               "stony-wilderness-max-den-h",
               "stony-wilderness-max-den-l"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -71800,6 +77060,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poke-pelago-elite-four-defeated"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -72033,6 +77305,30 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "unova-route-2-hidden-grotto"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -72376,6 +77672,27 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-h",
               "stepping-stone-sea-max-den-b",
               "training-lowlands-max-den-a"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -72598,6 +77915,63 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "phenac-city-card-e-room"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -73323,6 +78697,42 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "lostlorn-forest-hidden-grotto"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -73719,6 +79129,27 @@ window.POKEMON_DATA = {
             "colosseum": [
               "snagem-hideout-1f",
               "the-under-subway"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -73950,6 +79381,21 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-normal"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -74186,6 +79632,21 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "snagem-hideout-2f"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -74448,6 +79909,12 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-town-duel-square"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -74668,6 +80135,42 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-rock"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -74954,6 +80457,27 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "phenac-city-stadium-outside"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -75236,6 +80760,30 @@ window.POKEMON_DATA = {
             "colosseum": [
               "snagem-hideout-1f",
               "the-under-subway"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -75581,6 +81129,18 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "isle-of-armor-caves-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -75914,6 +81474,18 @@ window.POKEMON_DATA = {
             "colosseum": [
               "pyrite-bldg-4f",
               "pyrite-cave-mirors-hideout"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -76255,6 +81827,30 @@ window.POKEMON_DATA = {
               "hauoli-city-beachfront",
               "kalae-bay-area",
               "melemele-sea-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -76763,6 +82359,21 @@ window.POKEMON_DATA = {
             "colosseum": [
               "realgam-tower-area",
               "snagem-hideout-1f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -77037,6 +82648,42 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-j",
               "insular-sea-max-den-e",
               "loop-lagoon-max-den-a"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -77356,6 +83003,24 @@ window.POKEMON_DATA = {
             "colosseum": [
               "realgam-tower-area",
               "snagem-hideout-2f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -77574,6 +83239,27 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-outside"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -77785,6 +83471,45 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "realgam-tower-colosseum"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -77996,6 +83721,48 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-a",
               "loop-lagoon-max-den-d",
               "workout-sea-max-den-f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -78209,6 +83976,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ground"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -78419,6 +84204,27 @@ window.POKEMON_DATA = {
               "mirage-spot-mountain-north-of-lilycove",
               "mirage-spot-mountain-south-of-route-131",
               "mirage-spot-mountain-west-of-route-104"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -78616,7 +84422,56 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "porygon-z",
@@ -78855,6 +84710,21 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "mirage-spot-mountain-west-of-route-104"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -79121,6 +84991,12 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "snagem-hideout-2f"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -79375,6 +85251,12 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-d",
               "giants-bed-max-den-h",
               "snowslide-slope-max-den-b"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -79631,6 +85513,27 @@ window.POKEMON_DATA = {
               "agate-village-relic-forest",
               "shadow-pokemon-lab-bf1",
               "snagem-hideout-1f"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -79860,6 +85763,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "seaward-cave-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -80141,6 +86056,33 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "mirage-spot-mountain-south-of-route-129"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -80423,6 +86365,33 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "mirage-spot-mountain-north-of-mossdeep"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -81161,6 +87130,57 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-plains-center"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -82011,6 +88031,30 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pyrite-town-dukings-house"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -82249,6 +88293,36 @@ window.POKEMON_DATA = {
             ],
             "x": [
               "friend-safari-rock"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -82484,6 +88558,51 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "realgam-tower-colosseum"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -83036,6 +89155,18 @@ window.POKEMON_DATA = {
             ],
             "leafgreen": [
               "kanto-pokecenter-area"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -83198,6 +89329,15 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "saffron-city-silph-co"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -83371,6 +89511,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-5-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -83538,6 +89702,33 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -83700,6 +89891,15 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "saffron-city-silph-co"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -83872,6 +90072,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-8-main"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -84038,6 +90262,33 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -84201,6 +90452,15 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "saffron-city-silph-co"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -84374,6 +90634,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "brooklet-hill-main"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -84541,6 +90825,33 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -84732,6 +91043,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "gateon-port-lighthouse-top"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -84908,6 +91231,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-dark"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -85183,6 +91524,18 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "isle-of-armor-caves-area"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -85433,6 +91786,24 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -85714,6 +92085,15 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "petalburg-woods-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -85985,6 +92365,24 @@ window.POKEMON_DATA = {
             ],
             "emerald": [
               "petalburg-woods-area"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -86179,6 +92577,30 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-bug"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -86374,6 +92796,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-poison"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -86556,6 +92996,33 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "national-park-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -86771,6 +93238,27 @@ window.POKEMON_DATA = {
               "galar-route-2-main",
               "stony-wilderness-max-den-j",
               "west-lake-axewell-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -87025,6 +93513,24 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "unova-route-3-hidden-grotto-pond"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -87207,6 +93713,36 @@ window.POKEMON_DATA = {
               "dappled-grove-max-den-d",
               "dappled-grove-max-den-e",
               "stony-wilderness-max-den-j"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -87424,6 +93960,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-outside"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -87661,6 +94212,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-dark"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -87850,6 +94419,30 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-i",
               "stony-wilderness-max-den-j",
               "west-lake-axewell-max-den-d"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -88222,6 +94815,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-exterior"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -88720,6 +95325,24 @@ window.POKEMON_DATA = {
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -89237,6 +95860,33 @@ window.POKEMON_DATA = {
               "poni-plains-east",
               "poni-wilds-area",
               "tapu-village-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -89516,6 +96166,24 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "onbs-roof"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -89769,6 +96437,39 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-f",
               "stepping-stone-sea-max-den-e",
               "training-lowlands-max-den-g"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -90034,6 +96735,51 @@ window.POKEMON_DATA = {
               "stepping-stone-sea-max-den-e",
               "training-lowlands-area",
               "training-lowlands-max-den-g"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -90265,6 +97011,33 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pokespot-oasis"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -90483,6 +97256,33 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "malie-garden-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -90680,6 +97480,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-bf1"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -90862,6 +97668,27 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "pinwheel-forest-hidden-grotto-inner-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -91029,6 +97856,30 @@ window.POKEMON_DATA = {
             ],
             "emerald": [
               "petalburg-woods-area"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -91206,6 +98057,33 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "alola-route-11-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -91367,6 +98245,33 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "pinwheel-forest-inside"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -91793,6 +98698,27 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "training-lowlands-max-den-c"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -91947,6 +98873,27 @@ window.POKEMON_DATA = {
               "bridge-field-max-den-i",
               "rolling-fields-max-den-f",
               "south-lake-miloch-max-den-a"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -92588,6 +99535,27 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-f",
               "soothing-wetlands-max-den-e",
               "training-lowlands-max-den-d"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -92914,6 +99882,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "onbs-2f"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -93139,6 +100119,18 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "pinwheel-forest-hidden-grotto-outer-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -93365,6 +100357,33 @@ window.POKEMON_DATA = {
               "forest-of-focus-max-den-d",
               "insular-sea-max-den-a",
               "soothing-wetlands-max-den-b"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -93650,6 +100669,21 @@ window.POKEMON_DATA = {
               "pokespot-rock",
               "pyrite-town-colosseum",
               "realgam-tower-colosseum"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -93908,6 +100942,9 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-route-4-area"
+            ],
+            "black-2": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -94081,6 +101118,30 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-bf1"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -94398,6 +101459,30 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-outside"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -94673,6 +101758,24 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "onbs-4f"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -94921,6 +102024,12 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pokespot-cave"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -95167,6 +102276,18 @@ window.POKEMON_DATA = {
               "slippery-slope-max-den-b",
               "snowslide-slope-max-den-a",
               "snowslide-slope-max-den-c"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -95376,6 +102497,39 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-plains-center"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -95628,6 +102782,24 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "pyrite-town-dukings-house"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -95876,6 +103048,39 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "pinwheel-forest-hidden-grotto-outer-area"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -96118,6 +103323,15 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -96381,6 +103595,21 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-e",
               "forest-of-focus-max-den-b",
               "honeycalm-sea-max-den-c"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -96608,6 +103837,12 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-town-dukings-house"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -96829,6 +104064,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-route-5-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -97013,6 +104254,18 @@ window.POKEMON_DATA = {
               "friend-safari-bug",
               "kalos-berry-fields-area",
               "kalos-route-7-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -97197,6 +104450,18 @@ window.POKEMON_DATA = {
               "friend-safari-bug",
               "kalos-berry-fields-area",
               "kalos-route-7-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -97515,6 +104780,21 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-shield": [
               "forest-of-focus-max-den-a",
               "training-lowlands-max-den-b"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -97727,6 +105007,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-outside"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -97896,6 +105191,33 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-poison"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -98155,6 +105477,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-bf1"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -98488,6 +105825,12 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-breaker-coast-area"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -98879,6 +106222,12 @@ window.POKEMON_DATA = {
               "poni-breaker-coast-area",
               "poni-wilds-area",
               "seafolk-village-main"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -99173,6 +106522,18 @@ window.POKEMON_DATA = {
               "poni-breaker-coast-area",
               "poni-wilds-area",
               "seafolk-village-main"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -99389,6 +106750,24 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-lab-bf1"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -99604,6 +106983,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ground"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -99897,6 +107306,27 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "alola-route-12-area",
               "blush-mountain-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -100105,6 +107535,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-route-8-area"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -100301,6 +107749,39 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-psychic"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -100813,6 +108294,18 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-a",
               "potbottom-desert-max-den-c",
               "stepping-stone-sea-max-den-i"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -101042,6 +108535,45 @@ window.POKEMON_DATA = {
               "dusty-bowl-max-den-c",
               "dusty-bowl-max-den-h",
               "rolling-fields-max-den-d"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -101271,6 +108803,51 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-a",
               "potbottom-desert-max-den-c",
               "stepping-stone-sea-max-den-i"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -101444,6 +109021,18 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "johto-safari-zone-desert"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -101628,6 +109217,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-dark"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -101893,6 +109503,21 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "pyrite-cave-bf1-post-sewers"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -102156,6 +109781,33 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-1f"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -102365,6 +110017,33 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "cipher-key-lair-outside"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -102573,6 +110252,30 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "johto-safari-zone-marshland"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -102853,6 +110556,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "phenac-city-stadium"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -103139,6 +110857,18 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-exterior"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -103562,6 +111292,33 @@ window.POKEMON_DATA = {
               "royal-avenue-area",
               "seaward-cave-area",
               "vast-poni-canyon-northwest"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -103988,6 +111745,33 @@ window.POKEMON_DATA = {
               "poni-meadow-area",
               "seaward-cave-area",
               "vast-poni-canyon-northwest"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -104260,6 +112044,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "vast-poni-canyon-northwest"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -104540,6 +112336,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "vast-poni-canyon-northwest"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -104777,6 +112594,18 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-r",
               "path-to-the-peak-max-den-c",
               "snowslide-slope-max-den-d"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -105015,6 +112844,24 @@ window.POKEMON_DATA = {
               "path-to-the-peak-max-den-c",
               "snowslide-slope-max-den-d",
               "three-point-pass-area"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -105240,6 +113087,12 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "nacrene-city-nacrene-museum"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -105429,6 +113282,27 @@ window.POKEMON_DATA = {
               "max-lair-area",
               "slippery-slope-max-den-a",
               "snowslide-slope-max-den-i"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -105653,6 +113527,12 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "nacrene-city-nacrene-museum"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -105845,6 +113725,27 @@ window.POKEMON_DATA = {
               "max-lair-area",
               "slippery-slope-max-den-a",
               "snowslide-slope-max-den-i"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -106121,6 +114022,27 @@ window.POKEMON_DATA = {
               "lake-of-outrage-max-den-a",
               "west-lake-axewell-max-den-e",
               "west-lake-axewell-max-den-f"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -106397,6 +114319,60 @@ window.POKEMON_DATA = {
               "south-lake-miloch-main",
               "west-lake-axewell-max-den-e",
               "west-lake-axewell-max-den-f"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -106643,6 +114619,9 @@ window.POKEMON_DATA = {
               "mount-lanakila-base",
               "mount-lanakila-outside",
               "tapu-village-area"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -106866,6 +114845,9 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "dividing-peak-tunnel-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -107095,6 +115077,21 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ghost"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -107340,6 +115337,27 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-bf1"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -107575,6 +115593,21 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "onbs-3f"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -107813,6 +115846,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ghost"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -108040,6 +116094,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-flying"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -108239,6 +116305,39 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "johto-safari-zone-swamp"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -108628,6 +116727,18 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "realgam-tower-colosseum"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -108805,6 +116916,12 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-a",
               "motostoke-riverbank-max-den-c",
               "stony-wilderness-max-den-b"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -109154,6 +117271,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ice"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -109458,6 +117593,45 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "mount-lanakila-cave",
               "mount-lanakila-outside"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -109726,6 +117900,9 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ice"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -109952,6 +118129,24 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-o",
               "giants-bed-max-den-q",
               "max-lair-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -110159,6 +118354,24 @@ window.POKEMON_DATA = {
               "frigid-sea-max-den-n",
               "giants-bed-max-den-o",
               "giants-bed-max-den-q"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -110371,6 +118584,12 @@ window.POKEMON_DATA = {
               "alola-route-15-main",
               "hauoli-city-beachfront",
               "melemele-sea-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -110576,6 +118795,24 @@ window.POKEMON_DATA = {
               "alola-route-15-main",
               "hauoli-city-beachfront",
               "melemele-sea-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -110746,6 +118983,24 @@ window.POKEMON_DATA = {
               "alola-route-15-main",
               "hauoli-city-beachfront",
               "melemele-sea-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -111011,6 +119266,12 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-wilds-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -111279,6 +119540,24 @@ window.POKEMON_DATA = {
               "alola-route-9-main",
               "hauoli-city-beachfront",
               "melemele-sea-area"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -111523,6 +119802,18 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "pinwheel-forest-hidden-grotto-outer-area"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -111749,6 +120040,33 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-g",
               "path-to-the-peak-max-den-b",
               "three-point-pass-max-den-a"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -111970,6 +120288,42 @@ window.POKEMON_DATA = {
             ],
             "xd": [
               "citadark-isle-dome-1f"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -112214,6 +120568,21 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "mount-hokulani-east",
               "mount-hokulani-west"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -112475,6 +120844,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-steel"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -112714,6 +121113,45 @@ window.POKEMON_DATA = {
             ],
             "colosseum": [
               "realgam-tower-colosseum"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -113427,6 +121865,9 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "ultra-space-ultra-space-wilds-water",
               "ultra-space-wilds-waterfall"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -113591,6 +122032,9 @@ window.POKEMON_DATA = {
             "ultra-sun": [
               "ultra-space-ultra-space-wilds-water",
               "ultra-space-wilds-waterfall"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -113743,6 +122187,15 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "ultra-space-ultra-space-wilds-water",
               "ultra-space-wilds-waterfall"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -113896,6 +122349,15 @@ window.POKEMON_DATA = {
             "ultra-sun": [
               "ultra-space-ultra-space-wilds-cave",
               "ultra-space-wilds-cave"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -114069,6 +122531,9 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "ultra-space-ultra-space-wilds-cliff",
               "ultra-space-wilds-cliff"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -114212,6 +122677,15 @@ window.POKEMON_DATA = {
             ],
             "sapphire": [
               "hoenn-pokecenter-area"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -114324,7 +122798,23 @@ window.POKEMON_DATA = {
             "omega-ruby",
             "alpha-sapphire"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -114462,6 +122952,21 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "hoenn-route-101-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -114610,6 +123115,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ulaula-meadow-area"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -114753,7 +123282,35 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -114894,6 +123451,21 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "hoenn-route-101-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -115050,6 +123622,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-11-area"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -115194,7 +123790,35 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -115335,6 +123959,21 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "hoenn-route-101-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -115484,6 +124123,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-16-main"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -115628,7 +124291,35 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -115817,6 +124508,30 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "pewter-city-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -116022,6 +124737,30 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "alola-route-10-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -116173,7 +124912,50 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -116421,6 +125203,15 @@ window.POKEMON_DATA = {
             "y": [
               "kalos-route-22-area",
               "kalos-route-3-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -116641,6 +125432,15 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "unova-route-3-hidden-grotto-pond"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -116802,6 +125602,27 @@ window.POKEMON_DATA = {
             "soulsilver": [
               "national-park-area",
               "viridian-forest-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -117002,6 +125823,27 @@ window.POKEMON_DATA = {
               "mirage-spot-mountain-north-of-lilycove",
               "mirage-spot-mountain-south-of-route-131",
               "mirage-spot-mountain-west-of-route-104"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -117236,6 +126078,27 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-c",
               "potbottom-desert-area",
               "training-lowlands-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -117447,6 +126310,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-electric"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -117637,6 +126521,39 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -117865,6 +126782,30 @@ window.POKEMON_DATA = {
               "rolling-fields-main",
               "stony-wilderness-max-den-j",
               "west-lake-axewell-area"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -118062,6 +127003,42 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-shield": [
               "forest-of-focus-max-den-a",
               "training-lowlands-max-den-b"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -118254,6 +127231,21 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "nacrene-city-nacrene-museum"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -118418,7 +127410,47 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -118610,6 +127642,21 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "nacrene-city-nacrene-museum"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -118776,7 +127823,47 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -118982,6 +128069,15 @@ window.POKEMON_DATA = {
             "y": [
               "kalos-berry-fields-area",
               "kalos-route-3-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -119099,7 +128195,32 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -119216,7 +128337,32 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -119513,6 +128659,21 @@ window.POKEMON_DATA = {
               "rolling-fields-area-2",
               "rolling-fields-main",
               "south-lake-miloch-max-den-a"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -119723,6 +128884,36 @@ window.POKEMON_DATA = {
               "honeycalm-island-max-den-d",
               "honeycalm-island-max-den-e",
               "honeycalm-island-max-den-f"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -119898,6 +129089,27 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "unova-route-3-hidden-grotto-dark-grass"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -120130,6 +129342,27 @@ window.POKEMON_DATA = {
               "unova-route-23-area",
               "unova-victory-road-2-unknown-area-73",
               "unova-victory-road-2-unknown-area-79"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -120377,6 +129610,21 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ultra-space-wilds-waterfall"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -120629,6 +129877,15 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "loop-lagoon-max-den-d"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -120816,6 +130073,24 @@ window.POKEMON_DATA = {
               "dappled-grove-max-den-c",
               "giants-mirror-max-den-e",
               "stony-wilderness-max-den-j"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -121043,6 +130318,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "seafolk-village-main"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -121303,6 +130599,21 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ground"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -121453,6 +130764,36 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "accumula-town-area"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -121708,6 +131049,21 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "unova-route-13-hidden-grotto-stairs"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -121978,6 +131334,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ghost"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -122177,6 +131563,21 @@ window.POKEMON_DATA = {
               "alola-route-1-east",
               "alola-route-1-west",
               "poni-grove-area"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -122383,6 +131784,33 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-grove-area"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -122536,6 +131964,36 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poke-pelago-elite-four-defeated"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -122700,6 +132158,42 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poke-pelago-elite-four-defeated"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -122835,6 +132329,21 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "mirage-spot-forest-east-of-mossdeep"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -122992,6 +132501,21 @@ window.POKEMON_DATA = {
               "mirage-spot-forest-north-of-route-124",
               "mirage-spot-forest-west-of-route-114",
               "mirage-spot-island-east-of-shoal-cave"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -123283,6 +132807,30 @@ window.POKEMON_DATA = {
               "reflection-cave-unknown-area-306",
               "reflection-cave-unknown-area-307",
               "reflection-cave-unknown-area-308"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -123482,6 +133030,27 @@ window.POKEMON_DATA = {
               "south-lake-miloch-main",
               "stony-wilderness-max-den-i",
               "west-lake-axewell-max-den-d"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -123677,6 +133246,33 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -124028,6 +133624,27 @@ window.POKEMON_DATA = {
               "brawlers-cave-max-den-a",
               "courageous-cavern-max-den-b",
               "stepping-stone-sea-max-den-a"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -124335,6 +133952,27 @@ window.POKEMON_DATA = {
               "brawlers-cave-max-den-a",
               "courageous-cavern-max-den-b",
               "stepping-stone-sea-max-den-a"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -124566,6 +134204,33 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-b",
               "potbottom-desert-max-den-a",
               "training-lowlands-max-den-f"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -124814,6 +134479,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "hauoli-city-shopping-district"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -125129,6 +134806,27 @@ window.POKEMON_DATA = {
             "alpha-sapphire": [
               "mirage-spot-forest-west-of-route-105",
               "mirage-spot-mountain-east-of-mossdeep"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -125338,6 +135036,15 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "unova-route-18-hidden-grotto"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -125505,6 +135212,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ghost"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -125707,6 +135432,45 @@ window.POKEMON_DATA = {
               "path-to-the-peak-max-den-b",
               "three-point-pass-max-den-a",
               "tunnel-to-the-top-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -125925,6 +135689,39 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-g",
               "path-to-the-peak-max-den-b",
               "three-point-pass-max-den-a"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -126121,6 +135918,63 @@ window.POKEMON_DATA = {
               "path-to-the-peak-max-den-b",
               "three-point-pass-max-den-a",
               "tunnel-to-the-top-area"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -126399,6 +136253,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-1-south"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -126675,6 +136550,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-grove-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -126927,6 +136826,48 @@ window.POKEMON_DATA = {
               "brawlers-cave-max-den-a",
               "courageous-cavern-max-den-b",
               "stepping-stone-sea-max-den-a"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -127109,6 +137050,24 @@ window.POKEMON_DATA = {
               "dusty-bowl-max-den-h",
               "galar-route-6-area",
               "giants-mirror-area-2"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -127297,6 +137256,33 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ultra-space-wilds-cave"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -127559,6 +137545,15 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-h",
               "stepping-stone-sea-max-den-b",
               "training-lowlands-max-den-a"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -127817,6 +137812,21 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ultra-space-wilds-crag"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -128040,6 +138050,27 @@ window.POKEMON_DATA = {
               "forest-of-focus-area",
               "honeycalm-sea-max-den-b",
               "soothing-wetlands-area"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -128259,6 +138290,30 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-poison"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -128433,6 +138488,15 @@ window.POKEMON_DATA = {
             "y": [
               "kalos-route-14-area",
               "kalos-route-19-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -128696,6 +138760,27 @@ window.POKEMON_DATA = {
               "hauoli-city-beachfront",
               "kalae-bay-area",
               "melemele-sea-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -128950,6 +139035,27 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-wilds-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -129198,6 +139304,15 @@ window.POKEMON_DATA = {
               "hauoli-city-beachfront",
               "kalae-bay-area",
               "melemele-sea-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -129436,6 +139551,30 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "frostpoint-field-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -129684,6 +139823,33 @@ window.POKEMON_DATA = {
               "insular-sea-max-den-c",
               "soothing-wetlands-max-den-d",
               "training-lowlands-max-den-e"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -129891,6 +140057,63 @@ window.POKEMON_DATA = {
               "slippery-slope-area",
               "snowslide-slope-area",
               "snowslide-slope-max-den-e"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -130092,6 +140315,48 @@ window.POKEMON_DATA = {
               "insular-sea-area",
               "loop-lagoon-area",
               "stepping-stone-sea-max-den-a"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -130261,6 +140526,30 @@ window.POKEMON_DATA = {
               "soothing-wetlands-area",
               "soothing-wetlands-max-den-e",
               "training-lowlands-max-den-d"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -130437,6 +140726,33 @@ window.POKEMON_DATA = {
               "giants-seat-max-den-a",
               "giants-seat-max-den-b",
               "rolling-fields-max-den-b"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -130611,6 +140927,18 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-d",
               "training-lowlands-max-den-b",
               "training-lowlands-max-den-e"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -130788,6 +141116,36 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-s",
               "three-point-pass-area",
               "three-point-pass-max-den-b"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -130966,6 +141324,36 @@ window.POKEMON_DATA = {
               "slippery-slope-area",
               "snowslide-slope-area",
               "snowslide-slope-max-den-h"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -131122,6 +141510,12 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-gauntlet-area"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -131270,6 +141664,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ultra-space-wilds-cliff"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -131452,6 +141870,48 @@ window.POKEMON_DATA = {
             "shield": [
               "giants-mirror-max-den-e",
               "lake-of-outrage-area"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -131634,6 +142094,48 @@ window.POKEMON_DATA = {
             "shield": [
               "hammerlocke-hills-max-den-g",
               "lake-of-outrage-area"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -131784,6 +142286,27 @@ window.POKEMON_DATA = {
               "unova-route-11-area",
               "unova-route-15-area",
               "unova-route-23-area"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -131969,6 +142492,33 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "stony-wilderness-max-den-d"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -132128,7 +142678,41 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "platinum": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -132300,6 +142884,42 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "challenge-road-area"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -132456,7 +143076,50 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "platinum": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -132599,6 +143262,24 @@ window.POKEMON_DATA = {
               "south-lake-miloch-max-den-b",
               "stony-wilderness-main",
               "stony-wilderness-max-den-f"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -132802,6 +143483,48 @@ window.POKEMON_DATA = {
             "shield": [
               "giants-cap-max-den-c",
               "hammerlocke-hills-max-den-g"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -132992,6 +143715,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-gauntlet-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -133149,6 +143893,15 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "nameless-cavern-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -133312,6 +144065,15 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "nameless-cavern-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -133469,6 +144231,15 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "nameless-cavern-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -133616,6 +144387,18 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "soaring-in-the-sky-area"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -133762,6 +144545,18 @@ window.POKEMON_DATA = {
             ],
             "omega-ruby": [
               "soaring-in-the-sky-area"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -133917,6 +144712,12 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "scorched-slab-b3f"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -134073,6 +144874,9 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "twist-mountain-b4f"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -134167,7 +144971,14 @@ window.POKEMON_DATA = {
             "platinum",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "platinum": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -134319,6 +145130,9 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "crescent-isle-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -134427,7 +145241,11 @@ window.POKEMON_DATA = {
           "games": [
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "manaphy",
@@ -134564,6 +145382,15 @@ window.POKEMON_DATA = {
             ],
             "soulsilver": [
               "johto-pokemart-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -134686,6 +145513,12 @@ window.POKEMON_DATA = {
             ],
             "platinum": [
               "newmoon-island-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -134777,7 +145610,11 @@ window.POKEMON_DATA = {
           "games": [
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -134896,6 +145733,9 @@ window.POKEMON_DATA = {
             ],
             "platinum": [
               "sinnoh-hall-of-origin-1-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -134990,6 +145830,12 @@ window.POKEMON_DATA = {
             ],
             "white": [
               "liberty-garden-lighthouse-basement"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -135106,6 +145952,12 @@ window.POKEMON_DATA = {
             ],
             "white": [
               "nuvema-town-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -135220,7 +146072,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "serperior",
@@ -135343,6 +146214,27 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "exeggutor-island-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -135462,6 +146354,15 @@ window.POKEMON_DATA = {
             ],
             "white": [
               "nuvema-town-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -135578,7 +146479,29 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "emboar",
@@ -135703,6 +146626,30 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "ancient-poni-path-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -135826,6 +146773,15 @@ window.POKEMON_DATA = {
             ],
             "white": [
               "nuvema-town-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -135950,7 +146906,29 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "samurott",
@@ -136100,6 +147078,30 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-wilds-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -136228,6 +147230,15 @@ window.POKEMON_DATA = {
               "unova-route-20-area",
               "virbank-complex-inner",
               "virbank-complex-outer"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -136393,6 +147404,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-route-15-area"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -136782,6 +147799,18 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-g",
               "stepping-stone-sea-max-den-d",
               "training-lowlands-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -136976,6 +148005,18 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-g",
               "stepping-stone-sea-max-den-d",
               "training-lowlands-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -137139,6 +148180,15 @@ window.POKEMON_DATA = {
               "watchtower-ruins-area",
               "west-lake-axewell-area",
               "west-lake-axewell-max-den-d"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -137368,6 +148418,12 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-d",
               "soothing-wetlands-max-den-c",
               "workout-sea-max-den-b"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -137498,6 +148554,9 @@ window.POKEMON_DATA = {
             "y": [
               "friend-safari-grass",
               "santalune-forest-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -137614,7 +148673,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -137737,6 +148821,9 @@ window.POKEMON_DATA = {
             "y": [
               "friend-safari-fire",
               "santalune-forest-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -137853,7 +148940,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -137976,6 +149088,9 @@ window.POKEMON_DATA = {
             "y": [
               "friend-safari-water",
               "santalune-forest-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -138092,7 +149207,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -138263,6 +149403,9 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-psychic"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -138439,6 +149582,12 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-f",
               "stepping-stone-sea-max-den-e",
               "training-lowlands-max-den-g"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -139142,6 +150291,18 @@ window.POKEMON_DATA = {
             ],
             "white": [
               "unova-route-3-area"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -139298,6 +150459,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-electric"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -140061,6 +151228,30 @@ window.POKEMON_DATA = {
               "giants-seat-max-den-b",
               "rolling-fields-max-den-h",
               "stony-wilderness-max-den-l"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -140550,6 +151741,24 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-b",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -140723,6 +151932,15 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-area",
               "rolling-fields-max-den-b",
               "stony-wilderness-main"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -140989,6 +152207,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-steel"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -141480,6 +152710,12 @@ window.POKEMON_DATA = {
               "mirage-spot-forest-south-of-route-132",
               "mirage-spot-island-south-of-pacifidlog",
               "mirage-spot-mountain-east-of-mossdeep"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -141636,6 +152872,18 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-d",
               "giants-bed-max-den-h",
               "snowslide-slope-max-den-b"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -141839,6 +153087,12 @@ window.POKEMON_DATA = {
               "giants-foot-area",
               "max-lair-area",
               "snowslide-slope-max-den-b"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -142012,6 +153266,33 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-plains-center"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -142170,6 +153451,12 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-c",
               "forest-of-focus-max-den-e",
               "soothing-wetlands-max-den-a"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -142782,6 +154069,9 @@ window.POKEMON_DATA = {
               "challenge-road-max-den-a",
               "fields-of-honor-max-den-h",
               "honeycalm-sea-max-den-b"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -142948,6 +154238,9 @@ window.POKEMON_DATA = {
               "challenge-road-max-den-a",
               "fields-of-honor-max-den-h",
               "honeycalm-sea-max-den-b"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -143062,6 +154355,12 @@ window.POKEMON_DATA = {
             "white-2": [
               "unova-route-12-area",
               "unova-route-20-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -143214,6 +154513,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -143368,6 +154673,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-meadow-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -143527,6 +154838,9 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "alola-route-4-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -143696,6 +155010,9 @@ window.POKEMON_DATA = {
               "stepping-stone-sea-max-den-b",
               "training-lowlands-max-den-a",
               "workout-sea-max-den-e"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -143863,6 +155180,24 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -144077,6 +155412,21 @@ window.POKEMON_DATA = {
               "poni-plains-north",
               "poni-plains-west",
               "ulaula-meadow-area"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -144283,6 +155633,33 @@ window.POKEMON_DATA = {
               "dappled-grove-max-den-c",
               "giants-mirror-max-den-e",
               "stony-wilderness-max-den-j"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -144498,6 +155875,30 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -144723,6 +156124,39 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -144839,7 +156273,59 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -145031,6 +156517,27 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "haina-desert-area"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -145234,6 +156741,33 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "haina-desert-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -145427,6 +156961,54 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-c",
               "stepping-stone-sea-max-den-i",
               "workout-sea-max-den-b"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -145559,6 +157141,18 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-sword": [
               "isle-of-armor-caves-area"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -145662,7 +157256,32 @@ window.POKEMON_DATA = {
             "the-crown-tundra-sword",
             "the-crown-tundra-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -146277,6 +157896,12 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "mirage-spot-mountain-south-east-of-route-129"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -146480,6 +158105,21 @@ window.POKEMON_DATA = {
               "alola-route-16-west",
               "alola-route-17-northeast",
               "alola-route-17-west"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -146663,6 +158303,42 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-e",
               "stony-wilderness-max-den-i",
               "west-lake-axewell-max-den-d"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -146961,6 +158637,9 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "ballonlea-gym"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -147107,6 +158786,24 @@ window.POKEMON_DATA = {
             "alpha-sapphire": [
               "mirage-spot-cave-north-of-route-124",
               "mirage-spot-cave-south-of-pacifidlog"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -147425,6 +159122,30 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "frigid-sea-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -147721,7 +159442,38 @@ window.POKEMON_DATA = {
             "the-crown-tundra-sword",
             "the-crown-tundra-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -147925,6 +159677,9 @@ window.POKEMON_DATA = {
               "frigid-sea-max-den-g",
               "giants-bed-max-den-c",
               "giants-bed-max-den-k"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -148147,6 +159902,18 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "malie-city-outer-cape"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -148308,6 +160075,21 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-1-trainers-school"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -148493,6 +160275,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-grove-area"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -148679,6 +160479,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-normal"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -148870,6 +160676,18 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-f",
               "soothing-wetlands-max-den-e",
               "training-lowlands-max-den-d"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -149022,6 +160840,36 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "alola-route-6-north"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -149192,6 +161040,30 @@ window.POKEMON_DATA = {
               "path-to-the-peak-max-den-c",
               "slippery-slope-area",
               "snowslide-slope-max-den-d"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -149348,6 +161220,36 @@ window.POKEMON_DATA = {
               "lake-of-outrage-area",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -149502,6 +161404,24 @@ window.POKEMON_DATA = {
               "giants-cap-main",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -149671,6 +161591,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-psychic"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -149825,6 +161763,33 @@ window.POKEMON_DATA = {
               "lake-of-outrage-area",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -149948,6 +161913,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-route-7-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -150094,6 +162065,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-flying"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -150338,6 +162315,15 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "tapu-village-area"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -150574,6 +162560,15 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "mount-lanakila-outside"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -150795,6 +162790,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "mount-lanakila-outside"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -150922,6 +162941,18 @@ window.POKEMON_DATA = {
               "unova-route-6-area",
               "unova-route-6-weather-institute",
               "unova-route-7-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -151045,6 +163076,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -151298,6 +163341,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-plains-west"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -151646,6 +163695,27 @@ window.POKEMON_DATA = {
               "rolling-fields-max-den-f",
               "rolling-fields-max-den-g",
               "south-lake-miloch-max-den-a"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -151818,6 +163888,15 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-d",
               "training-lowlands-max-den-b",
               "training-lowlands-max-den-e"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -152016,6 +164095,15 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -152116,7 +164204,38 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "jellicent",
@@ -152231,7 +164350,38 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -152412,6 +164562,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "brooklet-hill-totems-den"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -152608,6 +164770,12 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-e",
               "giants-bed-max-den-s",
               "three-point-pass-max-den-b"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -152811,6 +164979,24 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "training-lowlands-max-den-c"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -153163,6 +165349,24 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-d",
               "lakeside-cave-area",
               "slippery-slope-max-den-a"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -153508,6 +165712,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-steel"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -153682,6 +165892,12 @@ window.POKEMON_DATA = {
               "brawlers-cave-max-den-a",
               "courageous-cavern-max-den-b",
               "stepping-stone-sea-max-den-a"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -153822,6 +166038,27 @@ window.POKEMON_DATA = {
               "mirage-spot-cave-south-east-of-route-129",
               "mirage-spot-cave-south-of-pacifidlog",
               "mirage-spot-cave-west-of-rustburo"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -153944,6 +166181,33 @@ window.POKEMON_DATA = {
             ],
             "white-2": [
               "seaside-cave-b1f"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -154078,6 +166342,42 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-grove-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -154423,6 +166723,18 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-f",
               "stepping-stone-sea-max-den-e",
               "training-lowlands-max-den-g"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -154629,6 +166941,21 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-i",
               "loop-lagoon-max-den-c",
               "potbottom-desert-max-den-b"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -154810,6 +167137,27 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-ghost"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -154995,6 +167343,36 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-i",
               "loop-lagoon-max-den-c",
               "potbottom-desert-max-den-b"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -155165,6 +167543,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "mount-hokulani-main"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -155333,6 +167723,18 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "rolling-fields-max-den-d"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -155485,6 +167887,30 @@ window.POKEMON_DATA = {
               "axews-eye-area",
               "lake-of-outrage-area",
               "rolling-fields-max-den-d"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -155676,6 +168102,21 @@ window.POKEMON_DATA = {
               "frigid-sea-max-den-n",
               "giants-bed-max-den-o",
               "giants-bed-max-den-q"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -155886,6 +168327,21 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "insular-sea-max-den-e"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -156050,6 +168506,15 @@ window.POKEMON_DATA = {
               "slippery-slope-area",
               "snowslide-slope-area",
               "three-point-pass-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -156400,6 +168865,27 @@ window.POKEMON_DATA = {
               "rolling-fields-max-den-f",
               "rolling-fields-max-den-g",
               "south-lake-miloch-max-den-a"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -156570,6 +169056,18 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "isle-of-armor-caves-area"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -156781,6 +169279,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "vast-poni-canyon-outside"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -156963,6 +169467,24 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -157362,6 +169884,24 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-d",
               "giants-bed-max-den-h",
               "snowslide-slope-max-den-b"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -157585,6 +170125,30 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-a",
               "potbottom-desert-max-den-c",
               "stepping-stone-sea-max-den-i"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -157808,6 +170372,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-17-northeast"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -158026,6 +170602,30 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-17-northeast"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -158385,6 +170985,39 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-flying"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -158606,6 +171239,39 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "poni-plains-north"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -158805,6 +171471,36 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-dark"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -158998,6 +171694,36 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-plains-north"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -159534,6 +172260,30 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "ten-carat-hill-inside"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -159687,6 +172437,27 @@ window.POKEMON_DATA = {
               "dusty-bowl-max-den-b",
               "giants-mirror-max-den-d",
               "lake-of-outrage-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -159832,6 +172603,33 @@ window.POKEMON_DATA = {
               "giants-mirror-max-den-d",
               "stony-wilderness-max-den-i",
               "west-lake-axewell-max-den-d"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -159999,6 +172797,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fire"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -160173,6 +172983,15 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "lush-jungle-east-cave"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -160311,6 +173130,9 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "pathless-plain-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -160449,6 +173271,9 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "pathless-plain-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -160586,6 +173411,9 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "pathless-plain-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -160664,7 +173492,23 @@ window.POKEMON_DATA = {
             "white-2",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -160742,7 +173586,23 @@ window.POKEMON_DATA = {
             "white-2",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -160858,6 +173718,12 @@ window.POKEMON_DATA = {
             ],
             "omega-ruby": [
               "fabled-cave-area"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -160975,6 +173841,12 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "fabled-cave-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -161054,7 +173926,23 @@ window.POKEMON_DATA = {
             "white-2",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -161269,7 +174157,23 @@ window.POKEMON_DATA = {
             "white-2",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -161342,7 +174246,23 @@ window.POKEMON_DATA = {
             "white-2",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -161431,7 +174351,23 @@ window.POKEMON_DATA = {
             "white-2",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -161513,6 +174449,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "aquacorde-town-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -161614,6 +174559,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -161720,6 +174674,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "exeggutor-island-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -161805,6 +174777,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "aquacorde-town-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -161906,6 +174887,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fire"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -162012,6 +175002,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ancient-poni-path-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -162097,6 +175105,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "aquacorde-town-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -162198,6 +175215,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-water"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -162304,6 +175330,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-wilds-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -162433,6 +175477,9 @@ window.POKEMON_DATA = {
               "rolling-fields-main",
               "rolling-fields-max-den-a",
               "west-lake-axewell-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -162592,6 +175639,12 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -162771,6 +175824,21 @@ window.POKEMON_DATA = {
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached",
               "wela-volcano-park-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -162965,6 +176033,21 @@ window.POKEMON_DATA = {
             "y": [
               "friend-safari-fire",
               "friend-safari-flying"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -163141,6 +176224,36 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-gauntlet-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -163240,6 +176353,15 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "hauoli-city-main"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -163319,6 +176441,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-berry-fields-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -163406,6 +176537,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-bug"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -163511,6 +176654,21 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poke-pelago-elite-four-defeated"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -163604,7 +176762,38 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -163710,6 +176899,15 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "melemele-meadow-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -163814,6 +177012,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fairy"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -163904,7 +177114,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -163982,6 +177217,15 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "kalos-route-5-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -164084,6 +177328,18 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-grass"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -164245,6 +177501,9 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "alola-route-10-area",
               "alola-route-11-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -164436,6 +177695,18 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "alola-route-10-area",
               "alola-route-11-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -164541,6 +177812,12 @@ window.POKEMON_DATA = {
               "ancient-poni-path-area",
               "hauoli-city-shopping-district",
               "poni-wilds-area"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -164655,6 +177932,15 @@ window.POKEMON_DATA = {
               "motostoke-riverbank-area",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -164765,7 +178051,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -164879,6 +178190,9 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "akala-outskirts-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -164998,6 +178312,15 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -165084,7 +178407,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -165187,6 +178529,12 @@ window.POKEMON_DATA = {
             ],
             "x": [
               "friend-safari-fairy"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -165297,6 +178645,21 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-e",
               "lake-of-outrage-max-den-d",
               "rolling-fields-max-den-i"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -165400,6 +178763,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fairy"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -165510,6 +178879,21 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-e",
               "lake-of-outrage-max-den-d",
               "rolling-fields-max-den-i"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -165695,6 +179079,15 @@ window.POKEMON_DATA = {
               "ancient-poni-path-area",
               "poni-gauntlet-area",
               "poni-wilds-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -165874,6 +179267,30 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a",
               "west-lake-axewell-max-den-d"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -166037,6 +179454,9 @@ window.POKEMON_DATA = {
               "loop-lagoon-max-den-a",
               "stepping-stone-sea-max-den-c",
               "workout-sea-max-den-g"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -166208,6 +179628,12 @@ window.POKEMON_DATA = {
               "loop-lagoon-max-den-a",
               "stepping-stone-sea-max-den-c",
               "workout-sea-max-den-g"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -166331,6 +179757,27 @@ window.POKEMON_DATA = {
               "stepping-stone-sea-max-den-g",
               "workout-sea-area",
               "workout-sea-max-den-a"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -166481,6 +179928,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-breaker-coast-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -166595,6 +180063,27 @@ window.POKEMON_DATA = {
               "stepping-stone-sea-max-den-g",
               "workout-sea-area",
               "workout-sea-max-den-a"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -166730,6 +180219,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "poni-breaker-coast-area"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -166848,6 +180358,9 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-f",
               "lake-of-outrage-max-den-b",
               "rolling-fields-max-den-a"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -166986,6 +180499,18 @@ window.POKEMON_DATA = {
               "giants-mirror-max-den-c",
               "lake-of-outrage-max-den-b",
               "rolling-fields-max-den-a"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -167116,6 +180641,9 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-8-fossil-restoration-center"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -167255,6 +180783,24 @@ window.POKEMON_DATA = {
               "path-to-the-peak-max-den-b",
               "snowslide-slope-max-den-i",
               "three-point-pass-max-den-a"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -167388,6 +180934,9 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-8-fossil-restoration-center"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -167526,6 +181075,24 @@ window.POKEMON_DATA = {
               "snowslide-slope-area",
               "snowslide-slope-max-den-f",
               "snowslide-slope-max-den-i"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -167666,6 +181233,39 @@ window.POKEMON_DATA = {
             "shield": [
               "lake-of-outrage-area",
               "lake-of-outrage-max-den-d"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -167831,6 +181431,18 @@ window.POKEMON_DATA = {
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -167987,6 +181599,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "blush-mountain-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -168179,6 +181803,15 @@ window.POKEMON_DATA = {
               "vast-poni-canyon-inside",
               "vast-poni-canyon-northwest",
               "vast-poni-canyon-outside"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -168357,6 +181990,30 @@ window.POKEMON_DATA = {
               "lush-jungle-north",
               "lush-jungle-south",
               "lush-jungle-west"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -168559,6 +182216,30 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-a",
               "loop-lagoon-max-den-d",
               "workout-sea-max-den-f"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -168720,6 +182401,51 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-a",
               "loop-lagoon-max-den-d",
               "workout-sea-max-den-f"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -168893,6 +182619,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "thrifty-megamart-abandoned-site"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -169074,6 +182812,15 @@ window.POKEMON_DATA = {
             "ultra-moon": [
               "memorial-hill-area",
               "tapu-village-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -169263,6 +183010,24 @@ window.POKEMON_DATA = {
               "giants-mirror-max-den-a",
               "stony-wilderness-max-den-f",
               "watchtower-ruins-max-den-c"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -169330,7 +183095,23 @@ window.POKEMON_DATA = {
             "shield",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -169393,7 +183174,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -169536,6 +183336,18 @@ window.POKEMON_DATA = {
             "the-crown-tundra-shield": [
               "frigid-sea-area",
               "three-point-pass-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -169719,6 +183531,27 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "insular-sea-max-den-e"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -169897,6 +183730,21 @@ window.POKEMON_DATA = {
               "frigid-sea-max-den-m",
               "frostpoint-field-max-den-b",
               "giants-bed-max-den-u"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -170073,6 +183921,30 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-shield": [
               "honeycalm-sea-max-den-a",
               "workout-sea-max-den-f"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -170156,6 +184028,12 @@ window.POKEMON_DATA = {
             ],
             "x": [
               "team-flare-secret-hq-area"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -170239,6 +184117,12 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "team-flare-secret-hq-area"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -170316,7 +184200,29 @@ window.POKEMON_DATA = {
             "ultra-moon",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -170386,7 +184292,17 @@ window.POKEMON_DATA = {
             "y",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -170456,7 +184372,17 @@ window.POKEMON_DATA = {
             "y",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -170532,7 +184458,17 @@ window.POKEMON_DATA = {
             "y",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -170646,6 +184582,15 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "iki-town-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -170764,7 +184709,29 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "decidueye",
@@ -170900,7 +184867,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -171009,6 +185001,12 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "iki-town-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -171115,7 +185113,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "incineroar",
@@ -171223,7 +185240,29 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -171333,6 +185372,12 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "iki-town-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -171440,7 +185485,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "primarina",
@@ -171549,7 +185613,29 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -171689,6 +185775,12 @@ window.POKEMON_DATA = {
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -171846,6 +185938,12 @@ window.POKEMON_DATA = {
               "poni-plains-east",
               "poni-plains-north",
               "poni-plains-west"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -171973,6 +186071,21 @@ window.POKEMON_DATA = {
               "poni-plains-east",
               "poni-plains-north",
               "poni-plains-west"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -172122,6 +186235,12 @@ window.POKEMON_DATA = {
               "alola-route-6-south",
               "alola-route-8-main",
               "kalae-bay-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -172305,6 +186424,12 @@ window.POKEMON_DATA = {
               "poni-plains-west",
               "poni-wilds-area",
               "tapu-village-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -172449,6 +186574,12 @@ window.POKEMON_DATA = {
               "alola-route-5-area",
               "alola-route-6-north",
               "alola-route-6-south"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -172599,6 +186730,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "blush-mountain-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -172764,6 +186901,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "blush-mountain-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -172919,6 +187068,21 @@ window.POKEMON_DATA = {
               "poni-plains-west",
               "poni-wilds-area",
               "ulaula-beach-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -173044,7 +187208,38 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -173118,7 +187313,38 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -173276,6 +187502,12 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "training-lowlands-max-den-c"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -173445,6 +187677,12 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "training-lowlands-max-den-c"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -173580,6 +187818,18 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "ten-carat-hill-farthest-hollow"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -173701,7 +187951,41 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -173771,7 +188055,32 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -173953,6 +188262,12 @@ window.POKEMON_DATA = {
               "alola-route-9-main",
               "hauoli-city-beachfront",
               "melemele-sea-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -174137,6 +188452,27 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-h",
               "stepping-stone-sea-max-den-b",
               "training-lowlands-max-den-a"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -174294,6 +188630,18 @@ window.POKEMON_DATA = {
               "alola-route-6-north",
               "blush-mountain-area",
               "paniola-ranch-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -174457,6 +188805,21 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "poni-plains-west"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -174646,6 +189009,12 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-e",
               "fields-of-honor-max-den-g",
               "soothing-wetlands-max-den-i"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -174848,6 +189217,15 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-e",
               "fields-of-honor-max-den-g",
               "soothing-wetlands-max-den-i"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -174993,6 +189371,18 @@ window.POKEMON_DATA = {
               "lush-jungle-north",
               "lush-jungle-south",
               "lush-jungle-west"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -175136,6 +189526,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "heahea-beach-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -175465,6 +189876,12 @@ window.POKEMON_DATA = {
               "forest-of-focus-max-den-d",
               "insular-sea-max-den-a",
               "soothing-wetlands-max-den-b"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -175625,6 +190042,18 @@ window.POKEMON_DATA = {
               "alola-route-8-main",
               "lush-jungle-east-cave",
               "wela-volcano-park-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -175796,6 +190225,27 @@ window.POKEMON_DATA = {
               "lake-of-outrage-max-den-c",
               "stony-wilderness-max-den-c",
               "stony-wilderness-max-den-g"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -176258,6 +190708,18 @@ window.POKEMON_DATA = {
             "moon": [
               "alola-route-5-area",
               "lush-jungle-west"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -176409,6 +190871,12 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "loop-lagoon-max-den-d"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -176554,6 +191022,27 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "loop-lagoon-max-den-d"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -176711,6 +191200,12 @@ window.POKEMON_DATA = {
               "poke-pelago-elite-four-defeated",
               "poke-pelago-poni-island-reached",
               "poke-pelago-ulaula-island-reached"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -176849,6 +191344,24 @@ window.POKEMON_DATA = {
               "lush-jungle-north",
               "lush-jungle-south",
               "lush-jungle-west"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -176980,6 +191493,24 @@ window.POKEMON_DATA = {
               "lush-jungle-north",
               "lush-jungle-south",
               "lush-jungle-west"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -177127,6 +191658,9 @@ window.POKEMON_DATA = {
               "alola-route-8-main",
               "dividing-peak-tunnel-area",
               "poni-breaker-coast-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -177271,6 +191805,24 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-shield": [
               "challenge-beach-area",
               "courageous-cavern-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -177391,6 +191943,15 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "hano-beach-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -177522,6 +192083,27 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -177900,7 +192482,26 @@ window.POKEMON_DATA = {
             "sword",
             "shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -177961,7 +192562,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -178048,6 +192668,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-11-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -178162,6 +192788,15 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-g",
               "path-to-the-peak-max-den-b",
               "three-point-pass-max-den-a"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -178379,7 +193014,50 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -178492,6 +193170,18 @@ window.POKEMON_DATA = {
               "alola-route-14-area",
               "alola-route-15-main",
               "tapu-village-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -178614,6 +193304,21 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-g",
               "path-to-the-peak-max-den-b",
               "three-point-pass-max-den-a"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -178877,6 +193582,18 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "vast-poni-canyon-outside"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -179016,6 +193733,18 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-a",
               "loop-lagoon-max-den-d",
               "workout-sea-max-den-f"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -179158,6 +193887,21 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-a",
               "loop-lagoon-max-den-d",
               "workout-sea-max-den-f"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -179753,7 +194497,20 @@ window.POKEMON_DATA = {
             "ultra-sun",
             "ultra-moon"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "solgaleo",
@@ -179880,6 +194637,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "mahalo-trail-area"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -179972,6 +194735,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "mahalo-trail-area"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -180154,6 +194923,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "ultra-space-ultra-jungle"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -180241,6 +195016,12 @@ window.POKEMON_DATA = {
             "moon": [
               "verdant-cavern--trial-site-area",
               "verdant-cavern-trial-site"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -180421,6 +195202,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ultra-space-ultra-crater"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -180508,6 +195295,12 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "ultra-space-ultra-forest"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -180779,6 +195572,15 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "hauoli-city-main"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -180861,7 +195663,23 @@ window.POKEMON_DATA = {
             "ultra-moon",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -181012,7 +195830,14 @@ window.POKEMON_DATA = {
             "ultra-sun",
             "ultra-moon"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -181084,6 +195909,9 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-grove-area"
+            ],
+            "ultra-sun": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -181156,6 +195984,9 @@ window.POKEMON_DATA = {
             ],
             "ultra-sun": [
               "poni-grove-area"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -181226,7 +196057,17 @@ window.POKEMON_DATA = {
             "ultra-moon",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -181295,7 +196136,17 @@ window.POKEMON_DATA = {
             "lets-go-eevee",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "melmetal",
@@ -181380,7 +196231,17 @@ window.POKEMON_DATA = {
             "lets-go-eevee",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -181454,6 +196315,12 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "postwick-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -181546,7 +196413,20 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "rillaboom",
@@ -181633,7 +196513,23 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -181708,6 +196604,12 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "postwick-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -181794,7 +196696,20 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "cinderace",
@@ -181881,7 +196796,23 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -181956,6 +196887,12 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "postwick-area"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -182042,7 +196979,20 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "inteleon",
@@ -182129,7 +197079,23 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -182290,6 +197256,18 @@ window.POKEMON_DATA = {
               "stepping-stone-sea-main",
               "training-lowlands-area",
               "workout-sea-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -182449,6 +197427,18 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "loop-lagoon-max-den-d"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -182548,6 +197538,21 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-c",
               "motostoke-riverbank-area",
               "slumbering-weald-main"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -182678,6 +197683,15 @@ window.POKEMON_DATA = {
               "frigid-sea-max-den-m",
               "frostpoint-field-max-den-b",
               "giants-bed-max-den-u"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -182831,6 +197845,18 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-u",
               "path-to-the-peak-max-den-a",
               "snowslide-slope-max-den-c"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -183334,6 +198360,9 @@ window.POKEMON_DATA = {
               "stony-wilderness-main",
               "stony-wilderness-max-den-i",
               "west-lake-axewell-max-den-d"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -183481,6 +198510,12 @@ window.POKEMON_DATA = {
               "honeycalm-sea-max-den-d",
               "soothing-wetlands-max-den-c",
               "workout-sea-max-den-b"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -184138,6 +199173,18 @@ window.POKEMON_DATA = {
               "forest-of-focus-max-den-e",
               "soothing-wetlands-area",
               "soothing-wetlands-max-den-a"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -184304,6 +199351,18 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -184644,6 +199703,15 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-n",
               "slippery-slope-max-den-b",
               "snowslide-slope-max-den-a"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -184792,6 +199860,12 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-c",
               "stony-wilderness-max-den-g",
               "stony-wilderness-max-den-l"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -184941,6 +200015,12 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-c",
               "stony-wilderness-max-den-g",
               "stony-wilderness-max-den-l"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -185076,6 +200156,18 @@ window.POKEMON_DATA = {
               "training-lowlands-area",
               "workout-sea-area",
               "workout-sea-max-den-f"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -185232,6 +200324,27 @@ window.POKEMON_DATA = {
               "dappled-grove-max-den-d",
               "giants-mirror-max-den-e",
               "stony-wilderness-max-den-j"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -185327,6 +200440,27 @@ window.POKEMON_DATA = {
               "dappled-grove-max-den-d",
               "giants-mirror-max-den-e",
               "stony-wilderness-max-den-j"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -185425,6 +200559,12 @@ window.POKEMON_DATA = {
               "forest-of-focus-area",
               "potbottom-desert-area",
               "training-lowlands-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -185555,6 +200695,15 @@ window.POKEMON_DATA = {
               "potbottom-desert-area",
               "potbottom-desert-max-den-c",
               "stepping-stone-sea-max-den-i"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -185672,6 +200821,12 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -185799,6 +200954,18 @@ window.POKEMON_DATA = {
               "forest-of-focus-max-den-e",
               "soothing-wetlands-max-den-a",
               "training-lowlands-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -185941,6 +201108,18 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -186056,6 +201235,15 @@ window.POKEMON_DATA = {
               "stony-wilderness-area-2",
               "stony-wilderness-area-3",
               "stony-wilderness-main"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -186175,7 +201363,26 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -186502,6 +201709,9 @@ window.POKEMON_DATA = {
               "fields-of-honor-max-den-h",
               "honeycalm-sea-max-den-b",
               "loop-lagoon-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -186629,6 +201839,12 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -186731,6 +201947,18 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-d",
               "old-cemetery-area",
               "old-cemetery-max-den-b"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -186827,6 +202055,21 @@ window.POKEMON_DATA = {
             "shield": [
               "stony-wilderness-max-den-e",
               "watchtower-ruins-max-den-c"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -186957,6 +202200,18 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-b",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -187102,6 +202357,18 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-b",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -187242,6 +202509,21 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-b",
               "stony-wilderness-max-den-k",
               "watchtower-ruins-max-den-a"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -187370,6 +202652,18 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-c",
               "slippery-slope-area",
               "snowslide-slope-max-den-e"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -187509,6 +202803,18 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-e",
               "lake-of-outrage-max-den-d",
               "rolling-fields-max-den-i"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -187654,6 +202960,21 @@ window.POKEMON_DATA = {
               "lake-of-outrage-max-den-d",
               "rolling-fields-max-den-i",
               "stony-wilderness-main"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -187890,6 +203211,12 @@ window.POKEMON_DATA = {
               "brawlers-cave-max-den-a",
               "courageous-cavern-max-den-b",
               "stepping-stone-sea-max-den-a"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -187977,6 +203304,9 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-e",
               "old-cemetery-max-den-a",
               "slippery-slope-max-den-e"
+            ],
+            "sword": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -188068,6 +203398,15 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-d",
               "giants-bed-max-den-h",
               "snowslide-slope-max-den-b"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -188180,6 +203519,12 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-r",
               "path-to-the-peak-max-den-c",
               "snowslide-slope-max-den-d"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -188269,6 +203614,12 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-e",
               "stony-wilderness-max-den-f",
               "watchtower-ruins-max-den-c"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -188354,6 +203705,12 @@ window.POKEMON_DATA = {
               "galar-route-4-area",
               "giants-mirror-main",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -190261,6 +205618,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -190378,6 +205744,18 @@ window.POKEMON_DATA = {
               "challenge-road-max-den-a",
               "fields-of-honor-max-den-h",
               "honeycalm-sea-max-den-b"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -190508,6 +205886,15 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-s",
               "max-lair-area",
               "three-point-pass-max-den-b"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -190607,6 +205994,12 @@ window.POKEMON_DATA = {
               "path-to-the-peak-area",
               "slippery-slope-area",
               "snowslide-slope-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -190724,6 +206117,12 @@ window.POKEMON_DATA = {
               "giants-cap-max-den-c",
               "hammerlocke-hills-max-den-g",
               "stony-wilderness-max-den-d"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -190808,6 +206207,18 @@ window.POKEMON_DATA = {
               "giants-foot-area",
               "slippery-slope-max-den-b",
               "snowslide-slope-max-den-a"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -190859,7 +206270,26 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -190917,7 +206347,38 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -190975,7 +206436,38 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -191063,6 +206555,12 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "giants-foot-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -191181,6 +206679,12 @@ window.POKEMON_DATA = {
               "giants-seat-max-den-e",
               "hammerlocke-hills-area",
               "lake-of-outrage-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -191623,6 +207127,12 @@ window.POKEMON_DATA = {
               "max-lair-area",
               "path-to-the-peak-max-den-b",
               "three-point-pass-max-den-a"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -191740,6 +207250,12 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-e",
               "old-cemetery-max-den-a",
               "slippery-slope-max-den-e"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -191862,6 +207378,12 @@ window.POKEMON_DATA = {
               "old-cemetery-area",
               "old-cemetery-max-den-a",
               "slippery-slope-max-den-e"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -191984,6 +207506,15 @@ window.POKEMON_DATA = {
             "shield": [
               "axews-eye-max-den-a",
               "rolling-fields-max-den-d"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -192049,6 +207580,9 @@ window.POKEMON_DATA = {
           "locationsByGame": {
             "sword": [
               "energy-plant-tower-summit"
+            ],
+            "shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -192112,6 +207646,9 @@ window.POKEMON_DATA = {
           "locationsByGame": {
             "shield": [
               "energy-plant-tower-summit"
+            ],
+            "sword": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -192359,7 +207896,14 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -192415,7 +207959,14 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -192811,7 +208362,14 @@ window.POKEMON_DATA = {
             "legends-arceus",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -192882,7 +208440,23 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -192955,7 +208529,17 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -193002,7 +208586,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -193063,7 +208660,14 @@ window.POKEMON_DATA = {
             "legends-arceus",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -193134,7 +208738,23 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -193175,7 +208795,11 @@ window.POKEMON_DATA = {
           "games": [
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -193239,7 +208863,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "floragato",
@@ -193321,7 +208952,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "meowscarada",
@@ -193406,7 +209044,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -193471,7 +209119,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "crocalor",
@@ -193552,7 +209207,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "skeledirge",
@@ -193636,7 +209298,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -193702,7 +209374,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "quaxwell",
@@ -193784,7 +209463,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "quaquaval",
@@ -193869,7 +209555,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -193938,7 +209634,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "oinkologne-male",
@@ -194022,7 +209725,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -194081,7 +209791,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "spidops",
@@ -194161,7 +209878,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -194225,7 +209949,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "lokix",
@@ -194306,7 +210037,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -194374,7 +210112,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "pawmo",
@@ -194460,7 +210205,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "pawmot",
@@ -194548,7 +210300,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -194621,7 +210383,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "maushold-family-of-four",
@@ -194722,7 +210497,23 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -194784,7 +210575,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "dachsbun",
@@ -194867,7 +210668,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -194932,7 +210743,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "dolliv",
@@ -195014,7 +210832,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "arboliva",
@@ -195098,7 +210923,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -195155,7 +210990,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -195224,7 +211072,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "naclstack",
@@ -195311,7 +211169,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "garganacl",
@@ -195400,7 +211268,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -195467,7 +211348,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "armarouge",
@@ -195571,7 +211462,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -195640,7 +211544,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -195708,7 +211625,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "bellibolt",
@@ -195794,7 +211718,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -195864,7 +211798,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "kilowattrel",
@@ -195950,7 +211891,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -196020,7 +211968,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "mabosstiff",
@@ -196108,7 +212066,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -196179,7 +212150,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "grafaiai",
@@ -196266,7 +212247,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -196331,7 +212322,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "brambleghast",
@@ -196412,7 +212410,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -196476,7 +212481,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "toedscruel",
@@ -196556,7 +212574,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -196624,7 +212655,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -196693,7 +212731,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "scovillain",
@@ -196782,7 +212830,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -196849,7 +212910,20 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "rabsca",
@@ -196933,7 +213007,20 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197001,7 +213088,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "espathra",
@@ -197087,7 +213181,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197158,7 +213262,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "tinkatuff",
@@ -197246,7 +213360,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "tinkaton",
@@ -197336,7 +213460,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197405,7 +213542,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "wugtrio",
@@ -197495,7 +213639,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197567,7 +213718,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197627,7 +213791,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "palafin",
@@ -197690,7 +213861,17 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197755,7 +213936,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "revavroom",
@@ -197836,7 +214024,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197903,7 +214098,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -197971,7 +214176,23 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198040,7 +214261,23 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "glimmora",
@@ -198128,7 +214365,26 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198194,7 +214450,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "houndstone",
@@ -198279,7 +214545,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198350,7 +214629,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198417,7 +214706,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "cetitan",
@@ -198501,7 +214797,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198566,7 +214869,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198635,7 +214945,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198681,7 +215001,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198756,7 +215086,26 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198827,7 +215176,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198901,7 +215257,23 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -198949,7 +215321,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -199018,7 +215403,23 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199080,7 +215481,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199140,7 +215548,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199200,7 +215615,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199260,7 +215682,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199320,7 +215749,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199380,7 +215816,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199440,7 +215883,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199506,7 +215956,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199566,7 +216023,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199626,7 +216090,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199686,7 +216157,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199746,7 +216224,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -199813,7 +216298,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "arctibax",
@@ -199898,7 +216393,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "baxcalibur",
@@ -199985,7 +216490,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200048,7 +216566,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "gholdengo",
@@ -200128,7 +216656,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200189,7 +216730,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200249,7 +216797,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200309,7 +216864,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200369,7 +216931,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200429,7 +216998,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200489,7 +217065,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200549,7 +217132,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200609,7 +217199,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200669,7 +217266,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200729,7 +217333,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -200798,7 +217409,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "hydrapple",
@@ -200881,7 +217499,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -200944,7 +217569,17 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -201004,7 +217639,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201068,7 +217710,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201132,7 +217781,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201191,7 +217847,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201262,7 +217925,17 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201334,7 +218007,17 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201396,7 +218079,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201462,7 +218152,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201522,7 +218219,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201582,7 +218286,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201641,7 +218352,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201701,7 +218419,14 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -201886,6 +218611,24 @@ window.POKEMON_DATA = {
               "dusty-bowl-max-den-h",
               "galar-route-6-area",
               "giants-mirror-area-2"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -202040,7 +218783,47 @@ window.POKEMON_DATA = {
             "violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "hippowdon",
@@ -202226,6 +219009,33 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ultra-space-wilds-cave"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -202366,7 +219176,50 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -202668,7 +219521,26 @@ window.POKEMON_DATA = {
             "sword",
             "shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -202986,7 +219858,38 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "jellicent",
@@ -203226,6 +220129,12 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -203325,7 +220234,38 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -203436,6 +220376,24 @@ window.POKEMON_DATA = {
             ],
             "y": [
               "friend-safari-fire"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -203512,7 +220470,38 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -203619,6 +220608,27 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-f",
               "stepping-stone-sea-max-den-e",
               "training-lowlands-max-den-g"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -203727,6 +220737,27 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-f",
               "stepping-stone-sea-max-den-e",
               "training-lowlands-max-den-g"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -203841,6 +220872,27 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-f",
               "stepping-stone-sea-max-den-e",
               "training-lowlands-max-den-g"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -203954,6 +221006,27 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-f",
               "stepping-stone-sea-max-den-e",
               "training-lowlands-max-den-g"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -204023,7 +221096,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204092,7 +221178,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204160,7 +221259,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204228,7 +221334,14 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204387,7 +221500,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204539,7 +221686,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204691,7 +221872,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204843,7 +222058,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -204995,7 +222244,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -205147,7 +222430,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -205299,7 +222616,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -205451,7 +222802,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -205603,7 +222988,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -205755,7 +223174,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -205907,7 +223360,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -206059,7 +223546,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -206211,7 +223732,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -206363,7 +223918,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -206515,7 +224104,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -206667,7 +224290,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -206819,7 +224476,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -206971,7 +224662,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -207123,7 +224848,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -207275,7 +225034,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -207427,7 +225220,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -207579,7 +225406,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -207731,7 +225592,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -207883,7 +225778,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -208035,7 +225964,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -208187,7 +226150,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -208339,7 +226336,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -208491,7 +226522,41 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -208641,6 +226706,12 @@ window.POKEMON_DATA = {
             ],
             "leafgreen": [
               "birth-island-area"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -208769,7 +226840,23 @@ window.POKEMON_DATA = {
             "omega-ruby",
             "alpha-sapphire"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -208896,7 +226983,23 @@ window.POKEMON_DATA = {
             "omega-ruby",
             "alpha-sapphire"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -209023,7 +227126,23 @@ window.POKEMON_DATA = {
             "omega-ruby",
             "alpha-sapphire"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -209234,6 +227353,15 @@ window.POKEMON_DATA = {
             "y": [
               "kalos-berry-fields-area",
               "kalos-route-3-area"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -209373,7 +227501,32 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "wormadam-sandy",
@@ -209513,7 +227666,32 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "wormadam-trash",
@@ -209650,7 +227828,32 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -209768,7 +227971,32 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -209886,7 +228114,32 @@ window.POKEMON_DATA = {
             "shining-pearl",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -210047,7 +228300,50 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "gastrodon-west",
@@ -210226,7 +228522,50 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "gastrodon-east",
@@ -210406,7 +228745,50 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -210568,7 +228950,50 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -210757,6 +229182,27 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-gauntlet-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -210905,6 +229351,36 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "hammerlocke-hills-max-den-f"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -211053,6 +229529,36 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "hammerlocke-hills-max-den-f"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -211201,6 +229707,36 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "hammerlocke-hills-max-den-f"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -211349,6 +229885,36 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "hammerlocke-hills-max-den-f"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -211497,6 +230063,36 @@ window.POKEMON_DATA = {
             ],
             "shield": [
               "hammerlocke-hills-max-den-f"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -211616,6 +230212,9 @@ window.POKEMON_DATA = {
             ],
             "platinum": [
               "flower-paradise-area"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -211724,7 +230323,11 @@ window.POKEMON_DATA = {
           "games": [
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -212054,6 +230657,21 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-c",
               "forest-of-focus-max-den-e",
               "soothing-wetlands-max-den-a"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -212357,6 +230975,30 @@ window.POKEMON_DATA = {
               "courageous-cavern-max-den-c",
               "forest-of-focus-max-den-e",
               "soothing-wetlands-max-den-a"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -212455,7 +231097,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "sawsbuck-spring",
@@ -212575,7 +231242,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "sawsbuck-summer",
@@ -212695,7 +231387,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "sawsbuck-autumn",
@@ -212815,7 +231532,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "sawsbuck-winter",
@@ -212935,7 +231677,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -213037,7 +231804,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -213139,7 +231931,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -213241,7 +232058,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -213354,6 +232196,18 @@ window.POKEMON_DATA = {
             ],
             "omega-ruby": [
               "soaring-in-the-sky-area"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -213447,7 +232301,23 @@ window.POKEMON_DATA = {
             "white-2",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -213560,6 +232430,18 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "soaring-in-the-sky-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -213654,7 +232536,23 @@ window.POKEMON_DATA = {
             "white-2",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -213783,6 +232681,15 @@ window.POKEMON_DATA = {
             ],
             "alpha-sapphire": [
               "soaring-in-the-sky-area"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -213877,7 +232784,23 @@ window.POKEMON_DATA = {
             "white-2",
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -213974,7 +232897,23 @@ window.POKEMON_DATA = {
             "white-2",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -214079,6 +233018,21 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "ballimere-lake-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -214176,7 +233130,29 @@ window.POKEMON_DATA = {
             "violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "floette-red",
@@ -214286,7 +233262,29 @@ window.POKEMON_DATA = {
             "violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "floette-orange",
@@ -214396,7 +233394,29 @@ window.POKEMON_DATA = {
             "violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "floette-yellow",
@@ -214506,7 +233526,29 @@ window.POKEMON_DATA = {
             "violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "floette-white",
@@ -214616,7 +233658,29 @@ window.POKEMON_DATA = {
             "violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "floette-blue",
@@ -214728,7 +233792,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "florges-red",
@@ -214840,7 +233929,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "florges-orange",
@@ -214952,7 +234066,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "florges-yellow",
@@ -215064,7 +234203,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "florges-white",
@@ -215176,7 +234340,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "florges-blue",
@@ -215288,7 +234477,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -215376,7 +234590,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -215470,7 +234709,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -215564,7 +234828,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -215658,7 +234947,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -215752,7 +235066,32 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -215838,7 +235177,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -215922,7 +235280,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216006,7 +235383,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216090,7 +235486,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216174,7 +235589,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216258,7 +235692,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216342,7 +235795,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216426,7 +235898,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216510,7 +236001,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216594,7 +236104,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -216709,6 +236238,9 @@ window.POKEMON_DATA = {
               "giants-mirror-main",
               "giants-mirror-max-den-a",
               "hammerlocke-hills-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -216844,6 +236376,9 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-area",
               "stony-wilderness-max-den-f",
               "watchtower-ruins-max-den-c"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -216972,6 +236507,9 @@ window.POKEMON_DATA = {
               "giants-mirror-main",
               "giants-mirror-max-den-a",
               "hammerlocke-hills-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -217100,6 +236638,9 @@ window.POKEMON_DATA = {
               "giants-mirror-main",
               "giants-mirror-max-den-a",
               "hammerlocke-hills-area"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -217230,6 +236771,24 @@ window.POKEMON_DATA = {
               "challenge-beach-max-den-d",
               "courageous-cavern-max-den-d",
               "stepping-stone-sea-max-den-h"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -217358,6 +236917,18 @@ window.POKEMON_DATA = {
               "challenge-beach-max-den-d",
               "courageous-cavern-max-den-d",
               "stepping-stone-sea-max-den-h"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -217471,6 +237042,24 @@ window.POKEMON_DATA = {
               "challenge-beach-max-den-d",
               "courageous-cavern-max-den-d",
               "stepping-stone-sea-max-den-h"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -217584,6 +237173,24 @@ window.POKEMON_DATA = {
               "challenge-beach-max-den-d",
               "courageous-cavern-max-den-d",
               "stepping-stone-sea-max-den-h"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -217675,7 +237282,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -217760,7 +237386,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -217845,7 +237490,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -217930,7 +237594,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218015,7 +237698,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218100,7 +237802,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218185,7 +237906,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218270,7 +238010,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218355,7 +238114,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218440,7 +238218,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218525,7 +238322,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218610,7 +238426,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218695,7 +238530,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218780,7 +238634,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218865,7 +238738,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -218950,7 +238842,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -219035,7 +238946,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -219120,7 +239050,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -219205,7 +239154,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -219290,7 +239258,26 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -219571,6 +239558,42 @@ window.POKEMON_DATA = {
               "alola-route-8-main",
               "kalae-bay-area",
               "verdant-cavern-trial-site"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -219876,6 +239899,48 @@ window.POKEMON_DATA = {
               "poni-plains-west",
               "poni-wilds-area",
               "tapu-village-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -220140,6 +240205,111 @@ window.POKEMON_DATA = {
             ],
             "lets-go-eevee": [
               "saffron-city-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -220390,6 +240560,84 @@ window.POKEMON_DATA = {
               "mount-lanakila-base",
               "mount-lanakila-outside",
               "tapu-village-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -220645,6 +240893,99 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -220898,6 +241239,87 @@ window.POKEMON_DATA = {
               "mount-lanakila-base",
               "mount-lanakila-outside",
               "tapu-village-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -221150,7 +241572,101 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -221422,6 +241938,60 @@ window.POKEMON_DATA = {
             ],
             "lets-go-eevee": [
               "lavender-town-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -221705,6 +242275,66 @@ window.POKEMON_DATA = {
               "resolution-cave-area",
               "vast-poni-canyon-inside",
               "vast-poni-canyon-northwest"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -221961,6 +242591,54 @@ window.POKEMON_DATA = {
               "alola-route-2-south",
               "hauoli-city-shopping-district",
               "malie-garden-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -222216,6 +242894,66 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "malie-garden-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -222462,6 +243200,93 @@ window.POKEMON_DATA = {
             "moon": [
               "alola-route-12-area",
               "blush-mountain-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -222729,6 +243554,93 @@ window.POKEMON_DATA = {
             ],
             "moon": [
               "alola-route-17-northeast"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -222979,7 +243891,107 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -223223,6 +244235,72 @@ window.POKEMON_DATA = {
               "alola-route-1-trainers-school",
               "hauoli-city-shopping-district",
               "malie-city-outer-cape"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -223462,7 +244540,89 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -223703,6 +244863,48 @@ window.POKEMON_DATA = {
             ],
             "lets-go-eevee": [
               "indigo-plateau-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -223944,6 +245146,57 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224046,6 +245299,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "ulaula-meadow-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224147,6 +245418,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "melemele-meadow-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224248,6 +245537,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "alola-route-6-south"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224349,6 +245656,24 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "poni-meadow-area"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224482,6 +245807,21 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "vast-poni-canyon-outside"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224616,6 +245956,21 @@ window.POKEMON_DATA = {
             ],
             "ultra-moon": [
               "vast-poni-canyon-outside"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224717,6 +246072,33 @@ window.POKEMON_DATA = {
             ],
             "the-isle-of-armor-shield": [
               "challenge-road-max-den-b"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -224801,7 +246183,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -224877,7 +246278,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -224953,7 +246373,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -225029,7 +246468,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -225105,7 +246563,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -225181,7 +246658,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -225257,7 +246753,26 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -225522,6 +247037,63 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-a",
               "path-to-the-peak-max-den-a",
               "snowslide-slope-max-den-c"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -225756,6 +247328,66 @@ window.POKEMON_DATA = {
               "old-cemetery-area",
               "path-to-the-peak-max-den-c",
               "snowslide-slope-max-den-d"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -225994,6 +247626,66 @@ window.POKEMON_DATA = {
               "hammerlocke-hills-max-den-e",
               "lake-of-outrage-max-den-d",
               "rolling-fields-max-den-i"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -226267,6 +247959,75 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-r",
               "path-to-the-peak-max-den-c",
               "snowslide-slope-max-den-d"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -226536,7 +248297,86 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -226744,6 +248584,57 @@ window.POKEMON_DATA = {
               "frostpoint-field-max-den-d",
               "giants-bed-max-den-h",
               "snowslide-slope-max-den-b"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -227017,6 +248908,69 @@ window.POKEMON_DATA = {
               "soothing-wetlands-max-den-h",
               "stepping-stone-sea-max-den-b",
               "training-lowlands-max-den-a"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -227285,6 +249239,78 @@ window.POKEMON_DATA = {
               "max-lair-area",
               "path-to-the-peak-max-den-c",
               "snowslide-slope-max-den-d"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -227495,6 +249521,48 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "roaming-crown-tundra-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -227685,6 +249753,48 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "roaming-galar-wild-area-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -227875,6 +249985,48 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "roaming-isle-of-armor-area"
+            ],
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -228075,7 +250227,65 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -228286,6 +250496,63 @@ window.POKEMON_DATA = {
               "giants-foot-max-den-e",
               "old-cemetery-max-den-a",
               "slippery-slope-max-den-e"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -228490,6 +250757,33 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-a",
               "stony-wilderness-max-den-i",
               "west-lake-axewell-max-den-d"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -228708,6 +251002,27 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-a",
               "stony-wilderness-max-den-i",
               "west-lake-axewell-max-den-d"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -228855,6 +251170,24 @@ window.POKEMON_DATA = {
               "slippery-slope-max-den-f",
               "snowslide-slope-area",
               "snowslide-slope-max-den-f"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -228998,6 +251331,24 @@ window.POKEMON_DATA = {
               "lake-of-outrage-max-den-c",
               "stony-wilderness-max-den-c",
               "stony-wilderness-max-den-d"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -229126,6 +251477,21 @@ window.POKEMON_DATA = {
               "stony-wilderness-max-den-e",
               "stony-wilderness-max-den-f",
               "watchtower-ruins-max-den-c"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [
@@ -229288,6 +251654,30 @@ window.POKEMON_DATA = {
             ],
             "the-crown-tundra-shield": [
               "max-lair-area"
+            ],
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -229399,6 +251789,18 @@ window.POKEMON_DATA = {
               "motostoke-riverbank-max-den-d",
               "north-lake-miloch-max-den-c",
               "north-lake-miloch-max-den-d"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -229489,6 +251891,24 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-s",
               "max-lair-area",
               "three-point-pass-max-den-b"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -229591,6 +252011,18 @@ window.POKEMON_DATA = {
               "giants-bed-max-den-d",
               "old-cemetery-area",
               "old-cemetery-max-den-b"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -229661,7 +252093,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "polteageist-antique",
@@ -229779,6 +252236,21 @@ window.POKEMON_DATA = {
             "shield": [
               "stony-wilderness-max-den-e",
               "watchtower-ruins-max-den-c"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -229851,7 +252323,35 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -229912,7 +252412,14 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -229973,7 +252480,14 @@ window.POKEMON_DATA = {
             "the-isle-of-armor-sword",
             "the-isle-of-armor-shield"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -230068,6 +252582,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230153,6 +252676,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230238,6 +252770,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230323,6 +252864,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230408,6 +252958,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230493,6 +253052,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230578,6 +253146,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230663,6 +253240,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230748,6 +253334,15 @@ window.POKEMON_DATA = {
             "shield": [
               "bridge-field-max-den-d",
               "lake-of-outrage-max-den-d"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
             ]
           },
           "evolutionDetails": [],
@@ -230978,7 +253573,83 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "arcanine-hisui",
@@ -231226,7 +253897,86 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -231423,7 +254173,74 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "electrode-hisui",
@@ -231638,7 +254455,74 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "ruby": [
+              "area-unknown"
+            ],
+            "sapphire": [
+              "area-unknown"
+            ],
+            "emerald": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "omega-ruby": [
+              "area-unknown"
+            ],
+            "alpha-sapphire": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -231794,7 +254678,35 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -231974,7 +254886,56 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "overqwil",
@@ -232238,7 +255199,89 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "sneasler",
@@ -232360,7 +255403,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -232509,7 +255577,53 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -232647,7 +255761,59 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "basculegion-male",
@@ -232813,7 +255979,47 @@ window.POKEMON_DATA = {
             "scarlet",
             "violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "zoroark-hisui",
@@ -232958,7 +256164,50 @@ window.POKEMON_DATA = {
             "violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -233107,7 +256356,59 @@ window.POKEMON_DATA = {
             "the-indigo-disk-scarlet",
             "the-indigo-disk-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "black": [
+              "area-unknown"
+            ],
+            "white": [
+              "area-unknown"
+            ],
+            "black-2": [
+              "area-unknown"
+            ],
+            "white-2": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -233240,7 +256541,56 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "legends-za"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "goodra-hisui",
@@ -233394,7 +256744,59 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -233500,7 +256902,41 @@ window.POKEMON_DATA = {
             "legends-za",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-sword": [
+              "area-unknown"
+            ],
+            "the-crown-tundra-shield": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "legends-za": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -233597,7 +257033,32 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "legends-arceus": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -233658,7 +257119,11 @@ window.POKEMON_DATA = {
           "games": [
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -233713,7 +257178,11 @@ window.POKEMON_DATA = {
           "games": [
             "legends-arceus"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "legends-arceus": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -233943,7 +257412,83 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -234168,7 +257713,83 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -234393,7 +258014,83 @@ window.POKEMON_DATA = {
             "the-indigo-disk-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "red": [
+              "area-unknown"
+            ],
+            "blue": [
+              "area-unknown"
+            ],
+            "yellow": [
+              "area-unknown"
+            ],
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "firered": [
+              "area-unknown"
+            ],
+            "leafgreen": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sun": [
+              "area-unknown"
+            ],
+            "moon": [
+              "area-unknown"
+            ],
+            "ultra-sun": [
+              "area-unknown"
+            ],
+            "ultra-moon": [
+              "area-unknown"
+            ],
+            "lets-go-pikachu": [
+              "area-unknown"
+            ],
+            "lets-go-eevee": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-scarlet": [
+              "area-unknown"
+            ],
+            "the-indigo-disk-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -234573,7 +258270,68 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "gold": [
+              "area-unknown"
+            ],
+            "silver": [
+              "area-unknown"
+            ],
+            "crystal": [
+              "area-unknown"
+            ],
+            "diamond": [
+              "area-unknown"
+            ],
+            "pearl": [
+              "area-unknown"
+            ],
+            "platinum": [
+              "area-unknown"
+            ],
+            "heartgold": [
+              "area-unknown"
+            ],
+            "soulsilver": [
+              "area-unknown"
+            ],
+            "x": [
+              "area-unknown"
+            ],
+            "y": [
+              "area-unknown"
+            ],
+            "sword": [
+              "area-unknown"
+            ],
+            "shield": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-sword": [
+              "area-unknown"
+            ],
+            "the-isle-of-armor-shield": [
+              "area-unknown"
+            ],
+            "brilliant-diamond": [
+              "area-unknown"
+            ],
+            "shining-pearl": [
+              "area-unknown"
+            ],
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "clodsire",
@@ -234664,7 +258422,23 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -234738,7 +258512,23 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -234811,7 +258601,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -234883,7 +258686,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -234955,7 +258771,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -235027,7 +258856,20 @@ window.POKEMON_DATA = {
             "mega-dimension",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -235093,7 +258935,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -235159,7 +259011,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -235225,7 +259087,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -235295,7 +259167,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -235366,7 +259251,20 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [
@@ -235428,7 +259326,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "gholdengo",
@@ -235505,7 +259413,17 @@ window.POKEMON_DATA = {
             "violet",
             "mega-dimension"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "scarlet": [
+              "area-unknown"
+            ],
+            "violet": [
+              "area-unknown"
+            ],
+            "mega-dimension": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "gholdengo",
@@ -235586,7 +259504,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -235647,7 +259572,14 @@ window.POKEMON_DATA = {
             "the-teal-mask-scarlet",
             "the-teal-mask-violet"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [
             {
               "to": "sinistcha-masterpiece",
@@ -235733,7 +259665,17 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": []
         },
@@ -235796,7 +259738,17 @@ window.POKEMON_DATA = {
             "the-teal-mask-violet",
             "champions"
           ],
-          "locationsByGame": {},
+          "locationsByGame": {
+            "the-teal-mask-scarlet": [
+              "area-unknown"
+            ],
+            "the-teal-mask-violet": [
+              "area-unknown"
+            ],
+            "champions": [
+              "area-unknown"
+            ]
+          },
           "evolutionDetails": [],
           "evolutionBranches": [
             [

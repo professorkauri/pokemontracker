@@ -781,6 +781,13 @@ main {
 .pokemon:active {
   transform: scale(0.94);
 }
+.pokemon,
+.pokemon img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
 .favourite-mark {
   position: absolute;
   top: 4px;
@@ -1342,9 +1349,11 @@ main {
 }
 .pokemon-info-form-group h4 {
   margin: 0 0 6px;
-  color: var(--muted);
+  color: var(--green);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: normal;
+  padding: 2px 10px 2px 0;
+  border-bottom: 1px solid var(--line);
 }
 .pokemon-info-form-group .pokemon-grid {
   gap: 7px;

@@ -131,6 +131,9 @@
     }
     return pokemon.id;
   }
+  function nationalDexNumber(pokemon) {
+    return pokemon.dex ?? nationalSpecies.find(species => species.id === baseSpeciesId(pokemon))?.dex;
+  }
 
   function searchMatcher(query) {
     const directQuery = normalizeSearch(query);
@@ -453,7 +456,7 @@
     modal.id = 'pokemon-info-modal';
     modal.className = 'chooser-backdrop pokemon-info-backdrop';
     modal.innerHTML = `<div class="chooser pokemon-info" role="dialog" aria-modal="true" aria-labelledby="pokemon-info-title">
-      <div class="chooser-head"><h2 id="pokemon-info-title"><span class="pokemon-info-dex-number">#${String(pokemon.dex || '').padStart(3, '0')}</span> ${escapeHtml(pokemon.name)}${pokemon.genus ? ` <span class="pokemon-info-genus">${escapeHtml(pokemon.genus)}</span>` : ''}</h2><button type="button" class="chooser-close" aria-label="Close Pokémon information">×</button></div>
+      <div class="chooser-head"><h2 id="pokemon-info-title"><span class="pokemon-info-dex-number">#${String(nationalDexNumber(pokemon) || '').padStart(3, '0')}</span> ${escapeHtml(pokemon.name)}${pokemon.genus ? ` <span class="pokemon-info-genus">${escapeHtml(pokemon.genus)}</span>` : ''}</h2><button type="button" class="chooser-close" aria-label="Close Pokémon information">×</button></div>
       <div class="pokemon-info-main"><div class="pokemon-info-artwork">${statusButton('regular', 'Regular')}${statusButton('shiny', 'Shiny')}</div><div>${typeBadgeMarkup(pokemon.types)}<p class="pokemon-info-egg-groups"><span>Egg Groups:</span> ${pokemon.eggGroups?.map(titleCaseGame).join(' · ') || '—'}</p></div></div>
       ${evolutionMarkup}
       ${formGroups.length ? `<section class="pokemon-info-forms-section"><div class="pokemon-info-forms-head"><h3>Collected Forms</h3><div class="pokemon-info-forms-mode"><button type="button" data-forms-mode="regular" class="${mode === 'regular' ? 'active' : ''}">Regular</button><button type="button" data-forms-mode="shiny" class="${mode === 'shiny' ? 'active' : ''}">Shiny</button></div></div><div class="pokemon-info-forms"></div></section>` : ''}
@@ -616,6 +619,7 @@
     button.dataset.boxId = box.id;
     button.dataset.pokemonId = pokemon.id;
     button.dataset.mode = mode;
+    button.draggable = false;
     updateCardVisual(button, pokemon, status, favouriteMode, mode);
     let longPressTimer = null;
     let longPressHandled = false;

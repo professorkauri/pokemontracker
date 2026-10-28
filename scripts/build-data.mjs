@@ -445,7 +445,12 @@ for (const pokemon of allEntries) {
   const regionalDexGames = speciesGamesById.get(baseSpeciesId(apiId)) || new Set();
   const games = sortGames(new Set([...directGames, ...regionalDexGames]), gameOrder);
   if (games.length) pokemon.games = games;
-  pokemon.locationsByGame = encounterData.locationsByGame;
+  pokemon.locationsByGame = { ...encounterData.locationsByGame };
+  for (const game of games) {
+    if (!Object.hasOwn(pokemon.locationsByGame, game)) {
+      pokemon.locationsByGame[game] = ['area-unknown'];
+    }
+  }
 }
 const evolutionChainUrls = [...new Set([...speciesDetailsById.values()]
   .filter(details => details?.evolution_chain?.url)
